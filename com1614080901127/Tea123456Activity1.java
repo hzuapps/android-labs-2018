@@ -1,5 +1,5 @@
-package edu.hzuapps.androidlabs.com1614080901127;
-//dddd
-public class Tea123456Activity1 {
+edu.hzuapps.androidlabs.soft123456.com1614080901127.java
+
+public class Tea123456Activity1{
   
 }
