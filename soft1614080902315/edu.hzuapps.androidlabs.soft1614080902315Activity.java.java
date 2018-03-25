@@ -1,6 +1,6 @@
-package edu.hzuapps.androidlabs.t123456;
+package edu.hzuapps.androidlabs.soft1614080902315Activity;
 
-//wekun�ĵ�һ����ҵ=v=
-public class Tea123456Activity {
-  
+//wekunµÄµÚÒ»´Î×÷Òµ=v=
+public class soft1614080902315Activity {
+  //第一次发送
 }
