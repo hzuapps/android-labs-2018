@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.soft16140809023316;
+package edu.hzuapps.androidlabs.soft1614080902331;
 
 public class Soft1614080902331Activity2 {
   
