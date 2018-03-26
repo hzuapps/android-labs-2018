@@ -1,8 +1,0 @@
-package edu.hzuapps.androidlabs.t123456;
-6666666666666666666
-6666666666666666666
-6666666666666666666
-
-public class Tea123456Activity {
-  
-}

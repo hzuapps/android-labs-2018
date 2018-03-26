@@ -1,8 +1,6 @@
 package edu.hzuapps.androidlabs.com1614080901145;
-6666666666666666666
-6666666666666666666
-6666666666666666666
 
-public class com1614080901145Activity {
+
+public class Com1614080901145Activity {
   
 }
