@@ -1,6 +1,6 @@
-package edu.hzuapps.androidlabs.Soft1614080902305.Soft1614080902305Activity;
+package edu.hzuapps.androidlabs.soft1614080902305;
 
-public class Soft1614080902305Activity.java {
+public class soft1614080902305Activity{
 
   //+++;
 }
