@@ -1,6 +1,6 @@
-package edu.hzuapps.androidlabs.com1614080901230;
+package edu.hzuapps.androidlabs.soft1614080902428;
 
-public class Com1614080901230Activity {
+public class Soft1614080902428Activity {
  
 public static void main(String args[]){
 
