@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.Soft1614080902405;
+package edu.hzuapps.androidlabs.soft1614080902405;
 //
 //
 
