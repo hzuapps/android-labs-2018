@@ -1,10 +1,5 @@
-package edu.hzuapps.androidlabs.soft1614080902343;
+package edu.hzuapps.androidlabs.t123456;
 
-public class Soft1614080902343Activity {
+public class Tea123456Activity2{
 
-
-
-//
-//
-  
 }
