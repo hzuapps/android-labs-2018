@@ -1,5 +1,5 @@
-package edu.hzuapps.androidlabs.t123456;
+package edu.hzuapps.androidlabs.com1614080901212;
 
-public class Tea123456Activity {
+public class Com1614080901212Activity {
   
 }
