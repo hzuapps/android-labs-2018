@@ -1,18 +1,27 @@
-# µÚÒ»´ÎÊµÑé
-## 1.ÊµÑéÄ¿±ê
- 1¡¢´î½¨Android Studio¿ª·¢»·¾³
- 2¡¢½øÒ»²½ÊìÏ¤git²Ù×÷£»
-## 2.ÊµÑé²½Öè
- 1¡¢´î½¨¿ª·¢»·¾³£¨Android Studio 3.1ÕıÊ½°æ£©£¬ÔËĞĞ£¨²¢½ØÍ¼£©
- 2¡¢¼ÓÈëGitÏîÄ¿£¨Fork£©£¬½«ÏîÄ¿¿ËÂ¡£¨Clone£©µ½ÎÒµÄÕÊºÅÏÂ£»
- 3¡¢$ git clone https://github.com/Miles1212/android-labs-2018/
- 4¡¢´´½¨ÒÔÑ§ºÅÃüÃûµÄ¸öÈËÊµÑéÄ¿Â¼£ºsoft1614080902307 ¡£
- 5¡¢´´½¨Ò»¸öJavaÀà£ºedu.hzuapps.androidlabs.soft1614080902307.Soft1614080902307Activity.java¡£
- 6¡¢$ git add src/soft1614080902307/Soft1614080902307Activity.java
- 7¡¢$ git commit -m "#1 µÚ1´ÎÊµÑé" 
- 8¡¢$ git push
- 9¡¢Pull Request£¬ÀÏÊ¦ºÏ²¢Ö®ºó½ØÍ¼¡£
-## 3.ÊµÑé½á¹û
+# ç¬¬ä¸€æ¬¡å®éªŒ
+## 1.å®éªŒç›®æ ‡
+ 1ã€æ­å»ºAndroid Studioå¼€å‘ç¯å¢ƒ
+ 2ã€è¿›ä¸€æ­¥ç†Ÿæ‚‰gitæ“ä½œï¼›
+## 2.å®éªŒæ­¥éª¤
+ 1ã€æ­å»ºå¼€å‘ç¯å¢ƒï¼ˆAndroid Studio 3.1æ­£å¼ç‰ˆï¼‰ï¼Œè¿è¡Œï¼ˆå¹¶æˆªå›¾ï¼‰
+ 
+ 2ã€åŠ å…¥Gité¡¹ç›®ï¼ˆForkï¼‰ï¼Œå°†é¡¹ç›®å…‹éš†ï¼ˆCloneï¼‰åˆ°æˆ‘çš„å¸å·ä¸‹ï¼›
+ 
+ 3ã€$ git clone https://github.com/Miles1212/android-labs-2018/
+ 
+ 4ã€åˆ›å»ºä»¥å­¦å·å‘½åçš„ä¸ªäººå®éªŒç›®å½•ï¼šsoft1614080902307 ã€‚
+ 
+ 5ã€åˆ›å»ºä¸€ä¸ªJavaç±»ï¼šedu.hzuapps.androidlabs.soft1614080902307.Soft1614080902307Activity.javaã€‚
+ 
+ 6ã€$ git add src/soft1614080902307/Soft1614080902307Activity.java
+ 
+ 7ã€$ git commit -m "#1 ç¬¬1æ¬¡å®éªŒ" 
+ 
+ 8ã€$ git push
+ 
+ 9ã€Pull Requestï¼Œè€å¸ˆåˆå¹¶ä¹‹åæˆªå›¾ã€‚
+ 
+## 3.å®éªŒç»“æœ
  ![image](https://raw.githubusercontent.com/Miles1212/android-labs-2018/master/soft1614080902307/shiyan1.png)
-## 4.ÊµÑéÌå»á
- ¸ü¼ÓÉîÈëµÄÁË½âÁËÊµÑé²½Öè£¬¶Ôgit²Ù×÷¸üÊìÏ¤ÁË
+## 4.å®éªŒä½“ä¼š
+ æ›´åŠ æ·±å…¥çš„äº†è§£äº†å®éªŒæ­¥éª¤ï¼Œå¯¹gitæ“ä½œæ›´ç†Ÿæ‚‰äº†
