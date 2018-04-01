@@ -9,4 +9,6 @@
 ### 4.创建一个Java类：edu.hzuapps.androidlabs.soft1614080902138.Soft1614080902138Activity.java。
 ### 5.提交代码并发Pull Request。
 ## 3.实验结果
+![image text](https://github.com/zaitao/android-labs-2018/blob/master/11.png)
+![image xxx]()
 ## 4.实验体会
