@@ -7,7 +7,7 @@ Android开发环境搭建
 ## 2. 实验步骤
 1.搭建开发环境（Android Studio 3.1正式版），运行（截图）；
 2.加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
-$ git clone https://github.com/min/android-labs-2018/
+$ git clone https://github.com/xiamilin/android-labs-2018/
 创建以学号命名的个人实验目录：
 3.创建以学号命名的个人实验目录：
 com1614080901244
