@@ -14,4 +14,4 @@
 ## 3.实验结果
  ![image](https://github.com/BeamGod/android-labs-2018/blob/master/com1614080901113/1614080901113.png)
 ## 4.实验体会
- 第一次实验虽然不难，但是也让我们学习到了许多，更加熟悉开发环境的配置、github的使用。
+ 这是我的第一次实验，使用了编译器创建了我的第一个类，同时使用了git，使用了markdown语言，很有意思
