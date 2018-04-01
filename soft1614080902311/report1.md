@@ -6,7 +6,8 @@
 
 ## 3.实验结果
 
-![image](https://github.com/1614080902311/android-labs-2018/blob/master/soft1614080902311)
+![image](https://github.com/lazytea/android-labs-2018/blob/master/soft1614080902311/test1.PNG)
 
 ## 4.实验体会
-  
+  
+实验并不是很复杂。
