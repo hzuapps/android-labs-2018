@@ -1,5 +1,4 @@
- # 第一次实验+截图https://raw.githubusercontent.com/zenglinsheng/android-labs-2018/4db2c3948505fdea8d2acb9e11c12adc3a1babe5/soft1614080902445/Soft1614080902445.png
-
+ # 第一次实验+截图
  ## 1.实验目标
  搭建开发环境（Android Studio 3.1正式版）
  
