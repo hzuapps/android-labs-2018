@@ -12,6 +12,6 @@
  （5）创建一个Java类：edu.hzuapps.androidlabs.com1614080901144.Com1614080901144Activity.java。
  （6）提交代码并发Pull Request。
 ## 3.实验结果
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/Com1614080901144.png)
+ ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/Com1614080901144Activity.PNG)
  ## 4.实验体会
  这次实验虽然不难，但是我们了解到了Android studio以及其配置环境，总的来说，还是学到了。
