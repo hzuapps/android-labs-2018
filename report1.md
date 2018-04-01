@@ -34,7 +34,7 @@
 
 2、打开Android Studio 3.1 创建一个以soft1614080902222为文件名的项目
 
-3、截图如下：
-![baidu](http://img.zcool.cn/community/018d4e554967920000019ae9df1533.jpg@900w_1l_2o_100sh.jpg)
 ## 3、实验结果
+截图如下：
+![baidu](http://img.zcool.cn/community/018d4e554967920000019ae9df1533.jpg@900w_1l_2o_100sh.jpg)
 ## 4、实验体会
