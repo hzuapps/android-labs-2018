@@ -18,7 +18,7 @@ $ git commit -m "#1 第1次实验" （注意：#123 是你自己创建的Issue�
 $ git push
 
 ## 3.实验结果
-（1）搭建开发环境后截图
+搭建开发环境后截图
 ![image](https://github.com/JinmingH/android-labs-2018/blob/master/soft1614080902232/Soft1614080902232Activity.jpg)
 ## 4.实验体会
-    通过这次实验，我初步了解及掌握了些许git工具的运用，及对GitHub这个网站的使用。以及如何去搭建Android开发环境，这使我受益匪浅。谢谢老师的教导。
+通过这次实验，我初步了解及掌握了些许git工具的运用，及对GitHub这个网站的使用。以及如何去搭建Android开发环境，这使我受益匪浅。谢谢老师的教导。
