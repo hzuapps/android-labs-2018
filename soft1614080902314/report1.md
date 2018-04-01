@@ -18,5 +18,5 @@
 +  (6)提交代码并发Pull Request。
  ## 3.实验结果
  ![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/1%E4%BB%A3%E7%A0%81%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/1%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
  ## 4.实验体会
