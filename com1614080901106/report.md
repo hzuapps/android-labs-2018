@@ -1,31 +1,20 @@
-# 移动应用开发实验库（2018）   
-实验要求：https://github.com/hzuapps/android-labs-2018/blob/master/labs.md
-
-## Android中文教材
-http://hukai.me/android-training-course-in-chinese/index.html  
-https://www.gitbook.com/book/mobile100/android/details  
-
-## Android英文教程
-http://www.tutorialspoint.com/index.htm
-
-## Android开发工具下载网址
-http://www.androiddevtools.cn/ 
-
-## Android Studio汉化（某同学亲测成功）
-http://jingyan.baidu.com/article/ff42efa93177c0c19e2202c3.html
-
-## Android版本6.0安装提示
-在Android SDK Manager中，参考下面的截图配置和下载6.0版本的库。
-![在Android SDK Manager中配置教育网下载代理](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/sdk-manager-proxy-edu.cn.png "配置教育网下载代理")
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "配置教育网下载代理")
-![在Android SDK Manager中下载6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk-download.png "配置教育网下载代理")
-
-## Android应用架构
-https://github.com/googlesamples/android-architecture 
-
---
-
-![image](https://cloud.githubusercontent.com/assets/627946/23102172/3613a9c6-f6df-11e6-8d0b-8942995d3d66.png)
-
-Since Feb. 19, 2017.
+# 第1次实验报告
+## 1.实验目标
+（1）学习和搭建开发环境Android Studio；
+（2）了解github网站的功能及提交的基本的要求；
+（3）安装git，掌握git的提交，修改等功能；
+## 2.实验步骤
+（1）搭建开发环境（Android Studio 3.1正式版），运行（截图）；
+（2）加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
+（3）$ git clone https://github.com/BoliChen/android-labs-2018/
+（4）创建以学号命名的个人实验目录：com1614080901106 。
+其中，com开头表示计算机班，soft开头表示软件班，数字为个人学号。
+（5）创建一个Java类：edu.hzuapps.androidlabs.com1614080901106.Com1614080901106Activity.java。
+（6）提交代码并发Pull Request。
+## 3.实验结果
+![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/a.bmp)
+![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/b.bmp)
+## 4.实验体会
+（1）初步对git以及github的基本功能有了基本的了解。
+（2）掌握了android平台的搭载基本操作。
 
