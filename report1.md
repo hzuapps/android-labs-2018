@@ -31,6 +31,6 @@
 ### 二、发送安装Android开发环境截图
 
 1、
-
+![image]http://img.zcool.cn/community/018d4e554967920000019ae9df1533.jpg@900w_1l_2o_100sh.jpg
 ## 3、实验结果
 ## 4、实验体会
