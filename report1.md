@@ -36,5 +36,7 @@
 
 ## 3、实验结果
 截图如下：
+
+![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft222.png)
 ![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft1614080902222.png)
 ## 4、实验体会
