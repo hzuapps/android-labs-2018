@@ -12,7 +12,7 @@
  +(3)截图 
  +
  +(4)进入git bash 
- +   将图片放置soft1614080902413文件夹中
+ +   将图片放置soft1614080902415文件夹中
  +   git add 图片
  +   git commit将修改提交到仓库
  +   git push将修改更新到GitHub上
