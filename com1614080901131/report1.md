@@ -14,9 +14,8 @@ Com1614080901131
 
 
 ## 3. 实验结果
-![]()
+![image](https://github.com/pa-kou/android-labs-2018/blob/master/com1614080901131/mmexport1522571608832.jpg)
 ## 4. 实验体会
-
-**加粗**常规
+这次实验还可以
 
 
