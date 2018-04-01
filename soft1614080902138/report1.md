@@ -10,5 +10,5 @@
 ### 5.提交代码并发Pull Request。
 ## 3.实验结果
 ![image text](https://github.com/zaitao/android-labs-2018/blob/master/11.png)
-![image xxx]()
+![image xxx](https://github.com/zaitao/android-labs-2018/blob/master/soft1614080902138/%E6%8D%95%E8%8E%B7.PNG)
 ## 4.实验体会
