@@ -17,7 +17,7 @@
 （4）创建一个Java类：edu.hzuapps.androidlabs.soft123456.Soft123456Activity.java；
 （5）提交代码并发Pull Request，老师合并之后截图。
 ## 4、实验结果
-![image](https://raw.githubusercontent.com/luoweihao752/android-labs-2018/master/jietu/1.PNG)
+![image](https://github.com/luoweihao752/android-labs-2018/blob/master/soft1606081301325/jietu/1.PNG)
 ![image](https://raw.githubusercontent.com/luoweihao752/android-labs-2018/master/jietu/2.PNG)
 ## 5、实验总结
 （1）通过使用git软件将文件目录clone到本地，然后对本地目录进行修改在通过git add；git commit；git push；一系列操作就可以将本地更改过的文件更行到github上，
