@@ -12,6 +12,6 @@
  (5)创建一个Java类：edu.hzuapps.androidlabs.soft1614080902229.Soft1614080902229Activity.java。
  (6)提交代码并发Pull Request。
 ## 3.实验结果
-![image]https://github.com/LJolon/android-labs-2018/blob/f7a024d75cd8affc5bc380ed1767f50c7763eaed/soft161408090229/Soft1614080902229Activity.jpg
+![image](https://github.com/LJolon/android-labs-2018/blob/f7a024d75cd8affc5bc380ed1767f50c7763eaed/soft161408090229/Soft1614080902229Activity.jpg)
 ## 4.实验体会
 实验难度不大，但是对于一些基本操作要求较为严格，这需要我们熟悉掌握这些操作指令。
