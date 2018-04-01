@@ -15,9 +15,9 @@
   其中，com开头表示计算机班，soft开头表示软件班，数字为个人学号。
    (5)创建一个Java类：edu.hzuapps.androidlabs.soft1614080902416.Soft1614080902416Activity.java。
    (6)将截图上穿到github，运行gitbash
- +    $ git add Soft1614080902416.PNG
- +    $ git commit -m "#1 实验一截图"
- +    $ git push
+     $ git add Soft1614080902416.PNG
+    $ git commit -m "#1 实验一截图"
+     $ git push
    3.实验结果
    
   https://github.com/779221136/android-labs-2018/blob/master/soft1614080902416/Soft1614080902416Activity.png
