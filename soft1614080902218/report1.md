@@ -29,6 +29,6 @@
 （11）git push
 
 ## 3.实验结果
-
+![image](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/%E6%8D%95%E8%8E%B7.PNG)
 ## 4.实验体会
 很麻烦，很难搞
