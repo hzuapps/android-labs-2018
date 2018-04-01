@@ -22,6 +22,7 @@
 
 ## 实验结果
 
+  [image] (https://github.com/xiaoshanshanlin/android-labs-2018/blob/master/soft1606081301233/shiyanjietu.png)
 
 ## 实验体会
 
