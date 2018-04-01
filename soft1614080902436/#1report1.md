@@ -1,19 +1,19 @@
- # µÚÒ»´ÎÊµÑé
- ## 1.ÊµÑéÄ¿±ê
- £¨1£©Ñ§Ï°ºÍ´î½¨¿ª·¢»·¾³£¨Android Studio£©£»
- £¨2£©ÁË½âGitHubÍøÕ¾µÄ¹¦ÄÜ¼°Ìá½»µÄ»ù±¾µÄÒªÇó£»
- ## 2.ÊµÑé²½Öè
- £¨1£©´î½¨¿ª·¢»·¾³£¨Android Studio 3.1ÕýÊ½°æ£©£¬ÔËÐÐ£¨½ØÍ¼£©£»
- £¨2£©¼ÓÈëGitÏîÄ¿£¨Fork£©£¬½«ÏîÄ¿¿ËÂ¡£¨Clone£©µ½×Ô¼ºÕÊºÅÏÂ£»
- £¨3£©$ git clone https://github.com/310341802/android-labs-2018/
- £¨4£©´´½¨ÒÔÑ§ºÅÃüÃûµÄ¸öÈËÊµÑéÄ¿Â¼£ºsoft1614080902436¡£
-     ÆäÖÐ£¬com¿ªÍ·±íÊ¾¼ÆËã»ú°à£¬soft¿ªÍ·±íÊ¾Èí¼þ°à£¬Êý×ÖÎª¸öÈËÑ§ºÅ¡£
- £¨5£©´´½¨Ò»¸öJavaÀà£ºedu.hzuapps.androidlabs.soft1614080902436.Soft1614080902436Activity.java¡£
- £¨6£©Ìá½»´úÂë²¢·¢Pull Request¡£
- ## 3.ÊµÑé½á¹û
-  ![error show](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/soft1614080902436.png)
- ## 4.ÊµÑéÌå»á
-   ÓÉÓÚµÚÒ»´ÎÊÔÑé¶ÔgitµÄ²Ù×÷¼°Ô­Àí¶¼²»Çå³þ£¬ÓÚÊÇ±¾ÈËÔÚ»ØÈ¥ºóÑ§Ï°ÁËgitµÄÏà¹Ø²Ù×÷¼°·ÖÖ§Ô­Àí¡¾ÁÎÑ©·åÍøÕ¾µÄgit½Ì³Ì¡¿
-   ËùÒÔÕâ´Î¿ÉÒÔÊ¹ÓÃgit status¼°git diff²é¿´ÐÞ¸ÄÎÄ¼þ£¬git stash´æ´¢¹¤×÷Çø£¬git checkout -- fileÒÔ»Ö¸´¹¤×÷ÇøÐÞ¸Ä£¬git reset HEAD file³·ÏúÔÝ´æÇø£¨addÇø£©µÈÖ¸Áî£»
+ # ç¬¬ä¸€æ¬¡å®žéªŒ
+ ## 1.å®žéªŒç›®æ ‡
+ ï¼ˆ1ï¼‰å­¦ä¹ å’Œæ­å»ºå¼€å‘çŽ¯å¢ƒï¼ˆAndroid Studioï¼‰ï¼›
+ ï¼ˆ2ï¼‰äº†è§£GitHubç½‘ç«™çš„åŠŸèƒ½åŠæäº¤çš„åŸºæœ¬çš„è¦æ±‚ï¼›
+ ## 2.å®žéªŒæ­¥éª¤
+ ï¼ˆ1ï¼‰æ­å»ºå¼€å‘çŽ¯å¢ƒï¼ˆAndroid Studio 3.1æ­£å¼ç‰ˆï¼‰ï¼Œè¿è¡Œï¼ˆæˆªå›¾ï¼‰ï¼›
+ ï¼ˆ2ï¼‰åŠ å…¥Gité¡¹ç›®ï¼ˆForkï¼‰ï¼Œå°†é¡¹ç›®å…‹éš†ï¼ˆCloneï¼‰åˆ°è‡ªå·±å¸å·ä¸‹ï¼›
+ ï¼ˆ3ï¼‰$ git clone https://github.com/310341802/android-labs-2018/
+ ï¼ˆ4ï¼‰åˆ›å»ºä»¥å­¦å·å‘½åçš„ä¸ªäººå®žéªŒç›®å½•ï¼šsoft1614080902436ã€‚
+     å…¶ä¸­ï¼Œcomå¼€å¤´è¡¨ç¤ºè®¡ç®—æœºç­ï¼Œsoftå¼€å¤´è¡¨ç¤ºè½¯ä»¶ç­ï¼Œæ•°å­—ä¸ºä¸ªäººå­¦å·ã€‚
+ ï¼ˆ5ï¼‰åˆ›å»ºä¸€ä¸ªJavaç±»ï¼šedu.hzuapps.androidlabs.soft1614080902436.Soft1614080902436Activity.javaã€‚
+ ï¼ˆ6ï¼‰æäº¤ä»£ç å¹¶å‘Pull Requestã€‚
+ ## 3.å®žéªŒç»“æžœ
+  ![error show](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/Soft1614080902436.png)
+ ## 4.å®žéªŒä½“ä¼š
+   ç”±äºŽç¬¬ä¸€æ¬¡è¯•éªŒå¯¹gitçš„æ“ä½œåŠåŽŸç†éƒ½ä¸æ¸…æ¥šï¼ŒäºŽæ˜¯æœ¬äººåœ¨å›žåŽ»åŽå­¦ä¹ äº†gitçš„ç›¸å…³æ“ä½œåŠåˆ†æ”¯åŽŸç†ã€å»–é›ªå³°ç½‘ç«™çš„gitæ•™ç¨‹ã€‘
+   æ‰€ä»¥è¿™æ¬¡å¯ä»¥ä½¿ç”¨git statusåŠgit diffæŸ¥çœ‹ä¿®æ”¹æ–‡ä»¶ï¼Œgit stashå­˜å‚¨å·¥ä½œåŒºï¼Œgit checkout -- fileä»¥æ¢å¤å·¥ä½œåŒºä¿®æ”¹ï¼Œgit reset HEAD fileæ’¤é”€æš‚å­˜åŒºï¼ˆaddåŒºï¼‰ç­‰æŒ‡ä»¤ï¼›
    
    
