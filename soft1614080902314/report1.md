@@ -1,22 +1,22 @@
--#1 µÚ1´ÎÊµÑé
+-#1 ç¬¬1æ¬¡å®éªŒ
 -
-+# µÚÒ»´ÎÊµÑé
- ## 1.ÊµÑéÄ¿±ê
++# ç¬¬ä¸€æ¬¡å®éªŒ
+ ## 1.å®éªŒç›®æ ‡
 -
-+ £¨1£©Ñ§Ï°ºÍ´î½¨¿ª·¢»·¾³£¨Android Studio£©£»
-+ £¨2£©ÁË½âGitHubÍøÕ¾µÄ¹¦ÄÜ¼°Ìá½»µÄ»ù±¾µÄÒªÇó£»
- ## 2.ÊµÑé²½Öè
++ ï¼ˆ1ï¼‰å­¦ä¹ å’Œæ­å»ºå¼€å‘ç¯å¢ƒï¼ˆAndroid Studioï¼‰ï¼›
++ ï¼ˆ2ï¼‰äº†è§£GitHubç½‘ç«™çš„åŠŸèƒ½åŠæäº¤çš„åŸºæœ¬çš„è¦æ±‚ï¼›
+ ## 2.å®éªŒæ­¥éª¤
 -
--´´½¨soft1614080902314Ä¿Â¼£º
+-åˆ›å»ºsoft1614080902314ç›®å½•ï¼š
 -
-+ £¨1£©´î½¨¿ª·¢»·¾³£¨Android Studio 3.1ÕıÊ½°æ£©£¬ÔËĞĞ£¨½ØÍ¼£©£»
-+ £¨2£©¼ÓÈëGitÏîÄ¿£¨Fork£©£¬½«ÏîÄ¿¿ËÂ¡£¨Clone£©µ½×Ô¼ºÕÊºÅÏÂ£»
-+ £¨3£©$ git clone https://github.com/Zhengmianjie/android-labs-2018/
-+ £¨4£©´´½¨ÒÔÑ§ºÅÃüÃûµÄ¸öÈËÊµÑéÄ¿Â¼£ºsoft1614080902314¡£
-+ ÆäÖĞ£¬com¿ªÍ·±íÊ¾¼ÆËã»ú°à£¬soft¿ªÍ·±íÊ¾Èí¼ş°à£¬Êı×ÖÎª¸öÈËÑ§ºÅ¡£
-+  (5)´´½¨Ò»¸öJavaÀà£ºedu.hzuapps.androidlabs.soft1614080902314.Soft1614080902314Activity.java¡£
-+  (6)Ìá½»´úÂë²¢·¢Pull Request¡£
- ## 3.ÊµÑé½á¹û
- ![ÔÚAndroid SDK ManagerÖĞÑ¡Ôñ6.0¿â](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "ÅäÖÃ½ÌÓıÍøÏÂÔØ´úÀí")
-![ÔÚAndroid SDK ManagerÖĞÑ¡Ôñ6.0¿â](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "ÅäÖÃ½ÌÓıÍøÏÂÔØ´úÀí")
- ## 4.ÊµÑéÌå»á
++ ï¼ˆ1ï¼‰æ­å»ºå¼€å‘ç¯å¢ƒï¼ˆAndroid Studio 3.1æ­£å¼ç‰ˆï¼‰ï¼Œè¿è¡Œï¼ˆæˆªå›¾ï¼‰ï¼›
++ ï¼ˆ2ï¼‰åŠ å…¥Gité¡¹ç›®ï¼ˆForkï¼‰ï¼Œå°†é¡¹ç›®å…‹éš†ï¼ˆCloneï¼‰åˆ°è‡ªå·±å¸å·ä¸‹ï¼›
++ ï¼ˆ3ï¼‰$ git clone https://github.com/Zhengmianjie/android-labs-2018/
++ ï¼ˆ4ï¼‰åˆ›å»ºä»¥å­¦å·å‘½åçš„ä¸ªäººå®éªŒç›®å½•ï¼šsoft1614080902314ã€‚
++ å…¶ä¸­ï¼Œcomå¼€å¤´è¡¨ç¤ºè®¡ç®—æœºç­ï¼Œsoftå¼€å¤´è¡¨ç¤ºè½¯ä»¶ç­ï¼Œæ•°å­—ä¸ºä¸ªäººå­¦å·ã€‚
++  (5)åˆ›å»ºä¸€ä¸ªJavaç±»ï¼šedu.hzuapps.androidlabs.soft1614080902314.Soft1614080902314Activity.javaã€‚
++  (6)æäº¤ä»£ç å¹¶å‘Pull Requestã€‚
+ ## 3.å®éªŒç»“æœ
+ ![åœ¨Android SDK Managerä¸­é€‰æ‹©6.0åº“](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/1%E4%BB%A3%E7%A0%81%E6%88%AA%E5%9B%BE.png?raw=true"é…ç½®æ•™è‚²ç½‘ä¸‹è½½ä»£ç†")
+![åœ¨Android SDK Managerä¸­é€‰æ‹©6.0åº“](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "é…ç½®æ•™è‚²ç½‘ä¸‹è½½ä»£ç†")
+ ## 4.å®éªŒä½“ä¼š
