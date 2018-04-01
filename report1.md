@@ -1,4 +1,4 @@
-# **第一次实验报告 
+# 第一次实验报告 
 
 ## 1.实验目标
 Android开发环境搭建 
@@ -14,7 +14,7 @@ Android开发环境搭建
 ### 5.创建一个Java类：edu.hzuapps.androidlabs.soft123456.Soft123456Activity.java。
 ### 6.提交代码并发Pull Request，老师合并之后截图。
 
-**注意：请在自己选题的Issue中填写题目描述信息。
+注意：请在自己选题的Issue中填写题目描述信息。
 
 ## 3.实验结果
 
