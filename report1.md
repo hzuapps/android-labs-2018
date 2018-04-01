@@ -38,5 +38,9 @@
 截图如下：
 
 ![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft222.png)
+
 ![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft1614080902222.png)
+
 ## 4、实验体会
+这次实验，比起以往的一些其他课程的实验，更有创新感，自己很有兴趣想去学好它。
+虽然提交作业报告等，时常出现错误，但是做实验做实验肯定是有错误的，实验一次能做成功，都是运气好。
