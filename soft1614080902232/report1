@@ -16,6 +16,7 @@ soft123456 。
 $ git add 我的路径soft123456/Soft1614080902232Activity.java
 $ git commit -m "#1 第1次实验" （注意：#123 是你自己创建的Issue号）
 $ git push
+
 ## 3.实验结果
 （1）搭建开发环境后截图
 ![image](https://github.com/JinmingH/android-labs-2018/blob/master/soft1614080902232/Soft1614080902232Activity.jpg)
