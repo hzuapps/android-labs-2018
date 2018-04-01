@@ -17,7 +17,7 @@ com1614080901244
 
 
 ## 3. 实验结果
-![image]()
+![image](https://github.com/xiamilin/android-labs-2018/blob/master/com1614080901244/com1614080901244.jpg)
 ## 4. 实验体会
+**这次实验挺简单的，只是对于步骤不是很了解，所以费了些时间。
 
-**加粗**常规
