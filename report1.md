@@ -35,7 +35,7 @@
 2、打开Android Studio 3.1 创建一个以soft1614080902222为文件名的项目
 
 ## 3、实验结果
-截图如下：
+### 截图如下：
 
 ![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft222.png)
 
