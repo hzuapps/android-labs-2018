@@ -36,5 +36,5 @@
 
 ## 3、实验结果
 截图如下：
-![baidu](http://img.zcool.cn/community/018d4e554967920000019ae9df1533.jpg@900w_1l_2o_100sh.jpg)
+![](https://github.com/BFFat/android-labs-2018/blob/master/soft1614080902222/wenjianjietu/soft1614080902222.png)
 ## 4、实验体会
