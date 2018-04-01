@@ -9,7 +9,10 @@
 	4）创建一个Java类：edu.hzuapps.androidlabs.com1614080901141.Com1614080901141Activity.java
 	5）提交代码并发Pull Request，老师合并之后截图。
 ## 3.实验结果
-	![第一次实验报告截图](https://github.com/LiuYB135/android-labs-2018/blob/master/com1614080901141/1.png)
+	
+   ![第一次实验报告截图](https://github.com/LiuYB135/android-labs-2018/blob/master/com1614080901141/1.png)
+   
 ## 4.实验体会
 	通过这次实验，我学会了如何安装Android Studio编辑工具！还了解了如何使用git工具来上传文件到远程仓库Github网站上.
 	这次的实验让我学到了很多，也增加了我对Android开发的兴趣！！！
+
