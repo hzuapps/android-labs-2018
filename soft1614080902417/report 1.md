@@ -8,7 +8,7 @@ android开发环境搭建
 
 加2）入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
 
-3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft1613071002123；
+3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft614080902417；
 
 4）创建一个Java类：edu.hzuapps.androidlabs.soft123456.Soft123456Activity.java；
 
