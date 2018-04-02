@@ -12,5 +12,5 @@
 +  (5)创建一个Java类：edu.hzuapps.androidlabs.com1614080901121.Com1614080901121Activity.java。
 +  (6)提交代码并发Pull Request。
  ## 3.实验结果	 ## 3.实验结果
- 	 
+ 	 https://github.com/Nickum/android-labs-2018/edit/master/com1614080901121Activity/report1.md
  ## 4.实验体会	 ## 4.实验体会
