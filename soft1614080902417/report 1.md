@@ -10,7 +10,7 @@ android开发环境搭建
 
 3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft614080902417；
 
-4）创建一个Java类：edu.hzuapps.androidlabs.soft123456.Soft123456Activity.java；
+4）创建一个Java类：edu.hzuapps.androidlabs.soft16140809024017；
 
 5）提交代码并发Pull Request，老师合并之后截图。
 
