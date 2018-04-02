@@ -11,7 +11,7 @@
 
 3.实验结果
 
-
+![image](https://github.com/henyiwu/android-labs-2018/blob/master/com1614080901234/Com1614080901234.png?raw=true)
 4.实验体会
 
 把图片和md文件传到github即可
