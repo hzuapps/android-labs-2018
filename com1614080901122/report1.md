@@ -3,13 +3,13 @@
 ## 1. 实验目标
 Android开发环境搭建
 ## 2. 实验步骤
-# (1).搭建开发环境，运行并截图；
-# (2).加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
-     $ git clone https://github.com/fengXL/android-labs-2018/
-# (3).创建以学号命名的个人实验目录：
-    com1614080901122 。
-# (4).创建一个Java类：edu.hzuapps.androidlabs.com1614080901122.Com1614080901122Activity.java。
-# (5).提交代码并发Pull Request。
+(1).搭建开发环境，运行并截图;  
+(2).加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；  
+     $ git clone https://github.com/fengXL/android-labs-2018/  
+(3).创建以学号命名的个人实验目录：  
+    com1614080901122 。  
+(4).创建一个Java类：edu.hzuapps.androidlabs.com1614080901122.Com1614080901122Activity.java。  
+(5).提交代码并发Pull Request。  
 
 
 ## 3. 实验结果
