@@ -15,9 +15,9 @@
 5. 提交代码并发Pull Request，老师合并之后截图。
 
 ## 3、实验结果
-我的Android开发环境截图
+我的Android开发环境截图  
 ![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/Screen.jpg)
-老师合并之后的截图
+老师合并之后的截图  
 ![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/Merged.jpg)
 ## 4、实验体会
 1. 很开心了解到了git和github的使用，为以后的学习铺路。
