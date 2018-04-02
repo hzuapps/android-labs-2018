@@ -16,14 +16,9 @@
 
 ## 3、实验结果
 我的Android开发环境截图
-<<<<<<< HEAD
 ![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/Screen.jpg)
 老师合并之后的截图
 ![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/Merged.jpg)
-=======
-![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/Com1614080901130.jpg)
-老师合并之后的截图
-
->>>>>>> 9e6a2a95961e9279d2b3c366654527fc6e5df15e
 ## 4、实验体会
-
+1. 很开心了解到了git和github的使用，为以后的学习铺路。
+2. 初入Android开发，有点激动。
