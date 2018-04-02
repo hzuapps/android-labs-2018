@@ -18,8 +18,8 @@
 6、git commit -m "#1 第1次实验"
 7、git push
 ## 4、实验结果
-![实验截图](https://github.com/545072985/android-labs-2018/blob/master/%E5%9B%BE%E7%89%87/shiyanjietu.png)
-![实验结果](https://github.com/545072985/android-labs-2018/blob/master/%E5%9B%BE%E7%89%87/shiyanjieguo.png) 
+![实验截图](https://github.com/545072985/android-labs-2018/blob/master/soft1614080902204/shiyanjietu.png)
+![实验结果](https://github.com/545072985/android-labs-2018/blob/master/soft1614080902204/shiyanjieguo.png) 
 
 ## 5、实验总结
 1、经过此次实验，我们对github与git有了初步的认识，使用github起来更顺心顺意。
