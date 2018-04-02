@@ -11,6 +11,6 @@
 + 4.创建一个Java类：edu.hzuapps.androidlabs.com1614080901101.Com1614080901101Activity.java
 + 5.提交代码并发Pull Request，老师合并之后截图。
 ## 实验结果
-![安装截图](https://github.com/Tmouser/android-labs-2018/blob/master/com1614080901101/Com1614080901101Activity.JPG);
+![安装截图](https://github.com/Tmouser/android-labs-2018/blob/master/com1614080901101/Com1614080901101Activity.JPG)
 ## 实验体会
 尝试使用了git的上传、下载和其他基本指令，也学习了安装使用Android Studio，也算是一个好的开始
