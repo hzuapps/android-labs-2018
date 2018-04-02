@@ -12,7 +12,7 @@
 5）$ git commit -m "#1 #callmeliqin 第1次实验"
 6）$ git push
 ## 3. 实验结果
-
+ https://github.com/callmeliqin/android-labs-2018/blob/master/soft1614080902320/as%E6%88%AA%E5%9B%BE.png
 
 ## 4. 实验体会
   上课认真看老师演示并理解缘由，然后就能做出实验。Android Studio还需要日后的使用来学习和摸索。
