@@ -13,6 +13,6 @@
 +  (5)创建一个Java类：edu.hzuapps.androidlabs.com1614080901121.Com1614080901121Activity.java。
 +  (6)提交代码并发Pull Request。
  ## 3.实验结果	 
- 	 https://github.com/Nickum/android-labs-2018/edit/master/com1614080901121Activity/report1.md
+ ![dkdjjdjkk](https://github.com/Nickum/android-labs-2018/blob/master/com1614080901121Activity/com1614080901121.jpg)
  ## 4.实验体会
  本次实验最主要的是学会上传文件及环境的搭建，搭建环境只需跟随网上步骤走及多次调试，而上传文件只需要多次尝试并熟练掌握即可
