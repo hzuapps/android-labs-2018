@@ -22,7 +22,7 @@
 
 ##三.实验结果
 
-[结果]（https://github.com/dencyu/android-labs-2018/blob/af2e12698568c87198814c70b3adaedf87d1c229/com1614080901124/Com1614080901124.jpg ） 
+[结果]（ https://raw.githubusercontent.com/dencyu/android-labs-2018/af2e12698568c87198814c70b3adaedf87d1c229/com1614080901124/Com1614080901124.jpg ） 
 
 ##四.实验体会
 
