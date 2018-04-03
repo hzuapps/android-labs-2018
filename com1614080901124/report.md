@@ -14,7 +14,7 @@
 
 3.$ git clone https://github.com/dencyu/android-labs-2018/;
 
-4.创建以学号命名的个人实验目录：com1614080901138;
+4.创建以学号命名的个人实验目录：com1614080901124;
 
 5.创建一个Java类：edu.hzuapps.androidlabs.com1614080901124.Com1614080901124Activity.java;
 
