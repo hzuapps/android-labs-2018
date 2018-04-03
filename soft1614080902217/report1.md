@@ -30,8 +30,8 @@
 （11）git push
 
 ## 3.实验结果
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/1.PNG)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/1.png)
 
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/2.PNG)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/2.png)
 ## 4.实验体会
 搭建环境比较麻烦，但最终还是完成了，有待深入学习！
