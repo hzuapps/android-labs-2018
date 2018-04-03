@@ -15,7 +15,7 @@
      Soft1614080902422
       
      
- (4) Java类：edu.hzuapps.androidlabs.com1614080901109.Com1614080901109Activity.java 。
+ (4) Java类：edu.hzuapps.androidlabs.Soft1614080902422.Soft1614080902422Activity.java 。
  
  (5) 提交代码并发Pull Request，老师合并之后截图。
  
