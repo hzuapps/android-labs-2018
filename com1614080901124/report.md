@@ -12,11 +12,11 @@
 
 2.加入GIT中项目（叉），将项目克隆（克隆）到自己帐号下;
 
-3.$ git clone https://github.com/JuneLee1212/android-labs-2018/;
+3.$ git clone https://github.com/dencyu/android-labs-2018/;
 
 4.创建以学号命名的个人实验目录：com1614080901138;
 
-5.创建一个Java类：edu.hzuapps.androidlabs.com1614080901138.Com1614080901138Activity.java;
+5.创建一个Java类：edu.hzuapps.androidlabs.com1614080901124.Com1614080901124Activity.java;
 
 6.提交代码并发请求。
 
