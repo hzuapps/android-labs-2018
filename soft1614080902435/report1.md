@@ -20,6 +20,6 @@
   (5) 提交代码并发Pull Request，老师合并之后截图。
   
  ## 3.实验结果
- 
+ ![Image text](https://github.com/AisakaTaika/android-labs-2018/blob/master/soft1614080902435/1.png)
  ## 4.实验体会
      下载android studio的时候遇到了点小问题，通过室友和自己的努力共同解决了。
