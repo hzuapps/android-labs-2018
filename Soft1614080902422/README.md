@@ -20,7 +20,7 @@
  (5) 提交代码并发Pull Request，老师合并之后截图。
  
 ## 3.实验结果
- ![在Android SDK Manager中选择6.0库](https://github.com/lixubin51/android-labs-2018/blob/master/Com1614080901109/com1614080901109.png "配置教育网下载代理")
+ ![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/blob/master/Soft1614080902422/Soft1614080902422.png "配置教育网下载代理")
  
 ## 4.实验体会
     之前听人说过这个很好用，但是没去学过，现在刚刚开始学还是觉得很不熟练，有一些东西还是不太明白，就是跟着别人做。
