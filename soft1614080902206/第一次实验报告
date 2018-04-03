@@ -13,7 +13,7 @@ android开发环境搭建
 (3) 创建以学号命名的个人实验目录：
 
  soft1614080902206
-(4) Java类：edu.hzuapps.androidlabs.com1614080901109.Com1614080901109Activity.java 。
+(4) Java类：Soft1614080902206Activity.java
 
 (5) 提交代码并发Pull Request，老师合并之后截图。
 
@@ -23,4 +23,4 @@ android开发环境搭建
 
 4.实验体会
 
-之前听人说过这个很好用，但是没去学过，现在刚刚开始学还是觉得很不熟练，有一些东西还是不太明白，就是跟着别人做。
+实验中要注意sdk和jre配置的路径。
