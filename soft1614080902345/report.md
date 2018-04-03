@@ -18,7 +18,7 @@ android开发环境搭建
 
 ## 3. 实验结果
 
-![在Android SDK Manager中选择6.0库]https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/0387045854eb8140ff30f51cf2287dd.png("配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/0387045854eb8140ff30f51cf2287dd.png"配置教育网下载代理")
 
 
 ## 4. 实验体会
