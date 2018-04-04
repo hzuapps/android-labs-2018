@@ -16,7 +16,7 @@ $ git commit -m "#1 第1次实验"
 $ git push
 
 ## 3.实验结果
-![在Android SDK Manager中配置教育网下载代理](https://github.com/liaoyun00/android-labs-2018/blob/master/soft1614080902143/PTWQ)_2K)45B_P%5DME(1_GJU.png)
+![实验截图]("https://github.com/liaoyun00/android-labs-2018/blob/master/soft1614080902143/PTWQ)_2K)45B_P%5DME(1_GJU.png")
 
 ## 4.实验体会
   
