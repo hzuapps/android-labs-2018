@@ -1,25 +1,25 @@
-æ‰€æœ‰å®éªŒï¼šhttps://github.com/hzuapps/android-labs-2018/labels/Lab
+ËùÓĞÊµÑé£ºhttps://github.com/hzuapps/android-labs-2018/labels/Lab
 
-# å®éªŒ1ï¼š	Androidå¼€å‘ç¯å¢ƒæ­å»º
+# ÊµÑé1£º	Android¿ª·¢»·¾³´î½¨
 https://github.com/hzuapps/android-labs-2018/issues/1
 
-# å®éªŒ2ï¼š	Androidç»„ä»¶ç¼–ç¨‹
+# ÊµÑé2£º	Android×é¼ş±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/2
 
-# å®éªŒ3ï¼š	Androidèµ„æºä½¿ç”¨ç¼–ç¨‹
+# ÊµÑé3£º	Android×ÊÔ´Ê¹ÓÃ±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/3
 
-# å®éªŒ4ï¼š	Androidç•Œé¢è®¾è®¡ç¼–ç¨‹
+# ÊµÑé4£º	Android½çÃæÉè¼Æ±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/4
 
-# å®éªŒ5ï¼š	Androidå­˜å‚¨ç¼–ç¨‹
+# ÊµÑé5£º	Android´æ´¢±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/5
 
-# å®éªŒ6ï¼š	Androidç½‘ç»œç¼–ç¨‹
+# ÊµÑé6£º	AndroidÍøÂç±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/6
 
-# å®éªŒ7ï¼š	Androidè®¾å¤‡ç¼–ç¨‹
+# ÊµÑé7£º	AndroidÉè±¸±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/7
 
-# å®éªŒ8ï¼š	Androidç»¼åˆç¼–ç¨‹
+# ÊµÑé8£º	Android×ÛºÏ±à³Ì
 https://github.com/hzuapps/android-labs-2018/issues/8
