@@ -20,7 +20,8 @@
  (5) 提交代码并发Pull Request，老师合并之后截图。
  
 ## 3.实验结果
- ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/ Soft1614080902317.PNG)
+ ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/Soft1614080902317.PNG)
+
  
 ## 4.实验体会
    本次使用学习掌握git，安装AndroidStudio软件
