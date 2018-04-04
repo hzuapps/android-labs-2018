@@ -1,4 +1,4 @@
-﻿# 第一次实验
+﻿# 第一次实验 
  
 ## 1.实验目标
  android开发环境搭建
@@ -15,7 +15,7 @@
     Soft1614080902317
       
      
- (4) Java类：edu.hzuapps.androidlabs. Soft1614080902317. Soft1614080902317Activity.java 。
+ (4) Java类：edu.hzuapps.androidlabs. Soft1614080902317. Soft1614080902317Activity.java ；
  
  (5) 提交代码并发Pull Request，老师合并之后截图。
  
