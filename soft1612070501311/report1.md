@@ -18,4 +18,5 @@
 ![在Android SDK Manager中建立以自己学号为名字的项目](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/Soft1612070501311.jpg)
  
  ## 4.试验体会
- 本次实验感觉比较顺利，就是在安装Android Studio的时候用时稍久，软件运行和内容编辑都没有出现问题
+ 实验较为轻松，只是还不了解如何在Android-studio中建立一个手机界面，以显示自己学号的信息。还有就是Android-studio占用内存太大，比较卡，对于这个软件还需要多加熟练。
+ 最后谢谢老师对我前一次实验的百般叮嘱！
