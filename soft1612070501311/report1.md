@@ -15,7 +15,7 @@
  5）提交代码并发Pull Request，老师合并之后截图。
  
  ## 3.试验结果
-![在Android SDK Manager中配置教育网下载代理](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/Soft1612070501311.jpg "配置教育网下载代理")
+![在Android SDK Manager中建立以自己学号为名字的项目](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/Soft1612070501311.jpg)
  
  ## 4.试验体会
  本次实验感觉比较顺利，就是在安装Android Studio的时候用时稍久，软件运行和内容编辑都没有出现问题
