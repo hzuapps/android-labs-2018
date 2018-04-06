@@ -22,4 +22,4 @@
  ![](https://github.com/Strakly/android-labs-2018/blob/master/soft1614080902339/Soft1614080902339.png "From Strakly")
  
 ## 4.实验体会
-    通过实验，学习了github和git的简单操作，包括对别人项目的fork以及clone、修改、push等。同时学习安装Android Studio，虽然过程复杂，学会了Android Studio的一些简单操作以及AVD和SDK的一些简单操作。
+通过实验，学习了github和git的简单操作，包括对别人项目的fork以及clone、修改、push等。同时学习安装Android Studio，虽然过程复杂，学会了Android Studio的一些简单操作以及AVD和SDK的一些简单操作。
