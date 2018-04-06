@@ -7,6 +7,7 @@
 (2)创建以学号命名的个人实验目录：
 (3)创建一个Java类：edu.hzuapps.androidlabs.soft1614080902116.Soft1614080902116Activity.java。
 (4)提交代码并发Pull Request，老师合并之后截图。
+
 3.实验结果
 
 ##![image](https://github.com/zrh116/android-labs-2018/blob/master/Soft1614080902116/report1.png)
