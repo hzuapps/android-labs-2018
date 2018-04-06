@@ -19,7 +19,7 @@
 
 ## 3. 实验结果  
 
-    ![实验结果截图] (https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png)
+    ![在Android SDK Manager中选择6.0库](https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png "配置教育网下载代理"
 
 ## 4. 实验体会
 
