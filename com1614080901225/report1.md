@@ -15,7 +15,7 @@ $ git clone https://github.com/LaineChen/android-labs-2018/
 
 ## 3.实验结果
 
-![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/Screen.png"From LaineChen")
+![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/Screen.png  "From LaineChen")
 
 ## 4.实验体会
 
