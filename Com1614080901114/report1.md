@@ -19,8 +19,8 @@
 
 ## 3. 实验结果  
 
-    ![实验结果截图] (https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png "截图")
+    ![实验结果截图] (https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png)
 
 ## 4. 实验体会
 
-**加粗**常规
+     通过这次实验，我成功搭建了开发环境，对android开发环境有了进一步的认识，同时对git的功能的使用有了进一步的熟悉。
