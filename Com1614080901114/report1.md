@@ -19,7 +19,7 @@
 
 ## 3. 实验结果  
 
-    ![实验结果截图] (https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png)
+    ![实验结果截图] (https://github.com/Qiuxiaocong/Qiuxiaocong/blob/master/Com1614080901114/Com1614080901114.png "截图")
 
 ## 4. 实验体会
 
