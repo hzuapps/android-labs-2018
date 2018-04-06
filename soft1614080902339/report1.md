@@ -22,4 +22,4 @@
  ![](https://github.com/Strakly/android-labs-2018/blob/master/soft1614080902339/Soft1614080902339.png "From Strakly")
  
 ## 4.实验体会
-    之前听人说过这个很好用，但是没去学过，现在刚刚开始学还是觉得很不熟练，有一些东西还是不太明白，就是跟着别人做。
+    通过实验，学习了github和git的简单操作，包括对别人项目的fork以及clone、修改、push等。同时学习安装Android Studio，虽然过程复杂，学会了Android Studio的一些简单操作以及AVD和SDK的一些简单操作。
