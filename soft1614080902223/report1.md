@@ -19,8 +19,8 @@
 7、git push
 
 ## 4、实验结果
-![实验截图](https://github.com/soulDeer/android-labs-2018/blob/master/tupian/shiyanjietu.png)
-![实验报告](https://github.com/soulDeer/android-labs-2018/blob/master/tupian/shiyanbaogao.png)
+![实验截图](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyanjietu.png)
+![实验报告](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyanbaogao.png)
 
 ## 5、实验总结
 学习了很多东西。
