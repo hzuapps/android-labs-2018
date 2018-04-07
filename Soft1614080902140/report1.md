@@ -14,9 +14,9 @@
 
 （4）创建以学号命名的个人实验目录：Soft1614080902140;
 
- (5) 创建一个Java类：edu.hzuapps.androidlabs.soft1614080902140.Soft1614080902140Activity.java;
+  (5) 创建一个Java类：edu.hzuapps.androidlabs.soft1614080902140.Soft1614080902140Activity.java;
 
- (6) 提交代码并发Pull Request。
+  (6) 提交代码并发Pull Request。
 
 ## 3. 实验结果
 
