@@ -12,7 +12,7 @@
       
  (3) 创建以学号命名的个人实验目录：
  
-     Com1614080901139
+     com1614080901139
       
      
  (4) Java类：edu.hzuapps.androidlabs.com1614080901139.Com1614080901139Activity.java 。
