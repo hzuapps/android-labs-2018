@@ -1,10 +1,10 @@
-#第一次实验
+# 第一次实验
 1.实验目标
 创建一个java文件并上传
 
 搭建开发环境（Android Studio 3.1正式版），运行（截图）
 
-##2.实验步骤
+## 2.实验步骤
 （1）下载安装git软件和Android开发工具
 
 （2）加入Git项目（Fork），将项目克隆（Clone）到自己帐号下； https://github.com/liaohuajjj/android-labs-2018
@@ -24,8 +24,12 @@
 （9）git commit -m "#1 第1次实验"
 
 （10）git push
-##3.实验结果
-![image](https://github.com/huangdewei/android-labs-2018/blob/master/soft1614080902233/1.PNG)
-![image](https://github.com/huangdewei/android-labs-2018/blob/master/soft1614080902233/2.PNG)
+
+## 3.实验结果
+
+![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/1.PNG)
+
+![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/2.PNG)
+
 ## 4.实验体会
 这实验好难，但通过几次的测试，终于成功了，以后会继续认真学习
