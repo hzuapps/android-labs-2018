@@ -14,7 +14,7 @@ com1614080901119 。
   
 ## 3. 实验结果
   
-  ![在Android SDK Manager中选择6.0库](https://github.com/h-higgins/android-labs-2018/blob/master/com1614080901119/jietu.png"配置教育网下载代理")
+  ![在Android SDK Manager中选择6.0库](https://github.com/h-higgins/android-labs-2018/blob/master/com1614080901119/jietu.png "配置教育网下载代理")
 
 ## 4. 实验体会
 
