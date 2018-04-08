@@ -10,7 +10,6 @@
 （5）创建一个Java类：edu.hzuapps.androidlabs.com1614080901104com1614080901104Activity.java。 
 （6）提交代码并发Pull Request。 
  ## 3.实验结果 
-![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/com1614080901104.jpg
-
+![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/com1614080901104.jpg)
  ## 4.实验体会 
 搭建android studio花费了挺多时间，然后在装虚拟机时候发现虚拟机运行不了，先是没找到sdk，后来又是各种不行，搞得有点崩溃，后来在宿友的帮助下才完成了。
