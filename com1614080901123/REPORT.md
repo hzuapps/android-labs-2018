@@ -1,31 +1,26 @@
-# 移动应用开发实验库（2018）   
-实验要求：https://github.com/hzuapps/android-labs-2018/blob/master/labs.md
-
-## Android中文教材
-http://hukai.me/android-training-course-in-chinese/index.html  
-https://www.gitbook.com/book/mobile100/android/details  
-
-## Android英文教程
-http://www.tutorialspoint.com/index.htm
-
-## Android开发工具下载网址
-http://www.androiddevtools.cn/ 
-
-## Android Studio汉化（某同学亲测成功）
-http://jingyan.baidu.com/article/ff42efa93177c0c19e2202c3.html
-
-## Android版本6.0安装提示
-在Android SDK Manager中，参考下面的截图配置和下载6.0版本的库。
-![在Android SDK Manager中配置教育网下载代理](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/sdk-manager-proxy-edu.cn.png "配置教育网下载代理")
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "配置教育网下载代理")
-![在Android SDK Manager中下载6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk-download.png "配置教育网下载代理")
-
-## Android应用架构
-https://github.com/googlesamples/android-architecture 
-
---
-
-![image](https://cloud.githubusercontent.com/assets/627946/23102172/3613a9c6-f6df-11e6-8d0b-8942995d3d66.png)
-
-Since Feb. 19, 2017.
-
+# 第一次实验
+ 
+## 1.实验目标
+ android开发环境搭建
+ 
+## 2.实验步骤
+ (1) 搭建开发环境,运行并截图;
+ 
+ (2) 加入Git项目(Fork),将项目克隆(clone)到自己账号下;
+ 
+      $git clone https://github.com/zenghuifan/android-labs-2018/
+      
+ (3) 创建以学号命名的个人实验目录：
+ 
+     Com1614080901123
+      
+     
+ (4) Java类：edu.hzuapps.androidlabs.com1614080901123.Com1614080901123Activity.java 。
+ 
+ (5) 提交代码并发Pull Request，老师合并之后截图。
+ 
+## 3.实验结果
+ ![在Android SDK Manager中选择6.0库](https://github.com/zenghuifan/android-labs-2018/blob/master/Com1614080901123/1.png "配置教育网下载代理")
+ 
+## 4.实验体会
+    这个软件一开始用蛮难的，搞清楚后挺简单的。
