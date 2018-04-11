@@ -29,7 +29,7 @@
 （10）git push
 
 ##3.实验结果
-![image](https://github.com/1754557651/android-labs-2018/blob/master/com1614080901224/捕获1.png)
+![image](https://github.com/1754557651/android-labs-2018/blob/master/com1614080901224/捕获1.PNG)
 
 ![image](https://github.com/1754557651/android-labs-2018/blob/master/com1614080901224/捕获2.png) 
 ##4.实验体会
