@@ -1,11 +1,11 @@
 # 第一次试验
 
-##1、实验目的：
+## 1、实验目的：
 
 （1）搭建开发环境，运行。 
 （2）了解并使用github克隆与上传文件的方法
 
-##2、实验步骤：
+## 2、实验步骤：
 
 搭建开发环境（Android Studio 3.1正式版），运行（截图）；
 加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
@@ -16,14 +16,13 @@ soft123456 。
 创建一个Java类：edu.hzuapps.androidlabs.soft123456.Soft123456Activity.java。
 提交代码并发Pull Request，老师合并之后截图。
 注意：请在自己选题的Issue中填写题目描述信息。
-
 提交代码的命令：
-
 $ git add 你的路径net123456/Net123456Activity.java
 $ git commit -m "#1 #123 第1次实验" （注意：#123 是你自己创建的Issue号）
 $ git push
 
-##3、实验结果：
+## 3、实验结果：
 file:///C:/JJ/android-labs-2018/Soft1606070302235/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png
-##4、实验体会：
+
+## 4、实验体会：
   这次在查看图片代码的时候有点难搞，还是有些不懂
