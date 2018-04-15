@@ -112,7 +112,7 @@ public class Soft1614080902335Activity2 extends AppCompatActivity {
 ###6.strings.xml
 
 <resources>
-    <string name="app_name">QQ</string>
+   <string name="app_name">QQ</string>
 </resources>
 
 
