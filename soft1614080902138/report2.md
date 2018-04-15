@@ -10,20 +10,19 @@
 ### 4.在自己的GitHub库上创建和发送Pull Request
 ### 5.在GitHub中使用Markdown文件编写实验报告
 ## 3.实验结果
-###
-package com.example.hzu.myapplication;
+### package com.example.hzu.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+### import android.support.v7.app.AppCompatActivity;
+### import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+### public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-}
+### @Override
+### protected void onCreate(Bundle savedInstanceState) 
+### super.onCreate(savedInstanceState);
+### setContentView(R.layout.activity_main);
+### }
+### }
 
 ## 4.实验体会
-很轻松很愉悦的一节课
+### 很轻松很愉悦的一节课
