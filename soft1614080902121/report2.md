@@ -63,7 +63,7 @@
 </android.support.constraint.ConstraintLayout>
 ### strings代码
 <resources>
-    <string name="app_name">Soft1614080902121Activity</string>
+   <string name="app_name">Soft1614080902121Activity</string>
 </resources>
 
 ### Soft1614080902121Activity代码
