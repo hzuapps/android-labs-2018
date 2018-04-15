@@ -10,7 +10,7 @@
 （5）创建一个Java类：edu.hzuapps.androidlabs.Soft1614080902144.Soft1614080902144Activity.java。 
 （6）提交代码并发Pull Request。 
  ## 3.实验结果 
-![image](https://github.com/PanHaoRui/android-labs-2018/blob/master/soft1614080902144.png
+![image](https://github.com/PanHaoRui/android-labs-2018/blob/master/Soft1614080902144/soft1614080902144.png
 ) 
  ## 4.实验体会 
 搭建android studio花费了挺多时间，然后在装虚拟机时候发现虚拟机运行不了，先是百度发现要让电脑允许运行虚拟机，但是没能解决，后来发现运行老版本的虚拟机能打开.
