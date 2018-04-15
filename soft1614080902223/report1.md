@@ -1,0 +1,26 @@
+# 第1次实验
+
+## 1、实验目的
+1、搭建开发环境，运行。
+2、了解并使用github克隆与上传文件的方法
+
+## 2、实验环境
+1、github 
+2、git
+3、netbeans
+
+## 3、实验步骤
+1、先从项目内克隆文件 $ git clone https://github.com/soulDeer/android-labs-2018/
+2、再进行修改(创建以学号命名的个人实验目录，并创建一个Java类：edu.hzuapps.androidlabs.soft1614080902223.Soft1614080902223Activity.java)
+3、添加文件$ git add 你的路径soft1614080902223/1614080902223Activity.java
+4、git config --global user.email "2579857070@qq.com"
+5、git config --global user.name "soulDeer"
+6、git commit -m "#1 第1次实验"
+7、git push
+
+## 4、实验结果
+![实验截图](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyanjietu.png)
+![实验报告](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyanbaogao.png)
+
+## 5、实验总结
+学习了很多东西。
