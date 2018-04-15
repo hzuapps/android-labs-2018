@@ -20,7 +20,7 @@
        5.提交代码并发Pull Request
    
 ##3.实验结果
-          
+           
         ![image](https://github.com/Ccclk/android-labs-2018/blob/master/soft1614080902214/jietu.png?raw=true)
        
 ##4.实验体会
