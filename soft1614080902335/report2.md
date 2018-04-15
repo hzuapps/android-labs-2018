@@ -20,6 +20,7 @@ $ git push
 ## 3. 实验结果
 
 ###1、AndroidManifest.xml
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="androidlabs.hzuapps.edu.soft1614080902335">
@@ -44,6 +45,7 @@ $ git push
 </manifest>
 
 ###2.Soft1614080902335Activity1.java
+
 package androidlabs.hzuapps.edu.soft1614080902335;
 
 import android.support.v7.app.AppCompatActivity;
@@ -59,6 +61,7 @@ public class Soft1614080902335Activity1 extends AppCompatActivity {
 }
 
 ###3.Soft1614080902335Activity2.java
+
 package androidlabs.hzuapps.edu.soft1614080902335;
 
 import android.support.v7.app.AppCompatActivity;
@@ -74,6 +77,7 @@ public class Soft1614080902335Activity2 extends AppCompatActivity {
 }
 
 ###4.activity_soft1614080902335_qq1.xml
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -94,6 +98,7 @@ public class Soft1614080902335Activity2 extends AppCompatActivity {
 </android.support.constraint.ConstraintLayout>
 
 ###5.activity_soft1614080902335_qq2.xml
+
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -105,6 +110,7 @@ public class Soft1614080902335Activity2 extends AppCompatActivity {
 </android.support.constraint.ConstraintLayout>
 
 ###6.strings.xml
+
 <resources>
     <string name="app_name">QQ</string>
 </resources>
