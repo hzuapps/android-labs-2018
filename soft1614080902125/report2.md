@@ -32,6 +32,8 @@ $ git push
 
 // 保存在自己的文件夹下
 ## 实验结果
+### Soft1614080902125Activity.java
+
 package edu.hzuapps.androidlabs.soft1614080902125;
 
 import android.support.v7.app.AppCompatActivity;
@@ -46,6 +48,7 @@ public class Soft1614080902125Activity extends AppCompatActivity {
     }
 }
 
+### activity_soft1614080902125.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,6 +68,8 @@ public class Soft1614080902125Activity extends AppCompatActivity {
         app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
+
+### AndroidManifest.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,6 +92,8 @@ public class Soft1614080902125Activity extends AppCompatActivity {
     </application>
 
 </manifest>
+
+### strings.xml
 
 <resources>
     <string name="app_name">Soft1614080902125音乐播放器</string>
