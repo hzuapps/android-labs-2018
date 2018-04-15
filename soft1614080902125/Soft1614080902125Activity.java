@@ -1,4 +1,4 @@
-package com.example.linlex.soft1614080902125;
+package edu.hzuapps.androidlabs.soft1614080902125;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

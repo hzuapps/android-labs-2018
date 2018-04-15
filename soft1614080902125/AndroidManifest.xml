@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.linlex.soft1614080902125">
+    package="edu.hzuapps.androidlabs.soft1614080902125">
 
     <application
         android:allowBackup="true"
