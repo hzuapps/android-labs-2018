@@ -9,7 +9,7 @@
 -（2）打开git-bash文件
 -（3）通过git clone https://github.com/Rvelamen/android-labs-2018/将项目克隆到自己的帐号下
 -（4）在android-labs-2018文件中创建soft开头的学号目录
--（5）在目录中建立Java类：androidlabs.soft1614080902130.Soft1614080902130Activity.java
+-（5）在目录中建立Java类：Soft1614080902130Activity.java
 -（6）cd android-labs-2018
 -（7）git add *
 -（8）git commit -m"#1 第一次实验"
