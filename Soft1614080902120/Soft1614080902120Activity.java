@@ -1,4 +1,13 @@
-package edu.hzuapps.androidlabs.soft1614080902120;
+package com.example.hzu.soft1614080902120;
 
-public class Soft1614080902120Activity{
-};
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Soft1614080902120Activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_soft1614080902120);
+    }
+}
