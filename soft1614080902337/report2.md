@@ -20,7 +20,7 @@ $ git push
 
 ## 3. 实验结果  
 
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验二截图.jpg"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E6%88%AA%E5%9B%BE.jpg"配置教育网下载代理")
 
 
 ## 4. 实验体会  
