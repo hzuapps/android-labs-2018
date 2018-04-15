@@ -16,7 +16,7 @@
 + 
 + 1、在Issues中创建选题：日程计划（软件）
 + 
-+ 2、根据日程计划（软件）小功能题目，编写一个Soft1614080902414ity
++ 2、根据日程计划（软件）小功能题目，编写一个Soft1614080902414Activity
 + 
 + 3、将Activity题设置为：日程计划（软件）
 + ![image](https://github.com/haoxinchen/android-labs-2018/blob/master/soft1614080902414/%E6%88%AA%E5%9B%BE%232.png?raw=true)
