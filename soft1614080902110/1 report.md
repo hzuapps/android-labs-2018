@@ -7,13 +7,15 @@ Android开发环境搭建
 （1）（Android Studio 3.1正式版），运行（截图）；
 
 （2）加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
-$ git clone https://github.com/YOUR_NAME/android-labs-2018/
+
+$ git clone https://github.com/ccccssxxxx/android-labs-2018/
 
 （3）创建以学号命名的个人实验目录：soft1614080902110 。其中，com开头表示计算机班，soft开头表示软件班，数字为个人学号。
 
 （3）创建一个Java类：edu.hzuapps.androidlabs.soft1614080902110.Soft1614080902110Activity.java。
 
 （4）提交代码并发Pull Request，老师合并之后截图。
+
 （5）提交代码的命令：
 
 $ git add 你的路径net123456/Net123456Activity.java
