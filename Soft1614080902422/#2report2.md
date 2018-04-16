@@ -36,7 +36,7 @@ $ git push
 
 ## 3. 实验结果
 
- ![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/blob/master/Soft1614080902422/#2.jpg "配置教育网下载代理")
+ ![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/tree/master/Soft1614080902422/#2.jpg "配置教育网下载代理")
 ## 4. 实验体会
 这次实验比较简单，主要是在项目刚建立的时候需要等待插件下载，比较费时。运行App需要新建虚拟机，而新建虚拟机又要下载新的东西，又要耗费很多时间。
 而且安卓App和一般的java程序不同，没有main函数。
