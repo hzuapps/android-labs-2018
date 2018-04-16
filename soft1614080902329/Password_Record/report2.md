@@ -15,4 +15,4 @@
 ![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/second_labs.png)
 
 ## 4.实验体会 
-* 感觉良好
+* 感觉不好
