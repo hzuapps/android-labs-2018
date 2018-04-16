@@ -20,7 +20,6 @@ soft1614080902103 。
 提交代码并发Pull Request，老师合并之后截图。
 
 ## 3、实验结果
-![](https://raw.githubusercontent.com/ZhengzyX/android-labs-2018/master/Soft1614080902103/A.PNG)
-![](https://raw.githubusercontent.com/ZhengzyX/android-labs-2018/master/Soft1614080902103/a.PNG)
+![](https://raw.githubusercontent.com/ZhengzyX/android-labs-2018/master/Soft1614080902103/%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E5%BC%80%E5%8F%91%E6%88%AA%E5%9B%BE.png)
 ## 4、实验体会
 通过了这次实验，我学会了用git提交作业到github网站上，并在网站上成功提交，也重新复习了一下怎么创建一个Java类。
