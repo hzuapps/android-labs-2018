@@ -30,62 +30,58 @@
       // 保存在自己的文件夹下
 
 ## 三、实验结果
-### package edu.hzuapps.androidlabs.soft1606081301233;
+package edu.hzuapps.androidlabs.soft1606081301233;
 
-### import android.support.v7.app.AppCompatActivity;
-### import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+ public class Soft1606081301233Activity extends AppCompatActivity {
 
-### public class Soft1606081301233Activity extends AppCompatActivity {
+   @Override
+   protected void onCreate(Bundle savedInstanceState) {
+       super.onCreate(savedInstanceState);
+       setContentView(R.layout.activity_soft1606081301233);
+   }
+}
 
-###    @Override
-###    protected void onCreate(Bundle savedInstanceState) {
-###        super.onCreate(savedInstanceState);
-###        setContentView(R.layout.activity_soft1606081301233);
-###    }
-### }
+   <?xml version="1.0" encoding="utf-8"?>
+   <android.support.constraint.ConstraintLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context="edu.hzuapps.androidlabs.soft1606081301233.Soft1606081301233Activity">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Hello World!"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
 
-### <?xml version="1.0" encoding="utf-8"?>
-### <android.support.constraint.ConstraintLayout
-###    xmlns:android="http://schemas.android.com/apk/res/android"
-###    xmlns:tools="http://schemas.android.com/tools"
-###    xmlns:app="http://schemas.android.com/apk/res-auto"
-###    android:layout_width="match_parent"
-###    android:layout_height="match_parent"
-###    tools:context="edu.hzuapps.androidlabs.soft1606081301233.Soft1606081301233Activity">
-###    <TextView
-###        android:layout_width="wrap_content"
-###        android:layout_height="wrap_content"
-###        android:text="Hello World!"
-###        app:layout_constraintBottom_toBottomOf="parent"
-###        app:layout_constraintLeft_toLeftOf="parent"
-###        app:layout_constraintRight_toRightOf="parent"
-###        app:layout_constraintTop_toTopOf="parent" />
-### </android.support.constraint.ConstraintLayout>
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="edu.hzuapps.androidlabs.soft1606081301233" >
 
-### <?xml version="1.0" encoding="utf-8"?>
-### <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-###    package="edu.hzuapps.androidlabs.soft1606081301233" >
+   <application
+       android:allowBackup="true"
+       android:icon="@mipmap/ic_launcher"
+       android:label="soft1606081301233日历日程"
+       android:roundIcon="@mipmap/ic_launcher_round"
+       android:supportsRtl="true"
+       android:theme="@style/AppTheme" >
+       <activity android:name=".Soft1606081301233Activity" >
+       <intent-filter>
+       <action android:name="android.intent.action.MAIN" /
+       <category android:name="android.intent.category.LAUNCHER" />
+       </intent-filter>
+       </activity>
+</application>
+</manifest>
 
-###    <application
-###        android:allowBackup="true"
-###        android:icon="@mipmap/ic_launcher"
-###        android:label="soft1606081301233日历日程"
-###        android:roundIcon="@mipmap/ic_launcher_round"
-###        android:supportsRtl="true"
-###        android:theme="@style/AppTheme" >
-###        <activity android:name=".Soft1606081301233Activity" >
-###            <intent-filter>
-###                <action android:name="android.intent.action.MAIN" />
-
-###                <category android:name="android.intent.category.LAUNCHER" />
-###            </intent-filter>
-###        </activity>
-###    </application>
-### </manifest>
-
-### <resources>
-###    <string name="app_name">soft1606081301233日历日程</string>
-### </resources>
+<resources><string name="app_name">soft1606081301233日历日程</string> </resources>
 
 
 ## 四、实验体会
