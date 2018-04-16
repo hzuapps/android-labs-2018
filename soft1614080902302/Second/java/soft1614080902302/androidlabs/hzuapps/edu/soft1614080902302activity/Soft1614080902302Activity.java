@@ -1,5 +1,6 @@
 package soft1614080902302.androidlabs.hzuapps.edu.soft1614080902302activity;
 
+
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
 
 public class Soft1614080902302Activity extends AppCompatActivity {
 

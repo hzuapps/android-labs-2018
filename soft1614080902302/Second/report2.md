@@ -142,3 +142,4 @@ public class Soft1614080902302Activity extends AppCompatActivity {
 
 ## 4.实验体会 
   通过这次实验,我了解到Android的组件,学会了修改标题栏的名字.
+
