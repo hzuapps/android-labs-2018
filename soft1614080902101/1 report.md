@@ -1,0 +1,17 @@
+# 第一次实验
+## 1.实验目的
+1.搭建开发环境，运行。
+2.了解并使用GitHub的克隆与上传文件的方法。
+## 2.实验环境
+1.github 
+2.git 
+3.andriod工作室
+## 3.实验步骤
+1.先从项目内克隆文件$ git clone https://github.com/soft1614080902109/android-labs-2018/ 
+2.填写一个新项目
+3.添加截图$ git add soft1614080902204.png 6，git commit -m“＃1第1次实验截图”7，git push
+## 4.实验结果
+已搭建开发环境（andriod studio 3.1正式版），运行截图如下：
+！[搭建开发环境运行截图]（https://raw.githubusercontent.com/Nicklaus-Y/android-labs-2018/master/CURRY.png）
+## 5.实验体会
+搭建的Android的开发环境的过程中出现了各种问题，最后在舍友的帮助下安装成功，使用GIT中上传文件，尝试了很多次，还不是很熟练。但是又学习了一款新的软件，感觉很棒。
