@@ -29,7 +29,7 @@ $ git push
 3. 修改 `res/string.xml` 里的 app_name 的值为我自己的应用名 
 4. 点击上方绿色的"Run",启动虚拟机运行应用 
 ## 3. 实验结果 
-
+![在Android SDK Manager中选择6.0库](https://github.com/Ghlyh/android-labs-2018/blob/master/soft1614080902402/2.png "配置教育网下载代理")
 ## 4. 实验体会 
 这次实验比较简单，主要是在项目刚建立的时候需要等待插件下载，比较费时。运行App需要新建虚拟机，而新建虚拟机又要下载新的东西，又是联的外网，使得我第一次开始运行要花很长的时间。 
 而且安卓App和一般的java程序不同，没有main函数。 
