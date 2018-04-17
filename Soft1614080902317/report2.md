@@ -16,7 +16,7 @@
 （5）在GitHub中使用Markdown文件编写实验报告
 
 3.实验结果
-![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/#2.PNG)	
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%232.PNG)	
 4.实验体会
 
   本次实验过程中，学习Android系统中的组件activity
