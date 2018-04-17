@@ -18,7 +18,7 @@
 ++ + +（4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
 ++ + +       // 是否只修改了自己的文件？
 ++ + +（5）在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
-++ + +      // 保存在自己的文件夹下
+++ + +      // 保存在自己的文件夹下.
 ++ + +
 ++ + +## 3.实验结果
 ++ + 
