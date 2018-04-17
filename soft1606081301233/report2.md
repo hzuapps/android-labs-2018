@@ -27,9 +27,24 @@
       // 是否只修改了自己的文件？
       
 ### 5.在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
-      // 保存在自己的文件夹下
-
-## 三、实验结果
+      // 保存在自己的文件夹下
+## 三、实验提示
+根据MVC、MVP设计模式或其他Android App设计模式设计Java类；
+先设计表示业务数据的Java类，如表示订单、图书、商品、车辆、音乐、笔记等的类；
+再考虑设计一些业务服务类，如网络连接等类；
+上传代码时，代码放到自己的学号里面，同时保留Studio的目录结果，如：
+app
+- src
+-- main
+--- AndroidManifest.xml (第1个文件)
+--- java
+---- edu / hzuapps / androidlabs / Soft学号 / Soft学号Activity.java (第2个文件)
+--- res 
+---- layout
+----- soft_学号_activity.xml (第3个文件)
+---- values
+----- strings.xml (第4个文件)
+## 四、实验结果
 package edu.hzuapps.androidlabs.soft1606081301233;
 
 import android.support.v7.app.AppCompatActivity;
@@ -81,7 +96,9 @@ import android.os.Bundle;
 </application>
 </manifest>
 
-<resources><string name="app_name">soft1606081301233日历日程</string> </resources>
+<resources>
+      <string name="app_name">soft1606081301233日历日程</string> 
+</resources>
 
 
 ## 四、实验体会
