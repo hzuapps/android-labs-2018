@@ -20,8 +20,8 @@
  
 ## 3. 实验结果
  
- ![image](https://github.com/shaoqiangli/android-labs-2018/blob/master/soft1614080902126/截图1.png)
- ![image](https://github.com/shaoqiangli/android-labs-2018/blob/master/soft1614080902126/截图2.png)
+ ![image](https://github.com/WUJINH/android-labs-2018/blob/master/soft1614080902126/截图1.png)
+ ![image](https://github.com/WUJINH/android-labs-2018/blob/master/soft1614080902126/截图2.png)
  
  
 ## 4. 实验体会
