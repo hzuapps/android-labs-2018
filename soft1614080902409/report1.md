@@ -15,7 +15,7 @@ soft1614080902409
 提交代码并发Pull Request.
 
 ##3.实验结果：
-![image]（https://raw.githubusercontent.com/dengguangshi/android-labs-2018/master/soft1614080902409/soft1614080902409.png）
+![截图](https://github.com/dengguangshi/android-labs-2018/blob/master/soft1614080902409/soft1614080902409.png)
 
 ##4.实验心得：
 在这次实验中，经过老师的耐心讲解和指导下，我学会了Android开发环境的搭建，也对Git的功能有了进一步的了解，谢谢老师的指导。
