@@ -14,4 +14,4 @@
 ![image](https://github.com/Moshaojia/android-labs-2018/blob/master/soft1614080902405/main/shiyaner.jpg)
 -## 4.实验体会 
 ##4.实验心得
-本次实验有点复杂，但是慢慢的，还是搞定了，还是需要多做，多注重细节。
+本次实验有点复杂，但是慢慢的，还是搞定了，还是需要多做， 多注重细节。
