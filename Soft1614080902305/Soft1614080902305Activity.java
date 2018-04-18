@@ -1,4 +1,4 @@
-package androidlabs.hzuapps.edu.soft1614080902305;
+package edu.hzuapps.androidlabs.soft1614080902305;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
