@@ -40,6 +40,7 @@
     </application>
 
 </manifest>
+
 ### activity_soft1614080902121代码
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
