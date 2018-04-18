@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.hzuapps.andriodlabs.soft1606070302104.Soft1606070302104Activity">
+    tools:context=".Soft1606070302104Activity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,5 +14,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
 </android.support.constraint.ConstraintLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.hzuapps.andriodlabs.soft1606070302104">
+    package="edu.hzuapps.androidlabs2018.soft1606070302104">
 
     <application
         android:allowBackup="true"
@@ -17,5 +17,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>
