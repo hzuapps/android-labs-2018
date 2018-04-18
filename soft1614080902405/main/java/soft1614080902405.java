@@ -8,6 +8,6 @@ public class soft1614080902405 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft1614080902405);
+         setContentView(R.layout.activity_soft1614080902405);
     }
 }
