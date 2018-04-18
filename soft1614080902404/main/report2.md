@@ -35,7 +35,7 @@
  // 保存在自己的文件夹下
  ```  
  ## 3.实验结果
- ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/%E5%AE%9E%E9%AA%8C%E4%BA%8C.PNG)
+ ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%BA%8C.PNG)
  ## 4.实验体会
  
  通过这次实验学习了Android Studio的一些基本操作
