@@ -29,6 +29,6 @@ $ git push
 在GitHub中使用Markdown文件编写实验报告（report1.md）
 
 ## 3.实验结果
-
+![image](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E6%88%AA%E5%9B%BE.jpg?raw=true)
 ## 4.实验体会
 本次实验主要是熟悉一下Android Studio的界面、操作，并且也浅显地明白了有关activity的知识
