@@ -16,6 +16,6 @@
 	$ git push
 
 ## 3.实验结果
-
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/Soft1614080902410%E5%AE%9E%E9%AA%8C2.png)
 ## 4.实验体会
 这次实验中，我们编写了Andriod Studio中的第一个代码，大致了解了软件的大致结构。
