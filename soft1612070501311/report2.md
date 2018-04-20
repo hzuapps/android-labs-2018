@@ -1,22 +1,23 @@
-# 第一次试验报告
+#第二次实验
+
+1.实验目标
+（1）在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ； 
+（2）根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）； 
+（3）将标题设置为自己的学号+对应的功能或题目； 
+（4）根据自己选择的题目实现Activity中导航、调用等功能（选做）
+
+2.实验步骤
+
+（1）阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab 
+（2）在电脑上Android Studio编写代码// 代码要可以运行！ 
+（3）使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018 $ git pull $ git add 学号目录/* $ git commit "#12345678 " $ git push 
+（4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+（5）在GitHub中使用Markdown文件编写实验报告
  
- ## 1.试验目标
- android开发环境搭建
+ 3.实验结果
+![image](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/lab2.png)	
  
- ## 2.试验步骤
- 1）搭建开发环境（Android Studio 3.1正式版），运行（截图）；
- 
- 2）入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
- 
- 3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft614080902417；
- 
- 4）创建一个Java类：edu.hzuapps.androidlabs.soft1612070501311；
- 
- 5）提交代码并发Pull Request，老师合并之后截图。
- 
- ## 3.试验结果
-![在Android SDK Manager中建立以自己学号为名字的项目](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/Soft1612070501311.jpg)
- 
- ## 4.试验体会
- 实验较为轻松，只是还不了解如何在Android-studio中建立一个手机界面，以显示自己学号的信息。还有就是Android-studio占用内存太大，比较卡，对于这个软件还需要多加熟练。
- 最后谢谢老师对我前一次实验的百般叮嘱！
+ 4.实验体会
+  
+  本次实验学习了Activity的构建，菜单中标题栏名字的更改，以及android项目的构建。
+  谢谢老师！
