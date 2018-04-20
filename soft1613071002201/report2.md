@@ -15,7 +15,7 @@
  （5）在GitHub中使用Markdown文件编写实验报告  
   
  ## 3.实验结果
- ![image](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/lab2.png)	  
+ ![image](https://github.com/zhaokangye/android-labs-2018/blob/master/soft1613071002201/%E5%AE%9E%E9%AA%8C2%E6%88%AA%E5%9B%BE.png?raw=true)	  
   
  ## 4.实验体会
   本次实验主要是给自己定了一个项目的大致内容，然后也对android studio的各种文件夹的用途稍微了解了一下。
