@@ -13,6 +13,6 @@
 （6）提交代码并发Pull Request。
 
 ## 3.实验结果
-
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/Soft1614080902410.png)
 ## 4.实验体会
 通过这次实验，我们学会了Git工具的使用方式，同时搭建了本门课程所需要的开发环境，跨出了第一步。
