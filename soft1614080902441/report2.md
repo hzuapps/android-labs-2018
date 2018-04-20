@@ -33,7 +33,6 @@ protected void onCreate(Bundle savedInstanceState) {
     setContentView(R.layout.activity_soft1614080902441_main);
 }
 }
-
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".Soft1614080902415MainActivity">
 
 <TextView
@@ -48,5 +47,4 @@ protected void onCreate(Bundle savedInstanceState) {
 
 Soft1614080902441模拟公众号
 4.实验体会
-
 本次实验过后，创建了自己的issue，学会了在android stdio创建自己的项目
