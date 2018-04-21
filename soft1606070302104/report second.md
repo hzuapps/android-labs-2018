@@ -94,8 +94,7 @@ public class Soft1606070302104Activity extends AppCompatActivity {
 </android.support.constraint.ConstraintLayout>
 
 #### 4.strings.xml
-
-<resources> 
+<resources>
     <string name="app_name">soft1606070302104</string>
 </resources>
 
