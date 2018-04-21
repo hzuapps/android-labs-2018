@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1614080902131stopwatch.Soft1614080902131">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_text"/>
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_id"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="12:37.55"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_below="@+id/toolbar_id"
+        android:layout_marginTop="10dp"
+        android:id="@+id/time_show_text_view"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="记录"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_below="@id/time_show_text_view"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/green_shape"
+        android:id="@+id/middle_text_view"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/middle_text_view">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/grade_show_text_view"
+                android:text="12:37.55"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                />
+        </ScrollView>
+
+
+    </FrameLayout>
+
+</RelativeLayout>
