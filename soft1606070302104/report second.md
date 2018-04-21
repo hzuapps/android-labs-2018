@@ -4,6 +4,7 @@
 ### 实验二：Android组件编程
 
 ## 2.实验步骤
+
 ### （1）实验要求
 (1).根据MVC、MVP设计模式或其他Android App设计模式设计Java类；
 (2).先设计表示业务数据的Java类，如表示订单、图书、商品、车辆、音乐、笔记等的类；
@@ -11,9 +12,9 @@
 (4).上传代码时，代码放到自己的学号里面，同时保留Studio的目录结果
 
 ### （2）. 在电脑上Android Studio编写代码  
+。
 
-
-### (3). 使用Git将代码提交到自己的库中：https://github.com/lili503946540/android-labs-2018   
+### （3）. 使用Git将代码提交到自己的库中：https://github.com/lili503946540/android-labs-2018   
 ```  
 $ git pull
 $ git add 学号目录/*
@@ -21,9 +22,9 @@ $ git commit "#2 第二次实验 纸牌24点 "
 $ git push
 ```  
 
-### (4). 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）  
+### （4）. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）  
 
-### (5). 在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）  
+### （5）. 在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）  
 ```  
 // 保存在自己的文件夹下
 ```  
@@ -73,7 +74,8 @@ public class Soft1606070302104Activity extends AppCompatActivity {
 #### 3.activity_soft1606070302104.xml
 
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
