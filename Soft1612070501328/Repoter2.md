@@ -1,10 +1,14 @@
 #2 第一次实验
   
   ## 1.实验目标
+  
   创建第一个activity文件
+  
   ## 2. 实验步骤
   1.阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+  
   2.在电脑上Android Studio编写代码
+  
   3.使用Git将代码提交到自己的库中：https://github.com/IsMyLucas/android-labs-2018.git
   
  $ git pull
@@ -57,7 +61,8 @@ public class Soft161207051328Activity extends AppCompatActivity {
 
 ###3.activity_soft161207051328.xml
  <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -66,7 +71,7 @@ public class Soft161207051328Activity extends AppCompatActivity {
 
 </android.support.constraint.ConstraintLayout>
 
-###4.strings.xml
+###4.strings.xml 
 <resources>
     <string name="app_name">餐厅点餐</string>
 </resources>
