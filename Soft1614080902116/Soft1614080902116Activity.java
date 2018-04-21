@@ -1,4 +1,4 @@
-package com.example.can.soft1614080902116;
+package com.example.can.Soft1614080902116;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
