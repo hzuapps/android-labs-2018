@@ -11,6 +11,7 @@ Android开发环境的搭建
 （5）提交代码并发Pull Request，老师合并之后截图。
 
 ## 3.实验结果
-上传截图链接
+![](https://github.com/tangweibin/android-labs-2018/blob/master/soft1614080902242/QQ%E6%88%AA%E5%9B%BE20180415095812.png)
 
 ## 4.实验体会
+学会Android开发环境的搭建和熟练github的使用，很简单的操作，是我想的太复杂了。
