@@ -6,6 +6,9 @@
 ### 4、根据自己选择的题目实现Activity中导航、调用等功能（选做）。
 ## 实验步骤
 ### 1、启动Android studio并创建一个要做的项目(输入包的名称是要反向输入)
-### 2、抽出Manifest.xml, strings.xml, MainActivity.java, activity-main.xml并包含原来的目录,git push上来github
+### 2、删除除了Manifest.xml, strings.xml, MainActivity.java, activity-main.xml以外的文件并且保留其原来的根目录
+### 3、把包含上面四个文件的文件夹app保存到克隆下来的文件夹并且git push上来github
 ## 实验结果
+### 如上传代码
 ## 实验体会
+### 这次实验我因Android studio设置的HTTP代理地址导致程序运行得很慢，因此我上网找了其它的代理地址并让我感受到了网速的飞快，如mirrors.neusoft.edu.cn
