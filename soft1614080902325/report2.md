@@ -1,36 +1,36 @@
-# �ڶ���ʵ�� 
+# 第二次实验 
 
-## 1. ʵ��Ŀ��
-Android������
-## 2. ʵ�鲽��
-1����Issues�д����Լ���ѡ�⣺https://github.com/hzuapps/android-labs-2018/issues ��
-2��Ȼ���Android Studio����һ��project��
-3��������ѡ��Ŀ����дһ������Activity�����о�����ѧ��ǰ׺���ŵ��Լ���Java���£���
-	Ȼ����Ҫ�󣬰���Ӧ���ļ��ŵ��Լ��İ����档
+## 1. 实验目的
+Android组件编程
+## 2. 实验步骤
+1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
+2、然后打开Android Studio建立一个project。
+3、根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；
+	然后按照要求，把相应的文件放到自己的包下面。
 	app
 	- src
 	-- main
-	--- AndroidManifest.xml (��1���ļ�)
+	--- AndroidManifest.xml (第1个文件)
 	--- java
-	---- edu / hzuapps / androidlabs / Softѧ�� / Softѧ��Activity.java (��2���ļ�)
+	---- edu / hzuapps / androidlabs / Soft学号 / Soft学号Activity.java (第2个文件)
 	--- res 
 	---- layout
-	----- soft_ѧ��_activity.xml (��3���ļ�)
+	----- soft_学号_activity.xml (第3个文件)
 	---- values
-	----- strings.xml (��4���ļ�)
-4��Ȼ���ļ�push��ȥ����д����������Ϊ�Լ���ѧ��+��Ӧ�Ĺ��ܻ���Ŀ��
+	----- strings.xml (第4个文件)
+4、然后将文件push上去，编写将标题设置为自己的学号+对应的功能或题目；
 
 
 
-## 3. ʵ����
+## 3. 实验结果
 
-![��Android SDK](https://github.com/li763407418/android-labs-2018/blob/master/soft1614080902325/�ڶ��������ͼ.png)
+![在Android SDK](https://github.com/li763407418/android-labs-2018/blob/master/soft1614080902325/#2.png)
 
 
-## 4. ʵ�����
-������һЩ�������˵�ģ�����ʵ��������ĵ���������ܲ��ˣ���ʦ���ú�֩�뽲���л�����ҳ�潲��ʵ����ô����ʱ��
-�ҵĵ��Կ��ܻ�������ͻ���ֿ��٣�����ҳ������ݳ����ص���״������������ʦ������������������ʵ���ʱ���ҵ�
-������ʾ�������磬����ʲô��ҳ���򲻿�������Ҿ��Ǹ�����֪��Ҫ��ʲô�����˷���ʱ�䡣���ʵ��Ҫ�ύ�Ķ����Ҷ�
-��ͨ���鿴���ͨ����ͬѧ�Ŀ���ļ���֪���ġ�
+## 4. 实验体会
+首先有一些很想很想说的，就是实验室里面的电脑是真的受不了，老师在用红蜘蛛讲课切换各种页面讲解实验怎么做的时候，
+我的电脑可能缓冲问题就会出现卡顿，几个页面的内容出现重叠的状况。而且在老师讲解完让我们自行做实验的时候，我的
+电脑显示是有网络，但是什么网页都打不开，造成我就是根本不知道要做什么，又浪费了时间。这次实验要提交的东西我都
+是通过查看别的通过的同学的库的文件才知道的。
 
-**�Ӵ�**����
+**加粗**常规
