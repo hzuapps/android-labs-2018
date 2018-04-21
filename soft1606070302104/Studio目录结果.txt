@@ -1,0 +1,16 @@
+-计算机
+--Windows（C：）
+---Users
+----lili
+-----AndroidStudioProjects
+------soft1606070302104
+-------app
+--------src
+---------main
+----------AndroidMainfest.xml(第一个文件)
+----------java/edu/hzuapps/androidlabs2018/soft1606070302104/Soft1606070302104Activity.java（第二个文件）
+----------res
+-----------layout
+------------activity_soft1606070302104.xml(第三个文件)
+-----------values
+------------strings.xml(第四个文件)
