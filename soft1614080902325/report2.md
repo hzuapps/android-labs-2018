@@ -24,7 +24,7 @@ Android组件编程
 
 ## 3. 实验结果
 
-![在Android SDK](https://github.com/li763407418/android-labs-2018/blob/master/soft1614080902325/#2.png)
+![在Android SDK](https://github.com/li763407418/android-labs-2018/blob/master/soft1614080902325/%232.png)
 
 
 ## 4. 实验体会
