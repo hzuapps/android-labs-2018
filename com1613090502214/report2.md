@@ -23,7 +23,7 @@
   
   3.使用Git将代码提交到自己的库中：https://github.com/PickForSth/android-labs-2018
   
-      $ git pull
+      $ git pull origin master
       
       $ git add com1613090502214 (git rm 学号目录/*)
       
@@ -37,4 +37,4 @@
 
 四.实验体会
 -
-通过这次实验使我更加熟悉git和android studio
+通过这次实验使我更加熟悉git和android studio,中间因为忘记拉取，总是没push成功，git真的是博大精深
