@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soft1614080902112"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a14775.soft1614080902112activity.Soft1614080902112Activity"
+    android:weightSum="1"
+    android:background="@drawable/bj">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="98dp"
+        android:layout_height="61dp"
+        android:background="@drawable/tubiao2"
+        android:layout_gravity="bottom"
+        android:text="创建项目" />
+</LinearLayout>
