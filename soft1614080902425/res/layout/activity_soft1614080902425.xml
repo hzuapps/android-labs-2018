@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF8D7"
-    tools:context="com.example.administrator.soft1614080902425.soft1614080902425Activity"
+    tools:context="com.example.administrator.soft1614080902425.Soft1614080902425Activity2"
     tools:layout_editor_absoluteY="81dp">
 
     <!--<TextView
