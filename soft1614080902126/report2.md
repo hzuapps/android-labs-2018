@@ -1,4 +1,4 @@
-## 1、实验要求。
+## 1、实验要求
 
  （1）在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
 
@@ -48,5 +48,12 @@
 
 ## 4、实验结果
 
+ ![xml](https://github.com/WUJINH/android-labs-2018/blob/c3a8bd3b04f75f4ff4ddb3e9e4fc3739f9cef4e9/soft1614080902126/app/src/main/AndroidManifest.xml)
+ ![java](https://github.com/WUJINH/android-labs-2018/blob/c3a8bd3b04f75f4ff4ddb3e9e4fc3739f9cef4e9/soft1614080902126/app/src/main/java/edu/hzuapps/androidlabs/soft1614080902126/Soft1614080902126Activity.java)
+ ![xml](https://github.com/WUJINH/android-labs-2018/blob/c3a8bd3b04f75f4ff4ddb3e9e4fc3739f9cef4e9/soft1614080902126/app/src/main/res/layout/soft_1614080902126_activity.xml)
+ ![xml](https://github.com/WUJINH/android-labs-2018/blob/c3a8bd3b04f75f4ff4ddb3e9e4fc3739f9cef4e9/soft1614080902126/app/src/main/res/values/strings.xml)
 
 ## 5、实验体会
+ 
+ 本次实验做了app项目代码的基本上传，上传了3个xml文件和一个java文件，通过编辑包名路径，android-studio会自动创建文件夹和相应的目录，方便了在android-studio中对文件的目录进行创建和修改。本次实验整体较为简单，但需要细心。
+
