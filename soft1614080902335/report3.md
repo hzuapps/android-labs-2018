@@ -16,10 +16,10 @@
 
 ## 3. 实验结果
 app运行结果:
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/ChenchenJT/android-labs-2018/master/soft1614080902335/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE1.png"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/ChenchenJT/android-labs-2018/master/soft1614080902335/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE1.png "配置教育网下载代理")
 
 点击按钮后调到另一个Activity：
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/ChenchenJT/android-labs-2018/master/soft1614080902335/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE2.png"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/ChenchenJT/android-labs-2018/master/soft1614080902335/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE2.png "配置教育网下载代理")
 
 ## 4. 实验体会
 
