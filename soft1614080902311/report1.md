@@ -8,7 +8,7 @@
 
 3. 实验结果
 
-![在Android SDK Manager中选择6.0库](https://user-images.githubusercontent.com/627946/37916827-705faab6-314f-11e8-992e-2106a56ddb54.png "配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/lazytea/android-labs-2018/blob/master/soft1614080902311/test1.PNG"配置教育网下载代理")
 
 
 4. 实验体会
