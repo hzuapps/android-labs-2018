@@ -37,9 +37,10 @@ app
 ----- soft_学号_activity.xml (第3个文件)
 ---- values
 ----- strings.xml (第4个文件)
-3.实验结果
+
+.实验结果
 -
 ![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/2%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
 
-4.实验体会
+.实验体会
 -
