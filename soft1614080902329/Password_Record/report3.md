@@ -9,8 +9,11 @@
 * 实现OnClickListener接口，复写onClick方法，findViewById获取监听组件，startActivity执行跳转
  
 ## 3.实验结果
-* 实验截图
-![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/second_labs.png)
+* 实验截图1
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab3_1.png)
+
+* 实验截图2
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab3_2.png)
 
 ## 4.实验体会 
 * 还好
