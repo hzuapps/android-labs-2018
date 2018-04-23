@@ -15,7 +15,7 @@
 
 
 ## 3. 实验结果
-#app运行看见第一个Activity:
+# app运行看见第一个Activity:
 ![](https://github.com/yangyangyang2017/android-labs-2018/blob/master/soft1614080902221/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png)
 
 
@@ -32,14 +32,7 @@
 
 
 
-
-
-
-
-
-
-
-#点击下方"开始游戏"按钮后调到另一个Activity：
+# 点击下方"开始游戏"按钮后调到另一个Activity：
 ![](https://github.com/yangyangyang2017/android-labs-2018/blob/master/soft1614080902221/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE2.png)
 
 
