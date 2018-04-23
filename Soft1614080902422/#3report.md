@@ -37,7 +37,7 @@ $ git push
 
 ## 3. 实验结果
 
-![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/blob/master/Soft1614080902422/#3_1.png "配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/blob/master/Soft1614080902422/%233_1.png "配置教育网下载代理")
 ![在Android SDK Manager中选择6.0库](https://github.com/Demanding/android-labs-2018/blob/master/Soft1614080902422/#3_2.png "配置教育网下载代理")
 ## 4. 实验体会
 这次实验比较前一次来说复杂了一些，需要写一些代码，需要把button拖出来，需要加载图片进去，还要写另一个activity并设置跳转
