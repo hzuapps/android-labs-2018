@@ -61,6 +61,15 @@ public class MainActivity extends Activity  implements OnClickListener {
 3. 在Activity对应的Java文件  Player.java 中给按钮添加按钮事件，具体代码请参考 [Player.java](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/java/edu.hzuapps.androidlabs.soft1614080902427/Player.java)
 4. 实现"选择文件"和"播放"音乐功能
 
+## 实验结果
+
+![1](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/Screenshot_1524494176.png)
+
+![2](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/Screenshot_1524494180.png)
+
+![3](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/Screenshot_1524494458.png)
+
+
 ## 实验心得
 
 这个实验需要对UI部件添加点击事件，经过一番摸索和网上的搜索终于添加成功。
