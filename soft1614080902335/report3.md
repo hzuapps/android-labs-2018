@@ -131,7 +131,7 @@ public class Soft1614080902335Activity1 extends Activity {
 
 
 ## 4. 实验体会
-1   在对Activity布局进行编写时，由于要对控件进行布局，之前所采用的Linearlayout布局方式需要更改为相对布局Relativelayout，这样可让控件自由设置;  
+1   在对Activity布局进行编写时，由于要对控件进行布局，之前所采用的ConstraintLayout布局方式需要更改为相对布局Relativelayout，这样可让控件自由设置;  
 2   在写Activity时，通过监听在xml定义的按钮，在运用Intent来启动另一个Activity。
 
 **加粗**常规
