@@ -6,29 +6,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import edu.hzuapps.androidlabs.soft1614080902334.R;
 
-public class Soft1614080902334WeatherActivity extends Activity {
+public class BasicActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft1614080902334_weather);
+        setContentView(R.layout.activity_basic);
+
         final Activity thisActivity = this;
-        final Button btn_open = (Button) findViewById(R.id.btn_open);
-        //启动界面增加按钮进入子页面
-        btn_open.setOnClickListener(new View.OnClickListener() {
+        final Button btn_back = (Button) findViewById(R.id.btn_back);
+        //子页面增加按钮返回启动页面
+        btn_back.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (v.equals(btn_open)) {
-                    Intent intent = new Intent(thisActivity,BasicActivity.class);
+                if (v.equals(btn_back)) {
+                    Intent intent = new Intent(thisActivity,Soft1614080902334WeatherActivity.class);
                     thisActivity.startActivity(intent);
                 }
             }
         });
-
-
     }
-
-
-
 }
