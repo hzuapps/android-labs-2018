@@ -33,8 +33,11 @@
     $ git push 
     在自己的GitHub库上创建和发送Pull Request
 ##4.实验结果
+   （1）插入图片
     ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%233_1.PNG)	
+   （2）跳转前
     ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%233_2.PNG)	
+   （3）跳转后
     ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%233_3.PNG)	
 ##5.实验体会   
     通过本次实验，学习掌握了按钮的创建和Activity的跳转功能，以及学习如何添加图片。
