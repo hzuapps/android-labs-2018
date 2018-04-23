@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Soft1614080902317" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
