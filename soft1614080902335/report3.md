@@ -23,7 +23,7 @@ app运行结果:
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/ChenchenJT/android-labs-2018/master/soft1614080902335/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE2.png "配置教育网下载代理")
 
 改变的文件代码：
-1、Soft1614080902335Activity1.java  
+1   Soft1614080902335Activity1.java  
 package androidlabs.hzuapps.edu.soft1614080902335;
 
 import android.app.Activity;
@@ -58,7 +58,7 @@ public class Soft1614080902335Activity1 extends Activity {
     }
 }
 
-2、activity_soft1614080902335_qq1.xml  
+2   activity_soft1614080902335_qq1.xml  
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -108,7 +108,7 @@ public class Soft1614080902335Activity1 extends Activity {
         tools:layout_editor_absoluteY="413dp" />
 </RelativeLayout>
 
-3、activity_soft1614080902335_qq2.xml 
+3   activity_soft1614080902335_qq2.xml  
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
