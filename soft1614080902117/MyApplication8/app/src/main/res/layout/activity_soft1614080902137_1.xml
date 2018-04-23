@@ -4,16 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902117Activity">
+    tools:context=".Soft1614080902137Activity_1">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tu"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="新建"
+        android:text="保存"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="458dp" />
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="418dp" />
 
 </android.support.constraint.ConstraintLayout>
