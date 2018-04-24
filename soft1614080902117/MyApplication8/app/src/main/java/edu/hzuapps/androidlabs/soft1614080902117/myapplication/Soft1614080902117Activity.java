@@ -21,7 +21,7 @@ public class Soft1614080902117Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setClass(Soft1614080902117Activity.this,Soft1614080902137Activity_1.class);
+                intent.setClass(Soft1614080902117Activity.this,Soft1614080902117Activity_1.class);
                 startActivity(intent);
             }
         });
