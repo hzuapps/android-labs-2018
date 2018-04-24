@@ -13,7 +13,7 @@ public class Soft1614080902227Activity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
+        setContentView(R.layout.activity_soft1614080902227);
         Button btn_Click = (Button)findViewById(R.id.Air);
         Button btn_Click1 = (Button)findViewById(R.id.TV);
         btn_Click.setOnClickListener(new MyOnClickListener());
