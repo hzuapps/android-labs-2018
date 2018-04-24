@@ -17,7 +17,7 @@
 // 代码要可以运行！
 ```   
 
-3. 使用Git将代码提交到自己的库中：https://github.com/chenjiahui-xxz/android-labs-2018   
+3. 使用Git将代码提交到自己的库中：https://github.com/LiuYB135/android-labs-2018
 ```  
 $ git pull
 $ git add Com1614080901141/*
