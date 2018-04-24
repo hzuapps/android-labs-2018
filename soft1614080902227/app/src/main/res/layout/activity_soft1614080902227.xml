@@ -6,12 +6,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.soft1614080902227activity.Soft1614080902227Activity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/Air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/air1"
+            android:text="志高空调"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/tv1"
+            android:text="乐视TV"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
