@@ -22,7 +22,8 @@
 +       // 保存在自己的文件夹下
 + ## 3.实验结果
 
-
+![image]（https://github.com/LoadedFreak/android-labs-2018/blob/master/soft1614080902417/%233/395277057291056000.jpg）
+![image]
 
 +## 4.试验体会
 
