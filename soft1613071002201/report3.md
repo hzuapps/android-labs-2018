@@ -13,7 +13,8 @@
  （5）将运行结果放入报告中。
   
  ## 3.实验结果
-   ![image](https://raw.githubusercontent.com/zhaokangye/android-labs- 2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C01.png)  
+   ![image](https://raw.githubusercontent.com/zhaokangye/android-labs- 2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C01.png) 
+   
   ![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C02.png)  
   
  ## 4.实验体会
