@@ -1,18 +1,18 @@
- �ڶ���ʵ��
+ 第二次实验
  
- ## 1.ʵ��Ŀ��
- �˽�Android������
+ ## 1.实验目标
+ 了解Android组件编程
  
- ## 2.ʵ�鲽��
-��1����Issues�д����Լ���ѡ�⣺https://github.com/hzuapps/android-labs-2018/issues ��
- (2��������ѡ��Ŀ����дһ������Activity�����о�����ѧ��ǰ׺���ŵ��Լ���Java���£���
-��3������������Ϊ�Լ���ѧ��+��Ӧ�Ĺ��ܻ���Ŀ��
-��4�������Լ�ѡ�����Ŀʵ��Activity�е��������õȹ��ܣ�ѡ���� ## 3.ʵ����
+ ## 2.实验步骤
+（1）在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；  
+（2）根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；  
+（3）将标题设置为自己的学号+对应的功能或题目；  
+（4）根据自己选择的题目实现Activity中导航、调用等功能（选做）  
  
 
- ## 3.ʵ����
+ ## 3.实验结果
 
- ###1��AndroidManifest.xml
+ ###1、AndroidManifest.xml
  <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hzu.com1614080901140">
@@ -74,8 +74,8 @@ public class Com1614080901140MainActivity extends AppCompatActivity {
 
 ###4.strings.xml
 <resources>
-    <string name="app_name">��·12306</string>
+    <string name="app_name">铁路12306</string>
 </resources>
 
- ## 4.ʵ�����
-       ��һ�νӴ�Android ����������һ��Android��Ŀ�ʹ�����һ��activity���о���û�������е��ѣ������Ǹ��𲽰ɡ�
+ ## 4.实验体会
+       第一次接触Android 软件，创建一个Android项目和创建了一个activity，感觉并没有想象中的难，可能是刚起步吧。
