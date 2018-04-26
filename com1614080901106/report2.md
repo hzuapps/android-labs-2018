@@ -34,7 +34,8 @@ $ git push
 
 ## 3.实验结果     
 
-`<?xml version="1.0" encoding="utf-8"?>
+```
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hzu.com1614080901106">
 
@@ -54,9 +55,11 @@ $ git push
         </activity>
     </application>
 
-</manifest>``
+</manifest>
+```
 
-`package com.example.hzu.com1614080901106;
+```
+package com.example.hzu.com1614080901106;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -68,9 +71,11 @@ public class com1614080901106Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com1614080901106);
     }
-}``
+}
+```
 
-`<?xml version="1.0" encoding="utf-8"?>
+```
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -87,11 +92,14 @@ public class com1614080901106Activity extends AppCompatActivity {
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>``
+</android.support.constraint.ConstraintLayout>
+```
 
-`<resources>
+```
+<resources>
     <string name="app_name">身高体重计算器</string>
-</resources>``
+</resources>
+```
 ## 4.实验体会
 （1）本次实验了解了如何在Android Studio上创建一个项目，对这个软件有了初步的了解。
 （2）这次实验还是比较简单的，毕竟还没开始码代码。
