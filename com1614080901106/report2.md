@@ -32,8 +32,30 @@ $ git push
 // 保存在自己的文件夹下
 ```  
 
-## 3.实验结果
-![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/app/src/main/AndroidManifest.xml)
+## 3.实验结果     
+`
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hzu.com1614080901106">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".com1614080901106Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+`
 ![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/app/src/main/java/com/example/hzu/com1614080901106/com1614080901106Activity.java)
 ![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/app/src/main/res/layout/activity_com1614080901106.xml)
 ![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/app/src/main/res/values/strings.xml)
