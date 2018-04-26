@@ -14,7 +14,7 @@
 // 代码要可以运行！
 ```   
 
-3. 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018   
+3. 使用Git将代码提交到自己的库中：https://github.com/BoliChen/android-labs-2018   
 ```  
 $ git pull
 $ git add 学号目录/*  (git rm 学号目录/*)
@@ -54,7 +54,7 @@ $ git push
         </activity>
     </application>
 
-</manifest>`
+</manifest>``
 
 `package com.example.hzu.com1614080901106;
 
@@ -68,7 +68,7 @@ public class com1614080901106Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com1614080901106);
     }
-}`
+}``
 
 `<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -87,11 +87,11 @@ public class com1614080901106Activity extends AppCompatActivity {
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>`
+</android.support.constraint.ConstraintLayout>``
 
 `<resources>
     <string name="app_name">身高体重计算器</string>
-</resources>`
+</resources>``
 ## 4.实验体会
 （1）本次实验了解了如何在Android Studio上创建一个项目，对这个软件有了初步的了解。
 （2）这次实验还是比较简单的，毕竟还没开始码代码。
