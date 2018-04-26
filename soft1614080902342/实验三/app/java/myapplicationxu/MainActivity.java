@@ -1,5 +1,5 @@
 package com.example.xjh.myapplicationxu;
-
+//用来显示开始的界面
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

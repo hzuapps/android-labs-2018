@@ -1,5 +1,5 @@
 package com.example.xjh.myapplicationxu;
-
+//用来显示另一个activity
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 

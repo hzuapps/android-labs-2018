@@ -22,9 +22,9 @@ Android资源使用编程
 
 3.实验结果
 
- ![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/res/drawable/mouse.png) 
+![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/kaishi.JPG) 
 
- ![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/res/drawable/soft1614080902342.png) 
+![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/lingyig.JPG) 
 
 4.实验体会
 
