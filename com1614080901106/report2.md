@@ -56,7 +56,6 @@ $ git push
 
 </manifest>`
 
-
 `package com.example.hzu.com1614080901106;
 
 import android.support.v7.app.AppCompatActivity;
