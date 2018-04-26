@@ -45,6 +45,10 @@ $ git push
 
 ## 四、实验结果
 
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy3-1.png?raw=true)
+
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy3-2.png?raw=true)
+
 ## 五、实验体会
 
 1.本次实验成功学会了添加照片和点击按钮跳转的技能;
