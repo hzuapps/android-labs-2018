@@ -12,7 +12,7 @@
 
 ## 2、实验步骤
 
-（1）、通过Android studio 3.1建立一个天气查询的项目，创建带自己学号的activity文件；
+（1）、通过Android studio 3.1建立一个词汇测试的项目，创建activity文件；
 
 （2）、通过Android studio 3.1编写代码；
 
