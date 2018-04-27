@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlab.soft1614080902205;
+package edu.hzuapps.androidlabs.soft1614080902205;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,25 +8,35 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.app.*;
+import android.content.*;
 
-public class Soft1614080902205Activity extends AppCompatActivity {
+import android.widget.Button;
+public class Soft1614080902205Activity extends AppCompatActivity{
+
+    Button startButton;
+
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902205);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
+        FloatingActionButton startButton = (FloatingActionButton) findViewById(R.id.fab);
+        startButton.setOnClickListener(new View.OnClickListener(){@Override
+        public void onClick(View v) {
+            Intent intent=new Intent();
+            intent.setClass(Soft1614080902205Activity.this, Soft1614080902205Activity2.class);
+            startActivity(intent);
+        }
         });
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
