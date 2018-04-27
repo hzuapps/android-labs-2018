@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.*;
 import android.view.*;
-public class soft1614080902425Activity extends AppCompatActivity implements View.OnClickListener {
+public class Soft1614080902425Activity2 extends AppCompatActivity implements View.OnClickListener {
     TextView textview;
     private Button Button1;
     private Button Button2;
