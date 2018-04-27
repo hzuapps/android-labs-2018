@@ -1,5 +1,13 @@
-package edu.hzuapps.androidlabs.com1614080901103;
+package com.example.cyb.com1614080901103;
 
-public class Com1614080901103Activity {
-  
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Com1614080901103Activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_com1614080901103);
+    }
 }
