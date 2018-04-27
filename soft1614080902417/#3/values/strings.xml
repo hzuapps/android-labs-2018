@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">#1001 音乐播放器</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new">NewActivity</string>
+</resources>
