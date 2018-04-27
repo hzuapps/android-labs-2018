@@ -22,6 +22,14 @@
             android:layout_marginTop="80px"
             />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_password_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80px"
+            />
+
         <EditText
             android:id="@+id/username"
             android:layout_width="wrap_content"
@@ -31,7 +39,7 @@
             android:textSize="26dp"
             android:inputType="textPersonName"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="170px"
+            android:layout_marginTop="80px"
             />
 
         <EditText
@@ -43,7 +51,7 @@
             android:textSize="26dp"
             android:inputType="textPassword"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60px"
+            android:layout_marginTop="40px"
             />
 
 
@@ -56,6 +64,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="130px"
             />
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
