@@ -20,8 +20,8 @@
 3. 使用Git将代码提交到自己的库中：https://github.com/chenjiahui-xxz/android-labs-2018   
 ```  
 $ git pull
-$ git add 学号目录/*
-$ git commit "#12345678 "
+$ git add Com1614080901134/*
+$ git commit  -m " 实验二"
 $ git push
 ```  
 
