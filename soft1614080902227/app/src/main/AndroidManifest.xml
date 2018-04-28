@@ -10,12 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Soft1614080902227Activity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Remote_0f_Air"
+            android:label="@string/title_activity_air" />
+        <activity
+            android:name=".Remote_of_TV"
+            android:label="乐视TV"
+            />
     </application>
 
 </manifest>

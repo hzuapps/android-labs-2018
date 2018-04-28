@@ -19,5 +19,5 @@
 运行hollo world
 ![image](https://github.com/hzutanziyang/android-labs-2018/blob/master/soft1614080902227/helloworld.jpg)
 ## 实验体会
-  通过这次实验，让我了解了github平台的运用，因为初次使用，第一次提交作业失败了很多次，后来通过询问同学后，慢慢掌握基本的操作。Android studio的使用
+  通过这次实验，让我深刻了解了github平台的运用，因为初次使用，第一次提交作业失败了很多次，后来通过询问同学后，慢慢掌握基本的操作。Android studio的使用
   运行app时，不知道什么原因，虚拟机运行不了，然后只能通过手机运行截图。
