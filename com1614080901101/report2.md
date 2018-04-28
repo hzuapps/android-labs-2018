@@ -18,3 +18,4 @@
 ![实验截图](https://github.com/Tmouser/android-labs-2018/blob/master/com1614080901101/Com1614080901101Activity2.JPG)
 
 ## 实验体会
+使用了Android Studio编写程序，由于不太熟悉，过程中走了不少弯路，也出现了许多困惑，本次需要上传的文件比较多，需要多多注意。
