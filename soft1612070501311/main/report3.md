@@ -10,8 +10,10 @@
   使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
  
  $ git pull
+ 
  $ git add 学号目录/*  (git rm 学号目录/*)
- $ git push
+
+ $ git pull
  
  在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
  
