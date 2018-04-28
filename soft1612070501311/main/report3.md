@@ -1,22 +1,37 @@
-# 第一次试验报告
+# 第三次实验
  
- ## 1.试验目标
- android开发环境搭建
+ ## 1.实验目标
+  掌握在Android应用中使用图片等资源的方法。
  
- ## 2.试验步骤
- 1）搭建开发环境（Android Studio 3.1正式版），运行（截图）；
+ ## 2.实验步骤
+  阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+  在电脑上Android Studio编写代码
+ // 代码要可以运行！
+  使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
  
- 2）入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
+ $ git pull
+ $ git add 学号目录/*  (git rm 学号目录/*)
+ $ git push
  
- 3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft614080902417；
+ 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
  
- 4）创建一个Java类：edu.hzuapps.androidlabs.soft1612070501311；
+ //是否只修改了自己的文件？
  
- 5）提交代码并发Pull Request，老师合并之后截图。
+ 在GitHub中使用Markdown文件编写实验报告
  
- ## 3.试验结果
-![在Android SDK Manager中建立以自己学号为名字的项目](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/Soft1612070501311.jpg)
+ // 保存在自己的文件夹下
  
- ## 4.试验体会
- 实验较为轻松，只是还不了解如何在Android-studio中建立一个手机界面，以显示自己学号的信息。还有就是Android-studio占用内存太大，比较卡，对于这个软件还需要多加熟练。
- 最后谢谢老师对我前一次实验的百般叮嘱！
+ ## 3.实验结果
+ 
+ ![在手机上运行效果](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/main/3First.jpg)
+ ![在手机上运行效果2](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/main/3Second.png)
+ 
+ ## 4.实验体会
+  
+  这次的实验难度很大。
+  （1）Android Studio 特别繁大，每次操作需要等很久时间才相应；
+  （2）学习了相对布局的相关知识；
+  （3）学习了按钮的布置，按钮的函数和相应的操作；
+  （4）学习了怎么添加颜色。
+  总的来说，这次的实验难度在于了解一个不认识的知识，怎么样在短时间内上手。我花了四五天解决这个实验，可能是我的能力有限吧。
+  谢谢老师！
