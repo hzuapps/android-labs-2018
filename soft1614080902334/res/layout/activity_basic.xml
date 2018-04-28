@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity">
+
+    <!--晴朗天气-->
+    <TextView
+        android:id="@+id/textview_weather_sunny"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="54dp"
+        android:drawableTop="@drawable/sunny"
+        android:gravity="center"
+        android:text="@string/weather_sunny"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentLeft="true" />
+    <!--多云天气-->
+    <TextView
+        android:id="@+id/textview_weather_cloudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textview_weather_sunny"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="34dp"
+        android:drawableTop="@drawable/cloudy"
+        android:gravity="center"
+        android:text="@string/weather_cloudy" />
+    <!--有雾天气-->
+    <TextView
+        android:id="@+id/textview_weather_fog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textview_weather_sunny"
+        android:layout_marginBottom="149dp"
+        android:drawableTop="@drawable/fog"
+        android:gravity="center"
+        android:text="@string/weather_fog"
+        android:layout_alignLeft="@+id/textview_weather_sunny" />
+    <!--下雨天气-->
+    <TextView
+        android:id="@+id/textview_weather_shower"
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_alignStart="@+id/textview_weather_cloudy"
+        android:layout_alignTop="@+id/textview_weather_fog"
+        android:drawableTop="@drawable/shower"
+        android:gravity="center"
+        android:text="@string/weather_shower"
+        android:layout_alignLeft="@+id/textview_weather_cloudy" />
+
+    <!--返回按钮-->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/btn_back"
+        android:gravity="center"
+        android:visibility="visible"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+    <!--
+    2018.4.23更新
+    实现图片和文字的显示
+    增加返回按钮
+    将默认的约束布局ConstaintLayout改为相对布局RelativeLayout
+    -->
+</RelativeLayout>
