@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hasee.soft1614080902225.Soft1614080902225MainActivity">
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="860dp"
+        android:layout_height="1600dp"
+        android:drawableTop="@drawable/timg1"
+        android:text="hello_world"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="40pt"
+        android:layout_height="20pt"
+        android:layout_marginBottom="16dp"
+        android:text="打开"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
