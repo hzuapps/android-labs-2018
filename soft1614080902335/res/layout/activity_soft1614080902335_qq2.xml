@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Soft1614080902335Activity2">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="该功能开发中..."
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+</RelativeLayout>
