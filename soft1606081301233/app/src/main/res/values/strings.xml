@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">soft1606081301233</string>
+    <string name="hello_second">the second Activity</string>
 </resources>
