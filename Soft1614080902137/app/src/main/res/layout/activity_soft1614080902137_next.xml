@@ -4,21 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902137Activity">
+    tools:context=".Soft1614080902137Activity_next">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/tu"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/tu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    
-    <Button
-        android:id="@+id/button_open"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="打开"/>
+        android:text="欢迎来到猜数字小游戏！"
+        android:textSize="57dp"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Soft1614080902137Activity_next"
+            android:label="第二页">
+        </activity>
     </application>
 
 </manifest>
