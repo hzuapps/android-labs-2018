@@ -18,7 +18,7 @@
  使用Git将代码提交到自己的库中：https://github.com/Zhuangyupeng/android-labs-2018
  $ git pull
  $ git add soft1614080902430/*
- $ git commit "#3 "
+ $ git commit "#3 酒店订房"
  $ git push
  在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
  
