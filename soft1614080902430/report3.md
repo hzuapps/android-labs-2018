@@ -1,28 +1,28 @@
-#������ʵ��
+# 第三次实验
 
-##1.ʵ��Ŀ��
+## 1.实验目标
 
-������AndroidӦ����ʹ��ͼƬ����Դ�ķ�����
+掌握在Android应用中使用图片等资源的方法。
 
-##2.ʵ��Ҫ��
+##2.实验要求
 
-�ڽ�������ʾ����һ��ͼƬ�������Լ�����Ŀ���ӣ���
+在界面上显示至少一张图片（按照自己的题目添加）；
 
-�ύres/drawable��ͼƬʹ�õĴ��룻
+提交res/drawable及图片使用的代码；
 
-�ύres/values, res/layout���������룻
+提交res/values, res/layout等其他代码；
 
-��Ӧ�����н����ͼ���ŵ�ʵ�鱨���У�
+将应用运行结果截图，放到实验报告中；
 
-���ͼƬ����ť��ʱ������һ��Activity��
+点击图片（或按钮）时，打开另一个Activity。
 
-##3.ʵ�鲽��
+## 3.实验步骤
 
-�Ķ�ʵ��Ҫ��https://github.com/hzuapps/android-labs-2018/labels/Lab
+阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
 
-�ڵ�����Android Studio��д����
+在电脑上Android Studio编写代码
 
-ʹ��Git�������ύ���Լ��Ŀ��У�https://github.com/Zhuangyupeng/android-labs-2018
+使用Git将代码提交到自己的库中：https://github.com/Zhuangyupeng/android-labs-2018
 
 $ git pull
 
@@ -32,14 +32,15 @@ $ git commit "#3 "
 
 $ git push
 
-���Լ���GitHub���ϴ����ͷ���Pull Request��ע��鿴Changed files��
+在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
 
-��GitHub��ʹ��Markdown�ļ���дʵ�鱨�棨report3.md��
+在GitHub中使用Markdown文件编写实验报告（report3.md）
 
-##4.ʵ����
+## 4.实验结果
 ![image](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE1.png?raw=true)
 
 ![iamge](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE2.jpg?raw=true)
-##5.ʵ�����
 
-����ʵ���ǰ�����ѵö࣬ʵ�������Ҳ�кܶ಻���ĵط�������ϸ�ο���ʦ���Ĵ���֮�󣬴����ܶ���ʵ����̡�ҳ�����ת�����ʵ����ص㣬��Ҫ��ͨ���԰�ť���м������Ӷ�ʵ�ֵ����ť֮����ʵ��ҳ�����ת��
+## 5.实验体会
+
+本次实验比前两次难得多，实验过程中也有很多不懂的地方，在仔细参考老师给的代码之后，大致能懂得实验过程。页面的跳转是这次实验的重点，主要是通过对按钮进行监听，从而实现点击按钮之后能实现页面的跳转。
