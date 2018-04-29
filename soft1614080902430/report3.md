@@ -35,6 +35,9 @@ $ git push
 
 
 ## 4.实验结果
+![image](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE1.png?raw=true)
+
+![iamge](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE2.jpg?raw=true)
 
 ## 5.实验体会
 本次实验比前两次难得多，实验过程中也有很多不懂的地方，在仔细参考老师给的代码之后，大致能懂得实验过程。页面的跳转是这次实验的重点，主要是通过对按钮进行监听，从而实现点击按钮之后能实现页面的跳转。
