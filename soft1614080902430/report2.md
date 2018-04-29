@@ -1,34 +1,34 @@
-# ç¬¬äºŒæ¬¡å®éªŒ
+££ µÚ¶ş´ÎÊµÑé
+ 
+##  1.ÊµÑéÒªÇó
+ÔÚÎÊÌâÖĞ´´½¨×Ô¼ºµÄÑ¡Ìâ£ºhttps£º//github.com/hzuapps/android-labs-2018/issues;
+ 
+¸ù¾İ×ÔÑ¡ÌâÄ¿£¬±àĞ´Ò»¸ö»ò¶à¸ö»î¶¯£¨ËùÓĞ¾ù´øÉÏÑ§ºÅÇ°×º£¬·Åµ½×Ô¼ºµÄ×¦ÍÛ°üÏÂ£©;
 
-## 1.å®éªŒè¦æ±‚
-åœ¨Issuesä¸­åˆ›å»ºè‡ªå·±çš„é€‰é¢˜ï¼šhttps://github.com/hzuapps/android-labs-2018/issues ï¼›
+½«±êÌâÉèÖÃÎª×Ô¼ºµÄÑ§ºÅ+¶ÔÓ¦µÄ¹¦ÄÜ»òÌâÄ¿;
 
-æ ¹æ®è‡ªé€‰é¢˜ç›®ï¼Œç¼–å†™ä¸€ä¸ªæˆ–å¤šä¸ªActivityï¼ˆæ‰€æœ‰å‡å¸¦ä¸Šå­¦å·å‰ç¼€ï¼Œæ”¾åˆ°è‡ªå·±çš„JavaåŒ…ä¸‹ï¼‰ï¼›
-
-å°†æ ‡é¢˜è®¾ç½®ä¸ºè‡ªå·±çš„å­¦å·+å¯¹åº”çš„åŠŸèƒ½æˆ–é¢˜ç›®ï¼›
-
-æ ¹æ®è‡ªå·±é€‰æ‹©çš„é¢˜ç›®å®ç°Activityä¸­å¯¼èˆªã€è°ƒç”¨ç­‰åŠŸèƒ½ï¼ˆé€‰åšï¼‰ã€‚
-
-## 2.å®éªŒæ­¥éª¤
-é˜…è¯»å®éªŒè¦æ±‚ï¼šhttps://github.com/hzuapps/android-labs-2018/labels/Lab
-
-åœ¨ç”µè„‘ä¸ŠAndroid Studioç¼–å†™ä»£ç 
-
-ä½¿ç”¨Gitå°†ä»£ç æäº¤åˆ°è‡ªå·±çš„åº“ä¸­ï¼šhttps://github.com/Zhuangyupeng/android-labs-2018
-
-$ git pull
-
-$ git add soft1614080902430/*
-
-$ git commit "#2 #1025é…’åº—è®¢æˆ¿ "
-
-$ git push
-
-åœ¨è‡ªå·±çš„GitHubåº“ä¸Šåˆ›å»ºå’Œå‘é€Pull Requestï¼ˆæ³¨æ„æŸ¥çœ‹Changed filesï¼‰
-
-åœ¨GitHubä¸­ä½¿ç”¨Markdownæ–‡ä»¶ç¼–å†™å®éªŒæŠ¥å‘Šï¼ˆreport1.mdï¼‰
-
-## 3.å®éªŒç»“æœ
-![image](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E6%88%AA%E5%9B%BE.jpg?raw=true)
-## 4.å®éªŒä½“ä¼š
-æœ¬æ¬¡å®éªŒä¸»è¦æ˜¯ç†Ÿæ‚‰ä¸€ä¸‹Android Studioçš„ç•Œé¢ã€æ“ä½œï¼Œå¹¶ä¸”ä¹Ÿæµ…æ˜¾åœ°æ˜ç™½äº†æœ‰å…³activityçš„çŸ¥è¯†
+¸ù¾İ×Ô¼ºÑ¡ÔñµÄÌâÄ¿ÊµÏÖ»î¶¯ÖĞµ¼º½£¬µ÷ÓÃµÈ¹¦ÄÜ£¨Ñ¡×ö£©¡£
+ 
+##  2.ÊµÑé²½Öè
+ ÔÄ¶ÁÊµÑéÒªÇó£ºHTTPS£º//github.com/hzuapps/android-labs-2018/labels/Lab
+ 
+ ÔÚµçÄÔÉÏAndroid Studio±àĞ´´úÂë
+ 
+ Ê¹ÓÃGitµÄ½«´úÂëÌá½»µ½×Ô¼ºµÄ¿âÖĞ£ºHTTPS£º//github.com/Zhuangyupeng/android-labs-2018
+ 
+  $ git pull
+ 
+  $ git add soft1614080902430 / *
+ 
+  $ git commit¡° ££2££1025¾Æµê¶©·¿¡±
+ 
+  $ git push
+  
+  ÔÚ×Ô¼ºµÄGitHub¿âÉÏ´´½¨ºÍ·¢ËÍPull Request£¨×¢Òâ²é¿´ÒÑ¸ü¸ÄµÄÎÄ¼ş£©
+  
+  ÔÚGitHubÉÏÖĞÊ¹ÓÃ½µ¼ÛÎÄ¼ş±àĞ´ÊµÑé±¨¸æ£¨report1.md£©
+  
+ ##  3.ÊµÑé½á¹û
+  £¡[ image ]£¨https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E6%88 £¥AA£¥E5£¥9B£¥BE.jpg£¿Éú=Õæ£©
+  ##  4.ÊµÑéÌå»á
+  ±¾´ÎÊµÑéÖ÷ÒªÊÇÊìÏ¤Ò»ÏÂAndroid StudioµÄ½çÃæ£¬²Ù×÷£¬²¢ÇÒÒ²Ç³ÏÔµØµØÃ÷°×ÁËÓĞ¹ØactivityµÄÖªÊ¶
