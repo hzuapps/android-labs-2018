@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.soft1614080902430.soft1614080902430">
+    package="edu.hzuapps.androidlabs.soft1614080902430">
 
     <application
         android:allowBackup="true"
@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".soft1614080902430Activity_2"
+            android:label="@string/title_activity_soft1614080902430_2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
+
+
 
 </manifest>
