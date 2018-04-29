@@ -1,0 +1,23 @@
++# 第一次实验 
++
++## 1. 实验目标
++Android开发环境搭建
++
++## 2. 实验步骤
++(1)搭建开发环境（Android Studio 3.1正式版），运行（截图）；
++
++(2)加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
++
++(3)$ git clone https://github.com/fosysink/android-labs-2018/
++   创建以学号命名的个人实验目录：
++   Com1614080901203
++   
++(4)创建一个Java类：edu.hzuapps.androidlabs.Com1614080901203.Com1614080901203Activity.java。
++
++(5)提交代码并发Pull Request，老师合并之后截图。
++
++## 3. 实验结果
++  ![在Android SDK Manager中选择6.0库](https://github.com/fosysink/android-labs-2018/blob/master/Com1614080901203/Com1614080901203Activity.png "配置教育网下载代理")
++## 4. 实验体会
++ 本次的实验主要是熟悉一下对git工具工作环境和操作，虽然内容很简单、很基础，但是却很重要，对于我这个一窍不通的人来说，弄了好久。
++ 缺席了两节课，很是抱歉，个人感觉上课听认真老师讲课很重要。
