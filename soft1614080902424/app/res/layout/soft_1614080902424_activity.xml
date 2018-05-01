@@ -7,12 +7,28 @@
     tools:context=".Soft1614080902424Activity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="394dp"
+        android:layout_height="639dp"
+        android:layout_marginTop="8dp"
+        android:text="点击图片进入下一步"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/shunfeng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sf"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="152dp" />
 </android.support.constraint.ConstraintLayout>
