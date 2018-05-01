@@ -27,6 +27,6 @@ Android资源使用编程
 
 ![image](https://github.com/linkzw/android-labs-2018/blob/master/soft1614080902125/p5.png)
 ## 4.实验体会
-    本次实验使用Android Studio编写代码，通过此次实验学会了在一个Activity中创建按钮，
-    点击按钮可以进入另一个Activity，同时添加图片到app当中最后在运行截图。
-   
+    本次实验使用Android Studio编写代码，通过此次实验了解了android一些控件和布局的使用，初步了解了控件点击事件的编写。 
+  
+ 
