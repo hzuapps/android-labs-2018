@@ -14,9 +14,9 @@
 
  +##3实验结果：
 
- +![image](https://github.com/wangguifeng/android-labs-2018/blob/master/soft1614080902327/tupian1.png?raw=true)
+ +![image](https://github.com/wangguifeng/android-labs-2018/blob/master/soft1614080902327/shiyan3/tupian1.png?raw=true)
 
-![image](https://github.com/wangguifeng/android-labs-2018/blob/master/soft1614080902327/tupian2.png?raw=true)
+![image](https://github.com/wangguifeng/android-labs-2018/blob/master/soft1614080902327/shiyan3/tupian2.png?raw=true)
 
  +##4实验体会：
 
