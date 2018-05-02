@@ -59,6 +59,13 @@ public class Soft1613071002123Activity extends AppCompatActivity{
 
 3.根据自己的选题来设计动作。例如，聊天App中，点击头像显示个人信息；提交表单时，打击按钮显示提交结果；等等。
 
+# 实验结果
+登录注册界面截图：
+![image](https://raw.githubusercontent.com/Beginner-hww/android-labs-2018/master/soft1613071002123/%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2.png)
+
+登录成功界面截图：
+![image](https://raw.githubusercontent.com/Beginner-hww/android-labs-2018/master/soft1613071002123/%E7%99%BB%E5%BD%95%E6%88%90%E5%8A%9F%E7%95%8C%E9%9D%A2.png)
+
 # 实验体会
 
 通过这次实验，学习了如何通过ImageView节点插入图片，通过TextView创建文本框，通过EditText创建输入栏，通过Botton节点创建按钮，并且学会了界面转换。
