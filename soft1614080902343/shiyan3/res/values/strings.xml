@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">数字随机筛选器</string>
+    <string name="name">openactivity</string>
+    <string name="hello">helloworld</string>
+</resources>
