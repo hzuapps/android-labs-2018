@@ -32,9 +32,9 @@ $ git push
 
 ## 3.实验结果 
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/com1614080901213/3.png) 
+![image](https://github.com/huangdewei/android-labs-2018/blob/master/com1614080901213/3.png) 
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/com1614080901213/4.png) 
+![image](https://github.com/huangdewei/android-labs-2018/blob/master/com1614080901213/4.png) 
 
 ## 4.实验体会 
 
