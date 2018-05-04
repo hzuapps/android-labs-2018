@@ -9,12 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Soft1613071002123Activity">
+        <activity android:name="edu.hzuapps.androidlabs.soft1613071002123.myapplication.Soft1613071002123Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1613071002123.myapplication.LoginActivity">
+
         </activity>
     </application>
 
