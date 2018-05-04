@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Soft1614080902231Activity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Soft1614080902231"
-            android:label="@string/title_activity_soft1614080902231"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SecActivity">
+
+        </activity>
     </application>
 
 </manifest>
