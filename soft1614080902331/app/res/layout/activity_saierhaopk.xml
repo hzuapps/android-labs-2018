@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.hzuapps.androidlabs.soft1614080902331.Soft1614080902331">
+    tools:context=".saierhaopk">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_soft1614080902331" />
+    <include layout="@layout/content_saierhaopk" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -30,4 +30,11 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pk"
+        >
+    </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>
