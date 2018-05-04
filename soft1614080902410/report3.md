@@ -1,4 +1,4 @@
-﻿# 第三次实验
+# 第三次实验
 
 ## 1.实验目标
 （1）掌握在Android应用中使用图片等资源的方法。
@@ -11,7 +11,10 @@
 （5）点击图片（或按钮）时，打开另一个Activity。
 
 ## 3.实验结果
-![image]
+
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/soft1614080902410%E5%AE%9E%E9%AA%8C3%E6%88%AA%E5%9B%BE1.jpg)
+
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/soft1614080902410%E5%AE%9E%E9%AA%8C3%E6%88%AA%E5%9B%BE2.jpg)
 
 ## 4.实验体会
 这次实验中，学会怎么添加背景图片，如何添加按钮以及实现activity的跳转，收获颇丰。
