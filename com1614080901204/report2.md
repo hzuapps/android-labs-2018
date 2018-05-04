@@ -34,7 +34,8 @@
  1）.creat 一个文件，命名为report2.md。 
 
  2）.编写文件 
+3.实验结果：
+![在Android SDK Manager中选择6.0库](https://github.com/xiebaoshu/android-labs-2019/blob/master/com1614080901204/Com1614080901204.png "配置教育网下载代理")
 
-
-3.实验体会
+4.实验体会
 这次实验基本不难，主要是AS创建虚拟机时遇到了比较多的问题，但通过百度之后，成功解决了问题
