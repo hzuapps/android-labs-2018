@@ -1,13 +1,13 @@
-package com.example.edu.soft1614080902426;
+package edu.hzuapps.androidlabs.soft1614080902426;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class soft161408090246Activity extends AppCompatActivity {
+public class soft1614080902426 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft161408090246);
+        setContentView(R.layout.activity_soft1614080902426);
     }
 }
