@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Com1614080901240_MainActivity"
-            android:label="@string/title_activity_com1614080901240__main"
+            android:name=".Com1614080901240_second"
+            android:label="@string/title_activity_com1614080901240_second"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
