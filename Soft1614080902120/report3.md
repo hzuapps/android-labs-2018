@@ -19,9 +19,9 @@ https://blog.csdn.net/u012724237/article/details/79010741
 
 # 三、实验结果
 
-![image]()
+![image](https://github.com/zelstudy/android-labs-2018/blob/master/Soft1614080902120/%E9%A1%B5%E9%9D%A22.jpg)
 
-![image]()
+![image](https://github.com/zelstudy/android-labs-2018/blob/master/Soft1614080902120/%E9%A1%B5%E9%9D%A21.jpg)
 
 
 四、实验体会
