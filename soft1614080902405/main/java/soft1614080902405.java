@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class soft1614080902405 extends AppCompatActivity {
+//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
