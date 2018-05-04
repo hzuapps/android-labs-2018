@@ -20,8 +20,8 @@
 		
 		## 3.实验结果
 		# app运行看见第一个Activity:
-		![image](https://github.com/Zhancrui/android-labs-2018/soft1614080902343/shiyan3/1525441222(1).jpg）
+		 ![image](https://github.com/Zhancrui/android-labs-2018/blob/master/soft1614080902343/shiyan3/1525441222(1).jpg)
 		# 点击下方按钮后调到另一个Activity
-		![image](https://github.com/Zhancrui/android-labs-2018/soft1614080902343/shiyan3/1525441272(1).jpg）		
+		 ![image](https://github.com/Zhancrui/android-labs-2018/blob/master/soft1614080902343/shiyan3/1525441272(1).jpg)		
 ## 4.实验体会
 		本次实验还行，就是运行不了，电脑会奔溃。
