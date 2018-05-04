@@ -20,7 +20,9 @@
 在自己的GitHub库上创建和发送Pull Request
 
 ## 4.实验结果
-https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/3%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true
+-
+![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/3%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
+
 ## 5.实验体会
     
 通过本次实验，学习掌握了按钮的创建和Activity的跳转功能。
