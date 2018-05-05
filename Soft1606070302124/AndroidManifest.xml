@@ -19,6 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Soft1606070302124oActivity"
+            android:label="@string/title_activity_soft1606070302124o"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
