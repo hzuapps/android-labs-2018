@@ -11,7 +11,15 @@
         <activity
             android:name="edu.hzuapps.androidlabs.Com1614080901209.Com1614080901209Activity"
             android:label="@string/title_activity_com1614080901209"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="edu.hzuapps.androidlabs.Com1614080901209.SecondActivity"></activity>
     </application>
 
 </manifest>
