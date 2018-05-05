@@ -15,7 +15,7 @@
 
 ## 3. 实验结果
 # app运行看见第一个Activity:
-![](https://github.com/xuguh/android-labs-2018/blob/master/soft1614080902226/Soft1614080902226Activity/jietu1.png）
+![](https://github.com/xuguh/android-labs-2018/blob/master/soft1614080902226/Soft1614080902226Activity/jietu1.png)
 # 点击下方"开始游戏"按钮后调到另一个Activity：
 ![](https://github.com/xuguh/android-labs-2018/blob/master/soft1614080902226/Soft1614080902226Activity/jietu2.png)
 
