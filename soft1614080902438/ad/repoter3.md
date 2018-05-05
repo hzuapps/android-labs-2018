@@ -37,4 +37,3 @@
  +![image](https://github.com/gs-666/android-labs-2018/blob/master/soft1614080902438/ad/170332984283127546.png) 
 
  +## 4.实验体会
- + 这一次的实
