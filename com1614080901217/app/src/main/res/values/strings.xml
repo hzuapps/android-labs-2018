@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">The most beautiful wallpaper</string>
+    <string name="app_name">Com1614080901217</string>
+    <string name="jump">跳转</string>
+    <string name="secondText">我是第二个activity</string>
 </resources>
