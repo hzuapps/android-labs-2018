@@ -1,81 +1,27 @@
-#2 第二次实验
-  
-  ## 1.实验目标
-  
-  创建第一个activity文件
-  
-  ## 2. 实验步骤
-  1.阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
-  
-  2.在电脑上Android Studio编写代码
-  
-  3.使用Git将代码提交到自己的库中：https://github.com/IsMyLucas/android-labs-2018.git
-  
- $ git pull
- $ git add 学号目录/*
- $ git commit "#2 "
- $ git push
- 4.在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
- 5.在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
+# 第三次实验 
+ 掌握在Android应用中使用图片等资源的方法。
+ ## 1. 实验目标
+ 1    在界面上显示至少一张图片（按照自己的题目添加）；  
+ 2    提交res/drawable及图片使用的代码；  
+ 3    提交res/values, res/layout等其他代码；  
+ 4    将应用运行结果截图，放到实验报告中；  
+ 5    点击图片（或按钮）时，打开另一个Activity。  
+ ## 2. 实验步骤
+ 
+ 1   统一步骤：  
+     https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md  
+ 2   Android 在TextView 中显示图片的4种方式：  
+     https://blog.csdn.net/u012724237/article/details/79010741  
  
  
-  ## 3.实验结果
-  ###1、AndroidManifest.xml
- <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hasee.soft1612070501328">
-
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Soft161207051328Activity"></activity>
-    </application>
-
-</manifest>
-
-###2.Soft161207051328Activity.java
-package com.example.hasee.soft1612070501328;
-
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class Soft161207051328Activity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft161207051328);
-    }
-}
-
-###3.activity_soft161207051328.xml
- <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout 
-xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Soft161207051328Activity">
-
-</android.support.constraint.ConstraintLayout>
-
-###4.strings.xml 
-<resources>
-    <string name="app_name">餐厅点餐</string>
-</resources>
-
+ ## 3. 实验结果
  
-  ## 4.实验体会
-     弄了一晚上，初步明白了Activity的定义以及内容，掌握了创建基本的Activity的方法没有太大的问题，进一步提高了对Android开发的认识。
+ # app运行看见第一个Activity:
+ ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E6%88%AA%E5%9B%BE1.png)
+ 
+ # 点击下方"启动另外一个ACTIVITY"按钮后调到另一个Activity：
+ ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E6%88%AA%E5%9B%BE2.png)
+ 
+ 
+ ## 4. 实验体会
+ 这次实验中，学会怎么添加图片，如何添加按钮以及如何打开另外一个Activity，收获颇丰。
