@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="ezu.hzuapps.androidlabs.Com1614080901216.Com1614080901216Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,9 +16,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ezu.hzuapps.androidlabs.Com1614080901216.Com1614080901216Activity"
+            android:name="ezu.hzuapps.androidlabs.Com1614080901216.SecondActivity"
             android:label="@string/title_activity_com1614080901216"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
