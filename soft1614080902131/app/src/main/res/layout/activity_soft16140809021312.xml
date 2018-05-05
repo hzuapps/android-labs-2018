@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="soft1614080902131.androidlabs.hzuapps.edu.soft1614080902131.Soft1614080902131Activity">
+    tools:context="soft1614080902131.androidlabs.hzuapps.edu.soft1614080902131.Soft1614080902131Activity2">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/image_view"
-        android:background="@drawable/timg"
-        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="28sp"
+        android:text="这是第二个活动"
+        android:gravity="center"/>
 
 </RelativeLayout>
