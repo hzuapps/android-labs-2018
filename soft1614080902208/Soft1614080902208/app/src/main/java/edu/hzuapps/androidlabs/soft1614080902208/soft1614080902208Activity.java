@@ -9,7 +9,7 @@ import android.widget.ImageView;
 public class soft1614080902208 extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) 
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902208);
         ImageView imageView =(ImageView) findViewById(R.id.chaoshi);
