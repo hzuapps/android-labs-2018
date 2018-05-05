@@ -1,38 +1,45 @@
-1.实验要求
+第三次实验
 
-1. 在Issues中创建自己的选题：<https://github.com/hzuapps/android-labs-2018/issues>
+掌握在Android应用中使用图片等资源的方法。  
 
-； 2. 根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）； 3. 将标题设置为自己的学号+对应的功能或题目； 4. 根据自己选择的题目实现Activity中导航、调用等功能（选做）。
+1. 实验目标
 
-2.实验步骤
+1    在界面上显示至少一张图片（按照自己的题目添加）；    
 
-1. 阅读实验要求：<https://github.com/hzuapps/android-labs-2018/labels/Lab>
+2    提交res/drawable及图片使用的代码；    
 
-2. 在电脑上Android Studio编写代码
+3    提交res/values, res/layout等其他代码；    
 
-   // 代码要可以运行！
+4    将应用运行结果截图，放到实验报告中；    
 
-3. 使用Git将代码提交到自己的库中：<https://github.com/zicong-chen/android-labs-2018.git>
+5    点击图片（或按钮）时，打开另一个Activity。    
 
-   $ git pull    
-   $ git add Com1614080901238/*
-   $ git commit -m "#2 #1468 实验二"
-   $ git push
+2. 实验步骤
 
-4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+1   统一步骤：    
 
-   // 是否只修改了自己的文件？
+     https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md    
 
-5. 在GitHub中使用Markdown文件编写实验报告（report2.md
+2   Android 在TextView 中显示图片的4种方式：    
 
-, report2.md
+    https://blog.csdn.net/u012724237/article/details/79010741    
 
-）
+3. 实验结果
 
-```
-// 保存在自己的文件夹下
-```
+ 1# app运行看见第一个Activity:  
+ 
+![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/1.png)
 
-3.实验体会
 
-严格按照实验流程
+点击下方"启动另外一个ACTIVITY"按钮后调到另一个Activity：
+
+  ![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/2.png)
+ 
+ 代码界面随手截下图
+   ![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/11.png)
+     ![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/22.png)
+    
+
+4. 实验体会
+这次实验安装流程，单纯做一个跳转还是比较简单的，但是距离我的选题还是区别有点大，只是简单实现了跳转。以后再慢慢完善吧
+
