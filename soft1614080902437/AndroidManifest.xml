@@ -17,8 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".soft1614080902437Activity"
-            android:label="@string/title_activity_soft1614080902437"
+            android:name=".test.soft1614080902437Activity2"
+            android:label="@string/title_activity_soft16140809024372"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".test.soft1614080902437Activity_2"
+            android:label="@string/title_activity_soft1614080902437_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.hzu.soft1614080902437.soft1614080902437Activity_2"
+            android:label="@string/title_activity_soft1614080902437_2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
