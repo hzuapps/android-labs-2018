@@ -9,14 +9,14 @@
  在电脑上Android Studio编写代码
 
 
- 使用Git将代码提交到自己的库中：https://github.com/LiuYB135/android-labs-2018
- $ git pull
- $ git add Com1614080901141/*
- $ git commit "第3次实验"
- $ git push
- 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+ 使用Git将代码提交到自己的库中：https://github.com/LiuYB135/android-labs-2018  
+ $ git pull  
+ $ git add Com1614080901141/*  
+ $ git commit "第3次实验"  
+ $ git push  
+ 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）  
  
- 在GitHub中使用Markdown文件编写实验报告（lab_3.md）
+ 在GitHub中使用Markdown文件编写实验报告（lab_3.md）  
  
 
 ## 3.实验结果
