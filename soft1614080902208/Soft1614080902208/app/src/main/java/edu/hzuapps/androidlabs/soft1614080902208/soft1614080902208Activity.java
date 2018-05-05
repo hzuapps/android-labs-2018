@@ -11,7 +11,7 @@ public class soft1614080902208 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout._soft1614080902208);
         ImageView imageView =(ImageView) findViewById(R.id.chaoshi);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
