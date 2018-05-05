@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lyblcass.firstapp">
+    package="com.example.cnt.ball">
 
     <application
         android:allowBackup="true"
@@ -9,16 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.Com1614080901141Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="edu.hzuapps.androidlabs.Com1614080901141.Com1614080901141Activity"
-            android:label="@string/title_activity_com1614080901141"></activity>
+        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.SecondActivity"></activity>
     </application>
 
 </manifest>
