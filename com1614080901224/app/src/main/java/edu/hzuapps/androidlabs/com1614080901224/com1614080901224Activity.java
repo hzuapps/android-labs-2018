@@ -1,13 +1,55 @@
-package edu.hzuapps.androidlabs.com1614080901224;
+package edu.hzuapps.androidlabs.com1614080901213;
+
+import android.content.Intent;
 
 import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class com1614080901224Activity extends AppCompatActivity {
+import android.view.View;
+
+import android.widget.TextView;
+
+
+
+import org.w3c.dom.Text;
+
+
+
+public class com1614080901213Activity extends AppCompatActivity {
+
+
+
+    private TextView textView;
+
+
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_com1614080901224);
+
+        setContentView(R.layout.activity_com1614080901213);
+
+
+        textView=(TextView)findViewById(R.id.textview_01);
+
+
+        textView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+
+            public void onClick(View v) {
+
+                Intent intent=new Intent(com1614080901213Activity.this,SecondActivity.class);
+
+                startActivity(intent);
+
+            }
+
+        });
+
     }
+
 }
