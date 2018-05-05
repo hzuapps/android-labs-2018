@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soft1614080902208Activity">
+    tools:context="com.example.hzu.soft1614080902208.soft1614080902208">
 
    <ImageView
        android:id="@+id/chaoshi"
