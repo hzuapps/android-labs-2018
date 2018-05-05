@@ -7,6 +7,7 @@
     tools:context=".Com1614080901130Activity">
 
     <TextView
+        android:id="@+id/textview_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"

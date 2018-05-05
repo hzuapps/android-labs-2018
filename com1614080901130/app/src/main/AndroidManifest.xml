@@ -3,19 +3,33 @@
     package="com.example.ghost.anni_zone">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Com1614080901130Activity">
+        //android:allowBackup="true"
+        //android:icon="@mipmap/ic_launcher"
+        //android:roundIcon="@mipmap/ic_launcher_round"
+        //android:supportsRtl="true"
+        //android:theme="@style/AppTheme">
+        <activity
+            android:name=".Com1614080901130Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".java.edu.hzuapps.androidlabs.ActivityBasicActivity"
+            android:label="Android移动应用开发">
+            <intent-filter>
+                <action android:name="anndroi.intent.action.MAIN" />
+
+                <category android:name="android.intent.category,LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".java.edu.hzuapps.androidlabs.ViewBasicActivity"
+            android:label="视图：基本用法">
+        </activity>
+
     </application>
 
 </manifest>
