@@ -45,9 +45,9 @@ $ git push
 
 ## 四、实验结果
 
-![](https://github.com/haoy1220/android-labs-2018/blob/master/com1614080901134/1.png)
+![](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/1.png)
 
-![](https://github.com/haoy1220/android-labs-2018/blob/master/com1614080901134/2.png)
+![](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/2.png)
 
 ## 五、实验体会
 
