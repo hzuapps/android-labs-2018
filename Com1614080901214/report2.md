@@ -1,28 +1,41 @@
-## 1、实验目标
+#1.实验要求
 
-（1）学习和搭建开发环境（Android Studio）；
+在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues；
 
-（2）了解GitHub网站的功能及提交的基本的要求；
+根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；
 
-## 2. 实验步骤
+将标题设置为自己的学号+对应的功能或题目；
 
-（1）搭建开发环境（Android Studio 3.1正式版)运行（截图）；
+根据自己选择的题目实现Activity中导航、调用等功能（选做）。
 
-（2）加入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
+#2.实验步骤
 
-（3）$ git clone https://github.com/quanquanCc/android-labs-2018;
+阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
 
-（4）创建以学号命名的个人实验目录：Com1614080901214;
+在电脑上Android Studio编写代码
 
-（5）创建一个Java类：edu.hzuapps.androidlabs.Com1614080901214.Com1614080901214Activity.java;
+//代码要可以运行！
 
-（6）提交代码并发Pull Request。
+使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
 
-## 3. 实验结果
+$ git pull
 
-![image](https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/Com1614080901214.jpg)
+$ git add 学号目录/* (git rm 学号目录/*)
+$ git commit "#12345678 "
 
+$ git push
 
-## 4. 实验体会
+在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
 
- 很久之前就了解到github这个网站了，就是一直没开始使用。这次老师用了这个平台。让我开始了这个平台的使用，去网上也查了许多资料。搭载安卓平台还不错，继续看视频学习。
+// 是否只修改了自己的文件？
+在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
+
+// 保存在自己的文件夹下
+
+#3.实验结果
+
+上传的文件
+
+#4.实验体会
+ 通过实验2，可以知道如何在andriod studio里创建项目，修改代码。利用activity来实现各种的功能。
+
