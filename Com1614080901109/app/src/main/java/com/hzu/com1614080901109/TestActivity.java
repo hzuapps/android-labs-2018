@@ -1,13 +1,14 @@
-package com.hzu.com1614080901109;
+package edu.androidlabs.com1614080901109;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Com1614080901109MainActivity extends AppCompatActivity {
+public class TestActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_com1614080901109_main);
+        setContentView(R.layout.activity_test);
+        setTitle("app已打开");
     }
 }
