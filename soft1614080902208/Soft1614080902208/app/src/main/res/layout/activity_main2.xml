@@ -4,14 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soft1614080902208Activity">
-
-   <ImageView
-       android:id="@+id/chaoshi"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:scaleType="fitXY"
-       android:src="@drawable/chaoshi"
-       />
+    tools:context=".Main2Activity">
 
 </android.support.constraint.ConstraintLayout>
