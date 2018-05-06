@@ -31,9 +31,9 @@ $ git push
 ```  
 
 ## 3.实验结果
-APP运行后界面
+### APP运行后界面
 ![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/jt3-1.png)
-点击计算后跳转
+### 点击计算后跳转
 ![image](https://github.com/BoliChen/android-labs-2018/blob/master/com1614080901106/jt3-2.png)
 ## 4.实验体会
 这次实验添加了一个按钮和并使其跳转到另外一个Activity，并添加了背景图片。实验中由于图片的格式问题导致代码一直报错，
