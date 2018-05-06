@@ -7,18 +7,14 @@
       4. 将应用运行结果截图，放到实验报告中；
       5. 点击图片（或按钮）时，打开另一个Activity
  ## 3.实验步骤
-     阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
-     在电脑上Android Studio编写代码，新建Activity
-     将需要显示的图片复制粘贴至drawable文件下  
-     打开layout目录下相应Activity对应的.xml文件， 添加图片，添加按扭
-     在相应Activity.java文件下添加按钮功能，使其在点击时转跳至另外一个Activity页面
-     使用markdown软件编写代码
-     使用Git将代码提交到自己的库中：https://github.com/cruiji/android-labs-2018
-      $ git pull
-      $ git add soft1614080902442/*
-      $ git commit -m "#3 #985 实验三"
-      $ git push
-     在自己的GitHub库上创建和发送Pull Request
+     （1）我首先将收集好的图片paste到drawble目录中，然后通过在layout中activity对应的xml文件中将图片添加到界面中
+     （2）创建一个空的activity，并且修改对应的xml文件，给新创建的activity设置界面
+     （3）给新的activity的layout/drawble中添加图片，并且在xml中将图片添加进界面
+     （4）我在layout的xml文件中添加了按钮并且给按钮命名，设置大小
+     （5）在activity的java文件中将layout创建的按钮关联起来，并且对其添加监听器以及实现事件（点击按钮跳转到另一个activity）
+     （6）确认代码无误后运行虚拟机，打开app，点击按钮跳转，截图
+     （7）将修改的文件以及用到的图片和截图push到github上
+     （8）提交pull request
  ## 4.实验结果
  
      进入虚拟机界面并且找到app
