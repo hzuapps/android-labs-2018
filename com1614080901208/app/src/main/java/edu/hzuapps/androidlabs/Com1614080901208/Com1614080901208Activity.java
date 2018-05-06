@@ -1,31 +1,29 @@
 package edu.hzuapps.androidlabs.Com1614080901208;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.databinding.DataBindingUtil;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.os.Bundle;
 
-import com.example.cnt.application.R;
+
+import com.example.cnt.textapplication.R;
+import com.example.cnt.textapplication.VM.ImageViewBean;
+import com.example.cnt.textapplication.VM.ImageViewVM;
+import com.example.cnt.textapplication.databinding.ActivityMainBinding;
+
 
 public class Com1614080901208Activity extends AppCompatActivity {
-
+    private int pictureSrc = R.drawable.mainactivitybackground;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_com1614080901208);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        ImageViewBean imageViewBean = new ImageViewBean();
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
+        ImageViewVM imageViewVM = new ImageViewVM();
+        imageViewVM.setUri(R.drawable.mainactivitybackground);
+        binding.setImageViewVm(imageViewVM);
+
     }
-
 }
