@@ -13,11 +13,8 @@
  ## 2.实验步骤
  
     我首先创建了自己的选题皮皮钟，然后按照老师的提示，创建了一个activity，并且修改了layout中的string文件，设置界面的标题。
-    接着我就使用Git将代码提交到我的库中：https://github.com/zzhuangj/android-labs-2018，代码如下！
- 
-    
- （4）在自己的GitHub库上创建和发送Pull Request
- （5）在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
+    接着我就使用Git将代码提交到我的库中：https://github.com/zzhuangj/android-labs-2018，代码如下！最后我登录github网
+    将自己修改提交的文件，以及攥写的实验报告提交，通过pull request提交，以待老师检查。
  
  ## 3.实验代码
  
@@ -88,5 +85,9 @@ public class soft1614080902413Activity extends AppCompatActivity {
     <string name="app_name">soft1614080902413皮皮钟</string>
 </resources>
 
-+## 4.实验体会
-通过本次实验，一方面
+## 4.实验体会
+
+通过本次实验，熟悉了activity的创建，以及activity对应layout文件的一些知识，比如修改layout李main的string可以修改界面标题。
+
+当然，还能做更多更好看的布局，这些就留待以后再挖掘。
+
