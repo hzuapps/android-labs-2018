@@ -8,11 +8,11 @@
 5    点击图片（或按钮）时，打开另一个Activity。  
 ## 2. 实验步骤
 
-1   统一步骤：  
-    https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md  
-2   Android 在TextView 中显示图片的4种方式：  
-    https://blog.csdn.net/u012724237/article/details/79010741  
+1   在XML文件中添加ImatageButton，然后添加属性text、drawable等属性
 
+2   在Activity代码中添加按钮监听事件，设置点击后跳转到下一个Activity
+
+3   创建第二个Activity，通过intent传递信息，实现跳转
 
 ## 3. 实验结果
 ### 点击App打开第一个Activity，开始界面添加了两个Button
