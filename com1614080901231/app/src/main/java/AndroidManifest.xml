@@ -10,18 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
-        </activity>
-        <activity
-            android:name="ezu.hzuapps.androidlabs.Com1614080901231.Com1614080901231Activity"
-            android:label="@string/title_activity_com1614080901231"
-            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ezu.hzuapps.androidlabs.Com1614080901231.Com1614080901231Activity"
+            android:label="@string/title_activity_com1614080901231"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="ezu.hzuapps.androidlabs.Com1614080901231.SecondActivity"></activity>
     </application>
 
