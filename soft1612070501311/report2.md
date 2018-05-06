@@ -1,5 +1,7 @@
 #第二次实验报告
+
 #实验要求
+
 1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
 2、根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；
 3、将标题设置为自己的学号+对应的功能或题目；
