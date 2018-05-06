@@ -28,8 +28,8 @@
      // 保存在自己的文件夹下
  
  3.实验结果  
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/%E6%88%AA%E5%9B%BE1.PNG)
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/%E6%88%AA%E5%9B%BE2.PNG)
+ ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E6%88%AA%E5%9B%BE1.PNG)
+ ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E6%88%AA%E5%9B%BE2.PNG)
  
  4.实验体会
  
