@@ -9,7 +9,7 @@
 在电脑上Android Studio编写代码
  
  // 代码要可以运行！
- 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
+ 使用Git将代码提交到自己的库中：https://github.com/Easadon/android-labs-2018
  $ git pull
  $ git add 学号目录/*
  $ git commit "#12345678 "
@@ -21,9 +21,9 @@
 
 ## 3.实验结果
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/tupian3.1.png)
+![image](https://github.com/Easadon/android-labs-2018/blob/master/com1614080901110/第三次实验结果截图1.jpg)
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/tupian3.2.png)
+![image](https://github.com/Easadon/android-labs-2018/blob/master/com1614080901110/第三次实验结果截图2.jpg)
 
 ## 4.实验体会
 这次实验做了挺长的时间，一开始遇到的困难主要是还不理解activicty文件及layout文件中的xml文件的作用，通过学习相关的java知识后，
