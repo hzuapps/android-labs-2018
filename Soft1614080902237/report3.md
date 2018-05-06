@@ -1,7 +1,7 @@
 # 第三次实验 
 
 掌握在Android应用中使用图片等资源的方法。
- ## 1. 实验目标
+ ## 一. 实验目标
  
  1    在界面上显示至少一张图片（按照自己的题目添加）；  
  
@@ -13,16 +13,17 @@
  
  5    点击图片（或按钮）时，打开另一个Activity。  
  
- ## 2. 实验步骤
+ ## 二. 实验步骤
  
- 1   统一步骤：  
-     https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md  
+ 1    选取图片放到drawable中
  
- 2   Android 在TextView 中显示图片的4种方式：  
+ 2    使用该图片
  
- https://blog.csdn.net/u012724237/article/details/79010741  
+ 3    设置按钮并监听
  
- ## 3. 实验结果
+ 4    运行虚拟机并截图
+ 
+ ## 三. 实验结果
  
  ### 点击App打开第一个Activity页面
  ![](https://github.com/wuhengxin/android-labs-2018/blob/master/Soft1614080902237/soft237.png?raw=true)
