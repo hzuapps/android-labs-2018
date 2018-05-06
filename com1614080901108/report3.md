@@ -9,7 +9,7 @@
 在电脑上Android Studio编写代码
  
 // 代码要可以运行！
-使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018 $ git pull
+使用Git将代码提交到自己的库中：https://github.com/Yxiansheng/android-labs-2018 $ git pull
 
 $ git add 学号目录/*
 $ git commit "#12345678 "
