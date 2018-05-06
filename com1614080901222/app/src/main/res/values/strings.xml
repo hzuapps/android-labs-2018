@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Com1614080901222</string>
+    <string name="contentDescription">按键</string>
+    <string name="jump">click me</string>
 </resources>
