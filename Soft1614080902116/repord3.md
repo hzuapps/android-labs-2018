@@ -14,9 +14,15 @@
 
 二、实验步骤
 
-1.统一步骤： https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
+1.新创建一个project，将自己所要用的图片放入文件中
 
-2.Android 在TextView 中显示图片的4种方式： https://blog.csdn.net/u012724237/article/details/79010741
+2.创建两个背景界面，设置背景，将所选图片插入第一个背景界面，设置其大小位置，第二个设为活动界面
+
+3.打开另一个activity，设置其名称，即完整的包名类名
+
+4.运行，并将两个背景界面和活动界面进行截图
+
+
 
 三、实验结果
 
