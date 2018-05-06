@@ -1,5 +1,6 @@
 ##第二次实验
-1.实验目标
+
+##1.实验目的
 
 （1）在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
 
@@ -82,6 +83,6 @@ public class soft1614080902218activity extends AppCompatActivity {
     <string name="app_name">温湿度测量器</string>
 </resources>
 
-## 4.实验体会 
+##4.实验体会
 
 由于对android软件的使用十分陌生，使得实验过程十分的复杂和坎坷
