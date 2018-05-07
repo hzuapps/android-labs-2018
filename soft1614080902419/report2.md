@@ -18,7 +18,7 @@ Android组件编程
 7.打开git bash，将文件夹push上github，向老师提交pull request.
 
 ## 3.实验结果
-
+![Image text]https://github.com/ccxm/android-labs-2018/blob/master/soft1614080902419/2.PNG?raw=true
 
 ## 4.实验体会
 通过这次实验,初步了解了Android文件的结构,并学会了怎么在文件下新建文件。通过上传文件,更熟悉了git命令的使用
