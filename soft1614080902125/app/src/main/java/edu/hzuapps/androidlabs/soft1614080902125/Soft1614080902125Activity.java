@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.soft1614080902125;
+﻿package edu.hzuapps.androidlabs.soft1614080902125;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -12,6 +12,7 @@ import android.widget.Toast;
 public class Soft1614080902125Activity extends AppCompatActivity {
 
 
+    private:
 
     String in_username;
     String in_password;
@@ -29,7 +30,7 @@ public class Soft1614080902125Activity extends AppCompatActivity {
             public void onClick(View view) {
                 in_username=edit_username_in.getText().toString();
                 in_password=edit_password_in.getText().toString();
-                if(in_username==null||in_username.length()==0){
+                if(in_username.length()==0){
                     Toast.makeText(thisActivity, "请输入用户名", Toast.LENGTH_SHORT).show();
                 }else if(in_password==null||in_password.length()==0){
                     Toast.makeText(thisActivity, "请输入密码", Toast.LENGTH_SHORT).show();
