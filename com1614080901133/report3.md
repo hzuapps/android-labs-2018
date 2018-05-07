@@ -36,7 +36,7 @@
 
 ## 3.实验结果
 
-![在Android SDK Manager中选择6.0库](https://github.com/szayd/android-labs-2018/blob/master/com1614080901133/实验3截图1.png"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/szayd/android-labs-2018/blob/master/com1614080901133/实验3截图1.png "配置教育网下载代理")
 
 ![在Android SDK Manager中选择6.0库](https://github.com/szayd/android-labs-2018/blob/master/com1614080901133/实验3截图2.png "配置教育网下载代理")
 
