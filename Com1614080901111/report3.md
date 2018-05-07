@@ -32,9 +32,10 @@
  
   ## 3.实验结果 
  
- !(https://github.com/JianPengChen/android-labs-2018/blob/master/img1.PNG)
+ ![在Android SDK Manager中选择6.0库](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/img1.PNG "配置教育网下载代理")
+
+![在Android SDK Manager中选择6.0库](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/img2.PNG "配置教育网下载代理")
  
- !(https://github.com/JianPengChen/android-labs-2018/blob/master/img2.PNG)
  ## 4.实验体会
  
  通过这次实验，我了解到了在Android studio如何导入图片，如何实现界面的跳转，但是我还是一个Android菜鸟，还需继续努力。
