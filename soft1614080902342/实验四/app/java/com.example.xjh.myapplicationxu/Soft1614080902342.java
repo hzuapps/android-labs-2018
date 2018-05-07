@@ -1,5 +1,5 @@
 package com.example.xjh.myapplicationxu;
-
+//¡Ì“ª∏ˆActivity
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 

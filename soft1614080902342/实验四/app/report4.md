@@ -26,26 +26,9 @@
 
 四.实验截图
 
-![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/kaishi.JPG) 
-
-![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/186bc8a7fb3fa487b1f8d3ebdb1c532ca5769031/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%B8%89/app/lingyig.JPG) 
+![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/227454fb306bde1d54eb8e55312b6fe52f748046/soft1614080902342/%E5%AE%9E%E9%AA%8C%E5%9B%9B/app/%E5%B8%83%E5%B1%80%E7%85%A7%E7%89%87.JPG) 
 
 
 五.实验体会
 
 通过这次实验使我更加熟悉git和android studio,使用各种控件，使用布局设计界面，其中相对布局方式对我来说应该比较轻松，所以我就选了这种布局方式
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
