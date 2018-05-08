@@ -14,7 +14,15 @@
 
 三.实验步骤
 -
-
+1.布局选用LinearLayout方式；<br>
+2.选用EditText组件，id为edText1实现输入玩家的名称；<br>
+3.选用RadioGroup组件，id为sex_rg选择玩家性别；<br>
+4.选用RadioGroup组件，id为gameCharacters选择游戏角色<br>
+5.选用TextView组件，id为text2实现输出选择的结果<br>
+6.嵌套一个LinearLayout里面有两个Button,实现“确定”和“重置”<br>
+7.最后一个id为goButton的按钮，准备实现跳到下一个activity<br>
+8.在JAVA代码中，绑定一个监听器到“确定”按钮，当被点击时检测输入的玩家名称是否为空，如果“是”就调用id为text2的setText方法设置玩家选择的结果,如果“否”，用     Toast.makeText方法提示错误。<br>
+9.绑定一个监听器到“重置”按钮，当被点击是，清空玩家输入的内容，还原默认选择。
 
 四.实验截图
 -
