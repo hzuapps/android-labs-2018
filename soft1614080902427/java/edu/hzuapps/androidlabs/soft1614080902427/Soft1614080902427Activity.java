@@ -26,7 +26,7 @@ public class Soft1614080902427Activity extends Activity implements View.OnClickL
 
            //启动新的Activity
            Intent intent = new Intent(this,Player.class);
-          startActivity(intent);
+           startActivity(intent);
 
 ////        }
     }
