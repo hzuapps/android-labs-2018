@@ -32,7 +32,10 @@
 
 不输入玩家名称点确定:
 -
-![screen]()
+![screen](https://github.com/yangyangyang2017/android-labs-2018/blob/master/soft1614080902221/%E7%AC%AC4%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE2.png)
+
+正常输入名称选择性别和角色点确定:
+-
 
 五.实验体会
 -
