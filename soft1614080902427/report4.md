@@ -50,7 +50,8 @@ public class MainActivity extends Activity  implements OnClickListener {
 
 
 ## 实验结果
-    ![](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/Screenshot_1525757754.png)
+
+![](https://github.com/harytfw/android-labs-2018/blob/master/soft1614080902427/Screenshot_1525757754.png)
 
 ## 实验心得
 
