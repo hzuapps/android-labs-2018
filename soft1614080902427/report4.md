@@ -63,4 +63,5 @@ public class MainActivity extends Activity  implements OnClickListener {
   
   我用自定义的 Adapter 连接想要展示的数据和ListView.关于SongAdapter 的代码一部分是从网上找，一部分是结合需要改动的。
   
+  图标我是在[iconfont](http://www.iconfont.cn/)，可以找到一整套图标，而且可以改颜色和大小，非常方便
   
