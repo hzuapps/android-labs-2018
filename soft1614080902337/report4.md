@@ -9,8 +9,8 @@
 1、阅读实验要求：https：//github.com/hzuapps/android-labs-2018/labels/Lab  
 2、根据自己的选题具体情况要求，设计每一个Activity适合的Layout布局方式     
 3、在Activity对应的xml文件下添加各种需要的控件（例如Button、Textview等等）       
-4、为各个控件设置好属性，排列好位置。       
-5（例行公事）、使用Git将代码、截图、报告提交到自己的库中：https：//github.com/YOUR_NAME/android-labs-2018    
+4、为各个控件设置好属性，排列好位置         
+5（例行公事)使用Git将代码、截图、报告提交到自己的库中：https：//github.com/YOUR_NAME/android-labs-2018    
 $ git pull  
 $ git add 学号目录/*  
 $ git commit "#12345678 "  
