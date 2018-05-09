@@ -14,9 +14,9 @@
         android:textSize="25sp"
         android:layout_centerInParent="true"
 （2）新建一个Activity，名为personalInformationActivity，先不对新的Activity做任何改动，然后在Soft1614080902325Activity中先声明button，然后写上实现跳转的代码
-	实现跳转的代码如下：
-	textview_01 = findViewById(R.id.textview_01);
-	textview_01.setOnClickListener(new View.OnClickListener() {
+        实现跳转的代码如下：
+        textview_01 = findViewById(R.id.textview_01);
+        textview_01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //跳转到个人信息页面
