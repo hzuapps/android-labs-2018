@@ -34,8 +34,9 @@ $ git push
 
 3.实验结果
 
-![image](https://github.com/pa-kou/android-labs-2018/blob/master/com1614080901131/report3.png)
 ![image](https://github.com/pa-kou/android-labs-2018/blob/master/com1614080901131/QQ%E6%88%AA%E5%9B%BE20180508225606.png)
+
+![image](https://github.com/pa-kou/android-labs-2018/blob/master/com1614080901131/report3.png)
 
 4.实验体会
   通过本次实验 ，我学会了如何在自己的项目上插入图片，并且在自己的启动的页面插入一个按钮进行开始功能。还经过这次实验，
