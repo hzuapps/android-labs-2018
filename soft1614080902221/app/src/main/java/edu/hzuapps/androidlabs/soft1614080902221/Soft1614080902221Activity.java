@@ -11,6 +11,7 @@ import android.widget.Button;
 public class Soft1614080902221Activity extends AppCompatActivity {
 
     private Button startButton = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,15 +19,15 @@ public class Soft1614080902221Activity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);//remove notification bar  即全屏
         setContentView(R.layout.activity_soft1614080902221);
 
-        startButton = (Button)findViewById(R.id.startButton);
-        startButton.setOnClickListener(new OnClickListener(){
+        startButton = (Button) findViewById(R.id.startButton);
+        startButton.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Soft1614080902221Activity.this,Activity2.class);
-              startActivity(intent);
+                Intent intent = new Intent(Soft1614080902221Activity.this, Activity2.class);
+                startActivity(intent);
             }
-        } );
+        });
 
 
     }
