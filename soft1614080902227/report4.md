@@ -13,6 +13,6 @@ Android界面设计编程
 3   新添加了几个按钮控件
 
 ## 3. 实验结果
-
+![screen](https://github.com/hzutanziyang/android-labs-2018/blob/master/soft1614080902227/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.jpg)
 ## 4.实验体会
   这次实验主要修改了标题，通过新加的布局linearlayout，添加TextView控件，实现上次实验没能完成标题居中的问题。。
