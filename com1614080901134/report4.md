@@ -13,7 +13,7 @@
  ## 三、实验步骤
 1、首先用git工具将代码仓库复制到本地后进行修改。
 
-2、在activity_com1614080901134.xml设计自己的登录界面，如下面的截图3，通过com1614080901134Activity.java文件来处理逻辑，
+2、在activity_com1614080901134.xml设计自己的登录界面，如下面的截图，通过com1614080901134Activity.java文件来处理逻辑，
  在Java文件上通过这个代码Button button = (Button) findViewById(R.id.button_1)来给button实例化;
 
 3.通过这个button设置点击事件（监听）实现界面活动跳转，也就是跳到第二活动界面
