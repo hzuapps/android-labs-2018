@@ -28,7 +28,7 @@
 3.使用Git将代码提交到自己的库中：https://github.com/haoy1220/android-labs-2018
 ```  
 $ git pull
-$ git add com1614080901134/*  (git rm 学号目录/*)
+$ git add com1614080901137/*  (git rm 学号目录/*)
 $ git commit "#实验三"
 $ git push
 ```  
