@@ -13,14 +13,27 @@ public class Soft1614080902422Activity extends AppCompatActivity implements View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902422);
         Button bt1 = (Button) findViewById(R.id.b1);
+        Button bt2 = (Button) findViewById(R.id.b2);
+
         bt1.setOnClickListener(this);
+        bt2.setOnClickListener(this);
     }
+
+
+
 
     @Override
     public void onClick(View v) {
-
-        Intent intent = new Intent(this,Soft1614080902422Activity_01.class);
-        startActivity(intent);
+         switch (v.getId()){
+             case R.id.b1:
+                 Intent i1 = new Intent(this,Soft1614080902422Activity_01.class);
+                 startActivity(i1);
+                 break;
+             case R.id.b2:
+                 Intent i2 = new Intent(this,Soft1614080902422Activity_02.class);
+                 startActivity(i2);
+                 break;
+         }
     }
 }
 
