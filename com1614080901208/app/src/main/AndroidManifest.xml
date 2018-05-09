@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cnt.application">
+    package="com.example.cnt.textapplication">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -9,17 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="edu.hzuapps.androidlabs.Com1614080901208.Com1614080901208Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="edu.hzuapps.androidlabs.Com1614080901208.Com1614080901208Activity"
-            android:label="@string/title_activity_com1614080901208"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.Com1614080901208.SecondActivity"></activity>
     </application>
 
 </manifest>
