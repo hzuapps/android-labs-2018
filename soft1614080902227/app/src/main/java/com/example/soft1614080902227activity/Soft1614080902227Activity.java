@@ -16,8 +16,10 @@ public class Soft1614080902227Activity extends AppCompatActivity{
         setContentView(R.layout.activity_soft1614080902227);
         Button btn_Click = (Button)findViewById(R.id.Air);
         Button btn_Click1 = (Button)findViewById(R.id.TV);
+        Button btn_Click2 = (Button)findViewById(R.id.add);
         btn_Click.setOnClickListener(new MyOnClickListener());
         btn_Click1.setOnClickListener(new MyOnClickListener1());
+
     }
     class MyOnClickListener implements View.OnClickListener{
         @Override
