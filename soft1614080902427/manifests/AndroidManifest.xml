@@ -18,7 +18,7 @@
         </activity>
         <activity
             android:name=".Player"
-            android:label="@string/title_activity_player"></activity>
+            android:label="@string/title_activity_player" />
     </application>
 
 </manifest>
