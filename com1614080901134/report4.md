@@ -27,11 +27,11 @@
  
  ## 四、实验截图
  *登录界面<br>
- ![image](https://github.com/linwt/android-labs-2018/blob/master/soft1614080902318/pkmain.png)<br>
+ ![image](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/3.png)<br>
+ *点餐下单界面<br>
+ ![image](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/4.png)<br>
  
 
  
  ## 五、实验体会
-    在这次实验自己设计了登录界面还有点餐界面，通过两个activity.java设计逻辑处理，实现功能与界面的显示。
-  第一次使用自己喜欢的图片用于画界面，即使界面不是那么实用但是还是可以勉强完成老师的要求，在设置布局时，
-  只是使用了自己现在了解的线性布局进行页面显示，觉得在之后还需要尝试使用其他布局进行界面的设计。
+    在这次实验自己设计了登录界面还有点餐界面，通过两个activity.java设计逻辑处理，实现功能与界面的显示。第一次使用自己喜欢的图片用于画界面，即使界面不是那么实用但是还是可以勉强完成老师的要求，在设置布局时，只是使用了自己现在了解的线性布局进行页面显示，觉得在之后还需要尝试使用其他布局进行界面的设计。
