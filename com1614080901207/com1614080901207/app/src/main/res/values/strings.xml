@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">电影订票</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">电影开始</string>
+</resources>
