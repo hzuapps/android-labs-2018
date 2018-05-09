@@ -4,24 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/image"
     tools:context=".Com1613090502214Activity">
 
-    <TextView
-        android:id="@+id/textview_01"
-        android:layout_width="388dp"
-        android:layout_height="544dp"
-        android:drawableTop="@drawable/image" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ListView>
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
         android:text="+"
         android:visibility="visible"
-        app:layout_constraintEnd_toStartOf="@+id/textview_01"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textview_01"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
