@@ -10,7 +10,7 @@
   （4）.将应用运行结果截图，放到实验报告中；  
   （5）.点击图片（或按钮）时，打开另一个Activity。 
 ## 3.实验步骤
-在Android Studio编写代码
+在Android Studio编写代码  
  （1）在第一个的Activity的XML文件里添加背景图片的代码，用到android:background。   
  （2）建立第二个Activity命名为secondActivity。  
  （3）添加一个Button并实现Activity的跳转。  
