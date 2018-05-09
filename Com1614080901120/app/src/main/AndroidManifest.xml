@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AddPictureActivity"
+            android:label="@string/title_activity_add_picture"
+            android:parentActivityName=".Com1614080901120MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hzu.com1614080901120.Com1614080901120MainActivity" />
+        </activity>
     </application>
 
 </manifest>
