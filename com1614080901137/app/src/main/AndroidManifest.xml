@@ -18,4 +18,5 @@
         <activity android:name=".second_Activity"></activity>
     </application>
 
+
 </manifest>
