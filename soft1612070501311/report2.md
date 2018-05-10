@@ -18,7 +18,7 @@
 
 #实验体会      
 1、在issue的操作中较为简单；  
-2、创建Activity时，在res中也会创建对应的xml；      
+2、创建Activity时，在res中也会创建对应的xml；                 
 3、可以在xml右边的preview中看见自己Java中的效果，以便改正；       
 
 
