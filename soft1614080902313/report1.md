@@ -16,7 +16,7 @@
 		$ git push
 
 ## 三、实验结果
- 	![Android studio安装截图](https://github.com/LingEcro/android-labs-2018/blob/master/soft1614080902313/soft1614080902313Activity.png);
+![Android studio安装截图](https://github.com/LingEcro/android-labs-2018/blob/master/soft1614080902313/soft1614080902313Activity.png);
 
 ## 四、实验体会
  	Android studio的安装是根据老师的资料及百度的资料才成功的，过程相当艰辛，但能进一步了解Android，编译语言与java类似，可在虚拟机下运行，也可在真实手机下运行。
