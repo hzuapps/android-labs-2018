@@ -11,11 +11,14 @@
 
 1、首先，在github顶部栏中点击issue，然后按照要求创建一个issue   
 2、如图，提交关于自己的issue    
-![image](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-1.jpg)      
+<img width="150" height="150" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-1.jpg"/>    
+
 3、根据自己issue的功能，在自己的项目中添加对应的Activity，本次实验先添加一个   
-![image](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-2.jpg)       
+<img width="150" height="150" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-2.jpg"/>  
+    
 4、测试Activity的xml封面    
-![image](https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-3.jpg)         
+<img width="150" height="150" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-3.jpg"/>  
+      
 
 #实验结果    
 
