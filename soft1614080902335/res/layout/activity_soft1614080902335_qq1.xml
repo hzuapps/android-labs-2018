@@ -1,48 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logn_bg"
+    android:orientation="vertical"
     tools:context=".Soft1614080902335Activity1">
-
-    <TextView
-        android:id="@+id/textview_01"
-        android:layout_width="310dp"
-        android:layout_height="398dp"
-        android:layout_above="@+id/button_open"
-        android:layout_centerHorizontal="true"
-        android:layout_marginHorizontal="20dp"
-        android:drawableTop="@drawable/qqlogo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="169dp"
-        android:text="Hello World!"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.624" />
-
+    <ImageView
+        android:id="@+id/touxiang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logn_touxiang"/>
+    <EditText
+        android:id="@+id/logn_username"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:hint="QQ号/手机号/邮箱"
+        android:singleLine="true"
+        android:textColor="@color/whitee"
+        android:textColorHint="@color/whitee"/>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@color/graywhite" />
+    <EditText
+        android:id="@+id/logn_password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#00000000"
+        android:padding="10dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:hint="密码"
+        android:singleLine="true"
+        android:textColor="@color/graywhite"
+        android:textColorHint="@color/graywhite"/>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@color/graywhite" />
     <Button
-        android:id="@+id/button_open"
-        android:layout_width="189dp"
-        android:layout_height="46dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:text="查看用户信息"
-        android:textSize="15dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="413dp" />
-</RelativeLayout>
+        android:id="@+id/botton_logn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@color/backgroundcolor"
+        android:hint="登录"
+        android:textSize="20dp"
+        android:textColorHint="@color/whitee"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/logn_forgetpw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="忘记密码？"
+            android:textSize="18sp"
+            android:textColor="@color/backgroundcolor"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:id="@+id/logn_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="新用户注册"
+            android:textSize="18sp"
+            android:textColor="@color/backgroundcolor"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+</LinearLayout>
