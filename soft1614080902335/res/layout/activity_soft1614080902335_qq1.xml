@@ -55,7 +55,7 @@
         android:layout_marginLeft="40dp"
         android:background="@color/graywhite" />
     <Button
-        android:id="@+id/botton_logn"
+        android:id="@+id/botton_open"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
