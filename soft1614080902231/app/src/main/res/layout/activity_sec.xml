@@ -7,6 +7,7 @@
     android:orientation="vertical"
    >
     <LinearLayout
+        android:id="@+id/mToplayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@android:color/white"
@@ -27,7 +28,7 @@
             android:gravity="center"
             android:textColor="#666666" />
         <TextView
-            android:id="@+id/Spanish"
+            android:id="@+id/spanish"
             android:layout_width="86dp"
             android:layout_height="42dp"
             android:text="西甲"
@@ -57,13 +58,13 @@
             android:footerDividersEnabled="false"
             android:headerDividersEnabled="false" />
         <FrameLayout
-            android:id="@+id/main_bady"
+            android:id="@+id/mBodylayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/white" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/main_bottom_bar"
+        android:id="@+id/mBottomLayout"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
@@ -71,30 +72,36 @@
         android:orientation="horizontal">
 
         <RelativeLayout
-            android:id="@+id/bottom_bar_course_btn"
+            android:id="@+id/mCharacter"
             android:layout_width="0dp"
             android:layout_height="55dp"
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/bottom_bar_text_course"
+                android:id="@+id/tv_character"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="文字直播"
                 android:textColor="#666666"
                 android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/iv_wenzi"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+
+                android:src="@drawable/ni" />
         </RelativeLayout>
         <RelativeLayout
-            android:id="@+id/bottom_bar_zhipo_btn"
+            android:id="@+id/mPlay"
             android:layout_width="0dp"
             android:layout_height="55dp"
             android:layout_weight="1">
             <TextView
-                android:id="@+id/bottom_bar_huifang_course"
+                android:id="@+id/tv_play"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_alignParentBottom="true"
@@ -105,6 +112,13 @@
                 android:text="精彩回放"
                 android:textColor="#666666"
                 android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/iv_bofang"
+                android:layout_width="54dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/nis" />
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>
