@@ -1,10 +1,10 @@
 1. **实验步骤**
 
-1.阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+1.阅读实验要求：
 
 2.在电脑上Android Studio编写代码
 
-3.使用Git将代码提交到自己的库中：https://github.com/ChenchenJT/android-labs-2018
+3.使用Git将代码提交到自己的库中：
 
 $ git pull $ git add 学号目录/* $ git commit "#2 #IS 第二次实验" $ git push
 
