@@ -1,4 +1,4 @@
-package com.example.my.com1614080901240myapplication;
+package edu.hzuapps.androidlabs.com1614080901240;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
