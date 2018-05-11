@@ -22,8 +22,10 @@
 +       // 保存在自己的文件夹下
 + ## 3.实验结果
 
+![image](https://github.com/LoadedFreak/android-labs-2018/blob/master/soft1614080902417/%233/395277057291056000.jpg)
+![image](https://github.com/LoadedFreak/android-labs-2018/blob/master/soft1614080902417/%233/336117211670429537.jpg)
 
-
-+## 4.试验体会
++ ## 4.试验体会
+本次实验很真切地感受到了界面设计过程中的困难，首先是设置背景图片的时候不能使用drawable中的图片，而是要调用mipmap中的资源，其次在设置按钮打开新的Activity的时候由于疏忽把button的监听段放错了地方，导致一直都无法运行成功，前后也浪费了挺多的时间，在控件坐标的设置上也不太熟悉。
 
 
