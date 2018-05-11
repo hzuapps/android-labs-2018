@@ -20,8 +20,8 @@
  
  
      $ git pull  
-     $ git add com1614080901244/*  
-     $ git commit -m "实验二"  
+     $ git add com1614080901144/*  
+     $ git commit -m "#2 第2次实验"  
     $ git push
  
  1. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）  
