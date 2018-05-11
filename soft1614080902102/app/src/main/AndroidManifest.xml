@@ -17,9 +17,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Second1614080902102Activity"
-            android:label="@string/title_activity_second1614080902102"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main1Activity"></activity>
     </application>
 
 </manifest>
