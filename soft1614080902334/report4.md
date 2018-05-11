@@ -13,7 +13,7 @@
     `public void onClick(View v) {`<br>
     `......`<br>
 
-## 2. 实验步骤
+## 3. 实验步骤
 1.  新建一个`CityInfoActivity`，并改写其内容，实现按钮监听接口;
 2.  在`res/layout`下编写相应的`activity_cityinfo.xml`文件，这里我将`btn_back点击按钮`放在`RelativeLayout`布局里，实现界面控件的事件处理。
     `activity_cityinfo.xml`的整个布局是用`LinearLayout`布局实现的，所以在这个实验里实现了布局的嵌套。
@@ -31,7 +31,7 @@
 
 
 
-## 3. 实验结果
+## 4. 实验结果
 我的截图1：<br><br>
 ![image](https://github.com/neptuneman/android-labs-2018/blob/master/soft1614080902334/lab4_screenshot_1.png "我的截图1")
 
@@ -41,7 +41,7 @@
 我的截图3：<br><br>
 ![image](https://github.com/neptuneman/android-labs-2018/blob/master/soft1614080902334/lab4_screenshot_3.png "我的截图3")
 
-## 4. 实验体会
+## 5. 实验体会
 1.  这次实验难度还行，使我体会到了选择好一种布局方式是多么的重要。
 2.  尝试了LinearLayout和ListView两种布局方式，感觉良好。
 3.  希望在接下来的时间把app的UI和功能完善好。
