@@ -1,21 +1,22 @@
-# 第二次实验
+# 实验二
 
-## 1.实验目标
+## 一、实验目标
+	1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ； 
+	2、根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）； 
+	3、将标题设置为自己的学号+对应的功能或题目； 
+	4、根据自己选择的题目实现Activity中导航、调用等功能（选做）
 
-（1）在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ； 
-（2）根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）； 
-（3）将标题设置为自己的学号+对应的功能或题目； 
-（4）根据自己选择的题目实现Activity中导航、调用等功能（选做）
+## 二、实验步骤
+	1、在Issues中创建选题：事件提醒；
+	2、在Android Studio编写代码；
+	3、编写实验报告
+	4、提交代码并发Pull Request：
+		$ git pull
+		$ git add 路径/项目/* 
+		$ git commit "#2 #970 第二次实验" 
+		$ git push	
 
-## 2.实验步骤
-
-（1）阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab 
-（2）在电脑上Android Studio编写代码// 代码要可以运行！ 
-（3）使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018 $ git pull $ git add 学号目录/* $ git commit "#12345678 " $ git push 
-（4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files） // 是否只修改了自己的文件？ 
-（5）在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md） // 保存在自己的文件夹下
-
-## 3.实验结果
+## 三、实验结果
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="soft1614080902313.androidlabs.hzuapps.edu.eventreminder">
@@ -77,6 +78,5 @@ public class Soft1614080902313EventReminderActivity extends AppCompatActivity {
     <string name="app_name">事件提醒</string>
 </resources>
 
-
 ## 4.实验体会
-    实验内容简单。
+    本次实验的内容较少，也较为简单，通过实验，了解了一些控件的作用，对标题，字体的大小、颜色等等的修改有了一定的了解。
