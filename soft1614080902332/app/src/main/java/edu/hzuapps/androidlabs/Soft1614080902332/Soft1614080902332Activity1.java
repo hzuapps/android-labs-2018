@@ -20,12 +20,22 @@ public class Soft1614080902332Activity1 extends Activity {
 
         final Activity thisActivity = this;
 
-        final Button btnOpen = (Button) findViewById(R.id.button_open);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+        final Button btnOpen1 = (Button) findViewById(R.id.button_open1);
+        final Button btnOpen2 = (Button) findViewById(R.id.button_open2);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(v.equals(btnOpen)) {
+                if(v.equals(btnOpen1)) {
                     Intent intent = new Intent(thisActivity,Soft1614080902332Activity2.class);
+                    thisActivity.startActivity(intent);
+                }
+            }
+        });
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(v.equals(btnOpen2)) {
+                    Intent intent = new Intent(thisActivity,Soft1614080902332Activity3.class);
                     thisActivity.startActivity(intent);
                 }
             }

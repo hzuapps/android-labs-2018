@@ -4,27 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902332Activity1"
-    tools:layout_editor_absoluteY="81dp">
+    tools:context=".Soft1614080902332Activity1">
 
-    <TextView
-        android:id="@+id/textview_01"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:drawableTop="@drawable/picture"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <Button
-        android:id="@+id/button_open"
-        android:layout_width="157dp"
-        android:layout_height="108dp"
-        android:layout_marginBottom="67dp"
-        android:text="点击进入"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/picture" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_open1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="浏览失物" />
+
+            <Button
+                android:id="@+id/button_open2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="上传失物" />
+        </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
 
