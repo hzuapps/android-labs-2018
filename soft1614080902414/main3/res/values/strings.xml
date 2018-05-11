@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">day计划</string>
+    <string name="title_activity_soft1614080902414a">计划添加</string>
+
+
+    <string name="tv_sport">SPORT</string>
+    <string name="tv_sportName">运动</string>
+    <string name="tv_sportTip">每天适当的运动会提高你的生活质量。</string>
+
+    <string name="tv_study">STUDY</string>
+    <string name="tv_studyName">学习</string>
+    <string name="tv_studyTip">知识无止境，活到老，学到老！</string>
+
+    <string name="tv_work">WORK</string>
+    <string name="tv_workName">工作</string>
+    <string name="tv_workTip">在工作中提高自己的能力与自信。</string>
+</resources>
