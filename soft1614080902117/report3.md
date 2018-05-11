@@ -26,5 +26,5 @@ Android资源使用编程
 ![image](https://github.com/1614080902117/android-labs-2018/blob/master/soft1614080902117/shiyan3.2.jpg)
 ## 4.实验体会
     本次实验使用Android Studio编写代码，通过此次实验学会了在一个Activity中创建按钮，
-    点击按钮可以进入另一个Activity，同时添加图片到app当中最后在运行截图。
+    点击按钮可以进入另一个Activity，同时添加图片到app当中最后在运行并截图。
     
