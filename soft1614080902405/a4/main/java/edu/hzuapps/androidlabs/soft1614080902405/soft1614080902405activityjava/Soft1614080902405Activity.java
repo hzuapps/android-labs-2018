@@ -9,7 +9,7 @@ public class Soft1614080902405Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.neirong);
-
+   
 
 
 
