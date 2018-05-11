@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_info"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".CityInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#b3FFFFFF">
+
+        <!--返回按钮-->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="63dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/btn_back"
+            android:gravity="center"
+            android:visibility="visible"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:scrollbarSize="10dp"
+        android:scrollbarThumbVertical="@drawable/minibar"
+        android:scrollbarDefaultDelayBeforeFade="1200"
+        >
+    </ListView>
+
+    <!--
+    2018.5.10更新
+    实现LinearLayout布局，用ListView显示城市信息
+    增加自定义滚动条minibar
+    可通过返回按钮切换至启动页
+    -->
+
+</LinearLayout>
