@@ -1,21 +1,16 @@
 # 第二次实验 
 
 ## 1. 实验步骤
-1.阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
-
-2.在电脑上Android Studio编写代码
-
-3.使用Git将代码提交到自己的库中：https://github.com/ChenchenJT/android-labs-2018
-
-$ git pull
-$ git add 学号目录/*
-$ git commit "#2 "
-$ git push
-
-4.在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-5.在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
-
+1.在hzuapps中的issues中创建"QQ"，并写上该实现的两个功能  
+2.在电脑上Android Studio编写代码，创建一个Activity，以自己的专业+学号作为前缀  
+3.使用Git将代码提交到自己的库中：https://github.com/ChenchenJT/android-labs-2018  
+具体代码如下：  
+$ git pull  
+$ git add soft1614080902335/*  
+$ git commit "#2 the second lab"  
+$ git push  
+4.在自己的GitHub库上创建和发送Pull Request  
+5.在GitHub中使用Markdown文件编写实验报告  
 
 ## 3. 实验结果
 
