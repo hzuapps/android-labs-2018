@@ -6,9 +6,10 @@
 
 先在drwable中添加自己实验所需要的图片；
 
-创建三个Activity,在Activity中创建软件所需要的组件，比如button，还进行LinearLayout布局等；
-
-在对应的java包中添加监听事件等；
+在main.xml中添加TextView显示刚进入软件的图片，添加按钮“打开”键，当点击此键时，MainActivity.java中的监听事件会进入微信抢红包的选择页面，
+laile.java包中添加两个监听事件，一个是进入第三个页面，即运行此程序，另一个是返回第一个页面；当进入第三个Activity时，有关闭的Buttton按钮，
+点击次按钮即可返回第一页面；
+页面布局采用了LinearLayout布局法，编写android:gravity="center"代码将所写的两个Button安排到中心点。
 
 # 3.实验结果
 ![](https://github.com/Mrwuwu12138/android-labs-2018/blob/master/soft1614080902220/687668327104094246.jpg)
