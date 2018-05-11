@@ -4,43 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soft1606081301337Activity2">
+    tools:context=".soft1606081301337Activity2"
+    tools:layout_editor_absoluteY="81dp">
 
-    <ImageView
-        android:id="@+id/imageView6"
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:layout_height="489dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pic02" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="45dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginRight="68dp"
-        android:layout_marginStart="68dp"
-        android:text="确定"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:background="#ffffff"
+            android:contentDescription="@string/title_activity_2"
+            app:srcCompat="@drawable/pic03" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="375dp"
-        android:text="                                            请输入物流单号"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="55dp">
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/buttontext"
+                tools:layout_editor_absoluteX="296dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:text="@string/textview2"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+        </TableRow>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:contentDescription="@string/title_activity_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:srcCompat="@drawable/pic12" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
