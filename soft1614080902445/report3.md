@@ -1,9 +1,9 @@
 1.实验目标
-（1）在原先创的项目中增加一个Activity。 
-（2）在界面中显示一张图片。 
-（3）提交res/drawable中的图片。 
-（4) 提交res/values, res/layout等其他代码。
- （5）将运行结果放入报告中。
+（1）首先在自己原原来的项目中增加另外的一个Activity，该Activity为上一个Activity跳转后的界面。 
+（2）在界面中显示一张自己选定的图片。 
+（3）将自己用到的图片放入res/drawable中进行提交。 
+（4) 再然后是将res/values, res/layout等其他代码进行提交。
+（5）将运行结果的相应连接放入实验报告中。
  2.实验步骤
 （1）阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
 （2）在电脑上Android Studio编写代码// 代码要可以运行！
