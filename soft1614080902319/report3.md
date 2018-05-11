@@ -4,29 +4,11 @@
 掌握在Android应用中使用图片等资源的方法。
 
 ## 2.实验步骤
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
-
-
-在电脑上Android Studio编写代码
-
-
-// 代码要可以运行！
-
-使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
-
-$ git pull
-
-$ git add 学号目录/*  (git rm 学号目录/*)
-
-$ git push
-在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-// 是否只修改了自己的文件？
-
-在GitHub中使用Markdown文件编写实验报告
-
-// 保存在自己的文件夹下
-
+1.在res.layout中的主activity中用design拖入一个button，设置好ID（button1）
+2.在res.drawable中加入一张图
+3.继续在步骤1主activity中的android.support.constraint.ConstraintLayout中加入
+  android:background="@drawable/dark"（其中dark是文件名字），以该图为主activity的背景
+4.在java中的MainActivity中加入监听机构的代码，使得能够点击按钮（button1）能跳到activity_2界面去
 ## 3.实验结果
 
 ![image](https://github.com/xiaojiahao/android-labs-2018/blob/master/soft1614080902319/sy3(1).jpg)
