@@ -3,11 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="50dp"
-        android:text="登录后页面"
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/addition"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
         />
 
 </LinearLayout>
