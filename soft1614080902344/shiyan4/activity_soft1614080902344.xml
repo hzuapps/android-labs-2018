@@ -1,0 +1,73 @@
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3">
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:text="用户登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60px"
+            />
+
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="300px">
+
+        <TextView />
+        <TextView
+            android:text="账   号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="44px"
+            />
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:minWidth="440px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="90px">
+        <TextView />
+        <TextView
+            android:text="密  码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="44px"
+            />
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="24px"
+            android:inputType="textPassword"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="200px">
+        <TextView />
+        <Button
+            android:id="@+id/login"
+            android:text="登录"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="48px"
+            />
+        <Button
+            android:id="@+id/reset"
+            android:text="重置"
+            android:textSize="48px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView />
+    </TableRow>
+
+</TableLayout>
