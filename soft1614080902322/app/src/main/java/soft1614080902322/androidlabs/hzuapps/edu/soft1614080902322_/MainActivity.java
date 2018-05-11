@@ -11,18 +11,36 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_soft1614080902322);
+            Button btn_Click = (Button)findViewById(R.id.Game1);
+            Button btn_Click1 = (Button)findViewById(R.id.Game2);
+            Button btn_Click2 = (Button)findViewById(R.id.add);
+            btn_Click.setOnClickListener(new MyOnClickListener());
+            btn_Click1.setOnClickListener(new MyOnClickListener1());
+
+        }
+        class MyOnClickListener implements View.OnClickListener{
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v){
+                if(v.getId()==R.id.Game1) {
+                    Intent intent = new Intent(MainActivity.this,Remote_0f_Game1.class);
+                    startActivity(intent);
+                }
             }
-        });
+
+        }
+        class MyOnClickListener1 implements View.OnClickListener{
+            @Override
+            public void onClick(View v){
+                if(v.getId()==R.id.Game2) {
+                    Intent intent1 = new Intent(MainActivity.this,Remote_of_Game2.class);
+                    startActivity(intent1);
+                }
+            }
+
+        }
     }
 }
