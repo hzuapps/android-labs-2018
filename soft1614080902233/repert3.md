@@ -4,20 +4,32 @@
 掌握在Android应用中使用图片等资源的方法。
 
 ## 2.实验步骤
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
- 
-在电脑上Android Studio编写代码
- 
- // 代码要可以运行！
- 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
- $ git pull
- $ git add 学号目录/*
- $ git commit "#12345678 "
- $ git push
- 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
- // 是否只修改了自己的文件？
- 在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
- // 保存在自己的文件夹下
+
+（1）打开已建好的项目soft1614080902233
+（2）创建第二个activity：secondActivity
+（3）在第一个activity的xml文件，加入代码
+	<TextView  
+    		android:id="@+id/textview_01"  
+    		android:layout_width="wrap_content"  
+    		android:layout_height="wrap_content"  
+    		android:drawableTop="@drawable/maomao"  
+    		android:text="hello_world" /> 
+	activity的预览图中就出现了我想要的图片。
+（4）在第一个activity的java文件中加入监听器代码
+	public class MainActivity extends Activity  implements OnClickListener {    
+    	......    
+    
+    	@Override    
+    	public void onClick(View v) {    
+        	if(v.equals(startButton)) {    
+         	   // 另一个Activity的完整名称 = edu.androidlabs.soft123456(包名).Soft123456Activity(类名)
+         	   Intent intent = new Intent("另一个Activity的完整名称");    
+         	   startActivity(intent);    
+        		}    
+   	 	}    
+	}  
+	这样就可以点打开另外一个新建的activity
+（5）用 git 上传
 
 ## 3.实验结果
 

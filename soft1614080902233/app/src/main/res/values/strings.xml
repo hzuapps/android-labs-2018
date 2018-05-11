@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">soft1614080902233</string>
-    <string name="title_activity_secord">SecordActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">third</string>
 </resources>
