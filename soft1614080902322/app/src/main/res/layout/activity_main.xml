@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.soft1614080902322activity.MainActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:orientation="vertical"
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+"
+                android:textColor="#ffff"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_height="40dp"
+                android:layout_width="200dp"
+                android:layout_marginLeft="20dp"
+                android:text="已有的游戏列表"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#ffff"/>
+        </LinearLayout>
 
-    </android.support.design.widget.AppBarLayout>
+        <Button
+            android:id="@+id/Game1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/img1"
+            android:text="王者荣耀"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/Game2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/img2"
+            android:text="贪玩蓝月"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
 
-    <include layout="@layout/support_simple_spinner_dropdown_item" />
+    </LinearLayout>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
-</android.support.design.widget.CoordinatorLayout>
+</android.support.constraint.ConstraintLayout>
