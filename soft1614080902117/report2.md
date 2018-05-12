@@ -99,4 +99,4 @@ package edu.hzuapps.androidlabs.soft1614080902117.myapplication;
 
 ## 4.实验体会
     本次实验使用Android Studio编写代码，通过此次实验学会了在Android中Activity的
-    创建、标题的修改，同时也选择了一个相对简单的选题进行接下来的实验。
+    创建、标题的修改，同时也选择了相对简单的选题进行接下来的实验。
