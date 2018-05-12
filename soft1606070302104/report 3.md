@@ -12,18 +12,24 @@
 (5).点击图片（或按钮）时，打开另一个Activity。
 ```
 ## 3.实验步骤
+
 ```
 (1).找到自己想要插入的图片，并且以小写字母命名好，复制该图片到res/drawable目录下
 (2).此时在 activity_soft1606070302104.xml中的<TextView插入
+
 ```
         android:id="@+id/textview_01"
         android:drawableTop="@drawable/poke"
 ```
+
 此时图片就可以显示出来了。
+
 (3).在activity_soft1606070302104.xml的Design页面中，添加Button，并且命名，它会在TEXT页面中相应显示代码
 (4).新建second2Activity，该Activity为按钮Button点出的另外一个Activity,。并且编辑activity_second2.xml的页面内容
 (5).在Soft1606070302104Activity.java中新建一个按钮private Button btn;。再创建一个button监听器，并使监听器能打开另一个activity并传值，添加以下代码：
+
 一．创建一个Button的OnClick监听器
+
 ```
 //这个属于一个内部类
     class MyButtonListener implements OnClickListener {
@@ -41,19 +47,24 @@
         }
     }
 ```
+
 二．把监听事件绑定到按钮
+
 ```
         btn = (Button) findViewById(R.id.button);
          //绑定监听事件  
         btn.setOnClickListener(new MyButtonListener() );  
 ```
+
 三．在另一个activity中读取intent值
+
 ```
 //创建一个Intent实例存储传送过来的值
         Intent myIntent = getIntent();
         //读取Intent的值
         String TextValue = myIntent.getStringExtra("Text");
 ```
+
 (6).运行
 ```
 
