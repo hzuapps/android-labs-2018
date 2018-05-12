@@ -24,7 +24,13 @@
 
 ### 1、阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab；
 
-### 2、在电脑上Android Studio编写代码并运行正确；
+### 2、在电脑上Android Studio编写代码
+
+#### ①、运行Android studio；
+
+#### ②、在实验三的基础上修改activity1_soft1614080902440.xml,增加RelativeLayout布局方式，增加三个EditText控件和一个Button控件等进行登陆界面的设计；
+
+#### ③、在Soft1614080902440Activity1.java中获得三个EditText控件和一个Button控件的UI对象，最后设置按钮点击后的事件处理。
 
 ### 3、使用Git将代码提交到自己的库中：https://github.com/HHuangF/android-labs-2018；
        $ git pull
