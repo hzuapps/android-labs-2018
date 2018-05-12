@@ -7,28 +7,22 @@ import android.widget.Button;
 import android.app.Activity;
 import android.content.Intent;
 
-import edu.hzuapps.androidlabs.Soft1614080902138.R;
-import edu.hzuapps.androidlabs.Soft1614080902138.Soft1614080902138Activity5;
-
-
-public class Soft1614080902138Activity3 extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft16140809021383);
-
+        setContentView(R.layout.activity_main);
         final Activity thisActivity = this;
 
-        Button btnOpen = (Button) findViewById(R.id.button_open);
+        Button btnOpen = (Button) findViewById(R.id.Button5);
         btnOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, Soft1614080902138Activity5.class);
+                Intent intent = new Intent(thisActivity, Main2Activity.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
         });
-
     }
 }
