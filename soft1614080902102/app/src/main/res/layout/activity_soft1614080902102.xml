@@ -4,24 +4,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902102Activity">
+    tools:context=".Soft1614080902102Activity"
+    android:orientation="vertical"
+    android:background="@drawable/four">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:layout_weight="0.11"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="1dp"
+        android:text="中苑1栋"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/three"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="156dp"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/three"
-        android:text="hello_world"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:layout_gravity="center"
+        android:layout_weight="0.11"
+        android:background="@color/colorPrimaryDark"
+        android:text="中苑2栋"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.11"
+        android:background="@color/colorPrimaryDark"
+        android:text="中苑3栋"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="176dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.11"
+        android:background="@color/colorPrimaryDark"
+        android:text="中苑4栋"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="256dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.11"
+        android:background="@color/colorPrimaryDark"
+        android:text="中苑5栋"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
+
+
 
 
 
