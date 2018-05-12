@@ -19,6 +19,10 @@
         <activity
             android:name=".soft1614080902204BActivity"
             android:label="@string/title_activity_soft1614080902204_b"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".soft1614080902204CActivity"
+            android:label="@string/title_activity_soft1614080902204_c"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

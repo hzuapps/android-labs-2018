@@ -5,29 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".soft1614080902204BActivity">
-
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="400dp"
+            android:background="@drawable/timg"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="请选择要出的拳"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:background="#DB7093"/>
 
-    </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#FFFADC">
 
-    <include layout="@layout/content_soft1614080902204_b" />
+            <Button
+                android:id="@+id/button_bu"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:text="布"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+            <Button
+                android:id="@+id/button_jiandao"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:text="剪刀"/>
+
+            <Button
+                android:id="@+id/button_shitou"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:text="石头"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>
