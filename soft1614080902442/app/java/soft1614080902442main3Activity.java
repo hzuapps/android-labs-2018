@@ -7,13 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-
-public class soft1614080902442main2Activity extends AppCompatActivity {
+public class soft1614080902442main3Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft1614080902442main2);
+        setContentView(R.layout.activity_soft1614080902442main3);
 
     }
 
