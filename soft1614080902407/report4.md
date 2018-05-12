@@ -238,7 +238,7 @@ public class SecondActivity extends AppCompatActivity {
 <string name="hint_content">请在这里输入备忘录的内容</string>
 </resources>
 
-
+实验截图
 ![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE4-1.jpg?raw=true)
 
 ![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE4-2.jpg?raw=true)
