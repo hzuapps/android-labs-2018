@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.ToggleButton;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
     final Activity thisAtivity=this;
         Button button1=(Button) findViewById(R.id.zhigong);
