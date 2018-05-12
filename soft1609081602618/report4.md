@@ -31,6 +31,7 @@ public class MainActivity extends Activity  implements OnClickListener {
 ## 4.实验结果
 ![image](https://github.com/unihaoke/android-labs-2018/blob/master/soft1609081602618/1526055697(1).png)
 ![image](https://github.com/unihaoke/android-labs-2018/blob/master/soft1609081602618/1526108833(1).png)
+第一张图是进去时显示的页面，第二张图是第一张图向下拉时显示的图片，其中底部的三个image图片是用来切换fragment的
 6.实验体会
 这次的实验主要有2个bug令我花费蛮多的时间
 1.第一个bug就是ImageView中的src属性添加png格式图片的时候显示异常，后来改成jpg格式就可以使用了，具体原因不清楚还请老师解答一下
