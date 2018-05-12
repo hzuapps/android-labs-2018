@@ -18,7 +18,7 @@
 
 ## 四、实验截图
 * 首页<br>
-![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234功能页面.PNG)<br>
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234首页.PNG)<br>
 
 *功能页面<br>
 ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234功能页面.PNG)<br>
