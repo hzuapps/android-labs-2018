@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Com1614080901113颜值评分APP</string>
+    <string name="touch">点击解锁</string>
+    <string name="photo">拍照</string>
+    <string name="testface">测试你的颜值</string>
+    <string name="startTest">开始测试</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">成绩查询系统</string>
+    <string name="title_activity_button">button</string>
+    <string name="title_activity_message">message</string>
+</resources>

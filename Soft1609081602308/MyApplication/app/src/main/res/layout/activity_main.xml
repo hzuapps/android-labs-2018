@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.Soft1609081602308Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="391dp"
+        android:layout_height="521dp"
+        android:drawableTop="@drawable/android"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="101dp"
+        android:layout_height="60dp"
+        android:text="click"
+
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

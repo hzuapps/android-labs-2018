@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902334WeatherActivity">
+
+    <!--app图标和文字显示-->
+    <TextView
+        android:id="@+id/textview_ic_app"
+        android:layout_width="168sp"
+        android:layout_height="168dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:drawableTop="@drawable/ic_app"
+        android:gravity="center"
+        android:text="@string/context"
+        android:textAllCaps="false" />
+
+    <!--查询跳转按钮-->
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/btn_open"
+        android:gravity="center"
+        android:visibility="visible"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <!--
+    在布局文件中，文本的设置使用如下写法时会有警告，
+    应该在res/values/xxx.xml中设置，引用的时候使用
+    这样做可以做到一改全改，在支持多语言时也是很有用的。
+
+    2018.4.23更新
+    实现图片和文字的显示
+    增加查询跳转按钮
+    将默认的约束布局ConstaintLayout改为相对布局RelativeLayout
+    -->
+</RelativeLayout>

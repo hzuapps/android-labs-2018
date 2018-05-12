@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">The most beautiful wallpaper</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="jump">跳转</string>
+    <string name="secondText">这是第二个界面</string>
+</resources>

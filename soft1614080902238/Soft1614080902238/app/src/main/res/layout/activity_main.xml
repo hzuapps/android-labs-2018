@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="@drawable/link">
+        <Button
+            android:id="@+id/txt_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:text= "@string/infomation" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/startActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sy"
+            android:drawablePadding="3dp"
+
+
+            android:text="添加"/>
+
+        <Button
+            android:id="@+id/txt_poi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sz"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="设置"/>
+
+        <Button
+            android:id="@+id/txt_user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/yh"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="用户"/>
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tc"
+            android:drawablePadding="3dp"
+
+            android:gravity="center"
+
+            android:text="退出"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">猜拳小游戏</string>
+    <string name="title_activity_start">玩家pk台</string>
+</resources>

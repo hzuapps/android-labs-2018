@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/main_botton"
+        android:layout_alignParentBottom="true"
+        android:background="@color/graywhite"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/main_chats"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp">
+            <ImageView
+                android:id="@+id/button_chats"
+                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/chat_gray"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/main_contact"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp">
+            <ImageView
+                android:id="@+id/button_contact"
+                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/contact_gray"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/main_more"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp">
+            <ImageView
+                android:id="@+id/button_more"
+                android:layout_height="fill_parent"
+                android:layout_width="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/more_gray"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
