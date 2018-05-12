@@ -18,7 +18,7 @@
 （3）使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
 
 $ git pull
-$ git add soft1614080902214/*
+$ git add soft1614080902209/*
 $ git commit "第二次实验"
 $ git push
 
@@ -35,4 +35,4 @@ $ git push
 略
 
 ## 4.实验体会
-   第一次使用Android studio建立project，有点小激动，原来手机app 就是这样子一步步做出来的
+   第一次使用Android studio建立project，有点小激动
