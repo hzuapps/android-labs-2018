@@ -27,11 +27,56 @@ public class Soft1614080902216Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Button btnOpen = (Button) findViewById(R.id.button_open);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+        Button btnOpen1 = (Button) findViewById(R.id.button1);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Soft1614080902216Activity.this, MainActivity.class);
+                startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen2 = (Button) findViewById(R.id.button2);
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902216Activity.this, Main2Activity.class);
+                startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen3 = (Button) findViewById(R.id.button3);
+        btnOpen3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902216Activity.this, Main3Activity.class);
+                startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen4 = (Button) findViewById(R.id.button4);
+        btnOpen4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902216Activity.this, Main4Activity.class);
+                startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen5 = (Button) findViewById(R.id.button5);
+        btnOpen5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902216Activity.this, Main5Activity.class);
+                startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen6 = (Button) findViewById(R.id.button6);
+        btnOpen6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902216Activity.this, Main6Activity.class);
                 startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
