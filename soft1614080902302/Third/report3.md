@@ -1,29 +1,29 @@
-# µÚÈı´ÎÊµÑé
+# ç¬¬ä¸‰æ¬¡å®éªŒ
 
-## 1.ÊµÑéÄ¿±ê
-ÕÆÎÕÔÚAndroidÓ¦ÓÃÖĞÊ¹ÓÃÍ¼Æ¬µÈ×ÊÔ´µÄ·½·¨¡£
+## 1.å®éªŒç›®æ ‡
+æŒæ¡åœ¨Androidåº”ç”¨ä¸­ä½¿ç”¨å›¾ç‰‡ç­‰èµ„æºçš„æ–¹æ³•ã€‚
 
-## 2.ÊµÑé²½Öè
-ÔÄ¶ÁÊµÑéÒªÇó£ºhttps://github.com/hzuapps/android-labs-2018/labels/Lab
+## 2.å®éªŒæ­¥éª¤
+é˜…è¯»å®éªŒè¦æ±‚ï¼šhttps://github.com/hzuapps/android-labs-2018/labels/Lab
  
-ÔÚµçÄÔÉÏAndroid Studio±àĞ´´úÂë
+åœ¨ç”µè„‘ä¸ŠAndroid Studioç¼–å†™ä»£ç 
  
- // ´úÂëÒª¿ÉÒÔÔËĞĞ£¡
- Ê¹ÓÃGit½«´úÂëÌá½»µ½×Ô¼ºµÄ¿âÖĞ£ºhttps://github.com/YOUR_NAME/android-labs-2018
+ // ä»£ç è¦å¯ä»¥è¿è¡Œï¼
+ ä½¿ç”¨Gitå°†ä»£ç æäº¤åˆ°è‡ªå·±çš„åº“ä¸­ï¼šhttps://github.com/YOUR_NAME/android-labs-2018
  $ git pull
- $ git add Ñ§ºÅÄ¿Â¼/*
+ $ git add å­¦å·ç›®å½•/*
  $ git commit "#12345678 "
  $ git push
- ÔÚ×Ô¼ºµÄGitHub¿âÉÏ´´½¨ºÍ·¢ËÍPull Request£¨×¢Òâ²é¿´Changed files£©
- // ÊÇ·ñÖ»ĞŞ¸ÄÁË×Ô¼ºµÄÎÄ¼ş£¿
- ÔÚGitHubÖĞÊ¹ÓÃMarkdownÎÄ¼ş±àĞ´ÊµÑé±¨¸æ£¨report1.md, report2.md£©
- // ±£´æÔÚ×Ô¼ºµÄÎÄ¼ş¼ĞÏÂ
+ åœ¨è‡ªå·±çš„GitHubåº“ä¸Šåˆ›å»ºå’Œå‘é€Pull Requestï¼ˆæ³¨æ„æŸ¥çœ‹Changed filesï¼‰
+ // æ˜¯å¦åªä¿®æ”¹äº†è‡ªå·±çš„æ–‡ä»¶ï¼Ÿ
+ åœ¨GitHubä¸­ä½¿ç”¨Markdownæ–‡ä»¶ç¼–å†™å®éªŒæŠ¥å‘Šï¼ˆreport1.md, report2.mdï¼‰
+ // ä¿å­˜åœ¨è‡ªå·±çš„æ–‡ä»¶å¤¹ä¸‹
 
-## 3.ÊµÑé½á¹û
+## 3.å®éªŒç»“æœ
 
-![image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/tupian1.png)
+![image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/Third/tupian1.png)
 
-![image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/tupian2.png)
+![image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/Third/tupian2.png)
 
-## 4.ÊµÑéÌå»á
-Õâ´ÎÊµÑé¶ÔÎÒÀ´ËµºÜÀ§ÄÑ,ÉÏÍøÑ§Ï°ÁËÈçºÎ´ÓÒ»¸öActivity´ò¿ªÁíÍâµÄÒ»¸öActivity
+## 4.å®éªŒä½“ä¼š
+è¿™æ¬¡å®éªŒå¯¹æˆ‘æ¥è¯´å¾ˆå›°éš¾,ä¸Šç½‘å­¦ä¹ äº†å¦‚ä½•ä»ä¸€ä¸ªActivityæ‰“å¼€å¦å¤–çš„ä¸€ä¸ªActivity
