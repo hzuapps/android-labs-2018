@@ -12,15 +12,15 @@ public class Soft1614080902315Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soft_1614080902315_activity);
-        Button button=(Button)findViewById(R.id.button);
+        /*  Button button=(Button)findViewById(R.id.button);
 
-        button.setOnClickListener(new View.OnClickListener(){
+      button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent=new Intent(Soft1614080902315Activity.this,secondActivity.class);
                 startActivity(intent);
             }
-        });
+        }); */
 
 
     }
