@@ -43,5 +43,5 @@ public class MainActivity extends Activity  implements OnClickListener {
 
   布局的话先画一个草图先，再根据草图我就可以心中有数，比较清楚地能够做出来。
   布局没有使用老师提到的布局而是用ConstraintLayout，主要是ConstraintLayout可以很方便的管理控件之间布局的关系，用起来比较简单。
-  在过程中遇到列表不显示的问题，后来发现是我由于上一个也写了onCrete
-  
+  在过程中遇到列表不显示的问题，后来发现是我由于上一个也写了onCrete函数，导致两个oncreate函数不能正确识别，所以列表就不能显示。所以我把两个函数合并
+  之后，列表就可以正常显示。我还遇到了列表不能扩展到下面导致下面是空白的问题，后来发现是 android:layout_height="567dp"中的567dp，我改成了  android:layout_height="match_parent"就可以正常扩展到下面，而match_parent是尽力扩展的意思。
