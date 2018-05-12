@@ -1,4 +1,4 @@
-  package edu.androidlabs.soft1614080902413;
+﻿package edu.androidlabs.soft1614080902413;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
