@@ -15,23 +15,38 @@ public class Soft1614080902344Activity extends ActionBarActivity {
 
         final Activity thisActivity = this;
 
-        Button login = (Button) findViewById(R.id.login);
-        Button  reset= (Button) findViewById(R.id.reset);
-        login.setOnClickListener(new View.OnClickListener() {
+        Button add = (Button) findViewById(R.id.add);
+        Button  delete= (Button) findViewById(R.id.delete);
+        Button inquire= (Button) findViewById(R.id.inquire);
+        Button change= (Button) findViewById(R.id.change);
+        add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Soft1614080902344Activity.this, Soft1614080902344Activity2.class);
                 thisActivity.startActivity(intent);
             }
         });
-        reset.setOnClickListener(new View.OnClickListener() {
+        delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Soft1614080902344Activity.this, Soft1614080902344Activity.class);
                 thisActivity.startActivity(intent);
             }
         });
-
+        inquire.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902344Activity.this, Soft1614080902344Activity.class);
+                thisActivity.startActivity(intent);
+            }
+        });
+        change.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902344Activity.this, Soft1614080902344Activity.class);
+                thisActivity.startActivity(intent);
+            }
+        });
     }
 
 }

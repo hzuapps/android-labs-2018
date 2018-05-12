@@ -14,19 +14,17 @@
 
 三.实验步骤
 
-1.分别在2个Activity进行布局，activity_soft1614080902344使用TableLayout布局，activity_soft16140809023442使用RelativeLayout布局
+1.分别在2个Activity进行布局，activity_soft1614080902344使用RelativeLayout布局，activity_soft16140809023442使用RelativeLayout布局
 
-2.在Soft1614080902344Activity上为TableLayout布局里的“登录”按钮以及“重置”按钮添加监听
+2.在Soft1614080902344Activity上添加四个按钮并为之添加监听器
 
-3.在Soft1614080902344Activity2上为RelativeLayout布局里的“查询”按钮以及“退出”按钮添加监听
-
-4.使用Git将代码提交到自己的库中：用git进入目录的路径
+3.使用Git将代码提交到自己的中：用git进入目录的路径
 
   $ git add app
   $ git commit -m "#4#1234 第4次实验+截图+实验报告"
   $ git push
-5.在自己的GitHub库上找到对应的图片，复制地址
-6.将复制的地址写入第四次实验的实验截图中（report4.md）
+4.在自己的GitHub库上找到对应的图片，复制地址
+5.将复制的地址写入第四次实验的实验截图中（report4.md）
 
 四.实验截图
 
