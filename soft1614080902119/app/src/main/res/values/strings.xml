@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">财务管理系统</string>
+    <string name="title_activity_welcome">welcome</string>
+    <string name="title_activity_register">register</string>
+</resources>
