@@ -1,38 +1,38 @@
-#µÚËÄ´ÎÊµÑé
+# ç¬¬å››æ¬¡å®éªŒ
 
-##1.ÊµÑéÄ¿±ê
-1.¸ù¾İÑ¡ÌâÒªÇóÉè¼Æ½çÃæ²¼¾Ö¼°¿Ø¼şÊ¹ÓÃ£»
+## 1.å®éªŒç›®æ ‡
+1.æ ¹æ®é€‰é¢˜è¦æ±‚è®¾è®¡ç•Œé¢å¸ƒå±€åŠæ§ä»¶ä½¿ç”¨ï¼›
 
-2.²¼¾Öxml¼°½çÃæ¿ØÖÆ²Ù×÷´úÂëÌá½»²¢½ØÍ¼£»
+2.å¸ƒå±€xmlåŠç•Œé¢æ§åˆ¶æ“ä½œä»£ç æäº¤å¹¶æˆªå›¾ï¼›
 
-3.½«Ó¦ÓÃÔËĞĞ½á¹û½ØÍ¼¡£
+3.å°†åº”ç”¨è¿è¡Œç»“æœæˆªå›¾ã€‚
 
-##2.ÊµÑéÄÚÈİ
-1.Ê¹ÓÃÆäÖĞÒ»ÖÖ²¼¾Ö·½Ê½£¬Éè¼ÆËùÑ¡ÌâÄ¿µÄ½çÃæ£»
+## 2.å®éªŒå†…å®¹
+1.ä½¿ç”¨å…¶ä¸­ä¸€ç§å¸ƒå±€æ–¹å¼ï¼Œè®¾è®¡æ‰€é€‰é¢˜ç›®çš„ç•Œé¢ï¼›
 
-2.Í¨¹ı¿Ø¼şID»ñÈ¡½çÃæ¶ÔÏó£¬Ö´ĞĞÏà¹Ø²Ù×÷£ºandroid:id="@+id/my_button"
+2.é€šè¿‡æ§ä»¶IDè·å–ç•Œé¢å¯¹è±¡ï¼Œæ‰§è¡Œç›¸å…³æ“ä½œï¼šandroid:id="@+id/my_button"
 
-3.ÊµÏÖ½çÃæ¿Ø¼şµÄÊÂ¼ş´¦Àí£¬ÀıÈçµã»÷°´Å¥£º
+3.å®ç°ç•Œé¢æ§ä»¶çš„äº‹ä»¶å¤„ç†ï¼Œä¾‹å¦‚ç‚¹å‡»æŒ‰é’®ï¼š
 public class MainActivity extends Activity  implements OnClickListener {    
     ......   
     @Override    
     public void onClick(View v) { 
     ......
 
-##3.ÊµÑé²½Öè
-1.´ò¿ªAndroid Studio£»
+## 3.å®éªŒæ­¥éª¤
+1.æ‰“å¼€Android Studioï¼›
 
-2.½øÈëres/layoutÎÄ¼ş¼Ğ£¬´ò¿ªactivity_soft1614080902407_1.xmlºÍactivity_second.xml£»
+2.è¿›å…¥res/layoutæ–‡ä»¶å¤¹ï¼Œæ‰“å¼€activity_soft1614080902407_1.xmlå’Œactivity_second.xmlï¼›
 
-3.¸ù¾İ×Ô¼ºµÄÑ¡ÌâÑ¡ÔñÏà¹Ø²¼¾ÖÒÔ¼°Ìí¼ÓÏàÓ¦µÄ¿Ø¼ş£¬# 1015±¸ÍüÂ¼ ²ÉÓÃLinearLayout²¼¾Ö
+3.æ ¹æ®è‡ªå·±çš„é€‰é¢˜é€‰æ‹©ç›¸å…³å¸ƒå±€ä»¥åŠæ·»åŠ ç›¸åº”çš„æ§ä»¶ï¼Œ# 1015å¤‡å¿˜å½• é‡‡ç”¨LinearLayoutå¸ƒå±€
 
-4.ÊµÏÖButtonµÄÊÂ¼ş¼àÌıÓë´¦Àí
+4.å®ç°Buttonçš„äº‹ä»¶ç›‘å¬ä¸å¤„ç†
 
-5.ÔÚÊÖ»úÉÏÔËĞĞ²âÊÔ²¢ĞŞ¸Ä
+5.åœ¨æ‰‹æœºä¸Šè¿è¡Œæµ‹è¯•å¹¶ä¿®æ”¹
 
-##4.ÊµÑé½á¹û
+## 4.å®éªŒç»“æœ
 
-£¨1£©activity_soft1614080902407_1.xml
+ï¼ˆ1ï¼‰activity_soft1614080902407_1.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -68,7 +68,7 @@ public class MainActivity extends Activity  implements OnClickListener {
 
 </LinearLayout>
 
-£¨2£©activity_second.xml
+ï¼ˆ2ï¼‰activity_second.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -89,7 +89,7 @@ public class MainActivity extends Activity  implements OnClickListener {
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="ÄÚÈİ"
+            android:text="å†…å®¹"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -130,14 +130,14 @@ public class MainActivity extends Activity  implements OnClickListener {
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶¨Ê±ÌáĞÑ"
+            android:text="å®šæ—¶æé†’"
             android:textStyle="bold" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ìí¼ÓÍ¼Æ¬"
+            android:text="æ·»åŠ å›¾ç‰‡"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -151,7 +151,7 @@ public class MainActivity extends Activity  implements OnClickListener {
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ìí¼Ó±¸ÍüÂ¼"
+            android:text="æ·»åŠ å¤‡å¿˜å½•"
             android:textStyle="bold" />
 
         <Button
@@ -163,7 +163,7 @@ public class MainActivity extends Activity  implements OnClickListener {
 
 </LinearLayout>
 
-£¨3£©Soft1614080902407Activity_1.java
+ï¼ˆ3ï¼‰Soft1614080902407Activity_1.java
 
 package edu.hzuapps.androidlabs.soft1614080902407;
 
@@ -195,7 +195,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
     }
 }
 
-£¨4£©SecondActivity.java
+ï¼ˆ4ï¼‰SecondActivity.java
 
 package edu.hzuapps.androidlabs.soft1614080902407;
 
@@ -229,19 +229,19 @@ public class SecondActivity extends AppCompatActivity {
     }
 }
 
-£¨5£©strings.xml
+ï¼ˆ5ï¼‰strings.xml
 
 <resources>
-<string name="app_name">Soft1614080902407±¸ÍüÂ¼</string>
-<string name="title_activity_second">Ê×Ò³</string>
-<string name="button_new">ĞÂ½¨±¸ÍüÂ¼</string>
-<string name="hint_content">ÇëÔÚÕâÀïÊäÈë±¸ÍüÂ¼µÄÄÚÈİ</string>
+<string name="app_name">Soft1614080902407å¤‡å¿˜å½•</string>
+<string name="title_activity_second">é¦–é¡µ</string>
+<string name="button_new">æ–°å»ºå¤‡å¿˜å½•</string>
+<string name="hint_content">è¯·åœ¨è¿™é‡Œè¾“å…¥å¤‡å¿˜å½•çš„å†…å®¹</string>
 </resources>
 
-[image]()
+[image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE4-1.jpg?raw=true)
 
-[image]()
+[image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE4-2.jpg?raw=true)
 
-##5.ÊµÑéÌå»á
+## 5.å®éªŒä½“ä¼š
 
-±¾´ÎÊµÑé±È½Ï¸´ÔÓ£¬Í¨¹ıÉÏÍø²éÑ¯ÁË½â²¢Ñ§»áÊ¹ÓÃÁËÒ»Ğ©¿Ø¼şÓë²¼¾Ö£¬ÒÔ¼°ÊÂ¼şµÄ´¦Àí£¬×Ü¶øÑÔÖ®£¬±¾´ÎÊµÑéÊ®·ÖÓĞÊÕ»ñ¡£
+æœ¬æ¬¡å®éªŒæ¯”è¾ƒå¤æ‚ï¼Œé€šè¿‡ä¸Šç½‘æŸ¥è¯¢äº†è§£å¹¶å­¦ä¼šä½¿ç”¨äº†ä¸€äº›æ§ä»¶ä¸å¸ƒå±€ï¼Œä»¥åŠäº‹ä»¶çš„å¤„ç†ï¼Œæ€»è€Œè¨€ä¹‹ï¼Œæœ¬æ¬¡å®éªŒååˆ†æœ‰æ”¶è·ã€‚
