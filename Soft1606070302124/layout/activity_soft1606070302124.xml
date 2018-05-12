@@ -38,14 +38,13 @@
         android:id="@+id/textview_01"
         android:layout_width="wrap_content"
         android:layout_height="567dp"
-        android:drawableTop="@drawable/three"
-        android:text="hello_world" />
+        android:drawableTop="@drawable/three" />
 
     <Button
         android:id="@+id/button_open"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="打开"
+        android:text="录音播放"
         app:layout_anchor="@+id/textview_01"
         app:layout_anchorGravity="bottom|center" />
 </android.support.design.widget.CoordinatorLayout>
