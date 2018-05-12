@@ -19,7 +19,11 @@
 
 ## 3.实验结果
 
+页面1![1](https://github.com/dl3213/android-labs-2018/blob/master/Soft1614080902201/lab3-1.PNG)
 
+点击测试按钮之后的页面![1](https://github.com/dl3213/android-labs-2018/blob/master/Soft1614080902201/lab3-2.PNG)
+
+两个页面之间可以通过点击测试按钮来回切换
 
 ## 4.实验体会
 
