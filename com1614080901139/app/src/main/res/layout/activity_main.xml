@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="登录"
+            android:text="@string/login"
             android:textSize="25sp"
             android:layout_centerInParent="true"
             android:textColor="@android:color/black"
@@ -23,7 +23,7 @@
             android:id="@+id/bt_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="注册"
+            android:text="@string/register"
             android:textColor="@android:color/holo_red_light"
             android:background="#00000000"
             android:textSize="25sp"
@@ -55,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Witkey"
+                android:text="@string/logo_witkey"
                 android:textSize="40sp"
                 android:textColor="#021bff"
                 />
@@ -63,7 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="校园威客"
+                android:text="@string/logo"
                 android:textColor="#fca903"
                 android:textSize="30sp" />
         </LinearLayout>
@@ -78,7 +78,7 @@
         android:layout_height="70dp"
         android:drawableLeft="@drawable/user_name_icon"
         android:paddingLeft="20dp"
-        android:hint="请输入您的账号"
+        android:hint="@string/et_user"
         android:drawablePadding="10dp"
         />
     <EditText
@@ -87,7 +87,7 @@
         android:layout_height="70dp"
         android:drawableLeft="@drawable/psw_icon"
         android:paddingLeft="20dp"
-        android:hint="请输入密码"
+        android:hint="@string/et_psw"
         android:drawablePadding="10dp"
         android:inputType="textPassword"
          />
@@ -96,7 +96,7 @@
         android:id="@+id/bt_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登录"
+        android:text="@string/login"
         android:textSize="20sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="20dp"
@@ -107,7 +107,7 @@
         android:id="@+id/tv_forgetPassWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="忘记密码"
+        android:text="@string/forgerpassword"
         android:textSize="15sp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"

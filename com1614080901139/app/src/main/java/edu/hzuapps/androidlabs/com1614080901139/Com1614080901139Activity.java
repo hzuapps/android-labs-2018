@@ -12,8 +12,6 @@ public class Com1614080901139Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com1614080901139);
-
-
         bt_come=(Button)findViewById(R.id.bt_come);
         bt_come.setOnClickListener(new View.OnClickListener() {
             @Override
