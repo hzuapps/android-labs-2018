@@ -1,33 +1,45 @@
 package edu.hzuapps.androidlabs.Soft1614080902424;
+import android.support.v7.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
 
-/**
- * Skeleton of an Android Things activity.
- * <p>
- * Android Things peripheral APIs are accessible through the class
- * PeripheralManagerService. For example, the snippet below will open a GPIO pin and
- * set it to HIGH:
- * <p>
- * <pre>{@code
- * PeripheralManagerService service = new PeripheralManagerService();
- * mLedGpio = service.openGpio("BCM6");
- * mLedGpio.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
- * mLedGpio.setValue(true);
- * }</pre>
- * <p>
- * For more complex peripherals, look for an existing user-space driver, or implement one if none
- * is available.
- *
- * @see <a href="https://github.com/androidthings/contrib-drivers#readme">https://github.com/androidthings/contrib-drivers#readme</a>
- */
-public class Soft1614080902424Activity2 extends Activity {
+public class Soft1614080902424Activity2 extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soft_1614080902424_activity2);
+        Button send = (Button) findViewById(R.id.send);
+
+       send.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(Soft1614080902424Activity2.this, Soft1614080902424Activity3.class);
+                startActivity(intent);
+            }
+        });
+       Button get = (Button) findViewById(R.id.get);
+
+       get.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(Soft1614080902424Activity2.this, Soft1614080902424Activity4.class);
+                startActivity(intent);
+            }
+        });
+        Button submit = (Button) findViewById(R.id.submit);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(Soft1614080902424Activity2.this, Soft1614080902424Activity5.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
