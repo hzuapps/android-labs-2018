@@ -18,16 +18,16 @@
 
 ## 四、实验截图
 * 首页<br>
-![image]()<br>
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234功能页面.PNG)<br>
 
 *功能页面<br>
-![image]()<br>
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234功能页面.PNG)<br>
 
 * 查看行程页面<br>
-![image]()<br>
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234查看行程页面.PNG)<br>
 
 * 修改行程页面<br>
-![image]()<br>
+![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%234修改行程页面.PNG)<br>
 
 ## 五、实验体会
 	本次实验过程学习掌握安卓的各种布局方式，并在自己的项目中实验LinearLayout布局方式，通过做项目熟悉掌握各种布局方式，在实验过程为了实现跳转功能对前面学习的知识进行了复习巩固，并且在调整首页时通过上网查询学习掌握如何调整页面内容；
