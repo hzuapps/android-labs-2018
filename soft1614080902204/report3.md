@@ -1,25 +1,45 @@
 ﻿# 第3次实验
 
 ## 1、实验目的
-1、掌握在Android应用中使用图片等资源的方法。
+掌握在Android应用中使用图片等资源的方法。
 
 ## 2、实验环境
-1、github 
-2、git
-3、netbeans
 
-## 3、实验目的
-1.在界面上显示至少一张图片（按照自己的题目添加）；
-2.提交res/drawable及图片使用的代码；
-3.提交res/values, res/layout等其他代码；
-4.将应用运行结果截图，放到实验报告中；
-5.点击图片（或按钮）时，打开另一个Activity。
+windows、android studio
 
 ## 4、实验步骤
-1、统一步骤：
-https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
-2.Android 在TextView 中显示图片的4种方式：
-https://blog.csdn.net/u012724237/article/details/79010741
+
+（1）打开已建好的项目soft1614080902204
+
+（2）新建activity：soft1614080902233BActivity
+
+（3）在xml文件中插入代码
+
+<TextView  
+    android:id="@+id/textview_01"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:drawableTop="@drawable/ic_launcher"  
+    android:text="hello_world" /> 
+
+这样就可以在布局中看到自己想要的图片
+
+（4）在activity中写入相应的监听器代码
+
+public class MainActivity extends Activity  implements OnClickListener {    
+    ......    
+    
+    @Override    
+    public void onClick(View v) {    
+        if(v.equals(startButton)) {    
+            // 另一个Activity的完整名称 = edu.androidlabs.soft123456(包名).Soft123456Activity(类名)
+            Intent intent = new Intent("另一个Activity的完整名称");    
+            startActivity(intent);    
+        }    
+    }    
+}  
+
+（5）打包成apk文件运行成功，点图片跳转到第二个activity
 
 ## 5、实验结果
 ![实验截图](https://github.com/545072985/android-labs-2018/blob/master/soft1614080902204/tupian3.1.png)
