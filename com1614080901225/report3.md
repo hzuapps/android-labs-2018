@@ -32,5 +32,5 @@ $ git push
 （5）在GitHub中使用Markdown文件编写实验报告（report3.md）
 
 3.实验结果
-https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/open.png
-https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/login.png
+![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/open.png)
+![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/login.png)
