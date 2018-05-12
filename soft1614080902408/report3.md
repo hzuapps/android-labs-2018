@@ -2,9 +2,11 @@
 ## 1.实验目标 
 掌握在Android应用中使用图片等资源的方法。 
 ## 2.实验步骤 
-在电脑上Android Studio编写代码 
+在电脑上Android Studio编写代码。 
+
 将所需要的图片放到drawble中，再把图片在应用中显示。
-使用Git将代码提交到自己的库中
+
+使用Git将代码提交到自己的库中。
  ## 3.实验结果 
 ![截图](https://github.com/wsgtl/android-labs-2018/blob/master/soft1614080902408/picture/实验三.1.png); 
 ![截图](https://github.com/wsgtl/android-labs-2018/blob/master/soft1614080902408/picture/实验三.2.png); 
