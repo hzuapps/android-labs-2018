@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.soft16140809024421;
+package edu.hzuapps.androidlabs.soft1614080902442;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
-import edu.hzuapps.androidlabs.soft16140809024421.soft1614080902442main1Activity;
-import edu.hzuapps.androidlabs.soft16140809024421.R;
+import edu.hzuapps.androidlabs.soft1614080902442.soft1614080902442main1Activity;
+import edu.hzuapps.androidlabs.soft1614080902442.R;
 
 public class soft1614080902442main1Activity extends AppCompatActivity {
 
