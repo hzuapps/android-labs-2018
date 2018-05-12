@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyActivity">
+    tools:context=".Soft1614080902431Activity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Hello World!"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -20,5 +20,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTop="@drawable/ic_2"
-        android:text="hello_world" />
+        android:text="" />
 </android.support.constraint.ConstraintLayout>
