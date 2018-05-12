@@ -48,7 +48,7 @@
     }
 ```
 
-二．把监听事件绑定到按钮
+二．把监听事件绑定到按钮btn
 
 ```
         btn = (Button) findViewById(R.id.button);
