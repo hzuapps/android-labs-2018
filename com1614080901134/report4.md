@@ -26,9 +26,9 @@
 
  
  ## 四、实验截图
- *登录界面<br>
+ *点餐界面<br>
  ![image](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/3.png)<br>
- *点餐下单界面<br>
+ *订单详情界面<br>
  ![image](https://github.com/chenjiahui-xxz/android-labs-2018/blob/master/com1614080901134/4.png)<br>
  
 
