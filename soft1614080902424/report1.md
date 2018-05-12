@@ -9,6 +9,6 @@
 （4）将图片进行上传到文件目录中。
  我是软件工程专业，因此实验前缀用soft，后面数字是自己的学号。
 ## 3.实验结果
-实验图片：https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/Soft1614080902424Activity.png
+![image](https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/Soft1614080902424Activity.png)
 ## 4.实验体会
 这次的实验对于一些操作步骤有了更加深入的了解，上次进行的是代码的上传，这一次进行的是图片的上传，不过大同小异，对步骤的熟悉尤为重要！
