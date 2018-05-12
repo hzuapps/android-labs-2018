@@ -7,24 +7,29 @@
     tools:context=".Soft1614080902408_zhangyoubao"
     tools:layout_editor_absoluteY="81dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="159dp"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="245dp"
-        android:text="overwatch"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/newsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="55dp" />
 
     <Button
         android:id="@+id/owbutton"
-        android:layout_width="96dp"
-        android:layout_height="86dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginStart="1dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:background="@drawable/owlogo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:srcCompat="@android:color/background_dark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
 </android.support.constraint.ConstraintLayout>
