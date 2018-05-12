@@ -71,7 +71,8 @@
 
 
 ## 3.实验结果
-
+![image](https://github.com/lili503946540/android-labs-2018/blob/master/soft1606070302104/test3-1.png)
+![image](https://github.com/lili503946540/android-labs-2018/blob/master/soft1606070302104/test3-2.png)
 ## 4.实验体会
 本次实验是进一步对android项目的设计，在实验要求下，我通过查阅资料找到了添加图片的方法，将图片复制到drawable之下，之后在activity_soft1606070302104.xml中添加代码即可，方法多种多样。另外一个是利用了监听器，我的java基础较弱也同样查了许多资料才搞明白，在添加监听器过程中有许多错误，需要添加import，之后要把监听器绑定到按钮上，之后在另一个activity中读取intent值。在这个过程中总是让人从盲区中到豁然开朗，也学到了很多。
 
