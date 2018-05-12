@@ -21,6 +21,6 @@
 
 ## 3.实验结果
 
-![image](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/#3.JPG)
+![image](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/L3.JPG)
 ## 4.实验体会
 这次实验老师的进度非常的快,于是我上网查了相关代码,并解决很多软件的问题才完成该次实验,虽然耗费了许多的时间;

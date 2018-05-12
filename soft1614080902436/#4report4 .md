@@ -23,6 +23,6 @@
 
 ## 3.实验结果
 
-![image](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/#4.JPG)
+![image](https://github.com/310341802/android-labs-2018/blob/master/soft1614080902436/L4.JPG)
 ## 4.实验体会
 这次布局我纯用拖拉的方式完成了通讯录(#989)的布局,参照了苹果手机上的布局,感谢老师抛下如此难题,以至于我们在探索和困扰中获取更多属于自己的知识;
