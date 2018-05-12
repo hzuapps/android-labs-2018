@@ -26,12 +26,12 @@
 
 (3).在activity_soft1606070302104.xml的Design页面中，添加Button，并且命名，它会在TEXT页面中相应显示代码
 (4).新建second2Activity，该Activity为按钮Button点出的另外一个Activity,。并且编辑activity_second2.xml的页面内容
-(5).在Soft1606070302104Activity.java中新建一个按钮private Button btn;。再创建一个button监听器，并使监听器能打开另一个activity并传值，添加以下代码：
+(5).在Soft1606070302104Activity.java中新建一个按钮private Button btn;。
+(6).再创建一个button监听器，并使监听器能打开另一个activity并传值，添加以下代码：
 
-一．创建一个Button的OnClick监听器
 
 ```
-//这个属于一个内部类
+        //创建一个Button的OnClick监听器这个属于一个内部类
     class MyButtonListener implements OnClickListener {
         //
         public void onClick(View v) {
@@ -59,13 +59,14 @@
 三．在另一个activity中读取intent值
 
 ```
-//创建一个Intent实例存储传送过来的值
+        //创建一个Intent实例存储传送过来的值
         Intent myIntent = getIntent();
         //读取Intent的值
         String TextValue = myIntent.getStringExtra("Text");
 ```
 
-(6).运行
+(7).运行
+
 ```
 
 
