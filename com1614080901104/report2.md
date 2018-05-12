@@ -7,33 +7,26 @@
  
  # 2.实验步骤
  
-1. 阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab 
- 
-  
-2. 在电脑上Android Studio编写代码  
+1. 打开android studio，新建一个project，命名为com1614080901104  
 
-   // 代码要可以运行！
+2. 将包名改为edu.hzuapps.androidlabs.com1614080901104  
 
-3. 使用Git将代码提交到自己的库中：https://github.com/BACodeLab/android-labs-2018 
+3. 将MainActivity改为com1614080901104Activity  
 
+4. 打开values文件，将app_name改为Com1614080901104围棋  
 
-   $ git pull  
-   $ git add Com1614080901104/*  
-   $ git commit -m "实验二"  
-   $ git push
+5. 用git pull指令将自己的库和本地同步  
 
-4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）  
- 
-     // 是否只修改了自己的文件？
- 
- 5. 在GitHub中使用Markdown文件编写实验报告（report.md ）  
- 
-     // 保存在自己的文件夹下
+6. 把app文件放在自己的库中，用git push提交到自己的库中  
+
+7. 编写报告，命名为report2.md  
+
+8. 发送Pull Request
      
- 6.实验结果 
+ # 3.实验结果 
  
 ![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png)  
 
  
- # 3.实验体会
+ # 4.实验体会
   通过本次实验，更加熟悉了git指令，并且修改了Activity的标题，同时也对Activity有了一定的了解。
