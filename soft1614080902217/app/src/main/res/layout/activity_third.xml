@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+
+            />
+
+            <Button
+                android:id="@+id/button_bofang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="边下边播"
+                android:background="#1E90FF"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="开始"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:background="#43CD80"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="暂停"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:background="#FF0000"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
