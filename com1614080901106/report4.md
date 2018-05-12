@@ -14,8 +14,8 @@
 1.布局选用RelativeLayoutt方式；  
 2.使用3个Textview分别显示不同的文本内容；  
 3.选用RadioGroup组件，id为rgSex选择性别；      
-4.选用EditText组件，实现对身高的输入；     
-5.运行代码并截图；    
+4.选用EditText组件，实现对身高的输入；   
+5.运行代码并截图；  
 
 ## 4.实验结果
 app运行截图情况 
