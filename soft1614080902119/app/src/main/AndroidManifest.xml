@@ -17,12 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".land" />
-        <activity
-            android:name=".welcome"
-            android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".register" />
-        <activity android:name=".success"></activity>
+        <activity android:name=".title" />
+        <activity android:name=".query" />
+        <activity android:name=".management" />
+        <activity android:name=".m_z_inter"></activity>
     </application>
 
 </manifest>
