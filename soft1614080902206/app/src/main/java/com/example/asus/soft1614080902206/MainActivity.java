@@ -10,21 +10,27 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE = "com.example.asus.soft1614080902206.MESSAGE";
-    @Override
+
 
 
     protected void onCreate(Bundle savedInstanceState) {
+        String str1="";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final Activity thisActivity = this;
 
         Button btnOpen = (Button) findViewById(R.id.button_open);
+
+
               btnOpen.setOnClickListener(new View.OnClickListener() {
+
+
+
 
            public void onClick(View view) {
                                Intent intent = new Intent(thisActivity, message.class);
-                              thisActivity.startActivity(intent);
 
+                               thisActivity.startActivity(intent);
                                   }
        });
 

@@ -1,25 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asus.soft1614080902206.message">
-
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_message" />
-
+    tools:context="com.example.asus.soft1614080902206.message"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
     <TextView
-        android:id="@+id/textview_01"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:drawableTop="@drawable/timg" />
-</android.support.design.widget.CoordinatorLayout>
+        android:id="@+id/textview_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/p123"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="218dp"
+        android:orientation="horizontal"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#D1EEEE"
+            android:layout_gravity="center_vertical"
+            android:text="查看成绩"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60dp"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#D1EEEE"
+            android:layout_marginLeft="35dp"
+            android:layout_gravity="center_vertical"
+            android:text="查询课表"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/aditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="学号"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="37dp" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
