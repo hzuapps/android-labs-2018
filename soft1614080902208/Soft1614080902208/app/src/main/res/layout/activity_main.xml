@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:id="@+id/zhigong"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职工"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="170dp"
+            />
+
+        <Button
+            android:id="@+id/shangping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品"
+            android:layout_gravity="center_horizontal|center_vertical"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
