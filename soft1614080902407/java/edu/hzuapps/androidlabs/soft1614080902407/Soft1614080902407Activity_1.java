@@ -15,7 +15,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
         setContentView(R.layout.activity_soft1614080902407_1);
 
         final Activity  thisActivity = this;
-        Button  btnHome = (Button)findViewById(R.id.btn01);
+        Button  btnHome = (Button)findViewById(R.id.btn_new);
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,5 +24,6 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
 
             }
         });
+
     }
 }
