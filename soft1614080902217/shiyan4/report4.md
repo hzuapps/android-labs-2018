@@ -29,7 +29,7 @@
 
 ![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan4/3.png)
 
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan4/4png)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan4/4.png)
 
 ## 4.实验体会
 
