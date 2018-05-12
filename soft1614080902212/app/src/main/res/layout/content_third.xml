@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".SecondActivity"
-    tools:showIn="@layout/activity_second">
-
-
+    tools:context=".ThirdActivity"
+    tools:showIn="@layout/activity_third">
 
 </android.support.constraint.ConstraintLayout>
