@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".collectActivity">
+
+//列表布局
+//
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/backButton"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:gravity="start"
+                android:text="@string/back"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="2"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/collect"
+                android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+                android:textSize="20sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="@id/backButton"
+                app:layout_constraintStart_toStartOf="@id/aboutButton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/aboutButton"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="55dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="6dp"
+                android:gravity="end"
+                android:text="关于"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </LinearLayout>
+
+
+        <!-- 颜色列表 -->
+        <ListView
+            android:id="@+id/list_color"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
