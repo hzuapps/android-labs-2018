@@ -12,13 +12,13 @@
 
 // 代码要可以运行！ 
 
-使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018 
+使用Git将代码提交到自己的库中：https://github.com/XBYZY/android-labs-2018 
 
 $ git pull 
 
-$ git add 学号目录/* 
+$ git add soft1614080902132/* 
 
-$ git commit "#12345678 " 
+$ git commit "#3 第三次实验 " 
 
 $ git push 
  
