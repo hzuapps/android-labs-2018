@@ -4,20 +4,28 @@
 掌握在Android应用中使用图片等资源的方法。
 
 ## 2.实验步骤
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+1、做实验之前首先要阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
 
-在电脑上Android Studio编写代码
+2、开始在Android Studio编写代码之前，先把找来的图片放在drawable里面去，然后在layout里面调用图片
 
- // 代码要可以运行！
- 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
- $ git pull
- $ git add 学号目录/*
- $ git commit "#12345678 "
- $ git push
- 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
- // 是否只修改了自己的文件？
- 在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
- // 保存在自己的文件夹下
+调用的时候记得，图片的名称不要大写，不知道为什么当图片名称大写的时候，运行的时候会出现错误，然后在java
+
+类编写监听事件，这个实验是点击图片跳转到另外一个图片，所以不会很复杂，编写监听文件的时候，记得，类名跳转
+
+要在首张图片设置点击事件，不然会无法跳转；
+
+ 
+ 3、使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018，记得循环两次，
+ 
+ git push,git pull，这样才能很好地上传文件，记住不要上传的src要找到android所在的文件夹复制，不要直接在
+ 
+ android studio里面复制，然后自己创建一个文佳夹，在上传；
+
+ 4、边上传，边查看自己的库文件时候有添加或修改，无的话就重新上传，有的话，就可以执行下一个步骤
+ 
+ 5、在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md），然后保存在自己的文件夹里面
+ 
+ 
 
 ## 3.实验结果
 
