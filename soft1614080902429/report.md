@@ -4,15 +4,21 @@
 android开发环境搭建
 
 ## 2.试验步骤
-1）搭建开发环境（Android Studio 3.1正式版），运行（截图）；
+1）首先搭建开发android的环境，从老师的issue中找到软件的安装包，搭建完实验的开发环境
 
-加2）入Git项目（Fork），将项目克隆（Clone）到自己帐号下；
+ android studio3.0 后开始运行，然后将运行结果截图
 
-3）$ git clone https://github.com/Beginner-hww/android-labs-2018/soft1614080902429；
+2）在开发环境android studio里面创建一个Java类：edu.hzuapps.androidlabs.soft1614080902429
 
-4）创建一个Java类：edu.hzuapps.androidlabs.soft1614080902429.Soft1614080902429Activity.java；
+.Soft1614080902429Activity.java；运行然后截图
 
-5）提交代码并发Pull Request，老师合并之后截图。
+3）下载git Bash 通过git bash 将文件上传到库里面去 
+
+$ cd f: 指定盘，然后指定文件夹里面 ，然后$ git clone 把文件复制下来
+
+https://github.com/Beginner-hww/android-labs-2018/soft1614080902429；
+
+4）最后提交代码，通过 git push ,git pull 整合然后上传文件
 
 ## 3.试验结果
 ![在Android SDK Manager中配置教育网下载代理](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/1614080902429.png "配置教育网下载代理")
