@@ -1,25 +1,27 @@
 package edu.hzuapps.androidlabs.soft1613090502218.soft1613090502218;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    private TextView textview;
+public class MainActivity extends Activity {
+    private Button button1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textview = (TextView)findViewById(R.id.test);
-        textview.setOnClickListener(new View.OnClickListener() {
+        button1 = (Button)findViewById(R.id.btu1);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this,difficulty.class);
                 startActivity(intent);
             }
         });
     }
+
+
 }
