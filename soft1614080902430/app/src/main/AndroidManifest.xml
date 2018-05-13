@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="edu.hzuapps.androidlabs.soft1614080902430">
 
     <application
@@ -16,12 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".soft1614080902430Activity_2"
-            android:label="@string/title_activity_soft1614080902430_2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".soft1614080902430Activity_2"></activity>
     </application>
-
-
 
 </manifest>

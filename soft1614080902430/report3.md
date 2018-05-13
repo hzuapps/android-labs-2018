@@ -17,25 +17,10 @@
 点击图片（或按钮）时，打开另一个Activity。
 
 ## 3.实验步骤
-
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
-
-在电脑上Android Studio编写代码
-
-使用Git将代码提交到自己的库中：https://github.com/Zhuangyupeng/android-labs-2018
-
-$ git pull
-
-$ git add soft1614080902430/*
-
-$ git commit "#3 "
-
-$ git push
-
-在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-在GitHub中使用Markdown文件编写实验报告（report3.md）
-
+1.新建一个空的Activity<br />
+2.在第一个Activity中添加 “打开” 按钮<br />
+3.在第一个Activity中添加图片，图片存放在mipmap中<br />
+4.对第一个Activity中的按钮添加监听，使得点击之后跳转至第二个Activity
 ## 4.实验结果
 ![image](https://github.com/Zhuangyupeng/android-labs-2018/blob/master/soft1614080902430/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE1.png?raw=true)
 
