@@ -8,18 +8,21 @@
 ## 2.实验步骤
 阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
  
-在电脑上Android Studio编写代码
- 
- // 代码要可以运行！
- 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
- $ git pull
- $ git add 学号目录/*
- $ git commit "#12345678 "
- $ git push
- 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
- // 是否只修改了自己的文件？
- 在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
- // 保存在自己的文件夹下
+①在AS(android stdio)上创建一个新的activity,命名为Soft1614080902436Main2Activity.java
+②打开SM2A(Soft1614080902436Main2Ativity.java)相对应的xml,目录在res/main2activity_soft1614080902436.xml
+③切换到design模式,往xml里添加组件,完成通讯录(#989)布局
+④添加完组建后,需要对其布局样式进行调整:
+	android:text="" //设置文本
+	android:layout_width="" //设置组件宽度
+    android:layout_height=""//设置组件高度
+    android:textSize="" //设置文本大小
+    android:textColor="#" //设置文字颜色
+    android:background="" //设置组件背景
+⑤实验截图,并编写实验报告
+⑥使用git提交本次作业:
+	git add *
+	git commit -m "#4#989"
+	git push
 
 ## 3.实验结果
 
