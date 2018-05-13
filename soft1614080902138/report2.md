@@ -5,9 +5,9 @@
 ### 将标题设置为自己的学号+对应的功能或题目；
 ## 2.实验步骤
 ### 1.下载android Studio、SDK
-### 2.创建自己的项目
-### 3.修改app的名字
-### 4.将四个文件上传
+### 2.在android Studio创建自己的项目
+### 3.在strings.xml修改app的名字
+### 4.将四个文件strings.xml,activity_main.xml,MainActivity.java,AndroidManifest.xml上传,要保留原目录的形式
 ### 5.在GitHub中使用Markdown文件编写实验报告
 ## 3.实验结果
 ### package com.example.hzu.myapplication;
