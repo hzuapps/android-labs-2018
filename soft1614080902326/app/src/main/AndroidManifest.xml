@@ -13,15 +13,14 @@
         <activity
             android:name=".Soft1614080902326Activity"
             android:launchMode="singleTask">
-            //设置主Activity为singleTask启动模式
+			<!--设置主Activity为singleTask启动模式-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".collectActivity" />
-        <activity android:name=".aboutActivity"></activity>
+        <activity android:name=".CollectActivity" />
     </application>
 
 </manifest>

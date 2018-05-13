@@ -13,7 +13,7 @@ import android.widget.SimpleAdapter;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class collectActivity extends AppCompatActivity {
+public class CollectActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class collectActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent ();
-                intent.setClass(collectActivity.this,Soft1614080902326Activity.class);
+                intent.setClass(CollectActivity.this,Soft1614080902326Activity.class);
                 startActivity(intent);
                 finish();    //退出当前Activity
 
@@ -72,7 +72,7 @@ public class collectActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent ();
-                intent.setClass(collectActivity.this,aboutActivity.class);
+                intent.setClass(CollectActivity.this,aboutActivity.class);
                 startActivity(intent);
 
             }
