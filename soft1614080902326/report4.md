@@ -9,15 +9,11 @@
 3.将应用运行结果截图
 
 ## 实验步骤
-1.启动Android Studio并启动项目ColourSelect  
-
-2.将Activity中布局更改为线性布局，使内容分布合理，使用嵌套布局使得各组件位置排放美观。
-
-3. 为添加按钮定义popupWindow，利用onKeyDown监视返回按钮，避免按下返回键退出程序而不是关闭popupWindow。
-
-4. 界面优化。
-
-5. 运行调试。  
+1.启动Android Studio并启动项目ColourSelect<br><br>
+2.将Activity中布局更改为线性布局，使内容分布合理，使用嵌套布局使得各组件位置排放美观。<br><br>
+3. 为添加按钮定义popupWindow，利用onKeyDown监视返回按钮，避免按下返回键退出程序而不是关闭popupWindow。<br><br>
+4. 界面优化。<br><br>
+5. 运行调试。<br><br>  
 
 ## 部分代码
       <LinearLayout
