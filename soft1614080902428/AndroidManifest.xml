@@ -18,7 +18,15 @@
         </activity>
         <activity
             android:name=".Soft1614080902428activityMain2Activity"
-            android:label="Soft1614080902428简单备忘录app"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".xiugai"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chakan"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
