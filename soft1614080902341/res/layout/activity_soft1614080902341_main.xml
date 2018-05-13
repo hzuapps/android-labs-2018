@@ -16,25 +16,32 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:drawableTop="@drawable/hz1"
+    android:layout_centerHorizontal="true"
     android:text="剪刀石头布" />
     <Button
         android:id="@+id/but_one"
         android:text="剪刀"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textview_01"/>
+        android:layout_alignTop="@+id/textview_01"
+        android:layout_marginTop="130dp"
+        />
     <Button
         android:id="@+id/but_tow"
         android:text="石头"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/but_one"/>
+        android:layout_alignTop="@+id/but_one"
+        android:layout_marginTop="65dp"
+        />
     <Button
         android:id="@+id/but_thr"
         android:text="布"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/but_tow"/>
+        android:layout_alignTop="@+id/but_tow"
+        android:layout_marginTop="65dp"
+        />
 
 
 
