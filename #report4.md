@@ -31,7 +31,15 @@
  5.在手机上运行测试并修改
  
 #4.实验结果
+
+
 ![]https://github.com/LJolon/android-labs-2018/blob/15f2aab33e0c341fcf43ddc3c89b1468b8f8a984/soft1614080902229/Soft1614080902229/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE1.png
+
+
+
 ![]https://github.com/LJolon/android-labs-2018/blob/15f2aab33e0c341fcf43ddc3c89b1468b8f8a984/soft1614080902229/Soft1614080902229/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE2.png
+
+
+
 #5.实验体会：
 本次实验难度相对于之前的难度较大，对于布局和界面的考察更加严格，需要进一步的学习才能完成！
