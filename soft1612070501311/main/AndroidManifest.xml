@@ -15,13 +15,16 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Soft1612070501311Activity2"
-            android:label="@string/title_activity_main2"
+            android:name=".Query"
+            android:label="@string/Query"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Recharge"
+            android:label="@string/Recharge"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
