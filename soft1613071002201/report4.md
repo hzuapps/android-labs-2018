@@ -11,7 +11,7 @@
  ### 4.add和search中也使用Linearlayout进行布局，其中add中使用了嵌套布局：
  ### 5.在主activity中，对两个ImageView控件分别获取id；
  ### 6.设置点击事件，分别跳转到对应的activity。
- ## 3.实验结
+ ## 3.实验结果
  ![image](https://github.com/zhaokangye/android-labs-2018/blob/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/01.png?raw=true) 
  ![image](https://github.com/zhaokangye/android-labs-2018/blob/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/02.png?raw=true) 
  ![image](https://github.com/zhaokangye/android-labs-2018/blob/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/03.png?raw=true) 
