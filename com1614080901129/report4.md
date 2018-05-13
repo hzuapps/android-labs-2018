@@ -14,7 +14,11 @@
 4. 使用`git push`指令将本地仓库的修改推送的服务器仓库中
 ## 实验结果
 ### 实验截图如下：
-![实验结果1](https://wx1.sinaimg.cn/mw690/bda8daacgy1fr90t8t7kzj20by0moap1.jpg)
+
+* 一个是聊天界面
+* 一个是通讯录界面
+
+![实验结果1](https://wx1.sinaimg.cn/mw690/bda8daacgy1fr9hnfelirj20c10mj75e.jpg)
 ![实验结果2](https://wx2.sinaimg.cn/mw690/bda8daacgy1fr90t57znxj20c50mhab4.jpg)
 ## 实验感想
 **通过这一次的实验，我有去了解app开发中的MVC设计模式，以及代理设计模式，学习到了很多的知识，知道了设计一个软件的基本思想，以及在MVC设计模式中三者之间的
