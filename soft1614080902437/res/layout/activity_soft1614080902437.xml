@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902437Activity"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/button_qidong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_qidong"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button_jici"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_jici"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:drawableTop="@drawable/time"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="38dp" />
+</LinearLayout>
