@@ -7,14 +7,17 @@
 2.实验内容  
 
 (1).使用其中一种布局方式，设计所选题目的界面：LinearLayout；    
-(2). 页面有两个按钮，通过控件id获取界面对象，执行相关操作，跳道各自的页面；  
+(2).通过控件id获取界面对象，执行相关操作；  
+android:id="@+id/my_button"  
 (3).实现界面控件的事件处理，例如点击按钮。 
 
 3.实验步骤  
 
-(1).再建一个Activity作为查看所要跳转的页面；  
-(2).找一个图片作为背景图放在drawable中可供使用；  
-(3).在xml文件中用background引入。  
+(1).找一个图片作为背景图放在drawable中可供使用；  
+(2).在actvity_com1614080901237.xml文件中在<LinearLayout>这个标签下用android:background引入，  
+  如：android:background="@drawable/beijing"；    
+(3).在另外两个xml文件中也如此操作设置背景图片；  
+(4).在添加与查看的页面的xml文件中用<TextView>标签引入“欢迎来到界面的”文字，而写入则是用android:text="。。。"的格式引入。
 
 4.实验结果  
 
