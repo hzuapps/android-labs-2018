@@ -1,6 +1,6 @@
-# 第二次实验    Android组件编程 
+# 实验2：	Android组件编程
 
-## 一、实验要求
+## 实验要求
 
  1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
 
@@ -10,19 +10,20 @@
 
  4、根据自己选择的题目实现Activity中导航、调用等功能（选做）。
 
- # 二、实验步骤
+## 实验步骤
 
- 1、在Issues中创建选题：TIM
+ 1、在Issues中创建选题：TIM;
 
- 2、根据TIM题目，编写一个Soft1614080902115
+ 2、根据TIM题目，编写一个Soft1614080902115;
 
- 3、将Activity题设置为：Soft1614080902115TIM
+ 3、将Activity题设置为：Soft1614080902115TIM.
 
-# 三、实验结果
+## 实验结果
 
 ![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/%232%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C%E6%88%AA%E5%9B%BE.png?raw=true)
 
- # 四、实验体会
+
+## 实验体会
 
 1.本次实验第一次运用Android软件，创建了Activity并且命名为了学号加标题;
 
