@@ -14,4 +14,4 @@
 ## 3.实验结果
  ![image](https://github.com/Yxiansheng/android-labs-2018/blob/master/com1614080901108/com1614080901108.png)
 ## 4.实验体会
- 第一次实验虽然不难，但是也让我们学习到了许多，更加熟悉开发环境的配置、github的使用。
+ 第一次实验虽然不难，但是也让我们学习到了许多，更加熟悉开发环境的配置、github的使用。  
