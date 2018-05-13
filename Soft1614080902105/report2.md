@@ -13,7 +13,7 @@
 
 3.使用Git将代码提交到自己的库中：https://github.com/xiebaoshu/android-labs-2019 $ git pull
 
-$ git add Com1614080901204/app
+$ git add soft1614080902105/app
 
 $ git commit -m "第二次实验"
 
