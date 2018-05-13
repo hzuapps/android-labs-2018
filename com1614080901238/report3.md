@@ -1,38 +1,28 @@
-1.实验要求
+# 第三次实验   
+掌握在Android应用中使用图片等资源的方法。  
+## 1. 实验目标  
+1    在界面上显示至少一张图片（按照自己的题目添加）；    
+2    提交res/drawable及图片使用的代码；    
+3    提交res/values, res/layout等其他代码；    
+4    将应用运行结果截图，放到实验报告中；    
+5    点击图片（或按钮）时，打开另一个Activity。    
+## 2. 实验步骤  
 
-1. 在Issues中创建自己的选题：<https://github.com/hzuapps/android-labs-2018/issues>
+1   统一步骤：    
+     https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md    
+2   Android 在TextView 中显示图片的4种方式：    
+    https://blog.csdn.net/u012724237/article/details/79010741    
 
-； 2. 根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）； 3. 将标题设置为自己的学号+对应的功能或题目； 4. 根据自己选择的题目实现Activity中导航、调用等功能（选做）。
 
-2.实验步骤
+ ## 3. 实验结果  
 
-1. 阅读实验要求：<https://github.com/hzuapps/android-labs-2018/labels/Lab>
+ 1# app运行看见第一个Activity:  
 
-2. 在电脑上Android Studio编写代码
+ ![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/1.png)  
 
-   // 代码要可以运行！
+ # 点击下方"启动另外一个ACTIVITY"按钮后调到另一个Activity：  
+![](https://github.com/Im-a-programmer/android-labs-2018/blob/master/com1614080901140/2.png)  
+    
 
-3. 使用Git将代码提交到自己的库中：<https://github.com/zicong-chen/android-labs-2018.git>
-
-   $ git pull    
-   $ git add Com1614080901238/*
-   $ git commit -m "#2 #1468 实验二"
-   $ git push
-
-4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-   // 是否只修改了自己的文件？
-
-5. 在GitHub中使用Markdown文件编写实验报告（report2.md
-
-, report2.md
-
-）
-
-```
-// 保存在自己的文件夹下
-```
-
-3.实验体会
-
-严格按照实验流程
+ ## 4. 实验体会  
+通过这一次实验，我学会了如何添加按钮以及如何打开另外一个Activity。另外就是运行的内存远远不够，一台好的电脑很重要。
