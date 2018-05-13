@@ -1,26 +1,28 @@
-# ���Ĵ�ʵ��
+# 第四次实验
 
-## 1.ʵ��Ŀ��
+## 1.实验目标
 
-1.����ѡ��Ҫ����ƽ��沼�ּ��ؼ�ʹ�ã�
-2.����xml��������Ʋ��������ύ����ͼ��
-3.��Ӧ�����н����ͼ��
+1.根据选题要求设计界面布局及控件使用；
 
-## 2.ʵ�鲽��
+2.布局xml及界面控制操作代码提交并截图；
 
-��1������Ŀsoft1614080902212
+3.将应用运行结果截图。
 
-��2���½�������activity��ThirdActivity
+## 2.实验步骤
 
-��3���ڵ�һ��activity����relativelayout���֣��ڶ���activity����linealayout���֣�������Ӧ���﷨ִ��
+（1）打开项目soft1614080902212
 
-��4���ڵڶ���xml������ӦͼƬ��ͬʱ�ڵڶ�activity��Java�ļ������Ӽ�����
+（2）新建第三个activity：ThirdActivity
 
-��5����˼���沼�ֲ�����ʵ��
+（3）在第一个activity添加relativelayout布局，第二个activity添加linealayout布局，并用相应的语法执行
 
-��6����git�Ͻ�
+（4）在第二个xml添加相应图片，同时在第二activity的Java文件中添加监听器
 
-## 3.ʵ����
+（5）构思界面布局并加以实现
+
+（6）用git上交
+
+## 3.实验结果
 
 ![](https://github.com/hzulinzr/android-labs-2018/blob/master/soft1614080902212/png4.1.png)
 
@@ -30,6 +32,6 @@
 
 ![](https://github.com/hzulinzr/android-labs-2018/blob/master/soft1614080902212/png4.4.png)
 
-## 4.ʵ�����
+## 4.实验体会
 
-�������ʵ�飬�ҳ����˽⵽��Android�Ĳ��ַ�ʽ�ͷ������ڲ��ֵĹ����У����˲����飬����һЩ���õ���䣬������Ĵ�С�ͱ�����ɫ������ͨ��һЩ�������޸ġ�
+做完这次实验，我初步了解到了Android的布局方式和方法，在布局的过程中，翻了不少书，懂了一些设置的语句，如字体的大小和背景颜色都可以通过一些语句进行修改。
