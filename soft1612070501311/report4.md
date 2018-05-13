@@ -20,7 +20,7 @@
     
 4、测试Activity的xml封面    
 
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-3.jpg"/>  
+<img width="600" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab2-3.jpg"/>  
       
 
 #实验结果    
