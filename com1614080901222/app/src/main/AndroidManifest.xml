@@ -12,9 +12,11 @@
         <activity android:name="edu.hzuapps.androidlabs.Com1614080901222.Com1614080901222Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="edu.hzuapps.androidlabs.Com1614080901222.SecondActivity"
+            android:screenOrientation="userLandscape">
         </activity>
     </application>
 
