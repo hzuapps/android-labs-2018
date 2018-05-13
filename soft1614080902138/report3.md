@@ -2,7 +2,12 @@
 ## 1.实验目标
 ### 掌握在Android应用中使用图片等资源的方法。
 ## 2.实验步骤
-### 添加图片在mipmap文件夹中，添加Textview控件，用于添加图片。添加button控件，用于打开另一个界面。创建一个新的Activity。
+### 下载一张关于自己app的图片，放在mipmap文件夹中
+### 在res/layout的xml文件中添加Textview控件
+### 在Textview中添加属性android:drawableTop="@mipmap/timg"
+### 再添加Button控件
+### new一个Activity，在MainActivity.java设计动作（点击按钮打开Main2Acitivity）
+### 运行程序并截图
 ## 3.实验结果
 ![image](https://github.com/zaitao/android-labs-2018/blob/master/soft1614080902138/%E6%88%AA%E5%9B%BE%E4%B8%80.png)
 
