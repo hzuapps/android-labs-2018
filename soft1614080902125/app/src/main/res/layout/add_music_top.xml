@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/blue_dark" >
+
+    <ImageView
+        android:id="@+id/imageView_back_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView_add_top"
+        android:layout_width="211dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:gravity="center_horizontal|center"
+        android:text="扫描音乐"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
