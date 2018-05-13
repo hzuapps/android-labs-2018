@@ -8,7 +8,7 @@
  ### 1.添加需要的图片到drawable；
  ### 2.主activity中使用Linearlayout，按顺序添加了添加和查询图片及文字；
  ### 3.新建两个activity分别命名为add和search；
- ### 4.add和search中也使用Linearlayout进行布局，其中add中使用了嵌套布局：
+ ### 4.add和search中也使用Linearlayout进行布局，其中add中使用了嵌套布局，通过设置weight实现屏幕的一比一布局：
  ### 5.在主activity中，对两个ImageView控件分别获取id；
  ### 6.设置点击事件，分别跳转到对应的activity。
  ## 3.实验结果
