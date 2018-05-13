@@ -5,23 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="edu.soft1614080902329.password_record.soft1614080902329RecordActivity">
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-
-        <TextView
-            android:id="@+id/title_sys"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="跳转成功"
-            android:textSize="32dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="80px"
+        <ListView
+            android:id="@+id/pass_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             />
 
-    </LinearLayout>
-
+        <Button
+            android:id="@+id/new_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="#4edc50"
+            android:background="#303f9f"
+            android:text="+"
+            android:textSize="38dp" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
