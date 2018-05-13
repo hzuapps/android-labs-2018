@@ -26,11 +26,11 @@
 真机调试
 首先进入第一个页面，点击登录按钮跳转第二个页面进行登录
 +![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//4.1.jpg)
-进入登录页面，输入用户名以及用户密码
+进入跳转页面
 +![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/4.2.jpg)
-输入后是这样的
+显示欢迎
 +![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/4.3.jpg)
-点击登录后，由于对登录按钮进行了监听，页面下方输出 登录成功 提示
+点击查询已租车辆信息后，由于对登录按钮进行了监听，页面下方输出 未租任何车辆 提示
 +![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/4.4.jpg)
 ## 4.实验体会
 这次实验让我学习了如何进行安卓界面布局，学会使用Linearlayout RelativeLayout等等相关布局的使用方法，由于自己制作的是登录界面，使用了相对布局RelativeLayout，
