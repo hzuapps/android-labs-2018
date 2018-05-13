@@ -21,5 +21,6 @@
  
 ![](https://github.com/zicong-chen/android-labs-2018/blob/master/com1614080901238/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/2.png)
 
+
  ## 4. 实验体会  
 总体还算顺利，学习了LinearLayout，recycleView，在adapter为每个holder设置点击事件等等。。。
