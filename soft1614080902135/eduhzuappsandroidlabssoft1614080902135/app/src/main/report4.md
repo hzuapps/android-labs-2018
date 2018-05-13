@@ -6,8 +6,10 @@
 
 
 # 实验步骤
-1.分别在2个Activity进行布局，Soft1614080902135Activity使用RelativeLayout布局，Soft1614080902135使用RelativeLayout布局 
-2.两个布局都使用ImageView控件，
+1.分别在2个Activity进行布局，Soft1614080902135Activity使用RelativeLayout布局，Soft1614080902135使用RelativeLayout布局
+
+2.两个布局都使用ImageView控件
+
 3.使用Git将代码提交到自己的库中
 
 
