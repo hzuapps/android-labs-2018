@@ -21,9 +21,9 @@ $ git push
 
 ## 3.实验结果
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/tupian3.1.png)
+![image](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/%233%E5%9B%BE1.png)
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/tupian3.2.png)
+![image](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/%233%E5%9B%BE2.png)
 
 ## 4.实验体会
 实验中本身带有的许多代码都看不懂，给我造成了很大的困难
