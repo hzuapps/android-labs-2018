@@ -16,7 +16,7 @@ public class soft1614080902208 extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(soft1614080902208Activity.this,Main2Activity.class);
+                Intent intent = new Intent(soft1614080902208Activity.this,MainActivity.class);
                 startActivity(intent);
             }
         });
