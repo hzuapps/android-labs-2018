@@ -12,51 +12,14 @@
 
 
 # 实验步骤
-1.将实验3里面的activity_main.xml的登陆界面设置为相对布局，截图如下：
+1.将实验3里面的activity_main.xml的开始游戏界面设置为相对布局，截图如下：
    
    https://github.com/hzulwy/android-labs-2018/blob/master/soft1614080902228/%E6%8D%95%E8%8E%B74.GIF
-   
- 对应代码：
-  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="top"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Soft1614080902228Activity" 
-     android:background="@drawable/back"
-    >
 
-</RelativeLayout>
- 
-   
- 2.将实验3里面的activity_jiemian.xml的棋盘界面设置为线性布局，截图如下：
-   
+2.a将实验3里面的activity_jiemian.xml棋盘界面设置为线性布局，截图如下：
+
    https://github.com/hzulwy/android-labs-2018/blob/master/soft1614080902228/%E6%8D%95%E8%8E%B73.GIF
-   
-   对应代码：
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Jiemian" >
-  <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="开始"
-        android:layout_margin="100dp" 
-        />
-
-</RelativeLayout>
-    
+ 
  3.点击开始界面中的开始按钮就可以进入到棋盘布局
  
  #实验体会
