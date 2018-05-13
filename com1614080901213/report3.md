@@ -1,43 +1,90 @@
-# µÚÈı´ÎÊµÑé 
+# ç¬¬ä¸‰æ¬¡å®éªŒ 
 
-## 1.ÊµÑéÄ¿±ê 
+## 1.å®éªŒç›®æ ‡ 
 
-ÕÆÎÕÔÚAndroidÓ¦ÓÃÖĞÊ¹ÓÃÍ¼Æ¬µÈ×ÊÔ´µÄ·½·¨¡£ 
+æŒæ¡åœ¨Androidåº”ç”¨ä¸­ä½¿ç”¨å›¾ç‰‡ç­‰èµ„æºçš„æ–¹æ³•ã€‚ 
 
-## 2.ÊµÑé²½Öè 
+## 2.å®éªŒæ­¥éª¤ 
 
-ÔÄ¶ÁÊµÑéÒªÇó£ºhttps://github.com/hzuapps/android-labs-2018/labels/Lab 
+é˜…è¯»å®éªŒè¦æ±‚ï¼šhttps://github.com/hzuapps/android-labs-2018/labels/Lab 
+(1) åˆ›å»ºæ–°Activityï¼Œåå­—ä¸ºsecondActivity
 
-ÔÚµçÄÔÉÏAndroid Studio±àĞ´´úÂë 
+    åœ¨com1614080901213.javaç¼–å†™ä»£ç ï¼Œä»£ç å¦‚ä¸‹ 
+     
+    private TextView textView;
 
-// ´úÂëÒª¿ÉÒÔÔËĞĞ£¡ 
 
-Ê¹ÓÃGit½«´úÂëÌá½»µ½×Ô¼ºµÄ¿âÖĞ£ºhttps://github.com/YOUR_NAME/android-labs-2018 
+    @Override
 
-$ git pull 
+    protected void onCreate(Bundle savedInstanceState) {
 
-$ git add Ñ§ºÅÄ¿Â¼/* 
+        super.onCreate(savedInstanceState);
 
-$ git commit "#12345678 " 
+        setContentView(R.layout.activity_com1614080901213);
 
-$ git push 
 
-ÔÚ×Ô¼ºµÄGitHub¿âÉÏ´´½¨ºÍ·¢ËÍPull Request£¨×¢Òâ²é¿´Changed files£© 
+        textView=(TextView)findViewById(R.id.textview_01);
 
-// ÊÇ·ñÖ»ĞŞ¸ÄÁË×Ô¼ºµÄÎÄ¼ş£¿ 
 
-ÔÚGitHubÖĞÊ¹ÓÃMarkdownÎÄ¼ş±àĞ´ÊµÑé±¨¸æ£¨report1.md, report2.md£© 
+        textView.setOnClickListener(new View.OnClickListener() {
 
-// ±£´æÔÚ×Ô¼ºµÄÎÄ¼ş¼ĞÏÂ 
+            @Override
 
-## 3.ÊµÑé½á¹û 
+            public void onClick(View v) {
+
+                Intent intent=new Intent(com1614080901213Activity.this,SecondActivity.class);
+
+                startActivity(intent);
+
+            }
+
+        });
+
+    }
+
+ï¼ˆ2ï¼‰åœ¨drawableç›®å½•ä¸‹æ’å…¥ä¸€å¼ è·Ÿè‡ªå·±é€‰é¢˜ç›¸å…³çš„å›¾ç‰‡
+     
+
+    ç„¶ååœ¨activity_com1614080901213.xmç¼–å†™å¦‚ä¸‹ä»£ç 
+
+      <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/timg"
+        android:text="hello_world"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+     timgæ˜¯å›¾ç‰‡çš„åå­—ï¼Œå¯ä»¥åœ¨designçœ‹åˆ°å›¾ç‰‡
+ (3)åœ¨strings.xmlæ”¹æˆè‡ªå·±é€‰é¢˜åå­—ï¼ŒÂ ç»“æœå¦‚ä¸‹
+ <string name="app_name">çŒœæ‰‘å…‹ç‰Œæ¸¸æˆ</string>
+ 
+ï¼ˆ4ï¼‰ä½¿ç”¨Gitå°†ä»£ç æäº¤åˆ°è‡ªå·±çš„åº“ä¸­ï¼šhttps://github.com/YOUR_NAME/android-labs-2018 
+
+     $ git pull 
+
+     $ git add å­¦å·ç›®å½•/* 
+
+     $ git commit "#3 #1453ç¬¬ä¸‰æ¬¡å®éªŒ+æŠ¥å‘Š " 
+
+     $ git push 
+
+     åœ¨è‡ªå·±çš„GitHubåº“ä¸Šåˆ›å»ºå’Œå‘é€Pull Requestï¼ˆæ³¨æ„æŸ¥çœ‹Changed filesï¼‰ 
+
+     // æ˜¯å¦åªä¿®æ”¹äº†è‡ªå·±çš„æ–‡ä»¶ï¼Ÿ 
+
+     åœ¨GitHubä¸­ä½¿ç”¨Markdownæ–‡ä»¶ç¼–å†™å®éªŒæŠ¥å‘Šï¼ˆreport3.mdï¼‰ 
+
+
+## 3.å®éªŒç»“æœ 
 
 ![image](https://github.com/huangdewei/android-labs-2018/blob/master/com1614080901213/3.png) 
 
 ![image](https://github.com/huangdewei/android-labs-2018/blob/master/com1614080901213/4.png) 
 
-## 4.ÊµÑéÌå»á 
+## 4.å®éªŒä½“ä¼š 
 
-Õâ´ÎÊµÑéÒª×Ô¼ºÇ××Ô¶¯ÊÖĞ´´úÂëÍê³É£¬¸ú¿ªÊ¼Í¦À§ÄÑµÄ£¬ºóÀ´²é¿´×ÊÁÏ²ÅÄÜÍê³É£¬Ö÷ÒªÊÇÒòÎª²»¶®µÃJavaµÄÓï·¨¡£ 
+è¿™æ¬¡å®éªŒè¦è‡ªå·±äº²è‡ªåŠ¨æ‰‹å†™ä»£ç å®Œæˆï¼Œè·Ÿå¼€å§‹æŒºå›°éš¾çš„ï¼Œåæ¥æŸ¥çœ‹èµ„æ–™æ‰èƒ½å®Œæˆï¼Œä¸»è¦æ˜¯å› ä¸ºä¸æ‡‚å¾—Javaçš„è¯­æ³•ã€‚ 
 
-×îºó°Ñ³ÌĞò×ª»»ÎªapkÎÄ¼şÔÚÊÖ»úÉÏ°²×°²¢ÇÒ³É¹¦ÔËĞĞ£¬ÓĞµã¿ªĞÄ¡£ 
+æœ€åæŠŠç¨‹åºè½¬æ¢ä¸ºapkæ–‡ä»¶åœ¨æ‰‹æœºä¸Šå®‰è£…å¹¶ä¸”æˆåŠŸè¿è¡Œï¼Œæœ‰ç‚¹å¼€å¿ƒã€‚ 
