@@ -12,7 +12,7 @@
 ```  
 $ git pull
 $ git add 学号目录/*  (git rm 学号目录/*)
-$ git commit "#12345678 "
+$ git commit "#实验次数 #Issue号 XXXXXXX"
 $ git push
 ```  
 
