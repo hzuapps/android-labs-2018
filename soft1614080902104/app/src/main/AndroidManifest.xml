@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecordActivity"
-            android:label="@string/title_activity_secord"
+            android:name=".Main1Activity"
+            android:label="@string/title_activity_main1"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
