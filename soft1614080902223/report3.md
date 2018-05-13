@@ -10,9 +10,9 @@ Android studio、windows
 
 ## 3、实验步骤
 
-（1）打开已建好的项目soft1614080902233 
+（1）打开已建好的项目soft1614080902223 
 
-（2）创建第二个activity：secondActivity 
+（2）创建第二个activity：Soft1614080902223BMainActivity
 
 （3）在第一个activity的xml文件，加入代码 activity的预览图中就出现了我想要的图片。 
 
@@ -34,6 +34,7 @@ Android studio、windows
 
 ## 4、实验结果
 ![实验截图](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyan3/shiyan3_1.png)
+
 ![实验报告](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyan3/shiyan3_2.png)
 
 ## 5、实验总结

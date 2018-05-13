@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1614080902223BMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/timgb">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:hint="请输入要查询照片名称"
+                android:paddingLeft="8dp"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#6495ED"
+                android:text="搜索"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/tp01_01"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/maomia"
+                />
+            <ImageButton
+                android:id="@+id/tp01_02"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/maomib"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/tp02_01"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/maomic"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
