@@ -2,10 +2,14 @@
 
 #实验要求
 
-1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；    
-2、根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；    
-3、将标题设置为自己的学号+对应的功能或题目；    
-4、根据自己选择的题目实现Activity中导航、调用等功能（选做）。      
+1、使用一种布局方式，设计所选题目的界面 ；    
+2、通过控件ID获取界面对象，执行相关操作(android:id="@+id/my_button") ；    
+3、实现界面控件的事件处理，例如点击按钮；    
+public class MainActivity extends Activity  implements OnClickListener {      
+    ......     
+    @Override      
+    public void onClick(View v) {   
+    ......      
 
 #实验步骤
 
