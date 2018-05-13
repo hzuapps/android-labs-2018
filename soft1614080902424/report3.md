@@ -1,21 +1,26 @@
-# 第三次实验  
+# 第三次实验
+
 ## 1.实验目标  
-掌握在Android应用中使用图片等资源的方法。  
 
-## 2.实验步骤  
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab  
-在电脑上Android Studio编写代码
+1、掌握在Android应用中使用图片等资源的方法。 
 
-// 代码要可以运行！  
-使用Git将代码提交到自己的库中：https://github.com/First-lin/android-labs-2018  
-$ git pull  
-$ git add 学号目录/*  
-$ git commit "#12345678 "  
-$ git push    
-## 3.实验结果  
-[截图](https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/实验3-1.png);  
-[截图](https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/实验3-2.png);  
-## 4.实验体会  
-  这一次的实验做起来个人觉得不容易。主要是按钮不知道如何进行添加，并且实现跳转的操作，而且对于Android开发工具使用起来比较生涩。
-  有时候代码有问题，不知道该怎么样修改，同时对一些英文不太熟悉。最开始的时候，程序多写了代码，一直运行不了，看报错，看不懂，后
-  面在仔细检查后才发现问题所在。
+## 2.实验步骤 
+
+1、先创建多一个activity，用于完成跳转的步骤
+
+2、在layout中可视化中，创建一个按钮，然后命名按钮的id名，最好为英文。
+
+3、在java中修改第一次创建的activity文件，添加实现跳转的语句，更改id为自己设置的button的id
+
+4、添加图片，并且将图片设置为刚刚创建的button的背景，这样子通过点击图片可以跳转到另外一个界面
+
+5、在跳转到的界面中简单的设计一下样式（这一次不要求完成全部样式）
+
+## 3.实验结果  
+1、点击按钮界面：![image](https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/实验3-1.png); 
+
+2、跳转界面：![image](https://github.com/Zhaohongh/android-labs-2018/blob/master/soft1614080902424/实验3-2.png); 
+
+## 4.实验体会  
+   这一次的实验主要通过创建多一个activity2，然后在原先的activity.xml文件中添加按钮，设置按钮的id，同时可以设置按钮的背景颜色，位置，大小。
+ 再通过java目录下第一次创建的activity，添加跳转指令的语句，将其中的id修改为我们设置button时的id名。最后稍微设置一下跳转界面样式即可。
