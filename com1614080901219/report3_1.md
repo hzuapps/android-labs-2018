@@ -17,13 +17,15 @@
 
 1.打开Android studio；
 
-2.打开layout文件夹里的activity_com1614080901219activity.xml;
+2.打开layout文件夹里的activity_com1614080901219activity.xml；
 
 3.添加1张图片；
 
-4.打开com1614080901219activity.java;
+4.打开com1614080901219activity.java；
 
-5.设计动作，实现在com1614080901219activity点击图片时打开com1614080901219。
+5.设计动作，实现在com1614080901219activity点击图片时打开com1614080901219；
+
+6.打开仿真器进行测试。
 
 
 ## 4.实验结果
