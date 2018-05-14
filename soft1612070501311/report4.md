@@ -36,14 +36,14 @@
 
 #实验结果       
        
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab1.png"/>       
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab1.png"/>       
      
 点击“注册”按钮：    
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab2.png"/>   
-     
-点击“充值”按钮：    
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab3.png"/>     
-      
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab2.png"/>    
+           
+点击“充值”按钮：      
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab3.png"/>       
+             
 #实验体会      
 1、布局方式有很多种，其中以线性布局（Linerlayout）最为常见；     
 2、采用线性布局，要设置好垂直OR水平方向；      
