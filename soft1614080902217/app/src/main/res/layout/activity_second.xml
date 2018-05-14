@@ -17,6 +17,7 @@
             android:orientation="horizontal">
 
             <EditText
+                android:id="@+id/edittext_input"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:hint="请输入下载地址或者磁链接" />
@@ -32,6 +33,14 @@
             android:textSize="50sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/textview_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="历史记录:"
+            />
+
 
 
     </LinearLayout>
