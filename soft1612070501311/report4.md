@@ -30,7 +30,7 @@
 
 （3）定义控件位置，语句含义为使控件在垂直水平方向都居中。           
      
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-4.jpg"/>       
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-4.jpg"/>       
        
 5、设置好响应事件的代码，在手机上测试APP。               
 
