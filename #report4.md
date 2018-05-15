@@ -17,7 +17,7 @@ public void onClick(View v) { ......
 
 #3.实验步骤 1.打开Android Studio；
 
-2.进入res/layout文件夹，打开activity_soft1614080902229_1.xml和activity_second.xml；
+2.进入res/layout文件夹，打开activity_soft1614080902236_1.xml和activity_second.xml；
 
 3.根据自己的选题选择相关布局以及添加相应的控件，采用LinearLayout布局
 
