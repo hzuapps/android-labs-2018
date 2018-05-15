@@ -11,8 +11,8 @@
 
 ## 3.实验结果
 
-![image]（https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.1.jpg)
-![image]（https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.2.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.1.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.2.jpg)
 ![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.3.jpg)
 ![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.4.jpg)
 ![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.5.jpg)
