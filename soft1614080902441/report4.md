@@ -6,8 +6,7 @@
    （3）将应用运行结果截图。  
  
 ## 2.实验步骤
-#### （1）首先我在第一个Activity的xml文件中设计布局，使用的是LinearLayout线性布局（通过查询我知道了布局共有5种：  LinearLayout,RelativeLayout,TableLayout,AbsoluteLayout,FrameLayout,因为常用的是
-     LinearLayout和RelativeLayout所以我选择了LinearLayout）
+#### （1）首先我在第一个Activity的xml文件中设计布局，使用的是LinearLayout线性布局（通过查询我知道了布局共有5种：  LinearLayout,RelativeLayout,TableLayout,AbsoluteLayout,FrameLayout,因为常用的是LinearLayout和RelativeLayout所以我选择了LinearLayout）
 #### （2）在该Activity的xml文件中依次使用控件TextView、ImageView、TextView、EditText、Button、TextView和ImageView
 #### （3）在该Activity的java文件中设置对应的监听器实现使用Button跳转
 #### （5）然后先把整个页面设置为垂直布局，使得每一块区域垂直往下排列
