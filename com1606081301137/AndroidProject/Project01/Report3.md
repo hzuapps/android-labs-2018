@@ -11,7 +11,8 @@
 ## 2. 实验步骤 
 ### 1.下载图片文件并存放至工程目录中
 ### 2.打开Android Studio
-在activity_com1606081301137.xml定义TextView
+在`activity_com1606081301137.xml`定义`TextView`
+```Java
 <TextView
     android:id="@+id/csicon"
     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -19,10 +20,13 @@
     android:layout_height="90dp"
     android:drawableBottom="@drawable/csicon"
     android:gravity="center"/>
-在TimeView.java中调用csicon：
+```
+在`TimeView.java`中调用`csicon`：
+```Java
 csicon = (TextView) findViewById(R.id.csicon);
 csicon.setText(" ");
 private TextView csicon;
+```
 ### 3.运行模拟器，显示结果
 
 ## 3. 实验结果  
