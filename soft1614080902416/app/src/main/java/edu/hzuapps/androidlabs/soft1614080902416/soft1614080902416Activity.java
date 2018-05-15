@@ -9,6 +9,14 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.content.ContextWrapper;
+import android.content.Intent;
+import android.widget.TextView;
+import android.widget.Spinner;
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 public class soft1614080902416Activity extends AppCompatActivity {
 //
@@ -211,11 +219,13 @@ private float x,y;
             switch(tag){
                 //全部清除
                 case 14:
-                    x=0;
-                    y=0;
-                    text="";
-                    zestatus=true;
-                    break;
+                    //调用保存的方法
+                    savenumber(text);
+//                    x=0;
+//                    y=0;
+//                    text="";
+//                    zestatus=true;
+//                    break;
                 case 15:
                     text=text.substring(0,text.length()-1);
                     break;
@@ -262,6 +272,28 @@ private float x,y;
                 Toast.makeText(soft1614080902416Activity.this, "这是陈晓杰计算机", 1).show();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    //保存的方法
+    public void savenumber(String text){
+        FileOutputStream out=null;
+        BufferedWriter writer=null;
+        try{
+
+            out=openFileOutput("number", ContextWrapper.MODE_APPEND);
+            writer=new BufferedWriter(new OutputStreamWriter(out));
+            writer.write(text);
+        }catch (IOException e){
+            e.printStackTrace();
+        }finally {
+            try {
+                if(writer!=null){
+                    writer.close();
+                }
+            }catch (IOException e){
+                e.printStackTrace();
+            }
+        }
     }
 
 
