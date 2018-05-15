@@ -46,22 +46,27 @@
             android:layout_height="match_parent" />
     </LinearLayout>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
         android:layout_marginTop="50dp"
-        android:background="@android:color/white"
         android:orientation="vertical">
-
         <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:footerDividersEnabled="false"
-            android:headerDividersEnabled="false" />
-        <FrameLayout
-            android:id="@+id/mBodylayout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/white" />
+            android:id="@+id/ni"
+            android:layout_width="wrap_content"
+            android:layout_height="355dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="上一次观看:"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginLeft="150dp"
+            android:textSize="20dp"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/mBottomLayout"
@@ -70,13 +75,11 @@
         android:layout_alignParentBottom="true"
         android:background="#F2F2F2"
         android:orientation="horizontal">
-
         <RelativeLayout
             android:id="@+id/mCharacter"
             android:layout_width="0dp"
             android:layout_height="55dp"
             android:layout_weight="1">
-
             <TextView
                 android:id="@+id/tv_character"
                 android:layout_width="fill_parent"
@@ -112,7 +115,6 @@
                 android:text="精彩回放"
                 android:textColor="#666666"
                 android:textSize="14sp" />
-
             <ImageView
                 android:id="@+id/iv_bofang"
                 android:layout_width="54dp"
