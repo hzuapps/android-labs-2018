@@ -11,11 +11,11 @@
 
 ## 3.实验结果
 
-![image]https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.1.jpg)
-![image]https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.2.jpg)
-![image]https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.3.jpg)
-![image]https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.4.jpg)
-![image]https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.5.jpg)
+![image]（https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.1.jpg)
+![image]（https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.2.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.3.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.4.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//5.5.jpg)
 ## 4.实验体会
 这次实验通过数据的保存与读取，对按钮进行监听，通过百度和老师给的资料，最终得以实现。
     
