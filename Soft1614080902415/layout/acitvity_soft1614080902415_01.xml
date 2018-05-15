@@ -37,7 +37,7 @@
     android:layout_width="match_parent"
     android:layout_height="40dp"
     android:layout_below="@id/editText1"
-    android:text="查询你的已租车辆信息"
+    android:text="租车"
     android:background="@drawable/ic_launcher_background"
     android:textSize="20sp"
     android:textColor="#fff"
@@ -87,4 +87,5 @@
         android:textColor="#fff"
         android:layout_marginTop="10dp"
         />
+</RelativeLayout>
 </RelativeLayout>
