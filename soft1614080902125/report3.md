@@ -30,6 +30,6 @@ Android资源使用编程
 ![image](https://github.com/linkzw/android-labs-2018/blob/master/soft1614080902125/p6.png)
 
 ## 4.实验体会
-    本次实验使用Android Studio编写代码，实现了两个activity，登录界面用户名和密码不为空则进入主页面，否则弹出提示信息。通过此次实验我了解了android一些控件和布局的使用，初步了解了控件点击事件的编写。 
+    本次实验使用Android Studio编写代码，实现了三个activity，可在主页面通过相应按钮跳转到相应页面，并且可以通过返回按钮回到之前的页面。通过此次实验我了解了android一些控件和布局的使用，初步了解了控件点击事件的编写。 
   
  
