@@ -7,42 +7,67 @@
     android:orientation="vertical"
     tools:context=".CityInfoActivity">
 
+
+    <!--返回按钮-->
+    <Button
+        android:id="@+id/btn_back"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="63dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/btn_back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:visibility="visible" />
+
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#b3FFFFFF">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
-        <!--返回按钮-->
-        <Button
-            android:id="@+id/btn_back"
-            android:layout_width="63dp"
-            android:layout_height="40dp"
-            android:layout_alignParentLeft="true"
+        <!--编辑框-->
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/defaultText"
+            android:inputType="textPersonName"
             android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:text="@string/btn_back"
             android:gravity="center"
-            android:visibility="visible"
-            style="@android:style/Widget.DeviceDefault.Button.Borderless"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+            tools:ignore="RelativeOverlap" />
 
+        <!--搜索按钮-->
+        <Button
+            android:id="@+id/btn_search"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="76dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/btn_search"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:visibility="visible"
+            android:layout_alignParentRight="true" />
     </RelativeLayout>
 
+    <!--城市列表-->
     <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/list_view"
-        android:scrollbarSize="10dp"
-        android:scrollbarThumbVertical="@drawable/minibar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:scrollbarDefaultDelayBeforeFade="1200"
-        >
-    </ListView>
+        android:scrollbarSize="10dp"
+        android:scrollbarThumbVertical="@drawable/minibar" />
 
     <!--
     2018.5.10更新
     实现LinearLayout布局，用ListView显示城市信息
     增加自定义滚动条minibar
     可通过返回按钮切换至启动页
+    2018.5.17更新
+    增加搜索城市名的编辑框和搜索按钮，并将输入的内容存进内部文件logs
+    使用android:hint属性实现编辑框失去焦点时的提示字符显示
+    优化整体布局
     -->
 
 </LinearLayout>
