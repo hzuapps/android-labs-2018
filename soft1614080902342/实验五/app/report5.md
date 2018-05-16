@@ -23,7 +23,11 @@
  将复制的地址写入第五次实验的实验截图中（report5.md）
 三、实验结果
 
-![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/227454fb306bde1d54eb8e55312b6fe52f748046/soft1614080902342/%E5%AE%9E%E9%AA%8C%E5%9B%9B/app/%E5%B8%83%E5%B1%80%E7%85%A7%E7%89%87.JPG) 
+![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/d26d7ccb3afc5f7cc8988121cbdd5c2a5aa4d110/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%BA%94/app/%E6%89%93%E5%9C%B0%E9%BC%A0%E5%B0%8F%E6%B8%B8%E6%88%8F.JPG) 
+
+
+![image](https://github.com/XuJiaHongHong/android-labs-2018/blob/d26d7ccb3afc5f7cc8988121cbdd5c2a5aa4d110/soft1614080902342/%E5%AE%9E%E9%AA%8C%E4%BA%94/app/%E6%9C%89%E5%AD%98%E5%82%A8%E5%8A%9F%E8%83%BD%E7%9A%84.JPG) 
+
 
 四、实验心得
 由于java中已经对读写文件操作的语句有了一定的了解，因此入手还是相对简单一些，但是安卓上的运行结果实在太久了，在测试的时候花了不少时间，好在一次就成功了。
