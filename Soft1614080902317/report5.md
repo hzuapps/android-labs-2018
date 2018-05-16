@@ -22,4 +22,4 @@
 ![image](https://github.com/zhengjinbin/android-labs-2018/blob/master/Soft1614080902317/%235_2.PNG)<br>
 
 ## 五、实验体会
-本次实验难度较大,主要难点在于如何将添加行程时的数据存储在文件夹trip中,并且在将数据存储入文件夹后<br>可在Device File Explorer中才的data/data/包名/files/文件名中查看存储的数据。
+  本次实验难度较大,主要难点在于如何将添加行程时的数据存储在文件夹trip中,并且在将数据存储入文件夹后可在Device File Explorer中<br>的data/data/包名/files/文件名中查看存储的数据。
