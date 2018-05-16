@@ -12,6 +12,10 @@ import android.widget.Toast;
 
 public class Activity3 extends AppCompatActivity {
 
+    //当前玩家的名称，性别和角色
+    String strPlayerName = null;
+    String strSex = null;
+    String strGameCharacters = null;
     //中间1-9个Button组件
     private Button button1 = null;
     private Button button2 = null;
@@ -22,18 +26,10 @@ public class Activity3 extends AppCompatActivity {
     private Button button7 = null;
     private Button button8 = null;
     private Button button9 = null;
-
     //排行榜Button组件
     private Button rankListButton = null;
-
     //当前玩家信息TextView组件
     private TextView currentPlayerText = null;
-
-    //当前玩家的名称，性别和角色
-    String strPlayerName = null;
-    String strSex = null;
-    String strGameCharacters = null;
-
     //计时控件TextView
     private TextView timer = null;
     //统计玩家完成游戏的时间
@@ -57,11 +53,11 @@ public class Activity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_3);
-        initCurrentPlayerTextView();                       //在左上角当前显示玩家的信息
-        initButton();                                      //实现中间1-9个Button功能
-        timer = (TextView) findViewById(R.id.timer);      //获取计时控件
-        handler.postDelayed(runnable, 1000);   //实现右上角计时功能
-        rankList();                                        //实现排行榜Button功能
+        initCurrentPlayerTextView();                      //在左上角当前显示玩家的信息
+        initButton();                                     //实现中间1-9个Button功能
+        timer = (TextView) findViewById(R.id.timer);     //获取计时控件
+        handler.postDelayed(runnable, 1000);              //实现右上角计时功能
+        rankList();                                       //实现排行榜Button功能
 
     }
 
