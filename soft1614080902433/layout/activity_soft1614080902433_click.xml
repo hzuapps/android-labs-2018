@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1614080902433Activity_click">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Username:"
+            android:textColor="@color/black"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="80dp"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:hint="请输入用户名/帐号"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="215dp"
+            android:gravity="center"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:background="@drawable/ic_launcher_background"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:hint="请输入密码"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="254dp"
+            android:gravity="center_vertical"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:background="@drawable/ic_launcher_background"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tx"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="110dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码？"
+            android:textColor="@color/black"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="300dp"/>
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
