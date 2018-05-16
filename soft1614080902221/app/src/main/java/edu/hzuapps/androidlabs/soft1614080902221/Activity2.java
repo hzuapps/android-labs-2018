@@ -1,15 +1,12 @@
 package edu.hzuapps.androidlabs.soft1614080902221;
 
-import android.os.Handler;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.AbsoluteLayout;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -22,7 +19,11 @@ public class Activity2 extends AppCompatActivity {
     private TextView text2 = null;
     private Button okButton = null;
     private Button resetButton = null;
+    private String strPlayerName = null;
+    private String strSex = null;
+    private String strGameCharacters = null;
     private Button goButton = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,24 +47,23 @@ public class Activity2 extends AppCompatActivity {
         okButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strPersonName = etText.getText().toString();
+               strPlayerName = etText.getText().toString();
 
                 int sex = sex_rg.getCheckedRadioButtonId();
                 RadioButton sex_rb = (RadioButton) findViewById(sex);
-                String strSex = sex_rb.getText().toString();
+                strSex = sex_rb.getText().toString();
 
                 int gameName = gameCharacters.getCheckedRadioButtonId();
                 RadioButton gameName_rb = (RadioButton) findViewById(gameName);
-                String strGameName = gameName_rb.getText().toString();
+               strGameCharacters = gameName_rb.getText().toString();
 
-                if (strPersonName.equals("")) {
+                if (strPlayerName.equals("")) {
                     goButton.setVisibility(View.INVISIBLE);
                     Toast.makeText(Activity2.this, "请输入您的名称", Toast.LENGTH_SHORT).show();
-                    //text2.setText("请输入您的名称！！！");
                 } else {
                     goButton.setVisibility(View.VISIBLE);
-                    text2.setText("亲爱的" + strPersonName + "玩家，\n" + "性别:" + strSex + "\n" +
-                            "你选择的角色：" + strGameName);
+                    text2.setText("亲爱的" + strPlayerName + "玩家，\n" + "性别:" + strSex + "\n" +
+                            "你选择的角色：" + strGameCharacters);
                 }
 
 
@@ -89,6 +89,16 @@ public class Activity2 extends AppCompatActivity {
             }
         });
 
+        goButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity2.this, Activity3.class);
+                intent.putExtra("playerName",strPlayerName);
+                intent.putExtra("sex",strSex);
+                intent.putExtra("gameCharacters",strGameCharacters);
+                startActivity(intent);
+            }
+        });
 
     }
 
