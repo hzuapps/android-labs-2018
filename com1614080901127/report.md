@@ -17,7 +17,7 @@ Android组件编程
 
 2.在Android Stduio 中新建一个项目
 
-3.在java目录下依次创建edu\hzuapps\androidlabs\Soft1614080902336包,在此目录下新建Java类Con1614080901127
+3.在java目录下依次创建edu\hzuapps\androidlabs\Con1614080901127包,在此目录下新建Java类Con1614080901127
 
 4.把res\values下的strings.xml中的<string name="app_name"Com1614080901127Activity </string>改成<string name="app_name">手机助手</string>
 
