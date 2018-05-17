@@ -18,13 +18,13 @@
 
 （4）在主Activity中加设一个BUTTON变量，添加鼠标单击事件，执行startActivity(intent)
 
-（5）（例行公事）、使用Git将代码、截图、报告提交到自己的库中：https：//github.com/YOUR_NAME/android-labs-2018
+（5）使用Git将代码、截图、报告提交到自己的库中：https：//github.com/YOUR_NAME/android-labs-2018
 
 $ git pull
 
 $ git add 学号目录/*
 
-$ git commit "#12345678 "
+$ git commit "#3 #940第三次实验 "
 
 $ git push
 
