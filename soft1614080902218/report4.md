@@ -19,7 +19,7 @@
 ## 实验结果
 ![](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/Cache_-123620a5ac770e93..jpg)
 ![](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/Cache_1a290ed380f56c9c..jpg)
-![](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/Cache_-3fb921f21c082fa8..jpgg)
+![](https://github.com/chbaju/android-labs-2018/blob/master/soft1614080902218/Cache_-3fb921f21c082fa8..jpg)
 
 ## 实验心得
 本次实验不算困难，重点在如何理解如何实验布局的类，进行相对应的布局就可以了
