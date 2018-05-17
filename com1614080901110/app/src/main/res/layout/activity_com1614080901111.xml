@@ -1,0 +1,21 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="20dp"
+android:gravity="center"
+    android:background="@drawable/qqq"
+tools:context="edu.hzuapps.androidlabs.com1614080901111.com1614080901111Activity">
+<TextView
+    android:id="@+id/textView_01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="高考倒计时"/>
+<Button
+    android:id="@+id/button_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="开始"/>
+</LinearLayout>
