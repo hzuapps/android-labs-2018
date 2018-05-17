@@ -92,6 +92,7 @@
             android:layout_height="match_parent">
 
             <EditText
+                android:id="@+id/class11"
                 android:height="80dp"
                 android:hint="第一节"
                 android:gravity="center"/>
@@ -192,4 +193,24 @@
 
 
     </TableLayout>
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"
+        android:background="#43e24e"
+        android:text="写入课程" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+
 </android.support.design.widget.CoordinatorLayout>
