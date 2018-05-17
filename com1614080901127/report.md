@@ -13,20 +13,20 @@ Android组件编程
 4.根据自己选择的题目实现Activity中导航、调用等功能（选做）。 
 
 ## 2.实验步骤
-1.在Issues中创建自己的选题,我选的题目是“五子棋”
+1.在Issues中创建自己的选题,我选的题目是“手机助手”
 
 2.在Android Stduio 中新建一个项目
 
-3.在java目录下依次创建edu\hzuapps\androidlabs\Soft1614080902336包,在此目录下新建Java类Soft1614080902336  
+3.在java目录下依次创建edu\hzuapps\androidlabs\Soft1614080902336包,在此目录下新建Java类Con1614080901127
 
-4.把res\values下的strings.xml中的<string name="app_name">soft1614080902336Activity </string>改成<string name="app_name">wuziqi</string>
+4.把res\values下的strings.xml中的<string name="app_name"Com1614080901127Activity </string>改成<string name="app_name">手机助手</string>
 
-5.按Studio的目录的目录结构新建文件app,在app下新建src\main,在main目录下新建java和res,并把AndroidManifest.xml粘贴至此处;在java目录下依次新建du\hzuapps\androidlabs\Soft1614080902336,并将Soft1614080902336.java粘贴至Soft1614080902336;在res新建layout,将soft1614080902336activity.xml粘贴至layout;最后在res新建values,将strings.xml粘贴至values  
+5.按Studio的目录的目录结构新建文件app,在app下新建src\main,在main目录下新建java和res,并把AndroidManifest.xml粘贴至此处;在java目录下依次新建du\hzuapps\androidlabs\Com1614080901127,并将Com161408090112.java粘贴至Com161408090112;在res新建layout,将Com161408090112activity.xml粘贴至layout;最后在res新建values,将strings.xml粘贴至values  
 
 6.打开git bash，将文件夹push上github，向老师提交pull request.
 
 ## 3.实验结果
-![](https://github.com/Ademzw/android-labs-2018/blob/master/soft1614080902336/%E5%AE%9E%E9%AA%8C%E4%BA%8C%E6%88%AA%E5%9B%BE.jpg)
+![]
 
 
 ## 4.实验体会
