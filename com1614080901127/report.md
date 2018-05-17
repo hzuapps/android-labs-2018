@@ -26,8 +26,8 @@ Android组件编程
 6.打开git bash，将文件夹push上github，向老师提交pull request.
 
 ## 3.实验结果
-![]
+![](https://github.com/yeyongqi/android-labs-2018/blob/master/co1614080901127/Com1614080901127Activity.png)
 
 
 ## 4.实验体会
-通过这次实验，我大致了解了android app的开发的过程，在实验中增强了我对这门课程的兴趣。
+通过这次实验，虽然还是不太了解android app的开发的过程，但在实验中我对这个实验有了兴趣，也从中得到了一点知识，虽然不多但是会继续学下去。
