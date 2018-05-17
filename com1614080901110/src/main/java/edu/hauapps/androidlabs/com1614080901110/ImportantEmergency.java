@@ -27,10 +27,6 @@ import com.zhongzexin.timemanagementzzx.database.EventDatabaseHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 重要且紧急的事情
- * @author 王治平
- */
 public class ImportantEmergency extends AppCompatActivity {
 
     private List<Event> mList = new ArrayList<>();
