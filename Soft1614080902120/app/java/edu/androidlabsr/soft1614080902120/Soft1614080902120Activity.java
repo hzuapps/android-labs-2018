@@ -13,7 +13,6 @@ public class Soft1614080902120Activity extends AppCompatActivity {
 
     Button Button1 = null;
     Button Button2 = null;
-    Button Button3 = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
