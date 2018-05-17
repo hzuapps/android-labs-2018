@@ -16,8 +16,8 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="0dp"
-        android:layout_marginLeft="0dp" />
+        android:layout_marginLeft="-16dp"
+        android:layout_marginTop="0dp" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -45,7 +45,8 @@
             android:text="查看成绩"
             android:textStyle="bold"
             android:textColor="@color/colorPrimary"
-            android:textSize="60dp"/>
+            android:textSize="60dp"
+            android:onClick="Click"/>
         <Button
             android:id="@+id/button4"
             android:layout_width="150dp"
@@ -56,7 +57,8 @@
             android:text="查询课表"
             android:textStyle="bold"
             android:textColor="@color/colorPrimary"
-            android:textSize="60dp"/>
+            android:textSize="60dp"
+            android:onClick="Click"/>
     </LinearLayout>
 
     <EditText
@@ -65,21 +67,22 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="学号"
+        android:hint="学号"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/autoCompleteTextView2"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="33dp"
         app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView2"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/autoCompleteTextView2" />
+        app:layout_constraintLeft_toLeftOf="@+id/autoCompleteTextView2"
+        app:layout_constraintHorizontal_bias="0.0" />
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="密码"
+        android:hint="密码"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/editText"
@@ -88,12 +91,14 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/editText" />
 
-    <AutoCompleteTextView
+    <TextView
         android:id="@+id/autoCompleteTextView2"
         android:layout_width="306dp"
         android:layout_height="76dp"
         android:text="请输入学号密码"
         android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"
         android:textColor="@color/colorPrimary"
         tools:layout_constraintTop_creator="1"
         android:layout_marginStart="28dp"
@@ -102,6 +107,33 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="28dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住学号密码"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        android:layout_marginRight="10dp"
+        android:onClick="Click"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="恢复上次密码"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
+        android:onClick="Click"/>
 
 
 </android.support.constraint.ConstraintLayout>
