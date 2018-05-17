@@ -63,7 +63,7 @@ public class Activity3 extends AppCompatActivity {
 
     //显示当前玩家信息
     private void initCurrentPlayerTextView() {
-        Intent recIntent = getIntent();//获取Activity3传递过来的玩家信息
+        Intent recIntent = getIntent();//获取Activity2传递过来的玩家信息
 
         strPlayerName = recIntent.getStringExtra("playerName");
         strSex = recIntent.getStringExtra("sex");
