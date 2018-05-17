@@ -9,7 +9,6 @@
   4.在第二个界面设置了一个imginbutton，给这个button设置点击事件，可以通过改按钮跳到第三个界面  
   5.第三个界面由一个textview和一个button构成，用来添加一个标签
 ## 三.实验结果
- ![image](https://github.com/KalorF/android-labs-2018/blob/master/com1614080901132/img/img1.png) 
  ![image](https://github.com/KalorF/android-labs-2018/blob/master/com1614080901132/img/img2.png)  
  ![image](https://github.com/KalorF/android-labs-2018/blob/master/com1614080901132/img/img3.png) 
 ## 四.实验体会
