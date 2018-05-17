@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:orientation="horizontal"
+              android:background="#ffffff">
+
+    <ImageButton
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    app:srcCompat="@android:drawable/ic_menu_camera"
+    android:id="@+id/StartCameraThumb"
+    android:layout_marginRight="0dp"
+    android:layout_gravity="center"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/StartCameraFull"
+        android:layout_marginRight="40dp"
+        android:layout_gravity="center"
+    />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:textSize="20sp"
+    android:text="@string/gz"
+    android:gravity="center"
+    android:layout_marginRight="10dp"/>
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:text="@string/rm"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:layout_marginRight="60dp"/>
+
+    <ImageView
+    android:id="@+id/imagetop"
+    android:layout_width="40dp"
+    android:layout_height="50dp"
+    android:src="@drawable/sys"/>
+
+
+</LinearLayout>
+
