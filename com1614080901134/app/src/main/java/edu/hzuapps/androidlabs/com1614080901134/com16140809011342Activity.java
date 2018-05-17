@@ -1,8 +1,10 @@
 package edu.hzuapps.androidlabs.com1614080901134;
 
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -14,6 +16,7 @@ public class com16140809011342Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com16140809011342);
+        Button button9=(Button) findViewById(R.id.button_3);
         ImageButton button3 = (ImageButton) findViewById(R.id.button1);
         final TextView textView = (TextView) findViewById(R.id.textView_2);
         button3.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +68,21 @@ public class com16140809011342Activity extends AppCompatActivity {
         c=Integer.parseInt(textView4.getText().toString()) ;
         sum=a*50+b*80+c*20;
         text_view3.setText(""+sum+"");
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SharedPreferences.Editor editor=getSharedPreferences("data",MODE_PRIVATE).edit();
+                editor.putString("低级蛋糕数量",textView.getText().toString());
+                editor.putString("中级蛋糕数量",textView3.getText().toString());
+                editor.putString("小蛋糕数量",textView4.getText().toString());
+                editor.apply();
+
+            }
+        });
+
     }
+
+
 
     
 }
