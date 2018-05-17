@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Soft1614080902233Activity_2"
-            android:label="@string/title_activity_soft1614080902233_2"
+            android:name=".soft1614080902223BMainActivity"
+            android:label="@string/title_activity_soft1614080902223_bmain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".soft1614080902223CMainActivity"
+            android:label="@string/title_activity_soft1614080902223_cmain"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

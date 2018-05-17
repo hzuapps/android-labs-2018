@@ -19,7 +19,7 @@
         android:id="@+id/textview_01"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:drawableTop="@drawable/timg1"
+        android:drawableTop="@drawable/timga"
         android:text="hello_world" />
 
 </android.support.constraint.ConstraintLayout>

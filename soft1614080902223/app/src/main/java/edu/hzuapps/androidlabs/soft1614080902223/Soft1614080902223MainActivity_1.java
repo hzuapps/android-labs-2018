@@ -17,7 +17,7 @@ public class Soft1614080902223MainActivity_1 extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(Soft1614080902223MainActivity_1.this,Soft1614080902233Activity_2.class);
+                Intent intent=new Intent(Soft1614080902223MainActivity_1.this,soft1614080902223BMainActivity.class);
                 startActivity(intent);
             }
         });
