@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Soft1614080902227Activity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,8 +21,8 @@
             android:label="@string/title_activity_air" />
         <activity
             android:name=".Remote_of_TV"
-            android:label="乐视TV"
-            />
+            android:label="乐视TV" />
+        <activity android:name=".UserDBHelper" />
     </application>
 
 </manifest>
