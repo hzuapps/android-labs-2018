@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="餐饮总支出"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/out_1"
+        android:layout_width="158dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="税金总支出"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/out_2"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="水电费总支出"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/out_3"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="物业费总支出"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/out_4"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="总收入"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/out_5"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="30dp"
+        android:background="@color/gray_bg"
+        android:gravity="center"
+        android:text="运动总支出"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/out_6"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:hint="0"
+        android:textColorHint="@color/grey" />
+    <Button
+    android:id="@+id/cancel_1"
+    android:layout_width="97dp"
+    android:layout_height="47dp"
+    android:text="清零" />
+</LinearLayout>
