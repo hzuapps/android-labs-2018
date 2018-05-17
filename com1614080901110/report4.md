@@ -12,9 +12,9 @@
 
 1.在之前的基础上增加一个 ImportantEmergency.java，在 activity_important_emergency.xml里把布局格式设置为 LinearLayout  
  
-3.设置一张图片，并修改图片的两个属性 android:layout_width="fill_parent" 、 android:layout_height="fill_parent"， 让图片背景充满屏幕  
+2.设置一张图片，并修改图片的两个属性 android:layout_width="fill_parent" 、 android:layout_height="fill_parent"， 让图片背景充满屏幕  
 
-4.在手机上调试运行并截图。  
+3.在手机上调试运行并截图。  
 
 ## 实验结果
 
