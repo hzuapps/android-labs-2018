@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902440Activity1"
+    android:background="@drawable/login_background"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:hint="Username..."
+        android:text=""
+
+        />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_username"
+        android:background="@color/white"
+        android:hint="Passward..."
+        android:text=""
+
+       />
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登陆"
+        android:layout_below="@id/login_password"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/login_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用于显示登陆的结果"
+        android:layout_below="@id/login_submit"
+        />
+</RelativeLayout>
+</RelativeLayout>

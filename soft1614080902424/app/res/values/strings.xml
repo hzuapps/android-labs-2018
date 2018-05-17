@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">快递下单</string>
+    <string-array name="kg1">
+        <item>小于等于1公斤</item>
+        <item>大于1公斤小于等于10公斤</item>
+        <item>大于10公斤</item>
+    </string-array>
+    <string-array name="pay1">
+        <item>寄件人付</item>
+        <item>收件人付</item>
+        <item>寄付月结</item>
+    </string-array>
+    <string-array name="type1">
+        <item>衣服</item>
+        <item>文件</item>
+        <item>物件</item>
+        <item>易碎物</item>
+        <item>贵重物品</item>
+    </string-array>
+</resources>

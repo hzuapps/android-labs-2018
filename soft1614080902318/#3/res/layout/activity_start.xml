@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902318.startActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/title_activity_start" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/ali" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:text="玩家1：阿狸"
+                android:textSize="20dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1Id"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp">
+
+                <RadioButton
+                    android:id="@+id/stone1Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="石头" />
+
+                <RadioButton
+                    android:id="@+id/scissors1Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="剪子" />
+
+                <RadioButton
+                    android:id="@+id/cloth1Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="布" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/taozi" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="40dp"
+                android:text="玩家2：桃子"
+                android:textSize="20dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup2Id"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp">
+
+                <RadioButton
+                    android:id="@+id/stone2Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="石头" />
+
+                <RadioButton
+                    android:id="@+id/scissors2Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="剪子" />
+
+                <RadioButton
+                    android:id="@+id/cloth2Id"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text="布" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="420dp"
+        android:text="PK"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="480dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="结果："
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/resultId"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

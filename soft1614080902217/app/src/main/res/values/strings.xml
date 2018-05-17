@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">soft1614080902217</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+</resources>

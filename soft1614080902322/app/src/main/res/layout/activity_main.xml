@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soft1614080902322activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+"
+                android:textColor="#ffff"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_height="40dp"
+                android:layout_width="200dp"
+                android:layout_marginLeft="20dp"
+                android:text="已有的游戏列表"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#ffff"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Game1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/img1"
+            android:text="王者荣耀"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/Game2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/img2"
+            android:text="贪玩蓝月"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
