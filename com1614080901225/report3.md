@@ -35,4 +35,4 @@ $ git push
 
 
 ![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/3-1.png)
-![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/3-1.png)
+![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/3-2.png)
