@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="416dp"
+        android:layout_height="wrap_content"
+        android:text="已成功添加课程，可完善下列操作"
+        android:textSize="48px"
+        />
+
+    <Button
+        android:id="@+id/my_button"
+        android:text="记录上课地点"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48px"
+   />
+ <Button
+     android:id="@+id/my_button"
+     android:text="记录课程周/节次"
+     android:textSize="48px"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_button"
+        android:text="添加任课老师"
+        android:textSize="48px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/my_button"
+        android:text="添加课表背景"
+        android:textSize="48px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</TableLayout>
