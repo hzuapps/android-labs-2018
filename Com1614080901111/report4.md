@@ -12,9 +12,9 @@
 
 ## 三、实验步骤
 1、在activity_com1614080901111.xml中设置使用LinearLayout布局，设置背景图片及跳转按钮的位置  
-2、在Maincom1614080901111Activity中实现OnClickListener，重写onClick方法，实现activity跳转
-3、编译、运行程序
-4、使用git提交实验文件
+2、在Maincom1614080901111Activity中实现OnClickListener，重写onClick方法，实现activity跳转  
+3、编译、运行程序  
+4、使用git提交实验文件  
 
 ## 四、实验截图
 
