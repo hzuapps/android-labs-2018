@@ -20,9 +20,9 @@
 
 ![image](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/report4Imga.jpg)
 
-![image](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/report4Imga.jpg)
+![image](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/report4Imgb.jpg)
 
-![image](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/report4Imga.jpg)
+![image](https://github.com/JianPengChen/android-labs-2018/blob/master/Com1614080901111/report4Imgc.jpg)
 
 
 ## 五、实验体会
