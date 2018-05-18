@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -31,38 +32,41 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="账号："
-        android:layout_marginTop="50dp"
-        android:textColor="#000000"
-        android:textSize="30dp"
-
-        />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="请输入你的账号"
-        android:inputType="textPersonName"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="70dp"
-        />
-
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape"
         android:text="进入课表"
         android:textSize="20dp"
-        android:background="#8079ec"
-        android:layout_marginTop="200dp"/>
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:text="马上注册"
+        android:background="#00000000"
+        android:textColor="#0c19c9"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:background="#00000000"
+        android:text="忘记密码"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
 
 
 </android.support.design.widget.CoordinatorLayout>
