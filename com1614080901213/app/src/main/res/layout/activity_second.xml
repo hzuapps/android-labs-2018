@@ -6,28 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="750px"
+            android:layout_height="300px"
+            android:layout_x="20px"
+            android:layout_y="32px"
+            android:text="请猜那一张是方块A"
+            android:textSize="18sp">
+        </TextView>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="200dp">
 
-    </android.support.design.widget.AppBarLayout>
+            <ImageButton
+                android:id="@+id/mImage01"
+                android:layout_width="127dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
 
-    <include layout="@layout/content_second" />
+            <ImageButton
+                android:id="@+id/mImage02"
+                android:layout_width="125dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+            <ImageButton
+                android:id="@+id/mImage03"
+                android:layout_width="125dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
