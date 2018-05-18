@@ -2,11 +2,11 @@ package edu.hzuapps.androidlabs.soft1612070501311;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+
 import android.content.Intent;
 import android.app.Activity;
 
@@ -18,14 +18,25 @@ public class Soft1612070501311Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(id.toolbar);
-        setSupportActionBar(toolbar);
+
         final Activity thisActivity = this;
-        Button btnOpen = (Button) findViewById(id.bt1);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+
+        Button btnrc = (Button) findViewById(id.bt1);
+        Button btnqu = (Button) findViewById(id.bt2);
+
+        btnrc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, Soft1612070501311Activity2.class);
+                Intent intent = new Intent(thisActivity, Recharge.class);
+                thisActivity.startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+
+        btnqu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(thisActivity, Query.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
