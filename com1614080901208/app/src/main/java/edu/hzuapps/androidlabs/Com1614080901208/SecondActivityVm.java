@@ -20,7 +20,7 @@ import edu.hzuapps.androidlabs.Com1614080901208.SecondActivity;
  */
 
 public class SecondActivityVm extends BaseObservable {
-    public int uri;
+    public String uri;
 
     @Bindable
     public String getText() {
@@ -38,29 +38,29 @@ public class SecondActivityVm extends BaseObservable {
     }
 
     @Bindable
-    public int getUri() {
+    public String getUri() {
         return uri;
     }
 
-    public void setUri(int uri) {
+    public void setUri(String uri) {
         this.uri = uri;
         notifyPropertyChanged(BR.uri);
     }
 
     @BindingAdapter("app:uri")
     //这个方法必须是public static的，两个参数，一个是view，一个是app：uri获取到的值
-    public static void loadBitmap(final ImageView imageView, final int uri) {
+    public static void loadBitmap(final ImageView imageView, final String uri) {
         //可以对值进行一个判断
         Glide.with(imageView.getContext())
                 .load(uri)
-                .listener(new RequestListener<Integer, GlideDrawable>() {
+                .listener(new RequestListener<String, GlideDrawable>() {
                     @Override
-                    public boolean onException(Exception e, Integer model, Target<GlideDrawable> target, boolean isFirstResource) {
+                    public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
                         return false;
                     }
 
                     @Override
-                    public boolean onResourceReady(GlideDrawable resource, Integer model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
+                    public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
                         return false;
                     }
                 })
