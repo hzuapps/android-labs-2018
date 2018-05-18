@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Message_Activity">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="398dp"
         android:layout_height="wrap_content"
-        android:background="@mipmap/cs_jiemian" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="输入..." />
 
     <Button
-        android:id="@+id/buttonl"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="68dp"
-        android:text="开始体验"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="151dp" />
+        android:layout_marginBottom="217dp"
+        android:text="发送" />
+
+
 </RelativeLayout>
