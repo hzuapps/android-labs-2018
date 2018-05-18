@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Com1614080901101 打蜜蜂小游戏</string>
     <string name="title_activity_secord">游戏界面</string>
+    <string name="title_activity_third">排行榜</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
 </resources>

@@ -17,10 +17,11 @@
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:text="打蜜蜂"
-        android:textColor="#ADD8E6"
+        android:textColor="#ebfa45"
         android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/background1"
         app:layout_constraintEnd_toStartOf="@+id/background1"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/background1"
         app:layout_constraintTop_toBottomOf="@+id/background1"
         app:layout_constraintVertical_bias="0.650" />
@@ -36,4 +37,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75" />
+
+    <Button
+        android:id="@+id/button_leaderboard"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="排行榜"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.880" />
+
 </android.support.constraint.ConstraintLayout>
