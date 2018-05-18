@@ -11,7 +11,8 @@
 4. 使用Git将代码提交到自己的库中：https://github.com/Demanding/android-labs-2018   
 
 ## 2.实验步骤
-    1.在原来的activity类上进行改动，增加了一个textview显示提示文字，一个edittext用来接收输入的文字，两个button作为保存和读取功能
+    1.在原来的activity类上进行改动，增加了一个textview显示提示文字，一个edittext用来接收输入的文字，
+    两个button作为保存和读取功能
     2.写java代码，用fileoutputstream类打开一个输出流，接收从edittext传来的消息并写入进去，记得写完要close
     3.用fileinputstream打开一个文件流，由于文件是用byte方式读写的，要转化为string
     4.对每一个button控件设置监听，由于读写成功并没有任何反应，所以增加一个toast.maketext来显示消息
