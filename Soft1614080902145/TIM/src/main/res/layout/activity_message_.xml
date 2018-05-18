@@ -9,28 +9,22 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="358dp"
+        android:layout_width="398dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:ems="10"
-        android:hint="输入..."
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:hint="输入..." />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="53dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="217dp"
         android:text="发送" />
-
-    <TextView
-        android:id="@+id/history"
-        android:layout_width="match_parent"
-        android:layout_height="551dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="聊天记录" />
 
 
 </RelativeLayout>
