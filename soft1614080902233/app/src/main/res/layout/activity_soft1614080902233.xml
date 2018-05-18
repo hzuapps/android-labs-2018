@@ -16,9 +16,14 @@
                 <TextView
                     android:id="@+id/textview_01_01"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="560dp"
                     android:drawableTop="@drawable/maomao" />
-
+                <Button
+                    android:id="@+id/button_01_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="进入首页"
+                    />
         </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
