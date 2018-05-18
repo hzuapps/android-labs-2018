@@ -1,29 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soft1614080902426">
+    android:orientation="vertical"
+    tools:context=".soft1614080902426"
+    android:background="@drawable/lad">
 
-    <ImageView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/lad"
 
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="66dp" />
-
-    <Button
-        android:id="@+id/Button4"
+  <SearchView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="名师在身边"
-        android:textSize="30sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:iconifiedByDefault="false"
+        android:queryHint="有什么问题，就搜索我吧 ！"
+      ></SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:text=" 名 师 在 身 边  "
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text=" 我 的 预 约 "
+            android:textSize="30sp" />
+
+    </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

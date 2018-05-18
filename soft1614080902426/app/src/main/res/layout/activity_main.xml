@@ -11,12 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/lad3"
-
         />
 
     <Button
         android:id="@+id/Button1"
-        android:layout_width="181dp"
+        android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:text="点击进入"
         android:textSize="30sp"
