@@ -7,22 +7,21 @@
     tools:context=".soft1614080902230Activity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textview_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:drawableTop="@drawable/huizhou"
-        android:text="hello_world"
+        android:text="16软工2班"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看教程"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="360dp" />
 
 </android.support.constraint.ConstraintLayout>
