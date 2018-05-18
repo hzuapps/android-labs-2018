@@ -1,5 +1,7 @@
 package edu.hzuapps.androidlabs.soft1614080902233;
 
+import android.widget.EditText;
+import android.widget.TextView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -9,28 +11,38 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+
 public class thirdActivity extends AppCompatActivity {
-    private Button button3_1,button3_2;
+    private Button button_cancle,button_hold;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
-        button3_1=(Button)findViewById(R.id.button_03_01);
-        button3_2=(Button)findViewById(R.id.button_03_02);
-        button3_1.setOnClickListener(new View.OnClickListener() {
+
+        button_cancle = (Button) findViewById(R.id.button_cancle);
+        button_hold = (Button) findViewById(R.id.button_hold);
+
+        button_cancle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3_1=new Intent(thirdActivity.this,SecondActivity.class);
-                startActivity(intent3_1);
+                finish();
             }
         });
-        button3_2.setOnClickListener(new View.OnClickListener() {
+
+        button_hold.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3_2=new Intent(thirdActivity.this,SecondActivity.class);
-                startActivity(intent3_2);
+                final EditText tx = (EditText) findViewById(R.id.edittext_input);
+                String s = tx.getText().toString();
+
+                Intent data = new Intent();
+                data.putExtra("data", s);
+                setResult(2,data);
+                finish();
             }
         });
     }
-
 }

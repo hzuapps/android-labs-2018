@@ -12,49 +12,65 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        android:background="#FFFACD">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
-            android:background="@drawable/timg1"
+            android:background="#6495Ed"
             >
             <TextView
-                android:layout_width="350dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="                      记一笔"
-                android:textSize="28sp"
+                android:text="记一笔"
+                android:gravity="center"
+                android:textSize="28dp"
                 android:textStyle="bold" />
-            <Button
-                android:id="@+id/button_03_01"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="保存"/>
+
 
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="      收入 "
+            android:layout_height="40dp"
+            android:text="收入 "
             android:textSize="30sp"
-            android:background="#FFFACD"/>
+            android:background="#FFFFFF"/>
         <EditText
+            android:id="@+id/edittext_input"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="0.00"
+            android:layout_height="80dp"
+            android:hint="0.00"
             android:textSize="60sp"
             android:textStyle="bold"
-            android:background="#FFFACD"/>
-        <ImageView
+            android:background="#FFFFFF"
+            android:inputType="numberDecimal"/>
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="300dp" />
-        <Button
-            android:id="@+id/button_03_02"
+            android:layout_height="70dp" />
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="保存"
-            android:textSize="30sp"
-            android:textStyle="bold"/>
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="取消"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button_hold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="保存"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
 
     </LinearLayout>
 
