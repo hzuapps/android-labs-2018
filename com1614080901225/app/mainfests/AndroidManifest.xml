@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".com1614080901225Activity" />
+        <activity android:name=".Main2Activity" />
         <activity android:name=".TaskbarActivity"></activity>
     </application>
 
