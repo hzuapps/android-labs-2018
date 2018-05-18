@@ -14,7 +14,7 @@ public class Soft1614080902428activityMain1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soft1614080902428activity_main1);
         final Activity thisActivity=this;
-        Button btnHome=(Button) findViewById(R.id.btn01);
+        Button btnHome=(Button) findViewById( R.id.btn01);
         btnHome.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
