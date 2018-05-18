@@ -42,18 +42,22 @@
 
 ## 实验结果
 
-![]()
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy4-1.png?raw=true)
 
-![]()
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy4-2.png?raw=true)
 
-![]()
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy4-3.png?raw=true)
 
-![]()
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy4-4.png?raw=true)
+
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy4-5.png?raw=true)
 
 ## 实验体会
 
 1. 有趣的布局设计，看到有些同学的布局真的设计得很好，自己的路还很长；
 
 2. 对事件的控制和布局的设计有了一定了解，遇到这样的问题不会再两眼一抹黑了；
+
+3. 自己初次设计app的界面布局，感觉想要设计得和热门app一样好看，自己还是有好多知识需要学习的，在此给自己加油打气；
 
 3. 世上无难事，只要肯用心，每次的实验都能很好的了解到一个app的构建过程，收获十分巨大。
