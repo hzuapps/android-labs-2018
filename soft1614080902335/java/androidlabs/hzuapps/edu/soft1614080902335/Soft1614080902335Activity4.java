@@ -21,7 +21,7 @@ public class Soft1614080902335Activity4 extends AppCompatActivity {
 
         final Soft1614080902335Activity4 thisActivity = this;
 
-        // 保存图书信息
+        // 保存用户信息
         findViewById(R.id.button_save).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -29,7 +29,7 @@ public class Soft1614080902335Activity4 extends AppCompatActivity {
             }
         });
 
-        // 加载下一本书
+        // 加载下一个用户
         findViewById(R.id.button_next).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,7 +38,7 @@ public class Soft1614080902335Activity4 extends AppCompatActivity {
         });
     }
 
-    // 保存图书信息
+    // 保存用户信息
     private void saveBook() {
         String id = ((EditText) findViewById(R.id._id)).getText().toString();
         String name = ((EditText) findViewById(R.id._name)).getText().toString();
@@ -95,7 +95,7 @@ public class Soft1614080902335Activity4 extends AppCompatActivity {
             this.showBookInfo(id, name, sex , area);
         } else {
             Toast.makeText(getBaseContext(), //
-                    "没有可显示的图书!", Toast.LENGTH_LONG).show();
+                    "没有可显示的用户!", Toast.LENGTH_LONG).show();
         }
     }
 }
