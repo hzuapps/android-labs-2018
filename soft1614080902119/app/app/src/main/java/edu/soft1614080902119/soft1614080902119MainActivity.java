@@ -1,13 +1,23 @@
 package edu.soft1614080902119;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity; // 注意这里我们导入的V4的包，不要导成app的包了
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
 /**
  * 主页面内容
  */
@@ -34,6 +44,7 @@ public class soft1614080902119MainActivity extends FragmentActivity implements V
     private int whirt = 0xFFFFFFFF;
     private int gray = 0xFF7597B3;
     private int dark = 0xff000000;
+
     // 定义FragmentManager对象管理器
     private FragmentManager fragmentManager;
     @Override
@@ -43,7 +54,9 @@ public class soft1614080902119MainActivity extends FragmentActivity implements V
         fragmentManager = getSupportFragmentManager();
         initView(); // 初始化界面控件
         setChioceItem(0); // 初始化页面加载时显示第一个选项卡
+
     }
+
     /**
      * 初始化页面
      */

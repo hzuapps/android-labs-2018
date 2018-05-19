@@ -14,10 +14,11 @@
         android:textSize="15dp"/>
 
     <EditText
+        android:id="@+id/out_1"
         android:layout_width="158dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示金额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
 
     <TextView
@@ -29,10 +30,11 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/out_2"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示数额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
 
     <TextView
@@ -44,10 +46,11 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/out_3"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示数额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
 
     <TextView
@@ -59,10 +62,11 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/out_4"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示数额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
 
     <TextView
@@ -74,10 +78,11 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/out_5"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示数额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
 
     <TextView
@@ -89,9 +94,15 @@
         android:textSize="15dp" />
 
     <EditText
+        android:id="@+id/out_6"
         android:layout_width="159dp"
         android:layout_height="45dp"
         android:gravity="center"
-        android:hint="显示数额"
+        android:hint="0"
         android:textColorHint="@color/grey" />
+    <Button
+    android:id="@+id/cancel_1"
+    android:layout_width="97dp"
+    android:layout_height="47dp"
+    android:text="清零" />
 </LinearLayout>
