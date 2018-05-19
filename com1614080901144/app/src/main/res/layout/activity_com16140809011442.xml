@@ -12,7 +12,7 @@
         android:orientation="vertical">
         <EditText
             android:id="@+id/edit_text"
-            android:gravity="center_vertical"
+            android:gravity="center"
             android:hint="请输入你所猜想的数字"
             android:textSize="14sp"
             android:layout_gravity="center_horizontal"
