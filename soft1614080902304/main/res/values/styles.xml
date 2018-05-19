@@ -6,6 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--SpinnerStyle的主题颜色-->
+    <style name="SpinnerStyle">
+        <item name="android:colorControlNormal">#c6bdbd</item>
     </style>
 
 </resources>
