@@ -29,9 +29,9 @@
   6. 设置点击事件Intent跳转到新的页面
 
 ## 3.实验结果
+![](https://github.com/dencyu/android-labs-2018/blob/master/com1614080901124/view1.png)
 
-
-
+![](https://github.com/dencyu/android-labs-2018/blob/master/view2.png)
 
 ## 4.实验体会
   本次实验用到了InageView和Button两个控件，用ImageView来显示背景图片，用Button来实现页面的跳转。让我初步了解了这两个控件的属性和功能。
