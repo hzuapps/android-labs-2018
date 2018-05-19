@@ -17,7 +17,7 @@
  ### 8.将查询的结果通过intent传送到新建的名为ShowSearch的Activity中并跳转到ShowSearch；
  ### 9.接收从Search中传来的字符串并显示先前所查询的内容。
  ## 4.实验结果
- ![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%BA%94%E6%88%AA%E5%9B%BE/upload.png) 
- ![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%BA%94%E6%88%AA%E5%9B%BE/Search.png) 
+ ###![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%BA%94%E6%88%AA%E5%9B%BE/upload.png) 
+ ###![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E4%BA%94%E6%88%AA%E5%9B%BE/Search.png) 
  ## 5.实验体会
  ### 这次实验在建立数据库的时候并未遇到太大问题，但建表并插入内容后由于不能直观地查看数据库内的内容，而且对Coursor类的用法又不太清楚，所以在显示查询结果的时候总是运行失败。经过查询网上的资料后，APP基本上能正常地进行保存和读取数据的工作，但由于时间关系，更新和删除功能仍未添加到APP中，这些功能将会在平时有空的时候写进APP里。
