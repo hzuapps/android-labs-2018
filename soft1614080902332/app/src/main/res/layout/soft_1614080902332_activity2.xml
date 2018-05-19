@@ -6,35 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".Soft1614080902332Activity2">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="match_parent">
 
         <ImageButton
             android:id="@+id/imageButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@android:drawable/ic_search_category_default" />
+            android:layout_alignParentTop="true"
+            app:srcCompat="@android:drawable/ic_menu_search" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="390dp" />
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageButton2"/>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/button5"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="返回首页" />
-
-        </LinearLayout>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="返回首页" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

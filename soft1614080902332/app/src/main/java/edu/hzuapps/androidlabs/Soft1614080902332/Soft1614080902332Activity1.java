@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import edu.hzuapps.androidlabs.Soft1614080902332.Soft1614080902332Activity1;
 import edu.hzuapps.androidlabs.Soft1614080902332.R;
 
-public class Soft1614080902332Activity1 extends Activity {
+public class Soft1614080902332Activity1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
