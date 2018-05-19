@@ -12,13 +12,13 @@
 
 ## 2、实验步骤
 
-（1）、通过Android studio 3.1建立一个天气查询的项目，创建带自己学号的activity文件；
+（1）、先在GitHub上创建一个Issues,这个Issues包含自己想要做的app要实现的两个功能；
 
-（2）、通过Android studio 3.1编写代码；
+（2）、在Android studio中新建两个Activity；
 
 （3）、通过git将代码和实验文件提交到自己的库中；
 
-（4）、在GitHub中编写实验代码；
+（4）、在GitHub中编写实验报告；
 
 ## 3、实验结果
 <?xml version="1.0" encoding="utf-8"?>
@@ -110,4 +110,4 @@ public class Soft1614080902310weather_reportActivity extends AppCompatActivity {
     
 ## 4、实验体会
 
-本次实验较为简单。只是单纯的建立一个项目和Activity.
+本次实验较为简单，只是单纯的建立一个项目和Activity，但还是有收获的。
