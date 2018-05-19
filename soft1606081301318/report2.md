@@ -30,6 +30,7 @@
       // 保存在自己的文件夹下
 
 ## 三、实验结果
+```
 package edu.hzuapps.androidlabs.soft1606081301318;
 
 import android.support.v7.app.AppCompatActivity;
@@ -89,6 +90,7 @@ public class soft1606081301318Activity extends AppCompatActivity {
     <string name="app_name">soft1606081301318知乎日报</string>
 </resources>
 
+```
 
 ## 四、实验体会
 本次实验学习了如何在Android Studio去创建一个项目,并且学习了如何去修改该项目的相关配置与代码（main.java , AndroidManifest.xml , main_activity.xml , strings.xml）,并了解到MVC模式的相关思想。
