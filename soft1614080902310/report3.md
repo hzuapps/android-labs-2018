@@ -4,28 +4,13 @@
 掌握在Android应用中使用图片等资源的方法。
 
 ## 2.实验步骤
-阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+1、在网上找到有关自己选题的图片，下载下来并添加到项目的drawable文件夹下，将图片设置为activity的背景。
 
+2、在xml文件下设置Button控件，并为其设计点击事件。
 
-在电脑上Android Studio编写代码
+3、将相关文件添加到自己电脑的Android-labs-2018文件夹中，并用git命令提交到GitHub上。
 
-
-// 代码要可以运行！
-
-使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018
-
-$ git pull
-
-$ git add 学号目录/*  (git rm 学号目录/*)
-
-$ git push
-在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-// 是否只修改了自己的文件？
-
-在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）
-
-// 保存在自己的文件夹下
+4、在GitHub上编写实验报告。
 
 ## 3.实验结果
 
@@ -34,4 +19,4 @@ $ git push
 
 ## 4.实验体会
 
-    这次实验比较繁琐，但还是一步步的自己做了出来，以前做作业的时候习惯参考别人的才做出来，现在尝试自己做，虽然用的时间比较多，但还是感觉挺开心的。
+    这次实验比较复杂，要为按钮设计点击事件，使其跳转到另外的activity。虽然对于自己来说比较难，但还是一步步的自己做了出来，以前做作业的时候习惯参考别人的才做出来，现在尝试自己做，虽然用的时间比较多，但还是感觉挺开心的。
