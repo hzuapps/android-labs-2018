@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/mToplayout"
+        android:id="@+id/LayoutW"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@android:color/holo_purple"
@@ -35,17 +35,18 @@
         android:orientation="vertical">
 
         <FrameLayout
-            android:id="@+id/mBodylayout"
+            android:id="@+id/layoutE"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/holo_blue_light" />
     </LinearLayout>
+
     <LinearLayout
-        android:id="@+id/Layout"
+        android:id="@+id/LayoutQ"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-        android:background="#e5e"
+        android:background="#f5f5"
         android:orientation="horizontal">
 
         <RelativeLayout
@@ -58,11 +59,10 @@
                 android:id="@+id/tv_record"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_alignParentTop="true"
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="录音"
-                android:textColor="#ar255"
+                android:textColor="#f40"
                 android:textSize="23sp" />
 
         </RelativeLayout>
@@ -75,15 +75,12 @@
                 android:id="@+id/tv_play"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="3dp"
                 android:gravity="center"
-                android:singleLine="true"
                 android:text="播放"
-                android:textColor="#ar255"
+                android:textColor="#f40"
                 android:textSize="23sp" />
 
         </RelativeLayout>
     </LinearLayout>
 </RelativeLayout>
+
