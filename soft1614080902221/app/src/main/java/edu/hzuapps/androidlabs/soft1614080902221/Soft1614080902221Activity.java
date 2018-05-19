@@ -12,6 +12,7 @@ public class Soft1614080902221Activity extends AppCompatActivity {
 
     private Button startButton = null;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +27,7 @@ public class Soft1614080902221Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Soft1614080902221Activity.this, Activity2.class);
                 startActivity(intent);
+
             }
         });
 
