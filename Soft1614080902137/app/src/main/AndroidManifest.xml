@@ -16,14 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Soft1614080902137Activity_next"
-            android:label="@string/text1">
+        <activity android:name=".Soft1614080902137Activity_next"
+            android:label="@string/text_1">
         </activity>
-        <activity
-            android:name=".Soft1614080902137Activity_1"
-            android:label="@string/text2">>
-        </activity>
+        <activity android:name=".Soft1614080902137Activity_1"
+            android:label="@string/text_2"></activity>
     </application>
 
 </manifest>

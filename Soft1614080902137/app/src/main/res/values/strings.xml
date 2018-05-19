@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">第一页</string>
-    <string name="text1">第二页</string>
-    <string name="text2">第三页</string>
+    <string name="app_name">选择界面</string>
+    <string name="text_1">游戏界面</string>
+    <string name="text_2">排行榜</string>
 </resources>
