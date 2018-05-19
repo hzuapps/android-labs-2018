@@ -30,7 +30,7 @@
 
 
 
-							### （3）重新打开这个保存界面时，所读取文件字符串的信息
+### （3）重新打开这个保存界面时，所读取文件字符串的信息
 
 ![在Android SDK Manager中选择6.0库](https://github.com/Ghlyh/android-labs-2018/blob/master/soft1614080902402/9.png "配置教育网下载代理")
 
