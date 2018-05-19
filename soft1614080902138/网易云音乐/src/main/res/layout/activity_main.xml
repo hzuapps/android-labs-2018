@@ -79,6 +79,18 @@
         android:layout_height="38dp"
         android:text="播放器" />
 
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="保存" />
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:gravity="center" />
+
 
 
 
