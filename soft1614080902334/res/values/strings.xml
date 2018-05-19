@@ -7,4 +7,6 @@
     <string name="weather_shower">下雨</string>
     <string name="btn_open">查询 &gt;</string>
     <string name="btn_back">&lt; 返回</string>
+    <string name="btn_search">搜索…</string>
+    <string name="defaultText">请输入城市名</string>
 </resources>
