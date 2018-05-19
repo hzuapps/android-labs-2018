@@ -4,9 +4,8 @@
 ## 2.实验步骤
 1、下载android studio并安装  
 2、下载SDK，并手动配置SDK环境变量  
-3、创建package名为edu.hzuapps.androidlabs.com1614080901221的工程  
-4、在该工程下创建名为com1614080901221Activity的Empty Activity文件  
-
+3、启动android studio创建一个新工程  
+  
  ## 3.实验结果
 ![Anstroid studio安装截图](https://github.com/Lruiyou/android-labs-2018/blob/72ddfdb784e77e4fab3d7b465eb9d445443c2039/com1614080901221/installstudio.png)
  ## 4.实验体会
