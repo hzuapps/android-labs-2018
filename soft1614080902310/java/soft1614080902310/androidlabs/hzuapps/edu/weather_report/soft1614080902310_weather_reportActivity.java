@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 
 public class soft1614080902310_weather_reportActivity extends AppCompatActivity {
 
@@ -13,16 +16,18 @@ public class soft1614080902310_weather_reportActivity extends AppCompatActivity 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902310_weather_report);
-        final AppCompatActivity thisActivity = this;
-
-        Button btnOpen = (Button) findViewById(R.id.button_open);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, soft1614080902310weather_report1Activity.class);
-                thisActivity.startActivity(intent);
-                //thisActivity.startActivityForResult(intent, 2016);
+        Init();
+    }
+    private void  Init(){
+        Timer time=new Timer();
+        TimerTask task=new TimerTask(){
+            public void run(){
+                Intent intent=new Intent(soft1614080902310_weather_reportActivity.this,soft1614080902310weather_report1Activity.class);
+                startActivity(intent);
+                soft1614080902310_weather_reportActivity.this.finish();
             }
-        });
+
+        };
+        time.schedule(task,3000);
     }
 }

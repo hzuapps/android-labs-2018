@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">weather_report</string>
-    <string name="title_activity_soft1614080902310weather_report1">
-        天气查询
-    </string>
+    <string name="app_name">天气预报</string>
+    <string name="title_activity_soft1614080902310weather_report1"></string>
+    <string name="title_activity_soft1614080902310weather_report2"></string>
 </resources>
