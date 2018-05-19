@@ -30,7 +30,7 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="550dp"
+            android:layout_height="390dp"
             app:srcCompat="@drawable/radio" />
 
     <TextView
@@ -48,7 +48,26 @@
             app:layout_anchor="@+id/include"
             app:layout_anchorGravity="right|bottom"
             app:srcCompat="@android:drawable/ic_dialog_email" />
-    </LinearLayout>
 
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:text="保存文件名"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
