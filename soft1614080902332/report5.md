@@ -291,6 +291,12 @@ public class Soft1614080902332Activity4 extends ContentProvider {
 #### 3.运行测试。
 
 ## 4.实验结果
+UML类图：
+
+![image](https://github.com/QFJay/android-labs-2018/blob/master/soft1614080902332/008.png)
+
+运行结果：
+
 ![image](https://github.com/QFJay/android-labs-2018/blob/master/soft1614080902332/006.png)
 ![image](https://github.com/QFJay/android-labs-2018/blob/master/soft1614080902332/007.png)
 
