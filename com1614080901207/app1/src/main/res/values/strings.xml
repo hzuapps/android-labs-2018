@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">电影订票</string>
+    <string name="dingpiao">订票</string>
+    <string name="weidingpiao">未订票</string>
+    <string name="shijian">时间：</string>
+
+
+    <string-array name="cinemas">
+        <item>万达影院</item>
+        <item>菲尔姆影院</item>
+        <item>大影院</item>
+        <item>小影院</item>
+
+
+    </string-array>
+
+    <string-array name="time">
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+    </string-array>
+</resources>
