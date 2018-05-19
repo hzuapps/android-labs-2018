@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Soft1614080902309Activity2"></activity>
+        <activity android:name=".Soft1614080902309Activity2" />
     </application>
 
 </manifest>
