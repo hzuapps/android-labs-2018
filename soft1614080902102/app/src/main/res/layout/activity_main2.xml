@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity"
+    >
+
+<EditText
+    android:id="@+id/text_content1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/text_content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/text_content3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/text_content4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/button_save_external"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存到外部存储" />
+
+    <Button
+        android:id="@+id/button_save_internal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存到内部存储" />
+
+    <TextView
+android:id="@+id/text_path"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
