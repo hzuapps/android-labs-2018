@@ -9,9 +9,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         et=(EditText) findViewById(R.id.et);
+        show = findViewById(R.id.show);
+
         findViewById(R.id.writeBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,7 +59,28 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        findViewById(R.id.readBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    FileInputStream fis = openFileInput(filename);
+                    InputStreamReader is = new InputStreamReader(fis,"UTF-8");
+                    char input[]=new char [fis.available()];
+                    is.read(input);
+                    is.close();
+                    fis.close();
+                    String readed = new String(input);
+                    show.setText(readed);
 
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
 
     }
 }

@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="43dp"
+        android:layout_marginBottom="61dp"
         android:layout_toStartOf="@+id/btnStarAnotherAty"
         android:text="意见反馈" />
 
@@ -34,4 +34,21 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text=" " />
+
+    <Button
+        android:id="@+id/readBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnStarAnotherAty"
+        android:text="意见读取" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="138dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/readBtn"
+        android:layout_marginEnd="95dp"
+        android:text="TextView" />
 </RelativeLayout>
