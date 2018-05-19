@@ -5,13 +5,10 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Soft1614080902315Activity"
-           >
-
+        <activity android:name=".Soft1614080902315Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +17,11 @@
         </activity>
         <activity
             android:name=".secondActivity"
-            android:label="@string/title_activity_second"
-            ></activity>
+            android:label="@string/title_activity_second" />
+        <activity
+            android:name=".rednews"
+            android:label="@string/title_activity_rednews"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
