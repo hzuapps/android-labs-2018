@@ -6,13 +6,12 @@
     android:orientation="vertical"
     android:background="@drawable/beijing">
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:text="欢迎来到查看界面"
-        android:textSize="20dp"
-        android:id="@+id/textView" />
+        android:layout_height="match_parent"
+        android:id="@+id/watch"
+        />
+
 
 </LinearLayout>
 
