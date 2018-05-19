@@ -1,13 +1,13 @@
-+ 第四次实验
-+
-+ 1）.实验目标
+第四次实验
+
+1）.实验目标
 
    根据选题要求设计界面布局及控件使用；
 
   布局xml及界面控制操作代码提交并截图；
 
   将应用运行结果截图。（不要做登录注册！）
-+
+
  2）.实验步骤
 
  1、做实验之前首先得，阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
@@ -23,33 +23,33 @@
     一个是结束界面；
     
 
-+ 3、使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018，由于上传多传了一份无用
+ 3、使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018，由于上传多传了一份无用
 
      文件，所以这次上传的时候，要删掉以前的一些文件，然后再添加这次的实验文件和实验图片
 
 
- + 4、在自己的GitHub库上创建和发送Pull Request（注意查看Changed files），查看自己是否有上传文件到库里面
+  4、在自己的GitHub库上创建和发送Pull Request（注意查看Changed files），查看自己是否有上传文件到库里面
 
 
 
-+ 5、在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）然后保存在自己的文件夹下
+ 5、在GitHub中使用Markdown文件编写实验报告（report1.md, report2.md）然后保存在自己的文件夹下
 
-+ 
+ 
   6、实验过程截图：
   
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%87%E7%A8%8B%E6%88%AA%E5%9B%BE/379793589733857621.jpg
-+
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%87%E7%A8%8B%E6%88%AA%E5%9B%BE/617363562716485348.jpg
-+
-##7.实验结果
-+
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/601575035024256089.jpg
+   ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%87%E7%A8%8B%E6%88%AA%E5%9B%BE/379793589733857621.jpg)
 
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/23619339717650151.jpg
+  ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/%E5%AE%9E%E9%AA%8C%E4%B8%89%E8%BF%87%E7%A8%8B%E6%88%AA%E5%9B%BE/617363562716485348.jpg)
 
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/867363595512472267.jpg
+7.实验结果
 
-     https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/614778488751944354.png
+   ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/601575035024256089.jpg)
+
+   ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/23619339717650151.jpg)
+
+   ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/867363595512472267.jpg)
+
+   ![image](https://github.com/hwp001/android-labs-2018/blob/master/soft1614080902429/main4/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE/614778488751944354.png)
 
 +## 4.实验体会
 
