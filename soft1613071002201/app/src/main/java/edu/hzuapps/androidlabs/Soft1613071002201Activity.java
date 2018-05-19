@@ -4,15 +4,16 @@ package edu.hzuapps.androidlabs;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.view.View;
+        import android.widget.Button;
         import android.widget.ImageView;
 
 public class Soft1613071002201Activity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1613071002201);
+
 
         ImageView image1=(ImageView)findViewById(R.id.clothAdd);
         image1.setOnClickListener(new View.OnClickListener() {

@@ -4,33 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Search">
-
-    <EditText
-        android:id="@+id/SearchText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="162dp"
-        android:ems="10"
-        android:inputType="textPersonName" />
+    tools:context=".ShowSearch">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nameShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="230dp"
-        android:text="请输入关键词" />
+        android:layout_marginTop="151dp" />
 
-    <Button
-        android:id="@+id/ShowAll"
+    <TextView
+        android:id="@+id/descriptionShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="显示" />
+        android:layout_marginTop="224dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nameShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-151dp"
+        android:text="名称" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/descriptionShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-224dp"
+        android:text="描述" />
+
 </RelativeLayout>
