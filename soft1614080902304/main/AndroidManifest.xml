@@ -16,6 +16,8 @@
     </activity>
     <activity android:name=".eventActivity">
     </activity>
+    <activity android:name=".FileStorageActivity">
+    </activity>
     </application>
 
 
