@@ -11,5 +11,6 @@
 ### 4.第二个activity中的功能按照事先想好的位置存放
 ## 三、实验结果
 ![image t1](https://github.com/chenzhiH/android-labs-2018/blob/master/soft1614080902122/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE2.png)
+![image t2](https://github.com/chenzhiH/android-labs-2018/blob/master/soft1614080902122/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE2.png)
 ## 四、心得体会
 ### 个人觉得，想要简单写出一个简单的布局，至少德华两天的时间去研究一下各个布局类型，不然直接编做实验边查资料其实更费时间
