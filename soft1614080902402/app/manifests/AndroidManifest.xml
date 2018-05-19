@@ -5,18 +5,19 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Soft1614080902402Activity">
+        <activity android:label="图形计算器" android:name=".Soft1614080902402Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Second_Activity">
+        <activity android:label="图形计算器" android:name=".Second_Activity">
+        </activity>
+        <activity android:label="公式" android:name=".Third_Activity" >
         </activity>
     </application>
 

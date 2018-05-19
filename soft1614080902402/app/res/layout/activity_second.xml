@@ -101,7 +101,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/length1"
         android:layout_width="60dp"
         android:layout_height="40dp"
         android:layout_marginLeft="8dp"
@@ -116,7 +116,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/length2"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginEnd="52dp"
@@ -124,13 +124,14 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="number"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/area1"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginBottom="212dp"
@@ -144,7 +145,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/area2"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginBottom="212dp"
@@ -152,13 +153,14 @@
         android:layout_marginRight="52dp"
         android:ems="10"
         android:inputType="number"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/area1" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/bulk1"
         android:layout_width="60dp"
         android:layout_height="40dp"
         android:layout_marginBottom="144dp"
@@ -173,13 +175,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/bulk2"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginBottom="144dp"
         android:layout_marginEnd="70dp"
         android:layout_marginRight="70dp"
         android:ems="10"
+        android:text=""
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -192,6 +195,21 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.40" />
+
+    <Button
+        android:id="@+id/record1"
+        android:layout_width="88dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="公式记录"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateIds" />
 
 
 </android.support.constraint.ConstraintLayout>
