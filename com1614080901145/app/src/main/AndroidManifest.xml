@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Com_1614080901145Activity"></activity>
     </application>
 
 </manifest>
