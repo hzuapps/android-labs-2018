@@ -18,7 +18,7 @@ button.setOnClickListener(new View.OnClickListener()
 {
     public void onClick(View v)
     {
-        Toast.makeText(Soft1614080902415Activity.this,"你当前未租任何车辆",Toast.LENGTH_SHORT).show();
+        Toast.makeText(Soft1614080902415Activity.this,"脛茫碌卤脟掳脦麓脳芒脠脦潞脦鲁碌脕戮",Toast.LENGTH_SHORT).show();
     }
 });
     }
