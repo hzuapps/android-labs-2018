@@ -21,9 +21,5 @@ public class SecondActivity extends AppCompatActivity {
                 Toast.makeText(SecondActivity.this,inputText,Toast.LENGTH_SHORT).show();
             }
         });
-        ActionBar actionBar=getSupportActionBar();
-        if(actionBar!=null){
-            actionBar.hide();
-        }
     }
 }

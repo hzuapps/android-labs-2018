@@ -7,7 +7,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class ThirdActivity extends AppCompatActivity {
-private String[] data={"项目一","项目二","项目三"};
+    private String[] data={"项目一","项目二","项目三"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,9 +17,5 @@ private String[] data={"项目一","项目二","项目三"};
         );
         ListView listView=(ListView) findViewById(R.id.ListView_1);
         listView.setAdapter(adapter);
-        ActionBar actionBar=getSupportActionBar();
-        if(actionBar!=null){
-            actionBar.hide();
-        }
     }
 }
