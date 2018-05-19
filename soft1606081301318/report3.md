@@ -2,17 +2,17 @@
 掌握在Android应用中使用图片等资源的方法。
 
 ## 二、实验要求
-在界面上显示至少一张图片（按照自己的题目添加）；
-提交res/drawable及图片使用的代码；
-提交res/values, res/layout等其他代码；
-将应用运行结果截图，放到实验报告中；
-点击图片（或按钮）时，打开另一个Activity。
+在界面上显示至少一张图片（按照自己的题目添加）；<br>
+提交res/drawable及图片使用的代码；<br>
+提交res/values, res/layout等其他代码；<br>
+将应用运行结果截图，放到实验报告中；<br>
+点击图片（或按钮）时，打开另一个Activity。<br>
 
 ## 三、实验步骤
  1. 定义该项目的UI页面设计需求(通过使用知乎日报官方app来了解界面的相关布局)
     并考虑使用Material Design风格应用
 
- 2. Android Studio 环境开发
+ 2. Android Studio 环境开发<br>
  （1）.使用官方提供的Navigation Drawer Acvitity为基础；<br>
  （2）.引入 rollviewpager 库，实现图片轮播效果，并重写部分代码实现文字图片轮播，在网络请求没有返回数据时，使用本地Loading.png做图片过度展示；<br> 
  （3）.引入 okhttp 库，实现日报热门消息和消息内容相关HTTP API的处理，并显示效果；<br>
@@ -47,18 +47,18 @@
       ]
   }
   ```
- （6）.运行程序，并截图保存。 
- 3. 使用Git将代码提交到自己的库中：https://github.com/soft1606081301318/android-labs-2018
- 4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+ （6）.运行程序，并截图保存。 <br>
+ 3. 使用Git将代码提交到自己的库中：https://github.com/soft1606081301318/android-labs-2018 <br>
+ 4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）<br>
 
- 5. 在GitHub中使用Markdown文件编写实验报告
-## 四、实验结果
- ![image_one](https://github.com/0r2dev/android-labs-2018/contributors/master/soft1606081301318/screenshot3_1.png "截图一")
- ![image_two](https://github.com/0r2dev/android-labs-2018/contributors/master/soft1606081301318/screenshot3_2.png "截图二")
- 从图片轮播点击后进入ContentActicity
- ![image_three](https://github.com/0r2dev/android-labs-2018/contributors/master/soft1606081301318/screenshot3_3.png "截图三")
-## 五、实验体会
-1.通过使用不同的库和框架，可以方便我们更迅速更好的进行Android开发(以下为该项目到目前为止所使用的第三方库)
+ 5. 在GitHub中使用Markdown文件编写实验报告<br>
+## 四、实验结果<br>
+ ![image_one](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_1.png "截图一")<br>
+ ![image_two](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_2.png "截图二")<br>
+ 从图片轮播点击后进入ContentActicity<br>
+ ![image_three](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_3.png "截图三")<br>
+## 五、实验体会<br>
+1.通过使用不同的库和框架，可以方便我们更迅速更好的进行Android开发(以下为该项目到目前为止所使用的第三方库)<br>
 ```
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.jude:rollviewpager:1.4.5'
@@ -66,5 +66,5 @@
     implementation 'com.squareup.okio:okio:1.14.0'
     implementation 'com.google.code.gson:gson:2.8.4'
 ```
-2.网络请求的异步与同步问题需要更为细心的去处理，分辨不同场景下两种方式的优与劣
-3.需要考虑相关缓存问题,不过该项目没有使用
+2.网络请求的异步与同步问题需要更为细心的去处理，分辨不同场景下两种方式的优与劣<br>
+3.需要考虑相关缓存问题,不过该项目没有使用<br>
