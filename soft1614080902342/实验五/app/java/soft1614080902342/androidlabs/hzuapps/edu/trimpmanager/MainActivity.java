@@ -1,4 +1,4 @@
-package com.example.xjh.myapplicationxu;
+﻿package soft1614080902342.androidlabs.hzuapps.edu.tripmanager;
 //用来显示开始的界面
 import android.content.Context;
 import android.content.Intent;
