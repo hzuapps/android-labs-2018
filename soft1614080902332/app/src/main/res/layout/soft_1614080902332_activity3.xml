@@ -33,7 +33,7 @@
                 android:id="@+id/imageButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="3"
                 app:srcCompat="@drawable/picture2"
                 android:background="#ffffff"/>
         </LinearLayout>
@@ -53,10 +53,10 @@
                 android:gravity="center" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/editText1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:ems="10" />
         </LinearLayout>
 
@@ -75,10 +75,10 @@
                 android:gravity="center" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/editText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:ems="10" />
         </LinearLayout>
 
@@ -97,10 +97,10 @@
                 android:gravity="center"/>
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/editText3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:ems="10" />
         </LinearLayout>
 
@@ -119,10 +119,10 @@
                 android:gravity="center"/>
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editText4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:ems="10" />
         </LinearLayout>
 
@@ -148,7 +148,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="取消" />
+                android:text="返回首页" />
         </LinearLayout>
 
     </LinearLayout>
