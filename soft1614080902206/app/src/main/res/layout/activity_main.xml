@@ -27,8 +27,8 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="-172dp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
 
 
     <Button
@@ -46,10 +46,11 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="1.0" />
 
-    <AutoCompleteTextView
+    <TextView
         android:id="@+id/autoCompleteTextView"
         android:layout_width="306dp"
         android:layout_height="76dp"
+        android:paddingTop="20dp"
         android:text="校园资讯"
         android:textSize="35dp"
         android:textColor="@color/colorPrimary"
