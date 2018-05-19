@@ -22,6 +22,7 @@ import java.io.InputStreamReader;
 
 public class Soft1614080902328Activity1 extends AppCompatActivity {
     private EditText mEditTextContent;
+    private Button mButtonDisplay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,48 @@ public class Soft1614080902328Activity1 extends AppCompatActivity {
             }
         });
 
+        mButtonDisplay = (Button) findViewById(R.id.button_3);
+        mButtonDisplay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //从内部存储读取数据
+                String s = getContent();
+                Toast.makeText(Soft1614080902328Activity1.this, s, Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+    }
+
+    private String getContent() {
+        String s = null;
+        FileInputStream fis = null;
+        try {
+            //通过该方法从内部存储中的edit_data.txt文件中读取数据
+            fis = this.openFileInput("edit_data.txt");
+            int len = 0;
+            byte[] buf = new byte[1024];
+            while ((len = fis.read(buf)) != -1) {
+                s = new String(buf, 0, len, "UTF-8");
+
+            }
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return s;
     }
     private void saveContent() {
         FileOutputStream fos = null;
