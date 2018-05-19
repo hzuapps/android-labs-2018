@@ -26,7 +26,9 @@
             android:background="#1e90ff"
             android:text="@string/btnSave"
             android:textColor="#000000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:onClick="save"
+            />
 
     </RelativeLayout>
 </LinearLayout>
@@ -46,6 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/etContent1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>
@@ -66,6 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/etContent2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>
@@ -81,13 +85,17 @@
             android:textSize="20sp"
             android:textColor="#000000"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <EditText
+            android:id="@+id/etContent3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:lines="13"/>
+            android:lines="6"
+             />
     </LinearLayout>
 
 
