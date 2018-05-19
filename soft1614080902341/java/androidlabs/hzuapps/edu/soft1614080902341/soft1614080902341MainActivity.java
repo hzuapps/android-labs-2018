@@ -4,10 +4,15 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.io.FileOutputStream;
 
 public class soft1614080902341MainActivity extends ActionBarActivity {
     private Button myBtn_one;
@@ -57,20 +62,42 @@ public class soft1614080902341MainActivity extends ActionBarActivity {
         private class MainActivity implements View.OnClickListener {
             @Override
             public void onClick(View v){
-                Intent intent=new Intent();
-                switch (v.getId()){
-                    case R.id.but_one:
-                        intent.setClass(soft1614080902341MainActivity.this, jiandaoMainActivity.class); //设置跳转的Activity
-                        soft1614080902341MainActivity.this.startActivity(intent);
-                        break;
-                    case R.id.but_tow:
-                        intent.setClass(soft1614080902341MainActivity.this, shitouMainActivity.class); //设置跳转的Activity
-                        soft1614080902341MainActivity.this.startActivity(intent);
-                        break;
-                    case R.id.but_thr:
-                        intent.setClass(soft1614080902341MainActivity.this, buMainActivity.class); //设置跳转的Activity
-                        soft1614080902341MainActivity.this.startActivity(intent);
-                        break;
+                EditText editText1 =(EditText)findViewById(R.id.text);
+                String name = editText1.getText().toString();
+                if(TextUtils.isEmpty(name))
+                {
+                    Toast.makeText(soft1614080902341MainActivity.this,"请输入玩家姓名",Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                else {
+                    Button b = (Button)findViewById(v.getId());
+                    String buttontext = b.getText().toString();
+                    String fileName = "data.txt";
+                    String content = name+"出"+buttontext;
+                    FileOutputStream fos;
+                    try{
+                        fos = openFileOutput(fileName,MODE_APPEND);
+                        fos.write(content.getBytes());
+                        fos.close();
+                    }
+                    catch (Exception e){
+                        e.printStackTrace();
+                    }
+                    Intent intent = new Intent();
+                    switch (v.getId()) {
+                        case R.id.but_one:
+                            intent.setClass(soft1614080902341MainActivity.this, jiandaoMainActivity.class); //设置跳转的Activity
+                            soft1614080902341MainActivity.this.startActivity(intent);
+                            break;
+                        case R.id.but_tow:
+                            intent.setClass(soft1614080902341MainActivity.this, shitouMainActivity.class); //设置跳转的Activity
+                            soft1614080902341MainActivity.this.startActivity(intent);
+                            break;
+                        case R.id.but_thr:
+                            intent.setClass(soft1614080902341MainActivity.this, buMainActivity.class); //设置跳转的Activity
+                            soft1614080902341MainActivity.this.startActivity(intent);
+                            break;
+                    }
                 }
             }
         }
