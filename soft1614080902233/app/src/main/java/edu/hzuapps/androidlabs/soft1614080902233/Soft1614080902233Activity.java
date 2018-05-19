@@ -17,15 +17,15 @@ public class Soft1614080902233Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902233);
 
-        textView1_1=(TextView)findViewById(R.id.button_01_01);
+        //textView1_1=(TextView)findViewById(R.id.button_01_01);
         textView1_2=(TextView)findViewById(R.id.textview_01_01) ;
-        textView1_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent1_1=new Intent(Soft1614080902233Activity.this,SecondActivity.class);
-                startActivity(intent1_1);
-            }
-        });
+//        textView1_1.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent1_1=new Intent(Soft1614080902233Activity.this,SecondActivity.class);
+//                startActivity(intent1_1);
+//            }
+//        });
         textView1_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
