@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".soft1614080902310weather_report1Activity"></activity>
+        <activity android:name=".soft1614080902310weather_report1Activity" />
+        <activity android:name=".soft1614080902310_weather_report2Activity"></activity>
     </application>
 
 </manifest>
