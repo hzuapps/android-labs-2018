@@ -7,23 +7,25 @@
     tools:context=".Soft1614080902441MainActivity">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="进入管理"
-        android:translationX="140dp"
-
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="241dp"
-        android:src="@drawable/timg"
+        android:layout_height="454dp"
+        app:srcCompat="@drawable/main"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="275dp" />
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="396dp"
+        android:layout_height="52dp"
+        android:background="@drawable/ic_launcher_background"
+        android:onClick="onClick"
+        android:text="登录进入公众号管理"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
 
 
 </android.support.constraint.ConstraintLayout>
