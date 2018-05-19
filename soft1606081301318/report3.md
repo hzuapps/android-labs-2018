@@ -13,6 +13,7 @@
     并考虑使用Material Design风格应用
 
  2. Android Studio 环境开发<br>
+
  （1）.使用官方提供的Navigation Drawer Acvitity为基础；<br>
  （2）.引入 rollviewpager 库，实现图片轮播效果，并重写部分代码实现文字图片轮播，在网络请求没有返回数据时，使用本地Loading.png做图片过度展示；<br> 
  （3）.引入 okhttp 库，实现日报热门消息和消息内容相关HTTP API的处理，并显示效果；<br>
@@ -48,15 +49,18 @@
   }
   ```
  （6）.运行程序，并截图保存。 <br>
+
  3. 使用Git将代码提交到自己的库中：https://github.com/soft1606081301318/android-labs-2018 <br>
  4. 在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）<br>
-
  5. 在GitHub中使用Markdown文件编写实验报告<br>
+
 ## 四、实验结果<br>
+
  ![image_one](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_1.png "截图一")<br>
  ![image_two](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_2.png "截图二")<br>
  从图片轮播点击后进入ContentActicity<br>
  ![image_three](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot3_3.png "截图三")<br>
+
 ## 五、实验体会<br>
 1.通过使用不同的库和框架，可以方便我们更迅速更好的进行Android开发(以下为该项目到目前为止所使用的第三方库)<br>
 ```
