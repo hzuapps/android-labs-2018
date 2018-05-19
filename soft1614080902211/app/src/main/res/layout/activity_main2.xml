@@ -12,7 +12,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="百度"
+        android:text="精选站点"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/textView3"
         android:layout_toStartOf="@+id/textView3" />
@@ -21,7 +21,7 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="谷歌"
+        android:text="书签历史"
         android:layout_alignBaseline="@+id/button2"
         android:layout_alignBottom="@+id/button2"
         android:layout_centerHorizontal="true" />
@@ -33,7 +33,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/button3"
-        android:text="精选站点" />
+        android:text="设置" />
 
     <Button
         android:id="@+id/button5"
@@ -43,7 +43,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button2"
         android:layout_marginTop="63dp"
-        android:text="搜狐" />
+        android:text="工具箱" />
 
     <Button
         android:id="@+id/button6"
@@ -52,13 +52,13 @@
         android:layout_alignEnd="@+id/button3"
         android:layout_alignRight="@+id/button3"
         android:layout_alignTop="@+id/button5"
-        android:text="有道词典" />
+        android:text="账号登录" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="豆瓣"
+        android:text="夜间模式"
         android:layout_alignBaseline="@+id/button6"
         android:layout_alignBottom="@+id/button6"
         android:layout_alignParentRight="true"
