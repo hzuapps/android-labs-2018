@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 import android.view.View;
 
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -23,7 +24,7 @@ public class Com1614080901122Activity extends AppCompatActivity {
 
 
     private TextView textView;
-
+    private Button newbutton;
 
 
     @Override
@@ -52,6 +53,14 @@ public class Com1614080901122Activity extends AppCompatActivity {
 
             }
 
+        });
+        newbutton=(Button)findViewById(R.id.button3);
+        newbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Com1614080901122Activity.this,second1614080901122Ativity.class);
+                startActivity(intent);
+            }
         });
 
 
