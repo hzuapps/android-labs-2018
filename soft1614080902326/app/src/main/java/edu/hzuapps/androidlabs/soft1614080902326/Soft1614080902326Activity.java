@@ -1,26 +1,25 @@
 package edu.hzuapps.androidlabs.soft1614080902326;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
+import android.database.Cursor;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupMenu;
@@ -28,26 +27,36 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
-public class Soft1614080902326Activity extends Activity implements View.OnClickListener {
+import static android.content.ContentValues.TAG;
 
-    private static final String IMAGE_FILE_NAME = "select_image.jpg";
+public class Soft1614080902326Activity extends Activity implements View.OnClickListener,TextWatcher {
+
     private static final int CODE_GALLERY_REQUEST = 0xa0;//本地
     private static final int CODE_CAMERA_REQUEST = 0xa1;//拍照
-    private static final int CODE_RESULT_REQUEST = 0xa2;//最终裁剪后的结果
-
-    private static int output_X = 600;
-    private static int output_Y = 600;
+    private String path = Environment.getExternalStorageDirectory() +
+            File.separator + Environment.DIRECTORY_DCIM + File.separator;
     private ImageView selectImage = null;
     private View contentView;
     private PopupWindow mWindow;
     private TextView ivCamera;
     private TextView ivGallery;
     private TextView ivCancel;
+    public String hc,value;
+    public String sV,rV,gV,bV;
+    private ImageView select_Image;
+    public TextView colorShow;
+    public String cS;
+    Uri photoUri;
+    public static final String FILENAME = "color_list.txt";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,23 +65,227 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         initPopupWindow();
         initView();
 
+        select_Image = (ImageView) findViewById(R.id.selectImage);
+        //初始化图片
+        select_Image.setImageResource(R.drawable.default_pic);
         Button add =(Button) findViewById(R.id.add_Button);
         add.setOnClickListener(this);
         //打开收藏
-        Button collect = (Button) findViewById(R.id.collectButton);
-        Button save=(Button) findViewById(R.id.save);
-        save.setOnClickListener(this);
+        final Button collect = (Button) findViewById(R.id.collectButton);
         collect.setOnClickListener(this);
-
+        //保存
+        Button save=(Button) findViewById(R.id.save);
+        //save.setOnClickListener(this);
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //
+                hc = ((EditText)findViewById(R.id.hexCode)).getText().toString();
+                sV = ((EditText)findViewById(R.id.sValue)).getText().toString();
+                rV = ((EditText)findViewById(R.id.rValue)).getText().toString();
+                gV = ((EditText)findViewById(R.id.gValue)).getText().toString();
+                bV = ((EditText)findViewById(R.id.bValue)).getText().toString();
+                Change2File c2f=new Change2File();
+                value=c2f.change(hc,sV,rV,gV,bV);
+                saveTextIntoInternalStorage(value);
+            }
+        });
+        Button preView_btn=(Button)findViewById(R.id.preview_btn);
+        preView_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sV=((EditText)findViewById(R.id.sValue)).getText().toString();
+                rV = ((EditText)findViewById(R.id.rValue)).getText().toString();
+                gV = ((EditText)findViewById(R.id.gValue)).getText().toString();
+                bV = ((EditText)findViewById(R.id.bValue)).getText().toString();
+                colorShow=(TextView)findViewById(R.id.colorShow);
+                colorShow.setBackgroundColor(Color.argb(Integer.parseInt(sV),Integer.parseInt(rV),Integer.parseInt(gV),Integer.parseInt(bV)));
+                /*hc = ((EditText)findViewById(R.id.hexCode)).getText().toString();
+                cS="#"+hc;
+                colorShow=(TextView)findViewById(R.id.colorShow);
+                    colorShow.setBackgroundColor(Color.parseColor(cS));*/
+            }
+        });
+
+        EditText hexCode=(EditText)findViewById(R.id.hexCode);
+        hexCode.addTextChangedListener(new TextWatcher() {
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
             }
 
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                String hc = ((EditText)findViewById(R.id.hexCode)).getText().toString();
+                cS="#"+hc;
+                colorShow=(TextView)findViewById(R.id.colorShow);
 
+                if(cS.length()==9||cS.length()==7)
+                    colorShow.setBackgroundColor(Color.parseColor(cS));
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+
+            }
         });
+        final EditText sValue=(EditText)findViewById(R.id.sValue);
+        sValue.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                /*String sV = ((EditText)findViewById(R.id.sValue)).getText().toString();
+
+                sValue.setText(sV);*/
+
+            }
+        });
+        final EditText rValue=(EditText)findViewById(R.id.rValue);
+        rValue.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                /*rV=rValue.getText().toString();
+                rValue.setText(rV);*/
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                /*rV=rValue.getText().toString();
+                rValue.setText(rV);
+*/
+            }
+        });
+        final EditText gValue=(EditText)findViewById(R.id.gValue);
+        gValue.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                /*gV=gValue.getText().toString();
+                gValue.setText(gV);*/
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+        final EditText bValue=(EditText)findViewById(R.id.bValue);
+        bValue.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                /*bV=bValue.getText().toString();
+                bValue.setText(bV);*/
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
 }
+
+    private void saveTextIntoInternalStorage(String s) {
+        cS="#"+hc;
+        colorShow=(TextView)findViewById(R.id.colorShow);
+            colorShow.setBackgroundColor(Color.parseColor(cS));
+
+        File dir = this.getFilesDir();
+        File file = new File(dir, FILENAME);
+        if (file.exists()) { 
+            Log.i(TAG, file.getAbsolutePath());
+            Log.i(TAG, file.length() + ""); 
+            Log.i(TAG, file.isFile() + "");
+            file.canRead();
+            file.canWrite();
+            file.canExecute();
+
+            file.getFreeSpace();
+            file.getTotalSpace();
+        }
+
+        FileOutputStream fos = null;
+        try { // 使用API打开输出流
+            fos = openFileOutput(FILENAME, MODE_APPEND);//MODE_APPEND增量方式写入已存在文件，默认使用覆盖私有模式即MODE_PRIVATE
+            fos.write('#');
+            fos.write(s.getBytes());
+            fos.write('\n');
+            Toast.makeText(getApplicationContext(), "已添加颜色"+"#"+hc, Toast.LENGTH_SHORT).show();
+            fos.close(); 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                fos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        FileReader reader = null; // char
+        String r,g,b;
+
+        try {
+            StringBuffer sb = new StringBuffer();
+            reader = new FileReader(file.getAbsoluteFile());
+            BufferedReader bReader = new BufferedReader(reader);
+            String line = bReader.readLine();
+            Log.i(TAG, "从文件读取的内容: " + line);
+            sb.append(line);
+            bReader.close();
+            reader.close();
+            ((TextView)findViewById(R.id.text1)).setText(sb.toString());
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // 显示结果
+        showResult(file.getAbsolutePath());
+
+
+        // 删除文件
+        // file.delete();
+        // deleteFile(FILENAME);
+
+    }
+    private void showResult(String result) {
+        ((TextView) findViewById(R.id.text)) //
+                .setText(result.toCharArray(), 0, result.length());
+    }
+
 
 
     //从相册选取本地图片
@@ -87,11 +300,23 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
     }
     //从相机获取图片
     private void choseImageFromCamera() {
-        Intent intentFromCapture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        /*Intent intentFromCapture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intentFromCapture.putExtra(MediaStore.EXTRA_OUTPUT, Uri
                 .fromFile(new File(Environment
                         .getExternalStorageDirectory(), IMAGE_FILE_NAME)));
-        startActivityForResult(intentFromCapture, CODE_CAMERA_REQUEST);
+        startActivityForResult(intentFromCapture, CODE_CAMERA_REQUEST);*/
+        String state = Environment.getExternalStorageState();
+        if (state.equals(Environment.MEDIA_MOUNTED)) {
+            File file = new File(path);
+            if (!file.exists()) {
+                file.mkdir();
+            }
+            String fileName = getPhotoFileName() + ".jpg";
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            photoUri = Uri.fromFile(new File(path + fileName));
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
+            startActivityForResult(intent, CODE_CAMERA_REQUEST);
+        }
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode,
@@ -102,61 +327,47 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         }
         switch (requestCode) {
             case CODE_GALLERY_REQUEST://本地
-                cropRawPhoto(intent.getData());//直接裁剪图片
+                setImageToView(requestCode,resultCode,intent);
                 break;
-            case CODE_CAMERA_REQUEST:
-                File tempFile = new File(
-                        Environment.getExternalStorageDirectory(),
-                        IMAGE_FILE_NAME);
-                cropRawPhoto(Uri.fromFile(tempFile));
-                break;
-        }
+            case CODE_CAMERA_REQUEST://相机
+                Log.d(TAG, "开始回调");
+                Uri uri = null;
+                if (intent != null && intent.getData() != null) {
+                    uri = intent.getData();
+                }
+                if (uri == null) {
+                    if (photoUri != null) {
+                        uri = photoUri;
+                    }
+                }
+                select_Image.setImageURI(uri);
+
+
+                }
+
         super.onActivityResult(requestCode, resultCode, intent);
 
     }
-    public void cropRawPhoto(Uri uri) {
-        Intent intent = new Intent("com.android.camera.action.CROP");
-        intent.setDataAndType(uri, "image/*");
-//把裁剪的数据填入里面
-// 设置裁剪
-        intent.putExtra("crop", "true");
-// aspectX , aspectY :宽高的比例
-        intent.putExtra("aspectX", 1);
-        intent.putExtra("aspectY", 1);
-// outputX , outputY : 裁剪图片宽高
-        intent.putExtra("outputX", output_X);
-        intent.putExtra("outputY", output_Y);
-        intent.putExtra("return-data", true);
-        startActivityForResult(intent, CODE_RESULT_REQUEST);
-    }
-    /**
-     * 提取保存裁剪之后的图片数据，并设置头像部分的View
-     */
-    private void setImageToHeadView(Intent intent) {
-        Bundle extras = intent.getExtras();
-        if (extras != null) {
-            Bitmap photo = extras.getParcelable("data");
-            selectImage.setImageBitmap(photo);
-//新建文件夹 先选好路径 再调用mkdir函数 现在是根目录下面的Ask文件夹
-            File nf = new File(Environment.getExternalStorageDirectory()+"/Ask");
-            nf.mkdir();
-//在根目录下面的ASk文件夹下 创建okkk.jpg文件
-            File f = new File(Environment.getExternalStorageDirectory()+"/Ask", "okkk.jpg");
-            FileOutputStream out = null;
-            try {//打开输出流 将图片数据填入文件中
-                out = new FileOutputStream(f);
-                photo.compress(Bitmap.CompressFormat.PNG, 90, out);
-                try {
-                    out.flush();
-                    out.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
+    private String getImagePath(Uri uri, String seletion){
+        String path = null;
+        Cursor cursor = getContentResolver().query(uri,null,seletion,null,null);
+        if (cursor != null){
+            if (cursor.moveToFirst()) {
+                path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.DATA));
             }
+            cursor.close();
         }
+        return path;
     }
+    private void setImageToView(int requestCode, int resultCode, Intent intent) {
+
+        if (intent != null) {
+            Uri uri = intent.getData();// 获取图片的路径
+            select_Image.setImageURI(uri);
+        }
+        super.onActivityResult(requestCode, resultCode, intent);
+    }
+
 
     private void showPopupMenu(View view) {
        PopupMenu popupMenu = new PopupMenu(Soft1614080902326Activity.this, view);
@@ -193,7 +404,8 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         contentView=getLayoutInflater().inflate(R.layout.popup_window,null);
         mWindow=new PopupWindow(contentView,
                 LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        mWindow.setOutsideTouchable(true);
+        mWindow.setOutsideTouchable(false);
+        mWindow.setBackgroundDrawable(new ColorDrawable());
         mWindow.setTouchable(true);
         mWindow.setFocusable(true);
         mWindow.setAnimationStyle(R.style.popwindow_anim_style);
@@ -238,16 +450,31 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
     public void onClick(View v) {
         switch(v.getId()){
             case R.id.add_Button:
-                backgroundAlpha(0.8f);
+                backgroundAlpha(0.7f);
                 mWindow.showAtLocation(contentView,Gravity.BOTTOM,0,0);
                 break;
             case R.id.collectButton:
                 Intent intent = new Intent ();
-                intent.setClass(Soft1614080902326Activity.this,collectActivity.class);
+                intent.setClass(Soft1614080902326Activity.this,CollectActivity.class);
                 startActivity(intent);
                 break;
+            /*case R.id.save:
+
+                break;*/
         }
 
+    }
+   //设置背景透明度
+    public void backgroundAlpha(float bgAlpha)
+    {
+        WindowManager.LayoutParams lp = getWindow().getAttributes();
+        lp.alpha = bgAlpha; //0.0-1.0
+        getWindow().setAttributes(lp);
+    }
+    private String getPhotoFileName() {
+        Date date = new Date(System.currentTimeMillis());
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
+        return "IMG_" + dateFormat.format(date);
     }
     ////退出程序
     private long exitTime = 0;
@@ -276,10 +503,20 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         }
         return super.onKeyDown(keyCode, event);
     }
-    public void backgroundAlpha(float bgAlpha)
-    {
-        WindowManager.LayoutParams lp = getWindow().getAttributes();
-        lp.alpha = bgAlpha; //0.0-1.0
-        getWindow().setAttributes(lp);
+
+
+    @Override
+    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    }
+
+    @Override
+    public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+    }
+
+    @Override
+    public void afterTextChanged(Editable s) {
+
     }
 }
