@@ -25,16 +25,17 @@
 #实验结果        
      
 输入数据后，点击“确定”按钮：     
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-1.png"/>    
+<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-1.png"/>    
            
 点击“记录”按钮，查看输入数据：            
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-2.png"/>       
+<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-2.png"/>       
              
 #实验体会      
 1、返回按钮的监听事件上网找了好久都不知道怎么写，最终只好仿照之前监听事件的做法，实现页面之间的切换；      
 2、线性布局之内还可以嵌套线性布局；    
-3、实验还有缺陷，比如查看记录会把之前输入的所有数据都显示出来，还有输入保存的文件不知道在哪里，这些问题都有待改进。         
-谢谢老师！     
+3、实验还有缺陷，比如查看记录会把之前输入的所有数据都显示出来，还有输入保存的文件不知道在哪里，这些问题都有待改进。    
+     
+谢谢老师！       
 
 
 
