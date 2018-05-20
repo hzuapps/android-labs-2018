@@ -14,7 +14,7 @@
 
 ## 3.实验结果
 
-    ![image](https://github.com/fengXL/android-labs-2018/blob/master/com1614080901122/test4_1.jpg)
+    ![image](https://github.com/fengXL/android-labs-2018/blob/master/com1614080901122/test4_1.jpg)
     ![image](https://github.com/fengXL/android-labs-2018/blob/master/com1614080901122/test4_2.jpg)
 
 ## 4.实验体会
