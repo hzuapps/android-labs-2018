@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="activitytest.example.com.myapplication">
+          package="edu.androidlabs.soft1614080902115.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -15,6 +17,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Soft1614080902115MainActivity2"
+            android:label="@string/title_activity_soft1614080902115_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Soft1614080902115MainActivity3"
+            android:label="@string/title_activity_soft1614080902115_main3"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
+
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
 </manifest>
