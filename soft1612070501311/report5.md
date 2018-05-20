@@ -1,53 +1,39 @@
 #第四次实验报告
 
-#实验要求
+#实验要求    
+    
+掌握在Android App中存储数据       
 
-1、根据选题要求设计界面布局及控件使用；       
-2、布局xml及界面控制操作代码提交并截图；       
-3、将应用运行结果截图。（不要做登录注册！）           
+#实验内容   
+   
+1、将应用产生的数据保存到文件存储中；     
+2、说明使用的文件存储方式：内部 or 外部；     
+3、将运行结果截图。     
 
 #实验步骤
 
-1、根据选题要求，在Android studio中按照自己的要求创建对应的Activity：   
-   
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-1.jpg"/>       
+1、用java文件输出输入流的语法，在涉及到存储数据的Recharge.class中定义文件存储方式；     
      
-2、创建好对应的Activity后，在AndroidManifest.xml中对其进行定义；    
-     
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-2.jpg"/>     
+2、在activity_recharge.xml中定义三个文本框，以便用户输入数据；          
     
-3、根据功能对Activity进行修改，对其对应的class进行定义；    
-      
-<img width="600" height="200" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-3.jpg"/>     
-     
-4、本次实验我采用了线性布局的方式（Linerlayout），关于其定义可上网查找。   
-     
-在下图中，各语句含义如下：     
-     
-（1）定义布局方式，如图为线性布局方式；     
+3、在activity_recharge.xml中定义三个按钮，以便将用户输入的数据保存起来；          
 
-（2）定义线性布局方向，如图为垂直方向布置控件；     
-
-（3）定义控件位置，语句含义为使控件在垂直水平方向都居中。           
-     
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/4-4.jpg"/>       
+4、对在activity_recharge.xml中定义的三个按钮设置监听事件，完成对应操作；                  
        
-5、设置好响应事件的代码，在手机上测试APP。               
+5、设置好文件存储的代码，在手机上测试APP。      
 
-#实验结果       
-       
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab1.png"/>       
+#实验结果        
      
-点击“注册”按钮：    
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab2.png"/>    
+输入数据后，点击“确定”按钮：     
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-1.png"/>    
            
-点击“充值”按钮：      
-<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/ThirdLab3.png"/>       
+点击“记录”按钮，查看输入数据：            
+<img width="800" height="500" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-2.png"/>       
              
 #实验体会      
-1、布局方式有很多种，其中以线性布局（Linerlayout）最为常见；     
-2、采用线性布局，要设置好垂直OR水平方向；      
-3、采用按部就班的方式能避免很多错误。     
+1、返回按钮的监听事件上网找了好久都不知道怎么写，最终只好仿照之前监听事件的做法，实现页面之间的切换；      
+2、线性布局之内还可以嵌套线性布局；    
+3、实验还有缺陷，比如查看记录会把之前输入的所有数据都显示出来，还有输入保存的文件不知道在哪里，这些问题都有待改进。         
 谢谢老师！     
 
 
