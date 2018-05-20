@@ -17,9 +17,9 @@
 （5）用git上交
 
 ## 3.实验结果
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/sy5/tupian5.1.png)
+![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902204/sy5/tupian5.1.png)
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/sy5/tupian5.2.png)
+![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902204/sy5/tupian5.2.png)
 
 ## 4.实验体会
 这次实验让我学会了简单的文件存储，和使用java.io输入输出流提供的方法来进行读写数据传输，并学会了两个activity之间互相传数据的用法。
