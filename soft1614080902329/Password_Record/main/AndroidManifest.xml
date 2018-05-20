@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".soft1614080902329RecordActivity"></activity>
+        <activity android:name=".soft1614080902329RecordActivity" />
+        <activity android:name=".soft1614080902329NewPassActivity"></activity>
     </application>
 
 </manifest>
