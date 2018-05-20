@@ -1,19 +1,11 @@
 package soft1614080902408.androidlabs.hzuapps.edu.soft1614080902408_zhangyoubao;
 
-import android.arch.lifecycle.ViewModelProvider;
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.app.Activity;
-
 import android.content.Intent;
-
 import android.os.Bundle;
-
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
-
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -24,12 +16,12 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-
 public class Soft1614080902408_zhangyoubao extends AppCompatActivity {
+    private final String TAG = this.getClass().getSimpleName();
+    public static final String FILENAME = "file_demo.txt";
     private ListView listView = null;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_soft1614080902408_zhangyoubao);
@@ -49,12 +41,27 @@ public class Soft1614080902408_zhangyoubao extends AppCompatActivity {
             }
 
         });
+        Button loginBtn1 = (Button) findViewById(R.id.undoButton);
+
+        loginBtn1.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+            //读取新闻的监听器
+                Intent intent = new Intent();
+
+                intent.setClass(Soft1614080902408_zhangyoubao.this, new_item.class);
+
+                startActivity(intent);
+            }
+
+        });
+    creatList();
+    }
 
 
 
+    public void creatList(){
 
-
-        setContentView(R.layout.activity_soft1614080902408_zhangyoubao);
         ArrayList<NewsItem> items = new ArrayList<>();
         items.add(new NewsItem("半藏重做后对天梯的影响", "新闻"));
         items.add(new NewsItem("源氏被削", "蓝贴"));
@@ -137,4 +144,5 @@ public class Soft1614080902408_zhangyoubao extends AppCompatActivity {
             this.fenlei = fenlei;
         }
     }
+
 }
