@@ -16,6 +16,4 @@
   ### ![image](https://github.com/zzhuangj/android-labs-2018/blob/master/soft1614080902413/6.png) 
   ### ![image](https://github.com/zzhuangj/android-labs-2018/blob/master/soft1614080902413/8.png) 
   ## 5.实验体会
-  ###     一开始看到这个实验，只觉得无从下手，存储这方面貌似也没有接触过，然后只好去网上查资料，后来了解才知道有五
-  ### 种存储方式，我选择的较为简单的SharedPreferences写入读取，通过网上资料的帮助，我成功的实现对一个文本框进行简
-  ### 单的读和写。
+  ###     一开始看到这个实验，只觉得无从下手，存储这方面貌似也没有接触过，然后只好去网上查资料，后来了解才知道有五种存储方式，我选择的较为简单的SharedPreferences写入读取，通过网上资料的帮助，我成功的实现对一个文本框进行简单的读和写。
