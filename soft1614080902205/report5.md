@@ -15,5 +15,5 @@
 点击保存按钮，log上就会显示下图 <br>
 ![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/shiyan5-2.png) <br>
 ## 实验体会
-了解到了如何将安卓程序输入的东西存起来，如何使用文件内部存储
+了解到了如何将安卓程序输入的东西存起来然后读取输入的内容，如何使用文件内部存储,
 
