@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name="edu.hzuapps.android.labs.Com1614080901141.Com1614080901141Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,8 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.SecondActivity"></activity>
-        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.ThirdActivity"></activity>
+        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.SecondActivity" />
+        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.ThirdActivity" />
+        <activity android:name="edu.hzuapps.android.labs.Com1614080901141.FourActivity">
+
+        </activity>
     </application>
 
 </manifest>
