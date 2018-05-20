@@ -1,0 +1,87 @@
+﻿
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Soft1614080902327Activity1">
+    <TextView
+        android:id="@+id/aaaa"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="餐品录入" />
+    <TextView
+        android:id="@+id/user"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aaaa"
+        android:textSize="20dp"
+        android:text="餐品名字:" />
+
+    <!-- layout_toRightOf组件右边缘靠近指定id的组件左边缘
+       layout_alignBottom 组件底部和指定id的组件底部对齐
+    -->
+    <EditText
+        android:id="@+id/usertext"
+        android:layout_toRightOf="@id/user"
+        android:layout_alignBottom="@id/user"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/pass"
+        android:layout_alignBottom="@id/passtext"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="种类:"
+        />
+
+    <!-- layout_toRightOf组件右边缘靠近指定id的组件左边缘
+       layout_below 组件处于指定id的组件下部
+    -->
+    <EditText
+        android:id="@+id/passtext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usertext"
+        android:layout_toRightOf="@id/pass"
+   />
+    <Button
+        android:id="@+id/cancel"
+        android:text="cancel"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/passtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></Button>
+
+    <!-- layout_toLeftOf 组件左边缘和指定id组件右边缘靠近对齐
+      layout_below 位于指定id组件下部
+   -->
+    <Button
+        android:id="@+id/ok"
+        android:text="ok"
+        android:layout_toLeftOf="@id/cancel"
+        android:layout_below="@id/passtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></Button>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_alignParentRight="true"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
