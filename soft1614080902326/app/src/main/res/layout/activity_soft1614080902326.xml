@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:orientation="horizontal">
 
             <Button
@@ -25,12 +25,12 @@
                 style="@android:style/Widget.DeviceDefault.Button.Borderless"
                 android:layout_width="55dp"
                 android:layout_height="42dp"
-                android:layout_marginTop="6dp"
-                android:gravity="start"
+                android:layout_gravity="bottom"
+                android:textSize="15sp"
                 android:text="@string/add" />
 
             <TextView
-                android:id="@+id/textView"
+              android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
@@ -38,29 +38,42 @@
                 android:gravity="center"
                 android:text="@string/app_name"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
-                android:textSize="24sp" />
+                android:textSize="24sp"/>
 
             <Button
                 android:id="@+id/collectButton"
                 style="@android:style/Widget.DeviceDefault.Button.Borderless"
                 android:layout_width="55dp"
                 android:layout_height="42dp"
-                android:layout_marginTop="6dp"
-                android:gravity="end"
+                android:layout_gravity="bottom"
+                android:textSize="15sp"
                 android:text="@string/collect" />
         </LinearLayout>
-        <TextView
-            android:id="@+id/uriImageview"
-            android:layout_width="wrap_content"
-            android:layout_height="300dp"
+
+
+        <ImageView
+            android:id="@+id/selectImage"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
             android:layout_gravity="center"
-            android:drawableTop="@drawable/oreo"
-            android:layout_margin="10dp" />
+            android:focusable="true"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/secai"
+            />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="bottom">
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorShow"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_margin="14dp"
+                android:background="#00000000" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -70,32 +83,53 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="HEX  "
-                        android:textColor="#FF000000" />
+                        android:layout_margin="5dp"
+                        android:text="HEX"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#"
+                        android:textColor="#2d2d2d"
+                        android:textSize="17sp" />
 
                     <EditText
                         android:id="@+id/hexCode"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
                         android:background="@drawable/editext_shape"
                         android:ems="8"
-                        android:textSize="14sp" />
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="5dp"
                         android:text="S: "
                         android:textColor="#FF000000" />
 
@@ -103,17 +137,16 @@
                         android:id="@+id/sValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
                         android:background="@drawable/editext_shape"
                         android:ems="2"
                         android:gravity="center"
                         android:inputType="number"
-                        android:textSize="14sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
+                        android:layout_margin="5dp"
                         android:text="R: "
                         android:textColor="#FF000000" />
 
@@ -121,17 +154,16 @@
                         android:id="@+id/rValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
                         android:background="@drawable/editext_shape"
                         android:ems="2"
                         android:gravity="center"
                         android:inputType="number"
-                        android:textSize="14sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
+                        android:layout_margin="5dp"
                         android:text="G: "
                         android:textColor="#FF000000" />
 
@@ -139,17 +171,16 @@
                         android:id="@+id/gValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
                         android:background="@drawable/editext_shape"
                         android:ems="2"
                         android:gravity="center"
                         android:inputType="number"
-                        android:textSize="15sp" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
+                        android:layout_margin="5dp"
                         android:text="B: "
                         android:textColor="#FF000000" />
 
@@ -157,21 +188,44 @@
                         android:id="@+id/bValue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="13px"
+                        android:layout_marginRight="5dp"
                         android:background="@drawable/editext_shape"
                         android:ems="2"
                         android:gravity="center"
                         android:inputType="number"
-                        android:textSize="14sp" />
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/preview_btn"
+                        style="@android:style/Widget.DeviceDefault.Button.Small"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:text="预览" />
+
+                    <Button
+                        android:id="@+id/save"
+                        style="@android:style/Widget.DeviceDefault.Button.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="8dp"
+                        android:text="添加到收藏" />
+
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/save"
-                    style="@android:style/Widget.DeviceDefault.Button.Small"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="添加到收藏"
-                    android:layout_gravity="center"/>
+
 
             </LinearLayout>
         </LinearLayout>
