@@ -28,6 +28,6 @@ public class soft1614080902310_weather_reportActivity extends AppCompatActivity 
             }
 
         };
-        time.schedule(task,3000);
+        time.schedule(task,1000);
     }
 }

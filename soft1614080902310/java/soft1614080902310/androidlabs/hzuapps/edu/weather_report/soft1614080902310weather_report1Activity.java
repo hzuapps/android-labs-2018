@@ -8,9 +8,13 @@ import java.util.TimerTask;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
 
 public class soft1614080902310weather_report1Activity extends AppCompatActivity {
     private Button Bt1;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

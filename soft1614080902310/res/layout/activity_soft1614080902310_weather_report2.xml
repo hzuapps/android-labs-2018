@@ -28,10 +28,39 @@
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:id="@+id/et1"
     android:layout_marginTop="10dp"
     android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
+    android:layout_marginRight="20dp"
     android:hint="搜索城市"/>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+      <Button android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/bt2"
+        android:text="保存"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/bt3"
+
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:text="读取" />
+
+    <TextView
+        android:id="@id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:text="" />
+</RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
