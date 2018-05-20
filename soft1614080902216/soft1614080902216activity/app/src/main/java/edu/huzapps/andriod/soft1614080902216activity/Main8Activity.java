@@ -1,6 +1,7 @@
 package edu.huzapps.andriod.soft1614080902216;
+
 import android.content.Intent;
-import android.widget.TextView;
+import android.widget.EditText;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,17 +14,16 @@ import java.io.*;
 import android.util.Log;
 import android.os.Environment;
 import android.content.Context;
-
-public class Main4Activity extends AppCompatActivity {
+public class Main8Activity extends AppCompatActivity {
 
     public static final String DIRECTORY = "demo";
-    public static final String FILENAME = "file_storage.txt";
+    public static final String FILENAME = "file_demo.txt";
 
-    public static final String TAG = Main4Activity.class.getSimpleName();
+    public static final String TAG = Main8Activity.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.activity_main8);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -35,35 +35,38 @@ public class Main4Activity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Button btnOpen1 = (Button) findViewById(R.id.button7);
+        Button btnOpen1 = (Button) findViewById(R.id.button10);
         btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main4Activity.this, Main7Activity.class);
+                Intent intent = new Intent(Main8Activity.this, Main4Activity.class);
                 startActivity(intent);
 
             }
         });
-        Button btnOpen2 = (Button) findViewById(R.id.button8);
+       final EditText[] tx=new EditText[3];
+        tx[0]= (EditText) findViewById(R.id.editText3);
+        tx[1]= (EditText) findViewById(R.id.editText4);
+        tx[2]= (EditText) findViewById(R.id.editText5);
+        Button btnOpen2 = (Button) findViewById(R.id.button9);
         btnOpen2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Main4Activity.this, Main8Activity.class);
-                startActivity(intent);
+
+
+                    String[] s=new String[3];
+
+                    for(int i=0;i<3;i++) {
+                            s[i] = tx[i].getText().toString();
+
+                        }
+                saveTextIntoInternalStorage(s);
 
             }
         });
+    }
 
-    Button btnOpen3 = (Button) findViewById(R.id.button9);
-        btnOpen3.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            String text = ((TextView) findViewById(R.id.textView)).getText().toString();
-            saveTextIntoInternalStorage(text);
-        }
-    });
-}
-    private void saveTextIntoInternalStorage(String text) {
+    private void saveTextIntoInternalStorage(String[] text) {
         // 获取内部存储目录
         File dir = this.getFilesDir();
         File file = new File(dir, FILENAME);
@@ -89,17 +92,17 @@ public class Main4Activity extends AppCompatActivity {
 
         try { // 使用API打开输出流
             fos = openFileOutput(FILENAME, MODE_PRIVATE);
-
-            fos.write(text.getBytes()); // 写入内容
-            //  fos.close(); // 关闭流
-
-            Toast.makeText(Main4Activity.this, "数据保存成功", Toast.LENGTH_SHORT).show();
+            for (int i = 0; i < 3; i++) {
+                fos.write(text[i].getBytes()); // 写入内容
+             //  fos.close(); // 关闭流
+            }
+            Toast.makeText(Main8Activity.this,"数据保存成功",Toast.LENGTH_SHORT).show();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            Toast.makeText(Main4Activity.this, "文件不能建成", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Main8Activity.this,"文件不能建成",Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
-            Toast.makeText(Main4Activity.this, "输入错误", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Main8Activity.this,"输入错误",Toast.LENGTH_SHORT).show();
         } finally {
             try {
                 fos.close();
@@ -114,23 +117,22 @@ public class Main4Activity extends AppCompatActivity {
             reader = new FileReader(file.getAbsoluteFile());
             BufferedReader bReader = new BufferedReader(reader);
             String line = bReader.readLine();
-            int len=line.length();
-            String subStr=line.substring(1,len-1);
-            int number=Integer.parseInt(subStr);
-            number++;
-            String s="第"+number+"天";
-            TextView t=(TextView)findViewById(R.id.textView);
-            t.setText(s);
-            Log.i(TAG, "从文件读取的内容: " + s);
-            Toast.makeText(Main4Activity.this, "数据读取成功", Toast.LENGTH_SHORT).show();
+            Log.i(TAG, "从文件读取的内容: " + line);
+            Toast.makeText(Main8Activity.this,"数据读取成功",Toast.LENGTH_SHORT).show();
             bReader.close();
             reader.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }catch(Exception e){
-            e.printStackTrace();
         }
     }
+
+
+
 }
+
+
+
+
+
