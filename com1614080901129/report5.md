@@ -32,7 +32,7 @@
 
 ### 实验截图如下：
 
-![](https://wx3.sinaimg.cn/mw690/bda8daacgy1frhxb4ujjbj21360nv0w9.jpg）
+![](https://wx3.sinaimg.cn/mw690/bda8daacgy1frhxb4ujjbj21360nv0w9.jpg) 
 
 ## 实验感想
 
