@@ -14,11 +14,13 @@
 
 4.创建一个FileOutStream的对象fos，第一个参数是文件名，第二个参数是文件打开方式
 
-5将msg.getBytesz转换成字节型数据，fos.write()将其写入文件中，读取文件时，创建Stringbuilder对象，逐一接收openFileInput对象文件的内容
+5.将msg.getBytesz转换成字节型数据，fos.write()将其写入文件中
 
-6.返回其内容字符串类型
+6.读取文件时，创建Stringbuilder对象，逐一接收openFileInput对象文件的内容
 
-7.git提交
+7.返回其内容字符串类型
+
+8.git提交
 
 ## 3.实验结果
 
