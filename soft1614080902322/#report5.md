@@ -37,6 +37,8 @@ Android存储编程
 
 ![screen](https://raw.githubusercontent.com/zhongtf/android-labs-2018/master/soft1614080902322/z3.jpg)
 
+![screen](https://raw.githubusercontent.com/zhongtf/android-labs-2018/master/soft1614080902322/z4.jpg)
+
 ## 5.实验体会
 内部存储一般用Context来获取和操作。
 
