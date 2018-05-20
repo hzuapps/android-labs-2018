@@ -215,7 +215,13 @@ private void showListView() {
  
 ## 3.实验结果
 * 实验截图
-![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab4.png)
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_1.png)
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_2.png
+)
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_3.png)
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_4.png)
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_5.png
+)
 
 ## 4.实验体会 
 
@@ -364,9 +370,9 @@ sqlite> ^C^C^C1|generic_x86:/data/data/edu.soft1614080902329.password_record/fil
 130|generic_x86:/data/data/edu.soft1614080902329.password_record/files #
 ```
 
-* Activity 生命周期一览
-![生命周期]()
+### Activity 生命周期一览（引用）
 
+![生命周期](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab5_life.png)
 
 * 所谓的典型的生命周期就是在有用户参与的情况下，Activity经历从创建，运行，停止，销毁等正常的生命周期过程。我们这里先来介绍一下几个主要方法的调用时机，然后再通过代码层面来验证其调用流程。
 * <font color="red">onCreate </font>: 该方法是在Activity被创建时回调，它是生命周期第一个调用的方法，我们在创建Activity时一般都需要重写该方法，然后在该方法中做一些初始化的操作，如通过setContentView设置界面布局的资源，初始化所需要的组件信息等。
@@ -376,6 +382,5 @@ sqlite> ^C^C^C1|generic_x86:/data/data/edu.soft1614080902329.password_record/fil
 * <font color="red">onStop </font>: 一般在onPause方法执行完成直接执行，表示Activity即将停止或者完全被覆盖（Stopped形态），此时Activity不可见，仅在后台运行。同样地，在onStop方法可以做一些资源释放的操作（不能太耗时）。
 * <font color="red">onRestart </font>:表示Activity正在重新启动，当Activity由不可见变为可见状态时，该方法被回调。这种情况一般是用户打开了一个新的Activity时，当前的Activity就会被暂停（onPause和onStop被执行了），接着又回到当前Activity页面时，onRestart方法就会被回调。
 * <font color="red">onDestroy </font>:此时Activity正在被销毁，也是生命周期最后一个执行的方法，一般我们可以在此方法中做一些回收工作和最终的资源释放。
-下面我们通过程序来验证上面流程中的几种比较重要的情况，同时观察生命周期方法的回调时机。
 
 
