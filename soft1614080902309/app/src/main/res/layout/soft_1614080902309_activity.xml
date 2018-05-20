@@ -44,4 +44,13 @@
         android:text="保存"
         android:layout_toLeftOf="@+id/button_open" />
 
+    <Button
+        android:id="@+id/button_open2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iii"
+        android:layout_alignParentEnd="true"
+        android:text="读取"
+        android:layout_alignParentRight="true" />
+
 </RelativeLayout>
