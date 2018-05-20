@@ -32,8 +32,11 @@
 
 
 3.实验结果
-![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png）
-![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE2.png)
+
+![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png)
+
+![image](https://github.com/bright-or-dark/android-labs-2018/blob/master/com1614080901104/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE2.png)      
+              
 
 4.实验体会
 
