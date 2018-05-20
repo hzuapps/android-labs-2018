@@ -31,13 +31,10 @@
  ## 四.实验截图
  
 
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE%EF%BC%884%EF%BC%89.PNG)
+ ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE%20(2).PNG)
 
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE%20(3).PNG)
+ ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE%20(1).PNG)
 
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE%20(2).PNG)
-
- ![image](https://github.com/1614080901144/android-labs-2018/blob/master/com1614080901144/%E7%AC%AC%E4%BA%94%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.PNG)
  
  ## 五.实验体会
  
