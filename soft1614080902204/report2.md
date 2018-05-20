@@ -21,7 +21,7 @@ $ git pull
 
 $ git add soft1614080902204/*
 
-$ git commit "#2 #890 第二次实验 猜拳小游戏"
+$ git commit "#2 #882 第二次实验 猜拳小游戏"
 
 $ git push
 
