@@ -31,7 +31,7 @@
  *发帖界面<br>
  ![image](https://github.com/LiuYB135/android-labs-2018/blob/master/com1614080901141/5_1.jpg)<br>
  *存储文件、打开文件内容<br>
- ![image](https://github.com/LiuYB135/android-labs-2018/blob/master/com1614080901141/5_1.jpg)<br>
+ ![image](https://github.com/LiuYB135/android-labs-2018/blob/master/com1614080901141/5_2.jpg)<br>
  
  
  ## 五、实验体会
