@@ -1,16 +1,76 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="20dp"
-    android:gravity=""
-    android:background="@drawable/bgp"
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/bgp"
+        android:layout_height="match_parent"
     tools:context="com.example.zhang.apps.Com_1614080901145Activity">
-    <TextView
-        android:id="@+id/textView_01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="网图/侵删"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_text"
+                android:gravity="center_vertical"
+                android:hint="找资源，用盘搜"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="103dp"
+                android:layout_marginLeft="255dp"
+                android:layout_marginRight="35dp"
+                android:text="搜索"/>
 
-</LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button__2"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="240dp"
+                android:text="文档" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="240dp"
+                android:text="音乐" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="240dp"
+                android:text="软件" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
