@@ -25,11 +25,10 @@
 2.用该函数来实现相册浏览功能
 ## 实验结果
 
-![weith="80dp"](https://github.com/wsgtl/android-labs-2018/blob/master/soft1614080902408/picture/实验五.1.png)
 
-![](https://github.com/wsgtl/android-labs-2018/blob/master/soft1614080902408/picture/实验五.2.png)
+![](https://github.com/zjy869827329/android-labs-2018/blob/master/soft1614080902115/%E5%AE%9E%E9%AA%8C5%E7%BB%93%E6%9E%9C%E5%9B%BE1.jpg)
 
-![](https://github.com/wsgtl/android-labs-2018/blob/master/soft1614080902408/picture/实验五.3.png)
+![](https://github.com/zjy869827329/android-labs-2018/blob/master/soft1614080902115/%E5%AE%9E%E9%AA%8C5%E7%BB%93%E6%9E%9C%E5%9B%BE2.jpg)
 
 ## 实验心得
 其实实验5在实验4的基础上做的差不多了不用过多添加，但是很多东西都是新的，很多英文代码阅读有难度，需要不断查找资料。
