@@ -6,9 +6,10 @@
 说明使用的文件存储方式：内部 or 外部； <br>
 将运行结果截图。 <br>
 ## 实验步骤
-1.在Main1Activity中添加内部储存的代码 <br>
-2.运行结果，检查 <br>
-3.截图，写实验报告 <br>
+1.在分享音乐的界面添加保存按钮 <br>
+2.把EditText文本中的内容赋值到String数组中。 <br>
+3.用FileOutputStream把String的内容写到文本中，用的是内部存储 <br>
+4.把数据从文本中读出来 <br>
 ## 实验结果
 ![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/shiyan5-1.png) <br>
 点击保存按钮，log上就会显示下图 <br>
