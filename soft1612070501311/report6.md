@@ -1,40 +1,48 @@
-#第四次实验报告
+#第六次实验报告
 
 #实验要求    
     
-掌握在Android App中存储数据       
+1、掌握Android网络访问方法；    
+2、理解XML和JSON表示数据的方法。    
 
 #实验内容   
    
-1、将应用产生的数据保存到文件存储中；     
-2、说明使用的文件存储方式：内部 or 外部；     
-3、将运行结果截图。     
-
-#实验步骤
-
-1、用java文件输出输入流的语法，在涉及到存储数据的Recharge.class中定义文件存储方式；     
+1、在个人目录中创建一个表示数据的XML或JSON文件；    
+2、数据文件代码提交之后从GitHub获取文件URL；   
+3、在应用中通过网络编程访问GitHub的数据文件；    
+4、在应用中解析并显示文件所包含的数据；    
+5、将应用运行结果截图。     
      
-2、在activity_recharge.xml中定义三个文本框，以便用户输入数据；          
+#实验步骤     
+     
+1、创建一个JSON文件，记录所要显示的数据，提交到Github；      
+     
+2、为了支持JSON相应的语法，要从网上下载Android studio的Volley包，然后导入到项目中;         
     
-3、在activity_recharge.xml中定义三个按钮，以便将用户输入的数据保存起来；          
+3、在activity_query.xml中建立显示JSON文件数据的文本框；    
 
-4、对在activity_recharge.xml中定义的三个按钮设置监听事件，完成对应操作；                  
+4、参考老师所给代码及网上关于Volley网络编程的内容，在Query.class中编写解析JSON文件的代码；     
        
-5、设置好文件存储的代码，在手机上测试APP。      
+5、在AndroidManifest.xml中添加 <uses-permission android:name="android.permission.INTERNET" />语句，以便程序支持网络连接；    
+   
+6、在手机上测试APP。    
 
 #实验结果        
      
-输入数据后，点击“确定”按钮：     
-<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-1.png"/>    
-           
-点击“记录”按钮，查看输入数据：            
-<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab5-2.png"/>       
+点击“查询”按钮：        
+<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab6-1.png"/>    
+           
+断网，再重新点击“查询”按钮：      
+<img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab6-2.png"/>       
              
-#实验体会      
-1、返回按钮的监听事件上网找了好久都不知道怎么写，最终只好仿照之前监听事件的做法，实现页面之间的切换；      
-2、线性布局之内还可以嵌套线性布局；    
-3、实验还有缺陷，比如查看记录会把之前输入的所有数据都显示出来，还有输入保存的文件不知道在哪里，这些问题都有待改进。    
-     
+#实验体会      
+    
+1、由于实验只给了解析JSON文件的代码，没有给出Volley包，所以要自行到网上下载Volley.jar包，并导入项目；  
+    
+2、解析JSON文件有多种方法，本次实验我所展示的只是其中一种；     
+
+3、数据的显示需要网络的支撑，所以要连接网络来测试APP。     
+     
 谢谢老师！       
 
 
