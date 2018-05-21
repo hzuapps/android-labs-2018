@@ -24,6 +24,10 @@
 
 4. 同样打开ShowActivity后读取出菜谱的详细步骤
 
+## 实验结果
+
+![image](https://github.com/henyiwu/android-labs-2018/blob/master/com1614080901234/%E7%BA%A2%E7%83%A7%E8%82%89.jpg?raw=true)
+
 实验体会
 
 这次的实验让我学会了数据的存储，数据存储有三种方式，首选项、文件和数据库，这里采用了数据库的存储方式，用安卓内置的数据库Sqlite进行存储，关键在于表的设计以及根据自己的需求选择读取的表单的属性。
