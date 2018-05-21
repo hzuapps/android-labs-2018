@@ -1,0 +1,33 @@
+{
+  "LocationUse": [{
+    "id": 1,
+    "use": "false",
+    "leave-time": "0"
+  },
+    {
+      "id": 2,
+      "use": "true",
+      "leave-time": "120min"
+    },
+    {
+      "id": 3,
+      "use": "false",
+      "leave-time": "0"
+    },
+    {
+      "id": 4,
+      "use": "false",
+      "leave-time": "0"
+    },
+    {
+      "id": 5,
+      "use": "true",
+      "leave-time": "250min"
+    },
+    {
+      "id": 6,
+      "use": "true",
+      "leave-time": "1min"
+    }
+  ]
+}
