@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Soft1614080902103Activity" >
+
+    <ListView
+        android:id="@+id/lvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_weight="8"
+        android:background="@drawable/picture"
+        android:cacheColorHint="#00000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/photo">
+
+        <Button
+            android:id="@+id/btnDetail"
+            android:layout_width="48dip"
+            android:layout_height="48dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="0dip"
+            android:background="@drawable/timg" />
+
+        <SeekBar
+            android:id="@+id/pbDuration"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="10dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@+id/btnDetail"
+            android:maxHeight="1dip"
+            android:minHeight="1dip"
+            android:progressDrawable="@drawable/progressbar"
+            android:thumbOffset="0dip" />
+
+        <Button
+            android:id="@+id/btnStartStop"
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/stop" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="123dp"
+            android:background="@drawable/next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="123dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
