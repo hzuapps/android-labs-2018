@@ -29,14 +29,16 @@
 
 #实验结果        
      
-点击“查询”按钮：        
+点击“查询”按钮：     
+      
 <img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab6-1.png"/>    
-           
-断网，再重新点击“查询”按钮：      
+             
+断网，再重新点击“查询”按钮：     
+      
 <img width="800" height="800" src="https://raw.githubusercontent.com/GeekLee1998/android-labs-2018/master/soft1612070501311/labpicture/lab6-2.png"/>       
-             
+               
 #实验体会      
-    
+       
 1、由于实验只给了解析JSON文件的代码，没有给出Volley包，所以要自行到网上下载Volley.jar包，并导入项目；  
     
 2、解析JSON文件有多种方法，本次实验我所展示的只是其中一种；     
