@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/app_name"
     tools:context=".Main2Activity"
-    android:background="@drawable/pikaqiu">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="soft1614080902303"
-        android:textSize="40dp"
-        android:textColor="#3F51B5"/>
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pikaqiu">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="教室信息查询"
+            android:textSize="25dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="90dp"
+            />
+
+    </LinearLayout>
+
+
 
 </android.support.constraint.ConstraintLayout>
