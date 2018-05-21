@@ -29,5 +29,4 @@
             android:text="@string/button_new"
             android:textStyle="bold"/>
     </LinearLayout>
-
 </LinearLayout>
