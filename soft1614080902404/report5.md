@@ -1,10 +1,10 @@
 ## 实验五
 
-# 一.实验目的
+## 一.实验目的
 
 掌握在Android App中存储数据
 
-# 二.实验内容
+## 二.实验内容
 
 根据选题选了SharedPreferences轻量级的存储类
 
@@ -16,7 +16,7 @@
 
 （参考网址：https://blog.csdn.net/MR_Condingson/article/details/58586419）
 
-# 三.实验步骤
+## 三.实验步骤
  
  1.首先构造出自己想要具体存储什么的蓝图并且显示出存储的内容
  
@@ -30,12 +30,12 @@
  
  5.成功实现后 将实验结果截图保存 以及相关文件打包利用git bash发送到git上来完成该门实验
  
- # 四.实验结果
+ ## 四.实验结果
  ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%BA%941.png)
  
  ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C3%E4%BA%94.png)
  
- # 五.实验体会
+ ## 五.实验体会
    
    这次实验对于我来说 完成的可谓是转转折折 一开始选取的是文件存储 
    
