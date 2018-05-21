@@ -31,7 +31,12 @@
  5.成功实现后 将实验结果截图保存 以及相关文件打包利用git bash发送到git上来完成该门实验
  
  ## 四.实验结果
- 在输入框输入留言 点击发送 将文本存储起来 点击显示 即可显示留言
+ 
+ 在输入框输入留言
+ 
+ 点击发送 将文本存储起来 
+ 
+ 点击显示 即可显示留言
  ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%BA%941.png)
  
  ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C3%E4%BA%94.png)
