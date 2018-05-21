@@ -61,6 +61,16 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="82dp"
             android:text="开始游戏" />
+
+        <Button
+            android:id="@+id/Readbutton"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="137dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:text="查看结果" />
     </RelativeLayout>
 
 

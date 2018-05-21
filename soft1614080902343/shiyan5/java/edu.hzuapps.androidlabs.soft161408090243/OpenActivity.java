@@ -14,12 +14,14 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
-
+import java.io.StringReader;
 
 
 public class OpenActivity extends AppCompatActivity {
@@ -37,31 +39,49 @@ public class OpenActivity extends AppCompatActivity {
         Intent intent = new Intent(thisActivity,  OpenActivity.class);
         thisActivity.startActivity(intent);
         et =findViewById(R.id.editText);
-         textview_01 = (TextView) findViewById(R.id.textview_01);
+        Object show = (TextView) findViewById(R.id.textview_01);
         findViewById(R.id.Startbutton).setOnClickListener(new OnClickListener());
+
         Button btnOpen = (Button) findViewById(R.id.button_open);
-        btnOpen.setOnClickListener(new OnClickListener() {
+        btnOpen.setOnClickListener( new OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
                     FileOutputStream fos =openFileOutput(filename, Context.MODE_PRIVATE);
-                    try (OutputStreamWriter osw = OutputStreamWriter(fos, "UTF-8")) {
-                        try {
+
+                     OutputStreamWriter osw = OutputStreamWriter(fos, "UTF-8") {
+                           try {
                             osw.write(et.getText().toString());
                             osw.flush();
                             fos.flush();
                             osw.close();
                             fos.close();
                             Toast.makeText(getApplicationContext(),"输入完成"，Toast.LENGTH_SHORT).show();
-                        } catch (IOException e) {
+                        } catch (FileNotFoundException e) {
                             e.printStackTrace();
-                        }
-                    }
-                } catch (FileNotFoundException e) {
-                    e.printStackTrace();
+                            findViewById(R.id.Readbutton).setOnClickListener(new OnClickListener());
+                               public void onClick(View view){
+                                   try{FileInputStreame  fis =openFileInput(filename);
+                                       InputStreamReader is = new InputStreamReader(fis,"UTF-8");
+                                       char input[] =new char[fis.available()];
+                                       is.read(input);
+                                      is.close();
+                                       fis.close();
+                                       String Readed =new String(input);
+                                       show.settext(Readed);
+
+
+                                     } catch (IOException e) {
+                             e.printStackTrace();
+                                   } catch (IOException e) {
+                                       e.printStackTrace();
+                                   }
                 }
 
-            }
-        });
-    }
+            } catch (IOException e) {
+                               e.printStackTrace();
+                           }
+                    };
+    }}
 }
+        }
