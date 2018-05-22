@@ -57,9 +57,10 @@ public class Activity3 extends AppCompatActivity {
         initButton();                                     //实现中间1-9个Button功能
         timer = (TextView) findViewById(R.id.timer);     //获取计时控件
         handler.postDelayed(runnable, 1000);              //实现右上角计时功能
-        rankList();                                       //实现排行榜Button功能
-
+        rankList();                                       //实现本地排行榜Button功能
+        networkListButton();
     }
+
 
     //显示当前玩家信息
     private void initCurrentPlayerTextView() {
@@ -132,6 +133,17 @@ public class Activity3 extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void networkListButton() {
+        Button networkListButton = (Button)findViewById(R.id.NetworkListButton);
+        networkListButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent jumpIntent = new Intent(Activity3.this, Activity5.class);
+                startActivity(jumpIntent);
+            }
+        });
     }
 
     //强制玩家必须按1-9的数字顺序点击，否则不能消去
