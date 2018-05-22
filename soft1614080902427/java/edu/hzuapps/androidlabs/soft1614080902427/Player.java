@@ -39,7 +39,7 @@ import java.util.Random;
 
 public class Player extends Activity implements View.OnClickListener {
     private final String TAG = this.getClass().getSimpleName();
-    private final static String Host = "http://192.168.2.150:8080";
+    private final static String Host = "https://raw.githubusercontent.com/harytfw/android-labs-2018/master/soft1614080902427";
     private final static String songListURL = Host+"/song.json";
 
 
@@ -48,7 +48,7 @@ public class Player extends Activity implements View.OnClickListener {
     private SettingHolder mySetting;
     private FileScanner scanner = new FileScanner();
     private Gson gson = new Gson();
-
+    private int downloadCount = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -180,11 +180,18 @@ public class Player extends Activity implements View.OnClickListener {
     }
 
     protected void syncSongFile(){
-
+        this.downloadCount = mySetting.items.size();
+        if(this.downloadCount != 0){
+            this.setTitle("文件还在下载...");
+        }
         for (SongItem item : mySetting.items) {
             Downloader dl = new Downloader(new DownloaderListener() {
                 @Override
                 public void onError(String url) {
+                    downloadCount--;
+                    if(downloadCount==0){
+                        setTitle("文件下载完成");
+                    }
                     makeToast(url + " 下载出现错误！");
                 }
                 @Override
@@ -196,6 +203,10 @@ public class Player extends Activity implements View.OnClickListener {
                     }
                     else if(localStorage.writeFile(fileName,baos)) {
                         makeToast(fileName + "下载完成！");
+                    }
+                    downloadCount--;
+                    if(downloadCount==0){
+                        setTitle("文件下载完成");
                     }
                 }
             });
