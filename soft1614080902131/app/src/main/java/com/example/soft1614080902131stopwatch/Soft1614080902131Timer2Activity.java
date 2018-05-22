@@ -1,13 +1,13 @@
-package soft1614080902131.androidlabs.hzuapps.edu.soft1614080902131;
+package com.example.soft1614080902131stopwatch;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Soft1614080902131Activity2 extends AppCompatActivity {
+public class Soft1614080902131Timer2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soft16140809021312);
+        setContentView(R.layout.activity_soft1614080902131_timer2);
     }
 }
