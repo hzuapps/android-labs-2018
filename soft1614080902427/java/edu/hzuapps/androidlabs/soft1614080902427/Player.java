@@ -2,6 +2,9 @@ package edu.hzuapps.androidlabs.soft1614080902427;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Environment;
@@ -21,10 +24,14 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -32,11 +39,15 @@ import java.util.Random;
 
 public class Player extends Activity implements View.OnClickListener {
     private final String TAG = this.getClass().getSimpleName();
+    private final static String Host = "http://192.168.2.150:8080";
+    private final static String songListURL = Host+"/song.json";
+
 
     private ListView listView = null;
-    protected LocalStorage localStorage;
+    private LocalStorage localStorage;
     private SettingHolder mySetting;
     private FileScanner scanner = new FileScanner();
+    private Gson gson = new Gson();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +67,10 @@ public class Player extends Activity implements View.OnClickListener {
     }
 
     //读取设置
-    public void readSetting(){
+    public void readSetting() {
 
-        mySetting = (SettingHolder)localStorage.readFromJsonFile("data.json",SettingHolder.class);
-        if(mySetting==null) {
+        mySetting = (SettingHolder) localStorage.readFromJsonFile("data.json", SettingHolder.class);
+        if (mySetting == null) {
             mySetting = new SettingHolder();//读取默认设置
         }
 
@@ -77,27 +88,26 @@ public class Player extends Activity implements View.OnClickListener {
     }
 
     //保存设置到 data.json
-    public void saveSetting(){
-        Log.i(TAG,"保存设置到data.json");
-        localStorage.writeToJsonFile("data.json",mySetting);
-        Toast.makeText(this,"设置已保存", Toast.LENGTH_SHORT).show();
+    public void saveSetting() {
+        Log.i(TAG, "保存设置到data.json");
+        localStorage.writeToJsonFile("data.json", mySetting);
+        Toast.makeText(this, "设置已保存", Toast.LENGTH_SHORT).show();
     }
-
 
     //创建选项菜单
     @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.simple_menu,menu);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.simple_menu, menu);
         return true;
     }
 
     //选项菜单点击事件
     @Override
-    public boolean  onOptionsItemSelected(MenuItem item){
-        switch(item.getItemId()){
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
             case R.id.menu_item_scan:
-                mySetting.items=scanner.scan();
-                Toast.makeText(this,"扫描完成！",Toast.LENGTH_SHORT).show();
+                mySetting.items = scanner.scan();
+                Toast.makeText(this, "扫描完成！", Toast.LENGTH_SHORT).show();
                 SongAdapter adapter = (SongAdapter) listView.getAdapter();
                 //刷新原有的数据
                 adapter.items.clear();
@@ -106,22 +116,123 @@ public class Player extends Activity implements View.OnClickListener {
                 saveSetting();
                 break;
             case R.id.menu_item_setting:
-                Toast.makeText(this,item.getTitle(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, item.getTitle(), Toast.LENGTH_SHORT).show();
                 break;
             case R.id.menu_item_back:
                 Intent intent = new Intent(Intent.ACTION_MAIN);
                 intent.addCategory(Intent.CATEGORY_HOME);
                 startActivity(intent);
+                break;
+            case R.id.menu_item_syncSong:
+                this.syncSongList();
+                break;
         }
         return true;
     }
 
+    protected void syncSongList() {
+        if(!checkNetwork()){
+            return;
+        }
+        makeToast("开始同步歌单");
+        Downloader dl =new Downloader(new DownloaderListener() {
+            @Override
+            public void onError(String url) {
+                super.onError(url);
+                Log.i(TAG,url+ " 下载失败失败");
+                makeToast("url 下载失败失败");
+            }
+
+            @Override
+            public void onDone(String url, ByteArrayOutputStream out) {
+                String json = null;
+                try {
+                    json = out.toString("utf-8");
+                } catch (UnsupportedEncodingException e) {
+                    Log.e(TAG,e.toString());
+                    json = null;
+                }
+
+                if(json==null){
+                    makeToast("同步失败");
+                    return;
+                }
+
+                Log.i(TAG,"歌单JSON："+json);
+                makeToast("同步完成，开始解析并下载歌曲文件");
+
+                if(mySetting==null){
+                    makeToast("解析歌单信息失败");
+                    return;
+                }
+
+                mySetting = gson.fromJson(json, SettingHolder.class);
+                SongAdapter adapter = (SongAdapter) listView.getAdapter();
+                adapter.items.clear();
+                adapter.items.addAll(mySetting.items);
+                adapter.notifyDataSetChanged();
+                saveSetting();
+
+                syncSongFile();
+            }
+        });
+        dl.createTask(this.songListURL);
+    }
+
+    protected void syncSongFile(){
+
+        for (SongItem item : mySetting.items) {
+            Downloader dl = new Downloader(new DownloaderListener() {
+                @Override
+                public void onError(String url) {
+                    makeToast(url + " 下载出现错误！");
+                }
+                @Override
+                public void onDone(String url, ByteArrayOutputStream baos) {
+                    String fileName = url.substring( url.lastIndexOf('/')+1, url.length() );
+                    fileName = Uri.decode(fileName);
+                    if(baos==null){
+                        makeToast(fileName + "下载失败！");
+                    }
+                    else if(localStorage.writeFile(fileName,baos)) {
+                        makeToast(fileName + "下载完成！");
+                    }
+                }
+            });
+
+            String url = Uri.encode(item.getMp3());
+            url = this.Host +"/"+ url;
+            Log.i(TAG,"开始下载: "+url);
+            dl.createTask(url);
+        }
+    }
     //设置透明状态栏(沉浸式状态栏)
     protected void setStatusBarTranslucent(boolean makeTranslucent) {
         if (makeTranslucent) {
             getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         } else {
             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
+    }
+
+    protected boolean checkNetwork(){
+        ConnectivityManager connMgr = (ConnectivityManager)
+                getSystemService(Context.CONNECTIVITY_SERVICE);
+        // 检查当前激的网络
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        boolean mConnected;
+        if (networkInfo != null && networkInfo.isConnected()) {
+            mConnected = true;
+        } else {
+            mConnected = false;
+        }
+
+        if(!mConnected){
+            makeToast("网络未连接");
+            return false;
+        }
+        else{
+            return true;
         }
     }
 
@@ -172,6 +283,13 @@ public class Player extends Activity implements View.OnClickListener {
             return v;
         }
     }
+
+
+
+
+    private void makeToast(String str) {
+        Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
+    }
 }
 
 
@@ -197,24 +315,41 @@ class SongItem {//歌曲 类
 
     private String singerName;
 
+
     public SongItem(String songName, String singerName) {
-        this.songName = songName;
-        this.singerName = singerName;
+        this(songName, singerName, "");
     }
 
+    private String mp3;
+
+    public String getMp3() {
+        return mp3;
+    }
+
+    public void setMp3(String mp3) {
+        this.mp3 = mp3;
+    }
+
+    public SongItem(String songName, String singerName, String mp3) {
+        this.songName = songName;
+        this.singerName = singerName;
+        this.mp3 = mp3;
+    }
 }
 
-class SettingHolder{
+class SettingHolder {
     public List<SongItem> items = null;
-    public SettingHolder(){
+
+    public SettingHolder() {
         items = new ArrayList<>();
     }
 }
 
 //模拟的文件扫描类
-class FileScanner{
+class FileScanner {
     private List<SongItem> items;
-    public FileScanner(){
+
+    public FileScanner() {
         items = new ArrayList<SongItem>();
         items.add(new SongItem("后来", "刘若英"));
         items.add(new SongItem("无情的雨无情..", "齐秦"));
@@ -228,11 +363,12 @@ class FileScanner{
         items.add(new SongItem("风雨无阻", "周华健"));
 
     }
-    public List<SongItem> scan(){
+
+    public List<SongItem> scan() {
         List<SongItem> temp = new ArrayList<>();
         temp.addAll(items);
         Random random = new Random();
-        for(int i=0;i<5;i++){//随机删除5首歌
+        for (int i = 0; i < 5; i++) {//随机删除5首歌
             temp.remove(random.nextInt(temp.size()));
         }
         return temp;
@@ -252,17 +388,13 @@ class LocalStorage {
     }
 
     public boolean writeToJsonFile(String filename, Object obj) {
-        if (!isExternalStorageWritable()) {
-            Log.e(TAG, "外部存储不可写!");
-            return false;
-        }
         File dir = getPrivateExtStorageDir("");
         File file = new File(dir, filename);
         String json = gson.toJson(obj);
         try {
 
             FileWriter writer = new FileWriter(file);
-            Log.i(TAG,"写入数据: "+file.getAbsolutePath());
+            Log.i(TAG, "写入数据: " + file.getAbsolutePath());
             writer.write(json);
             writer.flush();
             writer.close();
@@ -302,6 +434,45 @@ class LocalStorage {
 
     }
 
+    public boolean writeFile(String filename,ByteArrayOutputStream baos) {
+        return this.writeFile(filename,baos.toByteArray());
+    }
+
+    public boolean writeFile(String filename,byte[] data){
+        return this.writeFile(filename,data,false);
+    }
+
+    public boolean writeFile(String filename,byte[] data,boolean overwrite){
+        if (!isExternalStorageWritable()) {
+            Log.e(TAG, "外部存储不可写!");
+            return false;
+        }
+
+        File dir = getPrivateExtStorageDir("");
+        File file = new File(dir, filename);
+        if(!file.exists()){
+            try {
+                file.createNewFile();
+            } catch (IOException e) {
+                Log.e( TAG,filename + "创建失败");
+            }
+        }
+        else if(!overwrite){
+            return true;
+        }
+
+        try {
+            FileOutputStream fos = new FileOutputStream(file);
+            fos.write(data);
+            return true;
+        } catch (FileNotFoundException e) {
+            Log.e( TAG,filename + "文件不存在");
+            return false;
+        }catch (IOException e ){
+            Log.e(TAG,filename + "写入失败");
+            return false;
+        }
+    }
 
     /* Checks if external storage is available for read and write */
     private boolean isExternalStorageWritable() {
@@ -324,7 +495,7 @@ class LocalStorage {
 
     private File getPrivateExtStorageDir(String dirName) {
         File file = new File(mContext.getExternalFilesDir(null), dirName);
-        if (!file.mkdirs()) {
+        if (!file.exists() && !file.mkdirs()) {
             Log.e(TAG, "目录无法创建!");
         }
         return file;
