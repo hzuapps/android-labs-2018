@@ -22,6 +22,6 @@
         android:layout_height="wrap_content"
         android:text="查看教程"
         tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="360dp" />
+        tools:layout_editor_absoluteY="380dp" />
 
 </android.support.constraint.ConstraintLayout>
