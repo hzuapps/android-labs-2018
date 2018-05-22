@@ -7,26 +7,23 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.ImageButton;
+import android.widget.Button;
 
-public class SecondActivity extends AppCompatActivity {
-    private ImageButton button1_2;
+public class thirdActivity extends AppCompatActivity {
+    private Button button1_3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_third);
+        button1_3=(Button)findViewById(R.id.button01_02) ;
 
-        button1_2=(ImageButton) findViewById(R.id.imagebutton_01_02);
-
-        button1_2.setOnClickListener(new View.OnClickListener() {
+        button1_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1_2=new Intent(SecondActivity.this,thirdActivity.class);
-                startActivity(intent1_2);
+                Intent intent1_3=new Intent(thirdActivity.this,SecondActivity.class);
+                startActivity(intent1_3);
             }
         });
-
-
     }
 
 }
