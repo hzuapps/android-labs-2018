@@ -21,7 +21,8 @@
 
 四.实验截图
 -
-![screen]()
+![](https://github.com/yangyangyang2017/android-labs-2018/blob/master/soft1614080902221/%E7%AC%AC%E5%85%AD%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.gif)
+
 五.实验体会
 -
-1.这次实验比较简单,从自己github库中获取json并解析。要注意的是不能在子线程中更新UI，要调用runOnUiThread方法。
+1.这次实验比较简单,从自己github库中获取json并解析。要注意的是不能在子线程中更新UI，要调用runOnUiThread方法。<br>
