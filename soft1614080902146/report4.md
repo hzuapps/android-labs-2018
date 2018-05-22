@@ -17,19 +17,9 @@ public void onClick(View v) {
 ......
 ## 3. 实验步骤
 
-新建一个CityInfoActivity，并改写其内容，实现按钮监听接口;
-在res/layout下编写相应的activity_cityinfo.xml文件，这里我将btn_back点击按钮放在RelativeLayout布局里，实现界面控件的事件处理。 activity_cityinfo.xml的整个布局是用LinearLayout布局实现的，所以在这个实验里实现了布局的嵌套。
-另外还自定义了滚动条（默认是ListView自带的），在ListView标签添加
-android:scrollbarSize="10dp" 
-android:scrollbarThumbVertical="@drawable/minibar" 
-android:scrollbarDefaultDelayBeforeFade="1200"
-检查好预览效果，整理好界面的布局以及控件的位置。最好用虚拟机运行即可。`
-使用Git将代码提交到自己的库中：
-$ git pull 
-$ git add 学号目录/* 
-$ git commit "#12345678 "
-$ git push 
-编辑实验报告，然后将项目目录一并pull给老师;
+ 新建一个`CityInfoActivity`，并改写其内容，实现按钮监听接口;
+  2.  在`res/layout`下编写相应的`activity_cityinfo.xml`文件，这里我将`btn_back点击按钮`放在`RelativeLayout`布局里，实现界面控件的事件处理。
+      `activity_cityinfo.xml`的整个布局是用`LinearLayout`布局实现的，所以在这个实验里实现了布局的嵌套。
 ## 4. 实验结果
 ![image](https://github.com/ZhuHongen/android-labs-2018/blob/master/soft1614080902146/report4.JPG)
 ## 4. 实验体会
@@ -37,4 +27,3 @@ $ git push
 这次实验难度还行，使我体会到了选择好一种布局方式是多么的重要。
 尝试了LinearLayout和ListView两种布局方式，感觉良好。
 希望在接下来的时间把app的UI和功能完善好。
-对IDE的运用有进步。期待下一节的内容。
