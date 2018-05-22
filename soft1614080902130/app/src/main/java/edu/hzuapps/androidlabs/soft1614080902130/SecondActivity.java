@@ -13,13 +13,13 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        textView=(TextView)findViewById(R.id.flybrid);
-        textView.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent=new Intent(SecondActivity.this,MainActivity.class);
-                startActivity(intent);
-            }
-        });
+//        textView=(TextView)findViewById(R.id.flybrid);
+//        textView.setOnClickListener(new View.OnClickListener(){
+//            @Override
+//            public void onClick(View v){
+//                Intent intent=new Intent(SecondActivity.this,MainActivity.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }
