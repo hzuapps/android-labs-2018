@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hzu.msoft1614080902146.Soft1614080902146">
+    tools:context="com.example.hzu..myapplication.Soft1614080902146">
 
     <TextView
         android:layout_width="wrap_content"
