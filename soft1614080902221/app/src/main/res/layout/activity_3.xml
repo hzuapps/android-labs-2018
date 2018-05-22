@@ -107,13 +107,13 @@
         android:id="@+id/instructionsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="166dp"
+        android:layout_marginBottom="19dp"
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
         android:text="请按数字顺序消除中间的小方块，\n以右上角时间作为成绩！\n抓紧时间了，加油！"
         android:textColor="#FF0000"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rankListButton"
         app:layout_constraintStart_toStartOf="parent" />
 
 
@@ -121,13 +121,24 @@
         android:id="@+id/rankListButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="37dp"
-        android:text="排行榜"
+        android:layout_marginBottom="11dp"
+        android:text="本地排行榜"
         android:textColor="#0000FF"
         android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/NetworkListButton"
+        app:layout_constraintStart_toStartOf="@+id/NetworkListButton" />
+
+    <Button
+        android:id="@+id/NetworkListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="网络排行榜"
+        android:textColor="#0000FF"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/instructionsText" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
