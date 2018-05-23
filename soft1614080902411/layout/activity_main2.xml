@@ -5,11 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Main2Activity">
+    tools:context=".Main2Activity"
+    android:background="@drawable/xiaozhupeiqi">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Soft1614080902411"
-        android:textSize="40dp"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="保存"
+            android:textSize="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="280dp"/>
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="微信"
+            android:textSize="25dp"
+            android:layout_marginTop="515dp"/>
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="通许录"
+            android:textSize="25dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="100dp"/>
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="发现"
+            android:textSize="25dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="200dp"/>
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="我"
+            android:textSize="25dp"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="300dp"/>
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
