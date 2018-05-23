@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -43,7 +43,25 @@
                 android:layout_height="200dp"
                 android:background="@drawable/beimian" />
 
-        </LinearLayout>
+           </LinearLayout>
+                   <TextView
+                android:id="@+id/mText4"
+                android:layout_width="750px"
+                android:layout_height="80px"
+                android:layout_x="20px"
+                android:layout_y="32px"
+                android:text="显示游戏历史记录"
+                android:textSize="18sp">
+            </TextView>
+             <TextView
+                android:id="@+id/text1"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_x="20px"
+                android:layout_y="32px"
+                android:text=""
+                android:textSize="18sp">
+        </TextView>
 
     </LinearLayout>
 
