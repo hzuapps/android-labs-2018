@@ -29,7 +29,7 @@
         android:gravity="start">
 
         <EditText
-            android:id="@+id/text1"
+            android:id="@+id/edittext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="20"
@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="添加备忘录"
+            android:text="读取备忘录"
             android:textStyle="bold" />
 
         <Button
