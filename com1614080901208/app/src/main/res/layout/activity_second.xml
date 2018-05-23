@@ -5,7 +5,7 @@
     <data>
         <variable
             name="secondActivityVm"
-            type="com.example.cnt.textapplication.VM.SecondActivityVm" />
+            type="edu.hzuapps.androidlabs.Com1614080901208.SecondActivityVm" />
     </data>
 
     <LinearLayout
@@ -15,15 +15,20 @@
         android:orientation="vertical">
 
         <ImageView
+            android:layout_marginTop="10dp"
             app:uri="@{secondActivityVm.uri}"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:scaleType="centerCrop"
+            android:scaleType="fitXY"
              />
 
         <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="@{secondActivityVm.text}" />
 
     </LinearLayout>

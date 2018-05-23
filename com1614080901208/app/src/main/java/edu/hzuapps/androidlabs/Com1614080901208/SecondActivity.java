@@ -17,7 +17,8 @@ public class SecondActivity extends AppCompatActivity {
 
         SecondActivityVm secondActivityVm = new SecondActivityVm();
         secondActivityVm.setUri(getIntent().getType());
-        secondActivityVm.setText(getIntent().getStringExtra("text"));
+        String text = getSharedPreferences(Com1614080901208Activity.SPKEY,MODE_PRIVATE).getString(getIntent().getStringExtra("bookname"),"");
+        secondActivityVm.setText(text);
         binding.setSecondActivityVm(secondActivityVm);
     }
 }
