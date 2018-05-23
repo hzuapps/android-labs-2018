@@ -16,8 +16,8 @@ public class Soft1614080902427Activity extends Activity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902427);
 
-
         logoBtn = (TextView)findViewById(R.id.textview);
+
     }
 
     @Override
