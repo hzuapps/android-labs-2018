@@ -15,7 +15,7 @@
 
 3.实现界面控件的事件处理，例如点击按钮
 
-##实验步骤 
+## 实验步骤 
 1.打开Android Studio；
 
 2.进入res/layout文件夹，打开inealayoutr.xml和layout.xml；
