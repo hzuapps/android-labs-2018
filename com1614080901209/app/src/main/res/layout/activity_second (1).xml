@@ -19,10 +19,17 @@
         android:layout_gravity="center_vertical"/>
 
     <EditText
+        android:id="@+id/edit"
     android:layout_width="174dp"
     android:layout_height="wrap_content"
    android:background="#fff"
         android:layout_weight="0.08"
         android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="提交"/>
 
 </LinearLayout>
