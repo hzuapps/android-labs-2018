@@ -12,8 +12,13 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
+import android.widget.SimpleAdapter;
 import android.widget.Toast;
+
+import java.util.HashMap;
+import java.util.List;
 
 import edu.hzuapps.androidlabs.soft1614080902125.R;
 
@@ -24,8 +29,13 @@ public class Soft1614080902125Activity extends AppCompatActivity {
     private ViewPager mViewPager;
     private MyFragmentPagerAdapter myFragmentPagerAdapter;
 
-    private TabLayout.Tab one;
+   private TabLayout.Tab one;
     private TabLayout.Tab two;
+    /*private ListView mMusiclist;                   //音乐列表
+    private SimpleAdapter mAdapter;
+    private List<HashMap<String, String>> mp3Infos;
+    private HashMap<String, Object> map;
+**/
 
     @Override
 
@@ -39,6 +49,13 @@ public class Soft1614080902125Activity extends AppCompatActivity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         imageView.setPadding(5,5,5,5);
         super.onCreate(savedInstanceState);
+       //ViewPager pager = findViewById(R.id.viewPager);
+        //mMusiclist = pager.findViewById(R.id.list_music_local);
+
+        /*if(!RW_file_musiclist.fileIsExists("list_localmusic")) {
+            mp3Infos = RW_file_musiclist.readListFromSdCard("list_localmusic");  //获取歌曲对象集合
+            setListAdapter(mp3Infos);
+        }*/
 
         add_view.setOnClickListener(new View.OnClickListener()  {
             @Override
@@ -57,8 +74,6 @@ public class Soft1614080902125Activity extends AppCompatActivity {
 
             }
         });
-
-
 
         initViews();
     }
@@ -82,6 +97,16 @@ public class Soft1614080902125Activity extends AppCompatActivity {
 
 
     }
+
+    /*public void setListAdapter(List<HashMap<String, String>> mp3list) {
+
+
+        mAdapter = new SimpleAdapter(this, mp3list,
+                R.layout.music_item, new String[]{"number","title","check_music",
+                "Artist", "music_menu"}, new int[]{R.id.number, R.id.music_title,
+                R.id.music_Artist, R.id.music_menu});
+        mMusiclist.setAdapter(mAdapter);
+    }*/
 
 
 }
