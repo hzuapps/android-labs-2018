@@ -16,6 +16,7 @@
             android:layout_height="50dp"
             android:orientation="horizontal">
             <EditText
+                android:id="@+id/edit_name"
                 android:layout_width="300dp"
                 android:layout_height="match_parent"
                 android:hint="请输入要查询照片名称"
@@ -25,6 +26,7 @@
                 />
 
             <Button
+                android:id="@+id/button_find"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#6495ED"
@@ -34,11 +36,9 @@
 
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="30dp" />
 
         <LinearLayout
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:orientation="horizontal">
@@ -56,11 +56,8 @@
 
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="30dp" />
-
         <LinearLayout
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="130dp"
             android:orientation="horizontal">
@@ -71,11 +68,20 @@
                 android:background="@drawable/maomic"/>
 
         </LinearLayout>
-
-        <ImageView
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
-
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="操作记录："
+            android:textStyle="bold"
+            android:textColor="#8B7765"/>
+        <TextView
+            android:id="@+id/textview_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8B7765"/>
 
     </LinearLayout>
 

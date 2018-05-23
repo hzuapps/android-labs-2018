@@ -11,20 +11,19 @@
         android:orientation="vertical"
         android:background="@drawable/timgb">
         <TextView
+            android:id="@+id/textview_name"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="  猫咪a"
+            android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:textSize="28sp"/>
+            android:textSize="35sp"/>
         <ImageView
+            android:id="@+id/textview_zhaopian"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            android:layout_gravity="center"
-            android:background="@drawable/maomia"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="50dp" />
+            android:layout_gravity="center" />
+
         <LinearLayout
+            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal">
@@ -34,15 +33,7 @@
                 android:layout_height="50dp"
                 android:text="返回相册"
                 android:background="#E0FFFF" />
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="match_parent" />
-            <Button
-                android:id="@+id/button_delete"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:text="删除照片"
-                android:background="#FF7adc"/>
+
         </LinearLayout>
     </LinearLayout>
 
