@@ -15,13 +15,21 @@ public class Main2Activity extends AppCompatActivity {
 
         final Main2Activity thisActivity = this;
 
-        Button btnOpen = (Button) findViewById(R.id.button_open);
+        Button btnOpen = (Button) findViewById(R.id.roundBtn);
         btnOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(thisActivity, MainActivity.class);
                 thisActivity.startActivity(intent);
-                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+
+        Button btnOpen2 = (Button) findViewById(R.id.roundBtn2);
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(thisActivity, Main3Activity.class);
+                thisActivity.startActivity(intent);
             }
         });
     }
