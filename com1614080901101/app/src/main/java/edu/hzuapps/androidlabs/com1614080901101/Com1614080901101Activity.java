@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class Com1614080901101Activity extends AppCompatActivity{
+    public static final String FILENAME = "file_leaderboard.txt";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com1614080901101);
 
-        Button textView1 = (Button) findViewById(R.id.button_open);
-        textView1.setOnClickListener(new View.OnClickListener() {
+        Button game = (Button) findViewById(R.id.button_open);
+        game.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Com1614080901101Activity.this, Activity2.class);
@@ -21,14 +23,14 @@ public class Com1614080901101Activity extends AppCompatActivity{
             }
         });
 
-        Button textView2 = (Button) findViewById(R.id.button_leaderboard);
-        textView2.setOnClickListener(new View.OnClickListener() {
+        Button leaderboard = (Button) findViewById(R.id.button_leaderboard);
+        leaderboard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Com1614080901101Activity.this, Activity3.class);
                 startActivity(intent);
             }
         });
-
     }
 }
+

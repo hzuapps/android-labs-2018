@@ -7,6 +7,7 @@
 
 
     <LinearLayout
+        android:id="@+id/leaderboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -68,7 +69,8 @@
                     android:id="@+id/ranking1"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="1."
+                    android:text="@string/ranking1"
+
                     android:textColor="#104aea"
                     android:textSize="25sp" />
 
@@ -115,7 +117,7 @@
                     android:id="@+id/ranking1_name"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="AAA"
+                    android:text="@string/ranking1_name"
                     android:textColor="#eae310"
                     android:textSize="25sp" />
 
@@ -162,7 +164,7 @@
                     android:id="@+id/ranking1_point"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="999"
+                    android:text="@string/ranking1_point"
                     android:textColor="#10ea81"
                     android:textSize="25sp" />
 
@@ -202,9 +204,33 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/save"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="保存"/>
+    <Button
+        android:id="@+id/reflash"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="更新"/>
+    <Button
+        android:id="@+id/set_values1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="修改"/>
+    <Button
         android:id="@+id/button_open2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="去游戏"/>
+
+    <TextView
+        android:id="@+id/text_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="15sp" />
 
 </LinearLayout>
