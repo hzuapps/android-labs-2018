@@ -14,6 +14,7 @@ import android.widget.Button;
 
 public class Soft1614080902337Activity extends AppCompatActivity implements OnClickListener{
 
+    JsonActivity jsonActivity = new JsonActivity();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +30,23 @@ public class Soft1614080902337Activity extends AppCompatActivity implements OnCl
                         .setAction("Action", null).show();
             }
         });
+
         Button mybutton = (Button) findViewById(R.id.button);
         mybutton.setOnClickListener(this);
+        Button readJson = (Button)findViewById(R.id.readJson);
+        Button parseJson = (Button)findViewById(R.id.parseJson);
+        readJson.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                jsonActivity.getJson();
+            }
+        });
+        parseJson.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                jsonActivity.parseJson();
+            }
+        });
     }
 
     @Override
@@ -60,4 +76,5 @@ public class Soft1614080902337Activity extends AppCompatActivity implements OnCl
         Intent intent=new Intent(Soft1614080902337Activity.this,edu.hzuapps.androidlabs.soft1614080902337.Soft1614080902337Activity2.class);
         startActivity(intent);
     }
+
 }

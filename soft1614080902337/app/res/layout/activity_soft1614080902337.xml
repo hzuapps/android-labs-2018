@@ -67,6 +67,22 @@
         android:textColor="#000000"
         android:textSize="13dp" />
 
+    <Button
+        android:id="@+id/readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取Json"
+        android:layout_marginTop="300dp"
+        android:background="#68dfb6"
+        />
 
+    <Button
+        android:id="@+id/parseJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解析Json"
+        android:layout_marginTop="350dp"
+        android:background="#e471dc"
+        />
 
 </android.support.design.widget.CoordinatorLayout>
