@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_third"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详细数据"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="一   月 ："
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/yiyue"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="二   月 ："
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/eryue"
+            android:maxLines="1"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="三   月 ："
+                android:textSize="25sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="0dp"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/sanyue"
+                android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="四   月 ："
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/siyue"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="五   月 ："
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/wuyue"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="六   月 ："
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/liuyue"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="25sp"
+        android:id="@+id/tijiao"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所有数据增加"
+        android:textSize="25sp"
+        android:id="@+id/shuju"/>
+
+
+</LinearLayout>
