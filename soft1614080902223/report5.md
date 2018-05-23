@@ -18,7 +18,7 @@
 
 ## 3.实验结果
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902223/shiyan5/tp5_1.png)
+![实验报告](https://github.com/soulDeer/android-labs-2018/blob/master/soft1614080902223/shiyan4/tp5_1.png)
 
 ## 4.实验体会
 
