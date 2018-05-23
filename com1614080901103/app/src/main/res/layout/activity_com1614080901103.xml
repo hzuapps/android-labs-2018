@@ -7,29 +7,34 @@
     tools:context="androidlabs.hzuapps.edu.com1614080901103.Com1614080901103Activity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="471dp"
-        android:background="#f0f0f0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp">
 
 
         <TextView
-            android:layout_gravity="center"
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="欢迎来到网上大学app"
+            android:layout_width="fill_parent"
+            android:text="请输入要查找的课程"
             android:textColor="#f023f0" />
 
+        <EditText
+            android:id="@+id/txtText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:text="下一页" />
-
+            android:text="Save" />
+        <Button
+            android:id="@+id/btnLoad"
+            android:text="Load"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/textview_01"
             android:layout_width="match_parent"
