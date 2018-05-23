@@ -1,15 +1,24 @@
-package edu.hzuapps.androidlabs.soft123456.Soft1614080902338;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import android.support.v7.app.AppCompatActivity;
+package edu.hzuapps.androidlabs.soft1614080902338;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.EmptyStackException;
+import java.util.List;
+import java.util.Stack;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Soft1614080902338Activity extends AppCompatActivity {
+    private static final String TAG ="Soft1614080902338Activity" ;
+
     //input number
     private int[] idNum = {R.id.txt0, R.id.txt1, R.id.txt2, R.id.txt3,
             R.id.txt4, R.id.txt5, R.id.txt6, R.id.txt7, R.id.txt8, R.id.txt9};
@@ -25,25 +34,38 @@ public class Soft1614080902338Activity extends AppCompatActivity {
     // EditText输入
     private EditText input ;
     // TextView输出
-    private TextView output;
+    private EditText output;
     private static String Text;
+
+
+    private EditText input1;
+    private EditText output1;
+    private Button save;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902338);
-        input = findViewById(R.id.input);
+
+        // 第一步，找控件
+        initView();
+        // 第二步
+        initListenter();
+
+
+        input = (EditText) findViewById(R.id.input);
         input.setText("");
         input.setEnabled(false);
-        output = findViewById(R.id.output);
+        output = (EditText) findViewById(R.id.output);
         output.setText("");
-        buttonEqu = findViewById(R.id.txtIs);
+        buttonEqu = (Button) findViewById(R.id.txtIs);
         buttonEqu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 output.setText(new Calculate(input.getText().toString()).str);
             }
         });
-        buttonClear = findViewById(R.id.txtClear);
+        buttonClear = (Button) findViewById(R.id.txtClear);
         buttonClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +73,7 @@ public class Soft1614080902338Activity extends AppCompatActivity {
                 output.setText("");
             }
         });
-        buttonDel = findViewById(R.id.txtDel);
+        buttonDel = (Button) findViewById(R.id.txtDel);
 
         buttonDel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,19 +89,76 @@ public class Soft1614080902338Activity extends AppCompatActivity {
 
         // 点击按钮事件
         for (int idcal = 0; idcal < idCal.length; idcal++) {
-            buttonsCal[idcal] = findViewById(idCal[idcal]);
+            buttonsCal[idcal] = (Button) findViewById(idCal[idcal]);
             buttonsCal[idcal].setOnClickListener(new CalOnClick(buttonsCal[idcal].getText().toString()));
 
         }
         for (int i = 0; i < idNum.length; i++) {
-            buttonsNum[i] = findViewById(idNum[i]);
+            buttonsNum[i] = (Button) findViewById(idNum[i]);
             buttonsNum[i].setOnClickListener(new NumberOnClick(buttonsNum[i].getText().toString()));
         }
-
-
-
-
     }
+
+// 按钮监听
+    private void initListenter() {
+        save.setOnClickListener(new View.OnClickListener(){
+
+            public void setFilesDir(File filesDir) {
+                this.filesDir = filesDir;
+            }
+
+            private File filesDir;
+
+            public File getFilesDir() {
+                return filesDir;
+            }
+
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "点击了SAVE按钮");
+                handlerSaveEven(v);
+            }
+//  处理SAVE事件
+            private void handlerSaveEven(View v) {
+                String inputText = input1.getText().toString();
+                String outputText = output1.getText().toString();
+
+                //  保存数据
+                saveUserInfo(inputText, outputText);
+            }
+
+            private void saveUserInfo(String inputText, String outputText) {
+                Log.d(TAG, "保存信息...");
+
+                File filesDir = this.getFilesDir();
+                File saveFile = new File(filesDir, "");
+                Log.d(TAG, "cache dir === "+ filesDir.toString());
+
+
+                Log.d(TAG, "files dir == " + filesDir.toString());
+                try {
+                    if(!saveFile.exists()){
+                        saveFile.createNewFile();
+                    }
+                    FileOutputStream fos = new FileOutputStream(saveFile);
+                    fos.write((inputText + "=" + outputText).getBytes());
+                    fos.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
+            }
+
+
+        });
+    }
+
+    private void initView() {
+        input1 = (EditText) this.findViewById(R.id.input);
+        output1 = (EditText) this.findViewById(R.id.output);
+        save = (Button) this.findViewById(R.id.bt_SAVE);
+    }
+
     //继承OnClick接口
     class NumberOnClick implements View.OnClickListener {
         String Msg;
@@ -123,7 +202,7 @@ public class Soft1614080902338Activity extends AppCompatActivity {
         }
     }
 
-   //运算返回srting类
+    //运算返回srting类
     public class Calculate {
         public  String s1;
         StringBuilder str;
@@ -139,7 +218,7 @@ public class Soft1614080902338Activity extends AppCompatActivity {
         }
 
 
-        public List<String> midToAfter(List<String> midList)throws EmptyStackException{
+        public List<String> midToAfter(List<String> midList)throws EmptyStackException {
             List<String> afterList=new ArrayList<String>();
             Stack<String> stack=new Stack<String>();
             for(String str:midList){
@@ -310,6 +389,6 @@ public class Soft1614080902338Activity extends AppCompatActivity {
             this.countHouzhui(afterList);
         }
 
-
     }
+
 }

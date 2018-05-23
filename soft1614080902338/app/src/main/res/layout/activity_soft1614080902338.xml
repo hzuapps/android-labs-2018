@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,6 +22,7 @@
             android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint = "输入运算式"
             android:layout_weight="4"
             android:background="@null"
             android:gravity="end"
@@ -30,10 +30,11 @@
             android:textColor="#330099"
             android:textSize="24sp" />
 
-        <TextView
+        <EditText
             android:id="@+id/output"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint = "运行结果"
             android:layout_weight="6"
             android:gravity="end"
             android:textColor="#3300ff"
@@ -235,8 +236,16 @@
                 android:id="@+id/txt0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2"
+                android:layout_weight="1"
                 android:text="0"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_SAVE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SAVE"
                 android:textSize="20dp" />
 
             <Button
@@ -260,4 +269,3 @@
     </LinearLayout>
 
 </LinearLayout>
-
