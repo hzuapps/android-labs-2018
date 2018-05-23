@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">温湿度测量器</string>
+    <string name="title_activity_secord">SecordActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+</resources>
