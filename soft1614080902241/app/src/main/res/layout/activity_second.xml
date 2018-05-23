@@ -6,20 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <android.support.design.widget.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="100dp"
+            android:text="支出情况："
+            android:textSize="50sp" />
 
-    </android.support.design.widget.AppBarLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="今天：    ¥ 0.00"
+            android:textSize="50sp" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="本月：    ¥ 0.00"
+            android:textSize="50sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imagebutton_01_01"
+                android:layout_width="140sp"
+                android:layout_height="100sp"
+                android:background="#FFFFFF"/>
+            <ImageButton
+                android:id="@+id/imagebutton_01_02"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:background="@drawable/jiyibi" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>
