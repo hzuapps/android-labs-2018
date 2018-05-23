@@ -44,6 +44,13 @@
 - 在自己的`GitHub`库上创建和发送`Pull Request`
 
 ## 4.实验截图
-
+&emsp;   
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_1.png "Home Page")
+&emsp;   
+&emsp;   
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_2.png "Edit Page")
+&emsp;   
+&emsp;   
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_3.png "Read Page")
 ## 5.实验体会
 &emsp;&emsp;在本次实验中，通过对各个布局的了解，如线性布局或表格布局等。学习适合自己软件使用的页面布局方式，并通过实验，将相应布局的使用方式进行深入的了解、学习以及应用。
