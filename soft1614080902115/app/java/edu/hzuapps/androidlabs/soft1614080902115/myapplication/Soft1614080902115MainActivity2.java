@@ -3,7 +3,6 @@
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -11,7 +10,6 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
@@ -145,7 +143,7 @@ public class Soft1614080902115MainActivity2 extends AppCompatActivity implements
             case REQUEST_IMAGE_CAPTURE_FULL:
                 if(resultCode == RESULT_OK){
                     setPic();
-
+                    galleryAddPic();
                 }
 
                 break;
@@ -181,5 +179,14 @@ public class Soft1614080902115MainActivity2 extends AppCompatActivity implements
 
 
         mImageView.setImageBitmap(bitmap);
+    }
+
+
+    //将图片文件添加至相册（便于浏览）
+    private void galleryAddPic() {
+        Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+        Uri contentUri = Uri.fromFile(photoFile);
+        mediaScanIntent.setData(contentUri);
+        this.sendBroadcast(mediaScanIntent);
     }
 }
