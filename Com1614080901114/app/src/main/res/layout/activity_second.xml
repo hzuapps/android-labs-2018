@@ -11,15 +11,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="编辑邮件"
-        android:textSize="145px"/>
+        android:id="@+id/bianji"
 
-    <TextView
-        android:layout_width="match_parent"
+        android:text="编辑邮件"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/chakan"
         android:text="查看邮件"
-        android:textSize="145px"/></LinearLayout>
+        /></LinearLayout>
 </android.support.constraint.ConstraintLayout>
