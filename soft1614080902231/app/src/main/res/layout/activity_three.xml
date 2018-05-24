@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThreeActivity">
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="主队"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="192dp"
+        android:layout_height="104dp"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="客队 "
+        android:textSize="50dp" />
+
+
+    <ListView
+        android:id="@+id/zhongchao"
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="50dp" />
+</RelativeLayout>
