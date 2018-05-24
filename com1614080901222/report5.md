@@ -3,8 +3,8 @@
 ## 一、实验步骤
 ### 1.在Com1614080901222Activity的xml文件里，添加一个Button按钮组件,可以使用这个Button设置游戏的音效，由于需要保存的数据量很小，所以使用ShardPreferences保存数据；
 ### 2.在Com1614080901222Activity的java文件里编写相应代码，Android studio会导入相应的依赖包；
-###3.在Com1614080901222Activity.java 中创建initData(),这方法用于每次开启应用时初始化数据，这里的初始化是从ShardPreferences中读取数据；
-###4..在Com1614080901222Activity.java 中实现对Button1的OnClick()的点击事件，执行向ShardPreferences保存数据以及读取数据。
+### 3.在Com1614080901222Activity.java 中创建initData(),这方法用于每次开启应用时初始化数据，这里的初始化是从ShardPreferences中读取数据；
+### 4.在Com1614080901222Activity.java 中实现对Button1的OnClick()的点击事件，执行向ShardPreferences保存数据以及读取数据。
 ###运行程序，验证数据正确性
 ### 5.使用Git将文件提交到自己的库中。
 ## 二、实验结果截图
