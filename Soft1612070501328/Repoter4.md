@@ -33,7 +33,7 @@ public class MainActivity extends Activity  implements OnClickListener {
 2设置两个RelativeLayout
 3一个放图片并加按钮
 4另一个放一个按钮
- 5然后创一个按钮监听器，再进行监听器注册
+5然后创一个按钮监听器，再进行监听器注册
  
 ## 实验结果
 ![image](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE1.png)
