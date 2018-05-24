@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -38,68 +40,98 @@ public class JsonActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-    }
 
-    //网络编程获取Json
-    public void getJson()
-    {
-        new Thread(
-                new Runnable() {
-                    @Override
-                    public void run() {
-                        String url_s = "https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/app/assets/text.json";
-                        try {
-                            URL url = new URL(url_s);
-                            HttpURLConnection conn =(HttpURLConnection)url.openConnection();
-                            conn.setConnectTimeout(5000);
-                            conn.setUseCaches(false);
+        Button readJson = (Button)findViewById(R.id.readJson);
+        Button parseJson = (Button)findViewById(R.id.parseJson);
+        final TextView Json_TV_read =(TextView)findViewById(R.id.Json_TV_read);
+        final TextView Json_TV_parse =(TextView)findViewById(R.id.Json_TV_parse);
 
-                            conn.connect();
-                            InputStream inputStream = conn.getInputStream();
-                            InputStreamReader reader = new InputStreamReader(inputStream);
-                            BufferedReader buffer = new BufferedReader(reader);
-                            if(conn.getResponseCode()==200)
-                            {
-                                String inputline;
-                                StringBuffer resultdata = new StringBuffer();
-                                while ((inputline = buffer.readLine())!=null)
-                                {
-                                    resultdata.append(inputline);
-                                }
-                                text=resultdata.toString();
-                                Log.v("out---------------->",text);
-                            }
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-        ).start();
-    }
-
-    public void parseJson()
-    {
-        new Thread(new Runnable() {
+        readJson.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
+            public void onClick(View v) {
+                //网络编程获取Json
+                new Thread(
+                        new Runnable() {
+                            @Override
+                            public void run() {
+                                String url_s = "https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/app/assets/text.json";
+                                try {
+                                    URL url = new URL(url_s);
+                                    HttpURLConnection conn =(HttpURLConnection)url.openConnection();
+                                    conn.setConnectTimeout(5000);
+                                    conn.setUseCaches(false);
+
+                                    conn.connect();
+                                    InputStream inputStream = conn.getInputStream();
+                                    InputStreamReader reader = new InputStreamReader(inputStream);
+                                    BufferedReader buffer = new BufferedReader(reader);
+                                    if(conn.getResponseCode()==200)
+                                    {
+                                        String inputline;
+                                        StringBuffer resultdata = new StringBuffer();
+                                        while ((inputline = buffer.readLine())!=null)
+                                        {
+                                            resultdata.append(inputline);
+                                        }
+                                        text=resultdata.toString();
+                                    }
+                                } catch (Exception e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                ).start();
+                Json_TV_read.setText(text);
+            }
+        });
+
+
+        parseJson.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 try {
                     JSONObject jsonObject = new JSONObject(text);
                     JSONArray jsonstudents = jsonObject.getJSONArray("students");
-                    String test;
                     for(int i=0;i<jsonstudents.length();i++)
                     {
                         JSONObject students = jsonstudents.getJSONObject(i);
-                        Log.d("The student is ",
-                                students.getString("name")+","+students.getString("Sex")+","+students.getInt("age"));
+                        Json_TV_parse.append("name:"+students.getString("name")+"\n");
+                        Json_TV_parse.append("Sex:"+students.getString("Sex")+"\n");
+                        Json_TV_parse.append("age:"+students.getString("age")+"\n");
                     }
 
                 } catch (Exception e) {
                     e.printStackTrace();
-                }
             }
-        }).start();
+        }}
+        );
+                                     }
 
-    }
+
+
+//    public void parseJson()
+//    {
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//                    JSONObject jsonObject = new JSONObject(text);
+//                    JSONArray jsonstudents = jsonObject.getJSONArray("students");
+//                    String test;
+//                    for(int i=0;i<jsonstudents.length();i++)
+//                    {
+//                        JSONObject students = jsonstudents.getJSONObject(i);
+//                        Log.d("The student is ",
+//                                students.getString("name")+","+students.getString("Sex")+","+students.getInt("age"));
+//                    }
+//
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
+//            }
+//        }).start();
+//
+//    }
 
 
 }

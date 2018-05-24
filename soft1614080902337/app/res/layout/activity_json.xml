@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signin"
-
-
-    tools:context=".Soft1614080902337Activity">
+    tools:context=".JsonActivity"
+    android:background="@drawable/jsonbg"
+    >
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -24,6 +22,8 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <include layout="@layout/content_json" />
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -34,49 +34,35 @@
 
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="300dp"
+        android:id="@+id/readJson"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/shape"
-        android:text="进入课表"
-        android:textSize="20dp"
-
+        android:text="读取Json"
+        android:layout_marginTop="50dp"
+        android:background="#68dfb6"
         />
+
     <Button
-        android:id="@+id/goJson"
-        android:layout_width="300dp"
+        android:id="@+id/parseJson"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:layout_marginTop="300dp"
-        android:background="@drawable/shape"
-        android:text="进入Json"
-        android:textSize="20dp"
+        android:background="#e471dc"
+        android:text="解析Json" />
+
+    <TextView
+        android:id="@+id/Json_TV_read"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
         />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="250dp"
-        android:text="马上注册"
-        android:background="#00000000"
-        android:textColor="#0c19c9"
-        android:textSize="13dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="100dp"
-        android:layout_height="35dp"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="250dp"
-        android:background="#00000000"
-        android:text="忘记密码"
-        android:textColor="#000000"
-        android:textSize="13dp" />
-
+    <TextView
+        android:id="@+id/Json_TV_parse"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        />
 
 
 </android.support.design.widget.CoordinatorLayout>

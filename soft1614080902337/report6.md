@@ -10,7 +10,7 @@
 3、在APP下创建Assets文件下，新建一个Json文件，填入合乎规范的Json格式内容，可以参考bejson网站。               
 4、将Json文件提交到Github上面，在网址上面获取它的URL，准备做HttpUrl连接。      
 5、新建JsonActivity，书写函数：读取获取的Url上的Json文件、解析获取的Json文件。  
-6、设置两个按钮监控是否读取、解析成功Json，观察控制台的输出情况。                 
+6、设置两个按钮监控是否读取、解析成功Json，观察Activity中的TextView显示结果。                 
 7、（例行公事)使用Git将代码、截图、报告提交到自己的库中：https：//github.com/YOUR_NAME/android-labs-2018    
 $ git pull  
 $ git add 学号目录/*  
@@ -24,7 +24,8 @@ $ git push
 
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验6截图/实验六1.png "配置教育网下载代理")      
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验6截图/实验六2.png "配置教育网下载代理")  
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验6截图/实验六3.png "配置教育网下载代理")    
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验6截图/实验六3.png "配置教育网下载代理")  
+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/DcXuhm/android-labs-2018/master/soft1614080902337/实验6截图/实验六4.png "配置教育网下载代理")    
 
   
  
