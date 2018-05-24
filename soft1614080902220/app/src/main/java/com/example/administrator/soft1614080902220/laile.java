@@ -9,7 +9,7 @@ import android.widget.TextView;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class laile extends Activity {
+public class Laile extends Activity {
     private Button button_open1;
     private Button button_open2;
     private Button button_close;
@@ -21,16 +21,16 @@ public class laile extends Activity {
         button_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(laile.this, MainActivity.class);
-                laile.this.startActivity(intent);
+                Intent intent= new Intent(Laile.this, MainActivity.class);
+                Laile.this.startActivity(intent);
             }
         });
        button_open2= (Button) findViewById(R.id.button_open2);
         button_open2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(laile.this, jinru.class);
-                laile.this.startActivity(intent);
+                Intent intent = new Intent(Laile.this, Jinru.class);
+                Laile.this.startActivity(intent);
             }
         });
         button_open1=(Button)findViewById(R.id.button_open);
@@ -80,7 +80,7 @@ public class laile extends Activity {
     public void write(String msg){
         if(msg == null) return;
         try { msg =msg+read();
-            FileOutputStream fos = openFileOutput("txt", MODE_APPEND);
+            FileOutputStream fos = openFileOutput("storage.txt", MODE_APPEND);
             fos.write(msg.getBytes());
             fos.close();
         } catch (Exception e) {

@@ -16,11 +16,10 @@ public class MainActivity extends Activity {
         btnOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, laile.class);
+                Intent intent = new Intent(thisActivity, Laile.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
         });
-
     }
 }
