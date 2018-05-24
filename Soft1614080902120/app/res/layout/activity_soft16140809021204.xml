@@ -46,4 +46,34 @@
         android:text="0"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Button"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:text="保存分数"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <Button
+        android:id="@+id/b"
+        style="@android:style/Widget.Button"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"
+        android:text="返回"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <TextView
+        android:id="@+id/text_path"
+        android:layout_width="369dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp" />
+
 </RelativeLayout>

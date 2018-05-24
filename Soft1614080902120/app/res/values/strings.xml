@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Soft1614080902120贪吃蛇游戏</string>
-    <string name="title_activity_soft16140809021202">Soft1614080902120Activity2</string>
-    <string name="title_activity_soft16140809021203">Soft1614080902120Activity3</string>
-    <string name="title_activity_soft16140809021204">Soft1614080902120Activity4</string>
+    <string name="title_activity_soft16140809021202">游戏界面</string>
+    <string name="title_activity_soft16140809021203">游戏结束</string>
+    <string name="title_activity_soft16140809021204">难度设置</string>
 </resources>
