@@ -25,9 +25,9 @@
  
  ## 四.实验截图
  
-![image](https://github.com/liyanxia12/android-labs-2018/blob/master/com1614080901107/5-1.png)
-![image](https://github.com/liyanxia12/android-labs-2018/blob/master/com1614080901107/5-2.png)
-![image](https://github.com/liyanxia12/android-labs-2018/blob/master/com1614080901107/5-3.png)
+![image](https://github.com/liyanxian12/android-labs-2018/blob/master/com1614080901107/5-1.png)
+![image](https://github.com/liyanxian12/android-labs-2018/blob/master/com1614080901107/5-2.png)
+![image](https://github.com/liyanxian12/android-labs-2018/blob/master/com1614080901107/5-3.png)
  
  ## 五.实验体会
  这次实验还是没能按时交，实验内容也越来越细化，对于这部分知识了解还不够，课后还是要多加强这方面的知识练习。
