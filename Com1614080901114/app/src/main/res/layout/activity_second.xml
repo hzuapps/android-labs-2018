@@ -7,4 +7,19 @@
     android:background="@drawable/pho2"
     tools:context=".secondActivity">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="编辑邮件"
+        android:textSize="145px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看邮件"
+        android:textSize="145px"/></LinearLayout>
 </android.support.constraint.ConstraintLayout>
