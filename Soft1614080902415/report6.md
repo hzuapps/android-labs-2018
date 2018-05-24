@@ -17,15 +17,11 @@
 
 
 ## 三、实验
-+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/6.1jpg)
- 
-+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/6.2jpg)
-  
-+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/6.3jpg)
-   
-+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/6.4jpg)
-    
-+![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415/6.5jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//6.1.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//6.2.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//6.3.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//6.4.jpg)
+![image](https://raw.githubusercontent.com/xiaozzcc/android-labs-2018/master/Soft1614080902415//6.5.jpg)
 
 四、实验体会
 本次实验学会了安装软件的联网操作，从网络下载了一个文件保存到手机并使用
