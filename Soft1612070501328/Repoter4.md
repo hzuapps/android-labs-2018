@@ -1,31 +1,43 @@
-# 移动应用开发实验库（2018）   
-实验要求：https://github.com/hzuapps/android-labs-2018/blob/master/labs.md
+第四次实验
 
-## Android中文教材
-http://hukai.me/android-training-course-in-chinese/index.html  
-https://www.gitbook.com/book/mobile100/android/details  
+## 实验目标
 
-## Android英文教程
-http://www.tutorialspoint.com/index.htm
+1. 根据选题要求设计界面布局及控件使用；
+2. 布局xml及界面控制操作代码提交并截图；
+3. 将应用运行结果截图。
 
-## Android开发工具下载网址
-http://www.androiddevtools.cn/ 
 
-## Android Studio汉化（某同学亲测成功）
-http://jingyan.baidu.com/article/ff42efa93177c0c19e2202c3.html
+## 实验内容
 
-## Android版本6.0安装提示
-在Android SDK Manager中，参考下面的截图配置和下载6.0版本的库。
-![在Android SDK Manager中配置教育网下载代理](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/sdk-manager-proxy-edu.cn.png "配置教育网下载代理")
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "配置教育网下载代理")
-![在Android SDK Manager中下载6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk-download.png "配置教育网下载代理")
+1. 使用其中一种布局方式，设计所选题目的界面：
+![](https://user-images.githubusercontent.com/627946/39629467-e47676f2-4fde-11e8-920a-fc1ca6351fdf.png)
+2. 通过控件ID获取界面对象，执行相关操作：
 
-## Android应用架构
-https://github.com/googlesamples/android-architecture 
+```
++android:id="@+id/my_button"
+```
+3. 实现界面控件的事件处理，例如点击按钮：
+ ![](https://user-images.githubusercontent.com/627946/39629667-8ba7225a-4fdf-11e8-8a8e-9c7c653eda31.png)
 
---
+```
+public class MainActivity extends Activity  implements OnClickListener {    
+    ......   
+    @Override    
+    public void onClick(View v) { 
+     ......
+ ```
+ 
 
-![image](https://cloud.githubusercontent.com/assets/627946/23102172/3613a9c6-f6df-11e6-8d0b-8942995d3d66.png)
-
-Since Feb. 19, 2017.
-
+## 实验步骤
+1先声明xml使用RelativeLayout布局并嵌入LinearLayout布局
+2设置两个RelativeLayout
+3一个放图片并加按钮
+4另一个放一个按钮
+ 5然后创一个按钮监听器，再进行监听器注册
+ 
+## 实验结果
+![image](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE1.png)
+![image](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE2.png)
+ 
+## 实验心得
+  本次实验难度较以往实验有所增长，但是我还是觉得做的很简陋，不懂的地方需要在网上参考教学视频来学习。
