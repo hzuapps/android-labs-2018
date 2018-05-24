@@ -17,7 +17,7 @@
         android:id="@+id/bianji"
 
         android:text="编辑邮件"
-         />
+        />
 
     <Button
         android:layout_width="wrap_content"
