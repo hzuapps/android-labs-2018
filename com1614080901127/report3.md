@@ -26,9 +26,9 @@
 
 ##3.实验结果截图
 
-![image](https://github.com/yeyongqi/android-labs-2018/com1614080901127/3_1.png)
+![image](https://github.com/yeyongqi/android-labs-2018/blob/master/com1614080901127/3_1.png)
 
-![image](https://github.com/yeyongqi/android-labs-2018/com1614080901127/3_2.png)
+![image](https://github.com/yeyongqi/android-labs-2018/blob/master/com1614080901127/3_2.png)
 
 ##4.实验体会
 本次实验室我们第一次真正的进行设计，虽然只有显示和跳转，但是我还是觉得非常的难，
