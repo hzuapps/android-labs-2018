@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".com1614080901221Activity">
+
+    <DatePicker
+        android:id="@+id/main_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerBackground="#259669"
+       android:background="#259669" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:layout_below="@+id/main_dp"
+        android:text="保存"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textSize="14sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_2"
+        android:layout_below="@+id/main_dp"
+        android:layout_toRightOf="@id/btn_1"
+        android:text="显示"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="日期为"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/main_dp"
+        android:layout_toRightOf="@id/btn_2"/>
+</RelativeLayout>
