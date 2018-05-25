@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.hzuapps.androidlabs.soft1614080902422">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="Soft1614080902422Activity_02.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="Soft1614080902422Activity_02.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="Soft1614080902422Activity_02.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +24,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Soft1614080902422Activity_01" />
-        <activity android:name=".Soft1614080902422Activity_02"></activity>
+        <activity
+            android:name=".Soft1614080902422Activity_02"
+            android:exported="true" />
+        <activity android:name=".Soft1614080902422Activity_03" />
     </application>
 
 </manifest>
