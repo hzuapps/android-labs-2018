@@ -12,8 +12,8 @@ public class Com1614080901109Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_com1614080901109);
-        Button button1 = (Button)findViewById(R.id.my_button);/*c将layout中创建的button关联起来*/
-        button1.setOnClickListener(button_listener);
+        Button button0 = (Button)findViewById(R.id.xieru);/*c将layout中创建的button关联起来*/
+        button0.setOnClickListener(button_listener);
     }
     private Button.OnClickListener button_listener = new Button.OnClickListener(){     //创建button listener
         public void onClick(View v){
@@ -24,4 +24,5 @@ public class Com1614080901109Activity extends AppCompatActivity {
 
         }
     };
+
 }
