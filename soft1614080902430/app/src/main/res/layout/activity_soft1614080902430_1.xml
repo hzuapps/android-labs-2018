@@ -10,7 +10,11 @@
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@mipmap/phone" />
+        android:drawableTop="@mipmap/phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_open"
@@ -20,6 +24,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/phone"
         app:layout_constraintStart_toStartOf="parent" />
 
+
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
@@ -28,6 +34,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
 
 
 </android.support.constraint.ConstraintLayout>
