@@ -27,11 +27,22 @@ public class CityInfoActivity extends Activity {
 
         final Activity thisActivity = this;
         final Button btn_back = (Button) findViewById(R.id.btn_back);
+        final Button btn_query = (Button) findViewById(R.id.btn_query);
         //子页面增加按钮返回启动页面
         btn_back.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (v.equals(btn_back)) {
                     Intent intent = new Intent(thisActivity, Soft1614080902334WeatherActivity.class);
+                    thisActivity.startActivity(intent);
+                }
+            }
+        });
+
+        //查询7天趋势按钮
+        btn_query.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (v.equals(btn_query)) {
+                    Intent intent = new Intent(thisActivity, LatestWeatherInfoActivity.class);
                     thisActivity.startActivity(intent);
                 }
             }
