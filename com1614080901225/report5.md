@@ -14,12 +14,18 @@ git pull
 
 实验参考（待更新）
 参考代码：
+
 （1）文件操作
+
 https://github.com/hzuapps/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/examples/FileStorageActivity.java
+
 （2）数据库操作
+
 https://github.com/hzuapps/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/examples/ContentProviderActivity.java
 https://github.com/hzuapps/android-labs-2017/blob/master/AndroidLabs/app/src/main/java/edu/hzuapps/androidlabs/examples/ContentProviderOfBooks.java
-实验步骤提示：https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
+
+实验步骤提示：
+https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
 
 实验结果：
 
