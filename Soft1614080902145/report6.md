@@ -4,40 +4,40 @@
 
 1. 掌握Android网络访问方法；
 
-2. 理解XML和JSON表示数据的方法。
-
 ## 实验内容
 
-1. 在个人目录中创建一个表示数据的XML或JSON文件；
+1. 从网络下载一个文件（图片、MP3、MP4）；
 
-2. 数据文件代码提交之后从GitHub获取文件URL；
+2. 保存到手机，在应用中使用文件；
 
-3. 在应用中通过网络编程访问GitHub的数据文件；
-
-4. 在应用中解析并显示文件所包含的数据；
-
-5. 将应用运行结果截图。
+3. 将应用运行结果截图。
 
 ## 实验步骤
 
 1. 打开自己建立的app项目文件soft1614080902145；
 
-2. 在activity_message_.xml中加入一个文本框用于显示聊天记录，即自己存储的数据；
+2. 修改AndroidManifest.xml获取相关的权限；
 
-3. 在Message_Activity.java中加入存储功能代码，每一次点发送都把输入框中的文本记录到外部txt文件并且刷新聊天记录；
+3. 修改acticity_Main2.xml以及Main2Activuty.java，以使Main2Activuty中加入一个新的“更换壁纸”按钮，可以跳转到Wallpaper_Activity；
+
+4. 在activity_wallpaper_.xml中设计布局，有一个网络图片地址输入框、一个下载按钮、以及显示图片的空间；
+
+5. 在Wallpaper_Activity.java中输入完成从网络下载图片并保存的代码；
 
 4. 完成并成功运行，提交作业。
 
 ## 实验结果
 
-![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy5-1.png?raw=true)
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy6-1.png?raw=true)
 
-![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy5-2.png?raw=true)
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy6-2.png?raw=true)
+
+![](https://github.com/haoy1220/android-labs-2018/blob/master/Soft1614080902145/sy6-3.png?raw=true)
 
 ## 实验体会
 
-1. 这次实验很有趣，学会了简单的文件存储，学会利用java.io类提供的方法简单读写数据来存储文本记录；
+1. 这次实验很有趣，也是一波三折，开始因为没有修改AndroidManifest.xml获取相关的权限操作，导致app一直闪退，重做了才发现这个问题；
 
-2. 刚好把这个功能用到了app的聊天发送信息界面，虽然界面还是很简陋，但有了一个聊天软件感觉，很不错；
+2. 一开始还不懂Android实现下载图片并保存到SD卡中是如何实现的，通过查阅资料了解到从网络上取得的图片，生成Bitmap时有两种方法，一种是先转换为byte[]，再生成bitmap；一种是直接用InputStream生成bitmap，再加上观看了一些大神的代码，总算是会独立完成这个功能了；
 
-3. 希望后面深入的学习能够越来越完善这个app。
+3. 课程快要结束了，从老师的课堂上学到了很多，其中最重要的就是自学能力，靠自己慢慢在老师给的大方向中一步步独立完善app，体验真的很不错，感受到了自己的成长，希望以后还有机会跟老师上课。
