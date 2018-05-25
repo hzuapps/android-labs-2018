@@ -2,6 +2,7 @@ package edu.androidlabs.soft1614080902440;
 
 import android.app.Activity;
 import android.content.ContextWrapper;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,7 @@ public class Soft1614080902440Activity2 extends Activity {
         //获取UI对象
         Button bt_write = (Button) findViewById(R.id.write);
         Button bt_read = (Button) findViewById(R.id.read);
+        Button bt_next = (Button) findViewById(R.id.next);
         //对写入数据的按钮添加监听器
         bt_write.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +37,15 @@ public class Soft1614080902440Activity2 extends Activity {
             @Override
             public void onClick(View view) {
                 read();
+
+            }
+        });
+        //对跳转的按钮添加监听器
+        bt_next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Soft1614080902440Activity2.this,Soft1614080902440Activity3.class);
+                Soft1614080902440Activity2.this.startActivity(intent);
 
             }
         });

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902440Activity2">
+    tools:context=".Soft1614080902440Activity2"
+    android:background="@drawable/background2">
 
     <EditText
         android:id="@+id/EditText_1"
@@ -32,5 +33,12 @@
         android:layout_marginTop="60dp"
         android:layout_marginLeft="230dp" />
 
-
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看应聘者信息"
+        android:layout_below="@id/write"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="120dp" />
 </RelativeLayout>
