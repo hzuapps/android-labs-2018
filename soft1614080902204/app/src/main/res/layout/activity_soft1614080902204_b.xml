@@ -14,18 +14,31 @@
         tools:layout_editor_absoluteY="0dp"
         android:background="#F5fffa">
         <ImageView
+            android:id="@+id/imageView_beijin"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="@drawable/timg"
-            />
-        <TextView
+            android:background="@drawable/timg"/>
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="请选择要出的拳"
-            android:textColor="#636363"
-            android:textStyle="bold"
-            android:textSize="28sp"
-            android:background="#F5fffa"/>
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请选择要出的拳"
+                android:textColor="#636363"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:background="#F5fffa"/>
+            <Button
+                android:id="@+id/button_xiazai"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="下载背景"/>
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
