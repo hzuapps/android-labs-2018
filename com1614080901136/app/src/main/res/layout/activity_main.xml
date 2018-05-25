@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com1614080901136.androidlabs.hzuapps.edu.com1614080901136.MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,18 +14,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView" />
 
-    <TextView
-        android:id="@+id/YY"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableTop="@drawable/YY"
-        android:text=""
-        tools:layout_editor_absoluteY="34dp"
-        tools:layout_editor_absoluteX="0dp" />
-    +
+    <FrameLayout
+        android:layout_width="380dp"
+        android:layout_height="550dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="-2dp">
 
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:text="进入查询"
+            android:textSize="30dp" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="512dp"
+            android:background="@drawable/lanse" />
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
