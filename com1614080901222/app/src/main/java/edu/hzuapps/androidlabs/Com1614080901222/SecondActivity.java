@@ -14,7 +14,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        final View view =findViewById(R.id.LinearLayout1);
+        final View view =findViewById(R.id.relative2);
         view.setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION|View.SYSTEM_UI_FLAG_IMMERSIVE);
         ImageButton white1 = findViewById(R.id.imageButton1);
         ifOnTouch(white1,R.drawable.white,R.drawable.white_back);
