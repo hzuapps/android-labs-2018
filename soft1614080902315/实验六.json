@@ -1,15 +1,15 @@
 {
 	"sites": [{
-			"name": "菜鸟教程",
-			"talk": "www.runoob.com"
+			"name": "梁焯豪:",
+			"talk": "我爱小贝"
 		},
 		{
-			"name": "google",
-			"talk": "www.google.com"
+			"name": "蔡学钊:",
+			"talk": "我爱C罗"
 		},
 		{
-			"name": "微博",
-			"talk": "www.weibo.com"
+			"name": "陈嘉涛:",
+			"talk": "我爱楼上"
 		}
 	]
 }
