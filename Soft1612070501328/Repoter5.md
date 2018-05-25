@@ -1,31 +1,21 @@
-# 移动应用开发实验库（2018）   
-实验要求：https://github.com/hzuapps/android-labs-2018/blob/master/labs.md
+# 第五次实验
+## 一、实验目的
+掌握在Android App中存储数据
 
-## Android中文教材
-http://hukai.me/android-training-course-in-chinese/index.html  
-https://www.gitbook.com/book/mobile100/android/details  
+## 二、实验内容
+1、将应用产生的数据保存到文件存储中  
+2、说明使用的文件存储方式：内部 or 外部  
+3、将运行结果截图  
 
-## Android英文教程
-http://www.tutorialspoint.com/index.htm
+## 三、实验步骤
+1、在布局文件中设置整体布局为RelativeLayout,在DatePicker控件下新增两个Button和一个TextView  
+2、按下“确认下单”按钮存储数据，按下“读取订单”按钮取出数据，并显示在界面上  
+3、在java类中设置两个按钮的点击事件，构造存储数据和读取数据的方法，考虑到数据量并不大，因此我采用内部存储的方式来存储产生的数据  
 
-## Android开发工具下载网址
-http://www.androiddevtools.cn/ 
+## 四、实验结果
+![image](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE1.png)
+![image](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE2.png)
 
-## Android Studio汉化（某同学亲测成功）
-http://jingyan.baidu.com/article/ff42efa93177c0c19e2202c3.html
-
-## Android版本6.0安装提示
-在Android SDK Manager中，参考下面的截图配置和下载6.0版本的库。
-![在Android SDK Manager中配置教育网下载代理](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/sdk-manager-proxy-edu.cn.png "配置教育网下载代理")
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk.png "配置教育网下载代理")
-![在Android SDK Manager中下载6.0库](https://raw.githubusercontent.com/hzuapps/android-labs/master/screens/android-6-sdk-download.png "配置教育网下载代理")
-
-## Android应用架构
-https://github.com/googlesamples/android-architecture 
-
---
-
-![image](https://cloud.githubusercontent.com/assets/627946/23102172/3613a9c6-f6df-11e6-8d0b-8942995d3d66.png)
-
-Since Feb. 19, 2017.
+## 五、实验体会
+通过这次实验使我更加熟悉git和android studio,获取edittext和spinner控件的值，将值内部存储到文件，创建事件监听器对button控件进行处理，处理事件要心细，不能够太过于心急。
 
