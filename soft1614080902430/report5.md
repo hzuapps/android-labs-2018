@@ -7,7 +7,7 @@
 1、选择以文件存储存储数据信息<br />
 2、应用外部存储空间，
 File dir = new File(Environment.getExternalStoragePublicDirectory(type), dirName);<br />
-3、应用FileOutputStream输出流写入字符串 String text = "content";
+3、应用FileOutputStream输出流写入字符串 String text = "content";<br />
 4、返回文件目录，显示在TextView控件中
 
 ## 三、实验截图
