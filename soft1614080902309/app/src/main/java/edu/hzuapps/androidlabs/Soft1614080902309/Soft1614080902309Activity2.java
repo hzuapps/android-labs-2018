@@ -1,18 +1,16 @@
 package edu.hzuapps.androidlabs.Soft1614080902309;
 
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import java.util.ArrayList;
-import java.util.List;
-
-import android.app.Activity;
-import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 
@@ -29,14 +27,34 @@ public class Soft1614080902309Activity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.soft_1614080902309_activity2);
         //第一步：添加一个下拉列表项的list，这里添加的项就是下拉列表的菜单项
-        list.add("星期一");
-        list.add("星期二");
-        list.add("星期三");
-        list.add("星期四");
-        list.add("星期五");
-        list.add("星期六");
-        list.add("星期日");
-        myTextView = (TextView)findViewById(R.id.TextView_city);
+        list.add("星期一 1 2节");
+        list.add("星期一 3 4节");
+        list.add("星期一 5 6节");
+        list.add("星期一 7 8节");
+        list.add("星期一 9 10节");
+        list.add("星期二 1 2节");
+        list.add("星期二 3 4节");
+        list.add("星期二 5 6节");
+        list.add("星期二 7 8节");
+        list.add("星期二 9 10节");
+        list.add("星期三 1 2节");
+        list.add("星期三 3 4节");
+        list.add("星期三 5 6节");
+        list.add("星期三 7 8节");
+        list.add("星期三 9 10节");
+        list.add("星期四 1 2节");
+        list.add("星期四 3 4节");
+        list.add("星期四 5 6节");
+        list.add("星期四 7 8节");
+        list.add("星期四 9 10节");
+        list.add("星期五 1 2节");
+        list.add("星期五 3 4节");
+        list.add("星期五 5 6节");
+        list.add("星期五 7 8节");
+        list.add("星期五 9 10节");
+
+
+        myTextView = (TextView)findViewById(R.id.TextView5);
         mySpinner = (Spinner)findViewById(R.id.spinner);
 
         //第二步：为下拉列表定义一个适配器，这里就用到里前面定义的list。
@@ -79,9 +97,3 @@ public class Soft1614080902309Activity2 extends AppCompatActivity {
         });
     }
 }
-
-
-
-
-
-

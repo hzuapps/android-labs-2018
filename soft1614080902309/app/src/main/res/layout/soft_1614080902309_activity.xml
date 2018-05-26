@@ -53,4 +53,16 @@
         android:text="读取"
         android:layout_alignParentRight="true" />
 
+    <Button
+        android:id="@+id/gojson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="91dp"
+        android:text="进入Json" />
+
 </RelativeLayout>

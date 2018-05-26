@@ -1,0 +1,15 @@
+{
+  "goods": [{
+    "name": "chair",
+    "price": "100",
+    "data": "2010"
+  }, {
+    "name": "desk",
+    "price": "150",
+    "data": "2015"
+  }, {
+    "name": "computer",
+    "price": "4000",
+    "data": "2018"
+  }]
+}
