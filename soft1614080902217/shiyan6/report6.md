@@ -30,11 +30,11 @@
 
 ## 3.实验结果
 
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/1.jpg)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/1.png)
 
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/2.jpg)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/2.png)
 
-![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/3.jpg)
+![image](https://github.com/curtain2017xxxx/android-labs-2018/blob/master/soft1614080902217/shiyan6/3.png)
 
 ## 4.实验体会
 
