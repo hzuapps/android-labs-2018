@@ -22,8 +22,21 @@
         android:layout_width="103dp"
         android:layout_height="63dp"
         android:layout_marginBottom="34dp"
+        android:layout_marginRight="180dp"
         android:background="#ffffff"
         android:text="开始游戏"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/advert"
+        android:layout_width="103dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="180dp"
+        android:background="#ffffff"
+        android:text="查看广告"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
