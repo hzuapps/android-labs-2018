@@ -13,7 +13,7 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp"
-        android:background="#FFFACD">
+        android:background="#C1FFC1">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -27,27 +27,68 @@
             android:layout_height="wrap_content"
             android:background="#FFFFFF"
             android:text="¥ 0.00"
-            android:textSize="50sp"/>
+            android:textSize="50sp"
+            android:layout_marginBottom="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_02_01"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="记一笔"
+                android:textSize="25sp"/>
+            <Button
+                android:id="@+id/button_xiazai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载历史"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEFA"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="最新记录："
+                android:textStyle="bold"
+                android:background="#C1FFC1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="历史记录："
+                android:textStyle="bold"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
-            <Button
-                android:layout_marginTop="30dp"
-                android:id="@+id/button_02_01"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:text="记一笔"
-                android:textSize="25sp"/>
-
+            android:orientation="horizontal"
+            android:background="#87CEFA">
             <TextView
                 android:id="@+id/textview_history"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:textSize="13dp"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                android:background="#C1FFC1"/>
+            <ListView
+                android:id="@+id/list_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="15dp"/>
-
+                android:textSize="8dp"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"/>
         </LinearLayout>
+
 
 
     </LinearLayout>
