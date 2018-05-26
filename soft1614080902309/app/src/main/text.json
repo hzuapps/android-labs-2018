@@ -1,5 +1,5 @@
 {
-  "商品": [{
+  "goods": [{
     "name": "chair",
     "price": "100",
     "data": "2010"
