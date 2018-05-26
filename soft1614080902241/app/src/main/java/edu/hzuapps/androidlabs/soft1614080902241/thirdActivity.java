@@ -8,20 +8,33 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class thirdActivity extends AppCompatActivity {
-    private Button button1_3;
+    private Button  button_cancle,button_hold;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
-        button1_3=(Button)findViewById(R.id.button01_02) ;
+        button_cancle= (Button) findViewById(R.id.button_cancle);
+        button_hold = (Button) findViewById(R.id.button_hold);
 
-        button1_3.setOnClickListener(new View.OnClickListener() {
+        button_cancle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1_3=new Intent(thirdActivity.this,SecondActivity.class);
-                startActivity(intent1_3);
+                finish();
+            }
+        });
+         button_hold.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final android.widget.EditText tx = (EditText) findViewById(R.id.edittext_shuru);
+                String s = tx.getText().toString();
+
+                Intent data = new Intent();
+                data.putExtra("data", s);
+                setResult(2,data);
+                finish();
             }
         });
     }

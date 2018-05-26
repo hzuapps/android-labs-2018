@@ -13,24 +13,25 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:text="支出情况："
-            android:textSize="50sp" />
+            android:textSize="45dp"
+            android:textStyle="bold"
+            />
 
         <TextView
+            android:id="@+id/textview_zhichu"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="今天：    ¥ 0.00"
+            android:layout_height="wrap_content"
+            android:text="¥ 0.00"
             android:textSize="50sp" />
 
+
         <TextView
+            android:id="@+id/textview_jilu"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="本月：    ¥ 0.00"
-            android:textSize="50sp" />
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp" />
+            android:layout_height="380dp"
+            android:textSize="15dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
