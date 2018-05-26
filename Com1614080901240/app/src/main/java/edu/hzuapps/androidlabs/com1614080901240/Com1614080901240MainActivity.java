@@ -11,6 +11,7 @@ import com.example.my.com1614080901240myapplication.Com1614080901240_second;
 import com.example.my.com1614080901240myapplication.R;
 
 
+
 public class Com1614080901240MainActivity extends AppCompatActivity {
 
     @Override
@@ -29,7 +30,15 @@ public class Com1614080901240MainActivity extends AppCompatActivity {
                 //thisActivity.startActivityForResult(intent, 2016);
             }
         });
-
+        Button btnOpen_1 = (Button) findViewById(R.id.button_open1);
+        btnOpen_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(thisActivity, Com1614080901240_Activity3.class);
+                thisActivity.startActivity(intent1);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
     }
 
     }
