@@ -5,6 +5,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -20,18 +22,28 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -42,7 +54,13 @@ public class MainActivity extends AppCompatActivity
     private String imgUrl_List[] = new String [5];
     public static MainActivity mInstance;
     public int idArr[] = new int[10];
+    public String new_IdArr[] = new String[50];
     private String[] titleList = {"","","","",""};
+    private RecyclerView mInfoList;
+    private ArrayList<ItemBean> mDatas;
+    private InfoListAdapter adapter;
+    private int otherdate=0;
+    private RequestQueue mQueue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +95,10 @@ public class MainActivity extends AppCompatActivity
         mRollViewPager.setAdapter(new RVNormalAdapter(imgList));
         mRollViewPager.setHintView(new ColorPointHintView(mInstance, Color.BLACK,Color.WHITE));
 
+
         initNewsData();
+        initNewsList();
+
     }
 
     @Override
@@ -127,7 +148,7 @@ public class MainActivity extends AppCompatActivity
             }
 
             @Override
-            public void onResponse(Call call, Response response) throws IOException {
+            public void onResponse(Call call, okhttp3.Response response) throws IOException {
                 String sbody;
                 if (null != response.cacheResponse()) {
                 } else {
@@ -151,6 +172,26 @@ public class MainActivity extends AppCompatActivity
                 });
             }
         });
+
+    }
+
+    public void initNewsList(){
+
+        mDatas=new ArrayList<>();
+        getInfoFromNet();
+
+        mInfoList= (RecyclerView) findViewById(R.id.infolist);
+        mInfoList.setLayoutManager(new LinearLayoutManager(this));
+        adapter=new InfoListAdapter(mDatas,MainActivity.this);
+        adapter.setOnItemClickListener(new InfoListAdapter.OnItemClickListener(){
+            @Override
+            public void onItemClick(View view, int position) {
+                Intent intent = new Intent(mInstance,ContentActivity.class);
+                intent.putExtra("NewsId",""+ new_IdArr[position]);
+                startActivity(intent);
+            }
+        });
+        mInfoList.setAdapter(adapter);
 
     }
 
@@ -196,7 +237,7 @@ public class MainActivity extends AppCompatActivity
             addbBitmapToView.execute(imgs[position]);
             view.setScaleType(ImageView.ScaleType.CENTER_CROP);
             view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-            view.setOnClickListener(new View.OnClickListener()      // 点击事件
+            view.setOnClickListener(new View.OnClickListener()
             {
                 @Override
                 public void onClick(View v)
@@ -220,4 +261,46 @@ public class MainActivity extends AppCompatActivity
             return imgs.length;
         }
     }
+
+    private void getInfoFromNet(){
+
+        mQueue = Volley.newRequestQueue(this);
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest("https://news-at.zhihu.com/api/4/news/latest" , null, new com.android.volley.Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    JSONArray list = null;
+                    try {
+                        list = response.getJSONArray("stories");
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    for (int i = 0; i < list.length(); i++) {
+
+                        JSONObject item = list.getJSONObject(i);
+                        JSONArray images = item.getJSONArray("images");
+                        ItemBean listItem = new ItemBean();
+                        listItem.setTitle(item.getString("title"));
+                        listItem.setImgurl(images.getString(0));
+                        new_IdArr[i] = item.getString("id");
+                        mDatas.add(listItem);
+
+                    }
+                    adapter.notifyDataSetChanged();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new com.android.volley.Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+        mQueue.add(jsonObjectRequest);
+    }
+
+
 }
