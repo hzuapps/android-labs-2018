@@ -1,20 +1,13 @@
 package edu.hzuapps.androidlabs.Soft1614080902332;
 
-import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.view.View.OnClickListener;
-import android.widget.ImageButton;
-
-import edu.hzuapps.androidlabs.Soft1614080902332.Soft1614080902332Activity1;
-import edu.hzuapps.androidlabs.Soft1614080902332.R;
 
 public class Soft1614080902332Activity2 extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +26,5 @@ public class Soft1614080902332Activity2 extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
 }

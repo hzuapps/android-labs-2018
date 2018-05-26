@@ -27,6 +27,7 @@
                 android:layout_height="100dp"
                 android:layout_weight="1"
                 android:text="图片"
+                android:textColor="@color/black"
                 android:gravity="center" />
 
             <ImageButton
@@ -50,6 +51,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="失物简介"
+                android:textColor="@color/black"
                 android:gravity="center" />
 
             <EditText
@@ -72,6 +74,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="拾到时间"
+                android:textColor="@color/black"
                 android:gravity="center" />
 
             <EditText
@@ -94,6 +97,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="拾到地点"
+                android:textColor="@color/black"
                 android:gravity="center"/>
 
             <EditText
@@ -116,6 +120,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:text="联系方式"
+                android:textColor="@color/black"
                 android:gravity="center"/>
 
             <EditText
@@ -141,14 +146,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="上传" />
+                android:background="@color/colorPrimary"
+                android:text="上传"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
                 android:layout_weight="1"
-                android:text="返回首页" />
+                android:text="返回首页"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
         </LinearLayout>
 
     </LinearLayout>

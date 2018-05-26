@@ -24,7 +24,6 @@ public class Soft1614080902332Activity3 extends AppCompatActivity {
 
         final Button btn3 = (Button) findViewById(R.id.button3);
         final Button btn2 = (Button) findViewById(R.id.button2);
-        //final Button btn = (Button) findViewById(R.id.button);
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
