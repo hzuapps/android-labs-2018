@@ -15,7 +15,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
-        android:layout_marginTop="100dp"
         android:background="@drawable/p1"
         android:drawablePadding="10dp"
         android:gravity="center_vertical"
@@ -31,18 +30,27 @@
         android:id="@+id/button2"
         android:layout_marginLeft="35dp"
         android:layout_marginRight="35dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:textSize="25dp"
         android:text="查询" />
+
     <TextView
         android:id="@+id/cxjl"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="100dp"
         android:text="查询记录"
-        android:textSize="20dp"
-        android:layout_marginLeft="150dp"
-        />
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="查询结果"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/nik"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20dp"/>
 </LinearLayout>
