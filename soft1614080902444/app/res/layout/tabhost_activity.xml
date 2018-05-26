@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </FrameLayout>
+        <LinearLayout
+
+
+
+            android:id="@+id/tab_menu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+
+
+
+            <TextView
+                android:id="@+id/txt_deal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/xiaoxi"
+                android:gravity="center"
+                android:text="xiaoxi"/>
+
+            <TextView
+                android:id="@+id/txt_poi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/lianxiren"
+                android:gravity="center"
+                android:text="lianxiren"/>
+
+            <TextView
+                android:id="@+id/txt_user"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/dongtai"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/dongtai"
+                android:gravity="center"
+
+                android:text="dongtai" />
+
+        </LinearLayout>
+        <TabWidget
+
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#BFBFBF"
+            ></TabWidget>
+
+
+    </RelativeLayout>
+
+
+</TabHost>

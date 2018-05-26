@@ -18,8 +18,9 @@ public class Soft1614080902444Activity extends AppCompatActivity {
                btnStartAty1.setOnClickListener(new View.OnClickListener() {
               @Override
                public void onClick(View v) {
-                  Intent i = new Intent(Soft1614080902444Activity.this, Aty1.class);
+                  Intent i = new Intent(Soft1614080902444Activity.this, MyTabActivity.class);
                   startActivity(i);
+                  Soft1614080902444Activity.this.finish();
                            }
          });
     }

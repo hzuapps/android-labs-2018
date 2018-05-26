@@ -17,9 +17,14 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.Aty1"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.MyTabActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.MessageActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.TrendsActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.ContactsActivity"></activity>
 
-        <activity
-                   android:name="Aty1"></activity>
+
+
 
     </application>
 
