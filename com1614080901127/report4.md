@@ -17,13 +17,11 @@
 在Android Studio编写代码
 1.打开Android Studio 开发环境；
 
-2.进入res/layout文件夹，对项目主layout与内容layout进行布局的整体处理和更新；
+2.建立跳转按钮；
 
-3.根据自己的选题选择相关布局以及添加相应的控件，引入recyclerview 和 cardview 库进行知乎日报返回消息api的列表处理与展示；
+3.再设置两个按钮，将按钮进行布局
 
-4.在项目主Activity进行cardview的相关控件的事件绑定，在内容Activity 进行 WebView的相关优化（主要涉及到html与css）的相关处理；
-
-5.运行代码并截图；
+4.运行代码并截图；
 
 ##4.实验结果
 
@@ -31,7 +29,6 @@ app运行截图情况
 
 ![image](https://github.com/yeyongqi/android-labs-2018/blob/master/com1614080901127/4_1.png)
 
-
-
 5.实验体会
-
+这次实验是基于实验3的基础上，进行布局的，但是我对布局的代码不太熟悉，所以只是进行了简单的布局
+但是我会继续学习，争取把界面做的更加精准好看。
