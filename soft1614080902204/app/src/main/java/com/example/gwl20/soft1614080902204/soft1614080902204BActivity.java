@@ -2,14 +2,17 @@ package com.example.gwl20.soft1614080902204;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
@@ -18,6 +21,8 @@ import java.util.Calendar;
 public class soft1614080902204BActivity extends AppCompatActivity {
 
     private Button bu,jiandao,shitou;
+    private ImageView beijin;
+    private Handler handler=new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +30,7 @@ public class soft1614080902204BActivity extends AppCompatActivity {
         bu=(Button)findViewById(R.id.button_bu);
         jiandao=(Button)findViewById(R.id.button_jiandao);
         shitou=(Button)findViewById(R.id.button_shitou);
+        beijin=(ImageView)findViewById(R.id.imageView_beijin);
         bu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,7 +55,12 @@ public class soft1614080902204BActivity extends AppCompatActivity {
                 startActivityForResult(intent,1);
             }
         });
-
+        ((Button)findViewById(R.id.button_xiazai)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new HttpThread("http://5b0988e595225.cdn.sohucs.com/images/20170904/d03b058017fc42568e4b595f40879ba1.jpeg",beijin,handler).start();
+            }
+        });
     }
     @Override
 
