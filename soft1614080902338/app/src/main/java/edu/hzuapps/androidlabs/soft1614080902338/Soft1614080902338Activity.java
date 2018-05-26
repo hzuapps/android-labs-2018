@@ -27,7 +27,6 @@ public class Soft1614080902338Activity extends Activity {
     private ImageView imageView;
 
     private Bitmap bitmap;
-    //手柄更新的作用
     Handler handler=new Handler(){
         public void handleMessage(Message msg) {
             if(msg.what==111){
@@ -38,13 +37,11 @@ public class Soft1614080902338Activity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902338);
-
-        //初始化组件
         editText=(EditText) findViewById(R.id.imagepath);
         button=(Button) findViewById(R.id.upload);
         imageView=(ImageView) findViewById(R.id.imageView);
 
-        //给下载按钮添加一个监听
+      //设置监听
         button.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
                 new Thread(t).start();
@@ -58,16 +55,11 @@ public class Soft1614080902338Activity extends Activity {
             //下载图片的路径
             String iPath=editText.getText().toString();
             try {
-                //对资源链接
                 URL url=new URL(iPath);
-                //打开输入流
-                InputStream inputStream=url.openStream();
-                //对网上资源进行下载转换位图图片
+                InputStream inputStream=url.openStream()；
                 bitmap=BitmapFactory.decodeStream(inputStream);
                 handler.sendEmptyMessage(111);
                 inputStream.close();
-
-                //再一次打开
                 inputStream=url.openStream();
                 File file=new File(Environment.getExternalStorageDirectory()+"/DCIM/");
                 FileOutputStream fileOutputStream=new FileOutputStream(file);
