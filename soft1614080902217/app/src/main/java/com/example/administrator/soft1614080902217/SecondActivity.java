@@ -9,8 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.os.Handler;
 import org.w3c.dom.Text;
 
 import java.io.FileInputStream;
@@ -18,8 +19,10 @@ import java.io.FileOutputStream;
 
 public class SecondActivity extends AppCompatActivity {
 
-
+    private ImageView imageView;
     private Button xiazai;
+    private Handler handler=new Handler();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +33,11 @@ public class SecondActivity extends AppCompatActivity {
                                       @Override
                                       public void onClick(View v) {
 
-                                          final EditText tx= (EditText) findViewById(R.id.edittext_input);
+                                          EditText tx= (EditText) findViewById(R.id.edittext_input);
                                           String s = tx.getText().toString();
+
+                                          imageView = (ImageView)findViewById(R.id.image_1);
+                                          new HttpThread(s,imageView,handler).start();
 
                                           if(!s.isEmpty())
                                               write(s);
@@ -87,8 +93,7 @@ public class SecondActivity extends AppCompatActivity {
         if(msg == null) return;
         try {
             // 步骤2:创建一个FileOutputStream对象,MODE_APPEND追加模式
-            msg += read();  //前面的也读进来
-            FileOutputStream fos = openFileOutput("storage.txt",
+            FileOutputStream fos = openFileOutput("message.txt",
                     MODE_APPEND);
             // 步骤3：将获取过来的值放入文件
             fos.write(msg.getBytes());
