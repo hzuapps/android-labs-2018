@@ -8,14 +8,33 @@
     android:orientation="vertical">
 
 <!--标题-->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:text="@string/tv_heroTitle"
-        android:textSize="25sp"
-        android:textColor="@android:color/black"
-        android:gravity="center_horizontal"
-        />
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/tv_heroTitle"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_touchPaihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:text="查看排行"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp" />
+    </RelativeLayout>
 <!--鳄鱼-->
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +44,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_eyu"
+            android:background="@drawable/iv_eyu"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -82,7 +101,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_ruiwen"
+            android:background="@drawable/iv_ruiwen"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -138,7 +157,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_yasuo"
+            android:background="@drawable/iv_yasuo"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -194,7 +213,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_huangzi"
+            android:background="@drawable/iv_huangzi"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -252,7 +271,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_timo"
+            android:background="@drawable/iv_timo"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -309,7 +328,7 @@
         <ImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/iv_nuoshou"
+            android:background="@drawable/iv_nuoshou"
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -338,7 +357,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/black"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     />
             </LinearLayout>
 

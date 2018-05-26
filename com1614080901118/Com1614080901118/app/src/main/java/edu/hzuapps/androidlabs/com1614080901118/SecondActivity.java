@@ -1,5 +1,6 @@
 package edu.hzuapps.androidlabs.com1614080901118;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,6 +28,15 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        TextView tv_touchPaihan=(TextView)findViewById(R.id.tv_touchPaihan);
+        tv_touchPaihan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(SecondActivity.this,TouchActivity.class);
+                startActivity(intent);
+            }
+        });
 
         tv_eyuTouch=(TextView)findViewById(R.id.tv_eyuTouch);
         tv_ruiwenTouch=(TextView)findViewById(R.id.tv_ruiwenTouch);
