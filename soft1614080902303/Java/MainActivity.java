@@ -1,5 +1,7 @@
-package example.com.myapplication3;
+package myapplication3.com.example.myapplication3;
 
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
