@@ -7,12 +7,12 @@ package soft1614080902336.androidlabs.hzuapps.edu.wuziqi;
 		  import android.view.View.OnClickListener;
 		  import android.widget.Button;
 
-public class wuziqi extends AppCompatActivity implements OnClickListener{
+class wuziqi extends AppCompatActivity implements OnClickListener{
 
 		      @Override
 		      protected void onCreate(Bundle savedInstanceState) {
 		          super.onCreate(savedInstanceState);
-		          setContentView(R.layout.activity_wuziqi);
+		          setContentView(R.layout.content_wuziqirj);
         Button button = (Button) findViewById(R.id.button1);
 		          button.setOnClickListener(this);
 		      }

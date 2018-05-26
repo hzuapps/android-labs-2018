@@ -34,8 +34,7 @@
 		          xmlns:tools="http://schemas.android.com/tools"
 		          android:layout_width="match_parent"
 		          android:layout_height="match_parent"
-        android:background="@mipmap/������3"/>
-		      </RelativeLayout>
+        android:background="@mipmap/五子棋2"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -43,7 +42,7 @@
         android:gravity="bottom"
         android:orientation="vertical"
         app:layout_anchor="@+id/fab"
-        app:layout_anchorGravity="left|center">
+        app:layout_anchorGravity="left|center"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="��ʼ"
+                android:text="开始"
                android:textSize="20sp" />
 
             <Button
@@ -62,8 +61,40 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="ȡ��"
+                android:text="取消"
                android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/button3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="保存游戏"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/button4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="继续游戏"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/button5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="开始新游戏"
+				android:textSize="20sp" />
+
+			<Button
+				android:id="@+id/button6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="退出游戏"
+				android:textSize="20sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -72,4 +103,4 @@
 
     </LinearLayout>
 
-     </android.support.design.widget.CoordinatorLayout>
+	</android.support.design.widget.CoordinatorLayout>
