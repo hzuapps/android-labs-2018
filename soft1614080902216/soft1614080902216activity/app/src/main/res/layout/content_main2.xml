@@ -8,4 +8,15 @@
     tools:context="edu.huzapps.andriod.soft1614080902216.Main2Activity"
     tools:showIn="@layout/activity_main2">
 
+    <TextView
+        android:id="@+id/readView2"
+        android:layout_width="365dp"
+        android:layout_height="157dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392"
+        app:layout_constraintHorizontal_bias="0.157"/>
 </android.support.constraint.ConstraintLayout>
