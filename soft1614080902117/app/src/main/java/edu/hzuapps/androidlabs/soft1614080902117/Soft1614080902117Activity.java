@@ -1,21 +1,16 @@
 package edu.hzuapps.androidlabs.soft1614080902117;
 
-import android.content.Intent;
-
-import android.os.Bundle;
-
-import android.view.View;
-
-import android.widget.Button;
 import android.app.Activity;
-
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ListView;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.String;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 public class Soft1614080902117Activity extends Activity {
     String[]  adapterData;
@@ -36,6 +31,14 @@ public class Soft1614080902117Activity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(thisActivity,Soft1614080902117Activity1.class);
+                thisActivity.startActivity(intent);
+            }
+        });
+        Button  btnDlow = (Button)findViewById(R.id.button8);
+        btnDlow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(thisActivity,Soft1614080902117Activity2.class);
                 thisActivity.startActivity(intent);
             }
         });
