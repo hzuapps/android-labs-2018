@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.soft1614080902425.CreatetableActivity"
+    android:background="@drawable/school">
+
+
+    <ImageView
+        android:layout_alignTop="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baiduc" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputmes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="输入想要加入或创建的群组"
+            android:textSize="25dp" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/input">
+
+        <Button
+            android:id="@+id/returnlast"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="取消"
+            android:layout_weight="1"
+            android:background="#991e1e20" />
+
+
+        <Button
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/creat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="确认"
+            android:background="#994c3aea" />
+
+    </LinearLayout>
+</RelativeLayout>

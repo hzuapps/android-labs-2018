@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/school"
-    tools:context="com.example.administrator.soft1614080902425.Soft1614080902425Activity5"
+    tools:context="com.example.administrator.soft1614080902425.Soft1614080902425Activity6"
     tools:layout_editor_absoluteY="81dp">
 
     <RelativeLayout
@@ -42,9 +42,11 @@
 
 
             <android.support.design.widget.TextInputEditText
+                android:id="@+id/userkeyline"
                 android:layout_width="match_parent"
                 android:layout_height="39dp"
                 android:hint="请输入密码"
+                android:inputType="textPassword"
                 android:background="@null"
                  />
         </android.support.design.widget.TextInputLayout>
