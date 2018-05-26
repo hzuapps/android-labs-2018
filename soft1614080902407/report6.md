@@ -1,44 +1,45 @@
-# µÚÁù´ÎÊµÑé
+# ç¬¬å…­æ¬¡å®éªŒ
 
-## Ò»¡¢ÊµÑéÄ¿±ê
+## ä¸€ã€å®éªŒç›®æ ‡
 
-1.ÕÆÎÕAndroidÍøÂç·ÃÎÊ·½·¨
+1.æŒæ¡Androidç½‘ç»œè®¿é—®æ–¹æ³•
 
-2.Àí½âXMLºÍJSON±íÊ¾Êı¾İµÄ·½·¨¡¢
+2.ç†è§£XMLå’ŒJSONè¡¨ç¤ºæ•°æ®çš„æ–¹æ³•ã€
 
-## ¶ş¡¢ÊµÑéÄÚÈİ
+## äºŒã€å®éªŒå†…å®¹
 
-1.ÔÚ¸öÈËÄ¿Â¼ÖĞ´´½¨Ò»¸ö±íÊ¾Êı¾İµÄXML»òJSONÎÄ¼ş
+1.åœ¨ä¸ªäººç›®å½•ä¸­åˆ›å»ºä¸€ä¸ªè¡¨ç¤ºæ•°æ®çš„XMLæˆ–JSONæ–‡ä»¶
 
-2.Êı¾İÎÄ¼ş´úÂëÌá½»Ö®ºó´ÓGitHub»ñÈ¡ÎÄ¼şURL
+2.æ•°æ®æ–‡ä»¶ä»£ç æäº¤ä¹‹åä»GitHubè·å–æ–‡ä»¶URL
 
-3.ÔÚÓ¦ÓÃÖĞÍ¨¹ıÍøÂç±à³Ì·ÃÎÊGitHubµÄÊı¾İÎÄ¼ş
+3.åœ¨åº”ç”¨ä¸­é€šè¿‡ç½‘ç»œç¼–ç¨‹è®¿é—®GitHubçš„æ•°æ®æ–‡ä»¶
 
-4.ÔÚÓ¦ÓÃÖĞ½âÎö²¢ÏÔÊ¾ÎÄ¼şËù°üº¬µÄÊı¾İ
+4.åœ¨åº”ç”¨ä¸­è§£æå¹¶æ˜¾ç¤ºæ–‡ä»¶æ‰€åŒ…å«çš„æ•°æ®
 
-5.½«Ó¦ÓÃÔËĞĞ½á¹û½ØÍ¼
+5.å°†åº”ç”¨è¿è¡Œç»“æœæˆªå›¾
 
-## Èı¡¢ÊµÑé²½Öè
+## ä¸‰ã€å®éªŒæ­¥éª¤
 
-1.ÔÚGitHubÉÏ±à¼­JSONÎÄ¼ş£¬»ñÈ¡´ËÎÄ¼şURLhttps://raw.githubusercontent.com/Qiujialin/android-labs-2018/master/soft1614080902407/get_data.json£¬´ò¿ªAndroid Studio
+1.åœ¨GitHubä¸Šç¼–è¾‘JSONæ–‡ä»¶ï¼Œè·å–æ­¤æ–‡ä»¶URLhttps://raw.githubusercontent.com/Qiujialin/android-labs-2018/master/soft1614080902407/get_data.jsonï¼Œæ‰“å¼€Android Studio
 
-2.±à¼­AndroidManifest.xmlÎÄ¼ş£¬Ìí¼ÓÍøÂç·ÃÎÊÈ¨ÏŞÓï¾ä£º
+2.ç¼–è¾‘AndroidManifest.xmlæ–‡ä»¶ï¼Œæ·»åŠ ç½‘ç»œè®¿é—®æƒé™è¯­å¥ï¼š
 <uses-permission android:name="android.permission.INTERNET"/>
 
-3.±à¼­app/build.gradle£¬ÔÚdependencies±Õ°üÖĞÌí¼ÓÒÀÀµ£º
+3.ç¼–è¾‘app/build.gradleï¼Œåœ¨dependenciesé—­åŒ…ä¸­æ·»åŠ ä¾èµ–ï¼š
 implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 
-4.±à¼­SecondActivity.java£¬´´½¨Ò»¸öOkHttpClientÊµÀı£¬´´½¨Ò»¸öRequest¶ÔÏó²¢ÉèÖÃÄ¿±êÍøÂçhttps://raw.githubusercontent.com/Qiujialin/android-labs-2018/master/soft1614080902407/get_data.json£¬µ÷ÓÃOkHttpClientµÄnewCall()·½·¨´´½¨Ò»¸öCall¶ÔÏó£¬²¢µ÷ÓÃexecute·½·¨·¢ËÍÇëÇó²¢»ñÈ¡·şÎñÆ÷·µ»ØµÄÊı¾İ
+4.ç¼–è¾‘SecondActivity.javaï¼Œåˆ›å»ºä¸€ä¸ªOkHttpClientå®ä¾‹ï¼Œåˆ›å»ºä¸€ä¸ªRequestå¯¹è±¡å¹¶è®¾ç½®ç›®æ ‡ç½‘ç»œhttps://raw.githubusercontent.com/Qiujialin/android-labs-2018/master/soft1614080902407/get_data.json
+è°ƒç”¨OkHttpClientçš„newCall()æ–¹æ³•åˆ›å»ºä¸€ä¸ªCallå¯¹è±¡ï¼Œå¹¶è°ƒç”¨executeæ–¹æ³•å‘é€è¯·æ±‚å¹¶è·å–æœåŠ¡å™¨è¿”å›çš„æ•°æ®
 
-5.µ÷ÓÃparseJSONWithJSONObject()·½·¨½âÎöJSONÊı¾İ£¬½«·şÎñÆ÷·µ»ØµÄÊı¾İ´«ÈëJSONArray¶ÔÏó£¬±éÀúÃ¿Ò»¸öJSONArray¶ÔÏó£¬ÓÃgetString()·½·¨È¡³öÊı¾İ£¬²¢½«ÆäÏÔÊ¾µ½EditTextÖĞ
+5.è°ƒç”¨parseJSONWithJSONObject()æ–¹æ³•è§£æJSONæ•°æ®ï¼Œå°†æœåŠ¡å™¨è¿”å›çš„æ•°æ®ä¼ å…¥JSONArrayå¯¹è±¡ï¼Œéå†æ¯ä¸€ä¸ªJSONArrayå¯¹è±¡ï¼Œç”¨getString()æ–¹æ³•å–å‡ºæ•°æ®ï¼Œå¹¶å°†å…¶æ˜¾ç¤ºåˆ°EditTextä¸­
 
-6.ĞŞ¸ÄÔ­ÏÈButtonµÄidÎªgetJson£¬²¢ĞŞ¸Äµã»÷ÊÂ¼şÎªµ÷ÓÃsendRequestWithOkHttp()½øĞĞ¶ÁÈ¡²¢½âÎöJSONÎÄ¼ş£¬
+6.ä¿®æ”¹åŸå…ˆButtonçš„idä¸ºgetJsonï¼Œå¹¶ä¿®æ”¹ç‚¹å‡»äº‹ä»¶ä¸ºè°ƒç”¨sendRequestWithOkHttp()è¿›è¡Œè¯»å–å¹¶è§£æJSONæ–‡ä»¶ï¼Œ
 
-## ËÄ¡¢ÊµÑé´úÂëÓë½ØÍ¼
+## å››ã€å®éªŒä»£ç ä¸æˆªå›¾
 
-1.SecondActivity.java(Ìí¼ÓµÄ´úÂë)
+1.SecondActivity.java(æ·»åŠ çš„ä»£ç )
 
-    private void sendRequestWithOkHttp(){//·ÃÎÊ·şÎñÆ÷
+    private void sendRequestWithOkHttp(){//è®¿é—®æœåŠ¡å™¨
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -56,7 +57,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             }
         }).start();
     }
-    private void parseJSONWithJSONObject(String jsonData) {//½âÎöJSON
+    private void parseJSONWithJSONObject(String jsonData) {//è§£æJSON
         try {
             JSONArray jsonArray = new JSONArray(jsonData);
             for(int i=0;i<jsonArray.length();i++){
@@ -70,7 +71,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             e.printStackTrace();
         }
     }
-    private void showResponse(final String response) {//ÏÔÊ¾³öÀ´
+    private void showResponse(final String response) {//æ˜¾ç¤ºå‡ºæ¥
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -109,7 +110,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="ÄÚÈİ"
+            android:text="å†…å®¹"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -150,14 +151,14 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶¨Ê±ÌáĞÑ"
+            android:text="å®šæ—¶æé†’"
             android:textStyle="bold" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ìí¼ÓÍ¼Æ¬"
+            android:text="æ·»åŠ å›¾ç‰‡"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -171,7 +172,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶ÁÈ¡±¸ÍüÂ¼"
+            android:text="è¯»å–å¤‡å¿˜å½•"
             android:textStyle="bold" />
 
         <Button
@@ -179,7 +180,7 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶ÁÈ¡²¢½âÎöJSON"
+            android:text="è¯»å–å¹¶è§£æJSON"
             android:textStyle="bold"/>
     </LinearLayout>
 
@@ -189,14 +190,14 @@ implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 
 [{
 	"id": "1614080902407",
-	"name": "Çñ¼ÒÁØ"
+	"name": "é‚±å®¶éœ–"
 }]
 
-![image]()
+![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE6-1.jpg?raw=true)
 
-![image]()
+![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE6-2.jpg?raw=true)
 
-## Îå¡¢ÊµÑéÌå»á
+## äº”ã€å®éªŒä½“ä¼š
 
-Í¨¹ı´Ë´ÎÊµÑé£¬ÁË½âÁËÈçºÎ·ÃÎÊÍøÂç£¬ÈçºÎÓÃJSONObject½âÎöJSONµÄ´úÂë£¬´Ë´ÎÊµÑéÓÃOkHttpÌæ´úÔ­ÉúµÄHttpURLConnection£¬±ÈÔ­À´µÄHttpURLConnection·¢ËÍHTTPÇëÇó»á¼òµ¥£¬ÁË½âÁËJSONÎÄ¼şµÄ¸ñÊ½ÒÔ¼°ÈçºÎĞ´£¬ÔÚ°²×¿ÖĞ¿ªÆôÈ¨ÏŞĞèÒªÔÚAndroidManifest.xmlÌí¼ÓÏà¹ØÈ¨ÏŞµÄÓï¾ä£¬ÔÚÒ»¿ªÊ¼ÓÉÓÚÃ»ÓĞ¼ÓÈëÍøÂç·ÃÎÊÈ¨ÏŞÓï¾äµ¼ÖÂÊµÑé²»³É¹¦£¬ºóÃæÕÒ³ö´íÎó²¢¸ÄÕı¡£
+é€šè¿‡æ­¤æ¬¡å®éªŒï¼Œäº†è§£äº†å¦‚ä½•è®¿é—®ç½‘ç»œï¼Œå¦‚ä½•ç”¨JSONObjectè§£æJSONçš„ä»£ç ï¼Œæ­¤æ¬¡å®éªŒç”¨OkHttpæ›¿ä»£åŸç”Ÿçš„HttpURLConnectionï¼Œæ¯”åŸæ¥çš„HttpURLConnectionå‘é€HTTPè¯·æ±‚ä¼šç®€å•ï¼Œäº†è§£äº†JSONæ–‡ä»¶çš„æ ¼å¼ä»¥åŠå¦‚ä½•å†™ï¼Œåœ¨å®‰å“ä¸­å¼€å¯æƒé™éœ€è¦åœ¨AndroidManifest.xmlæ·»åŠ ç›¸å…³æƒé™çš„è¯­å¥ï¼Œåœ¨ä¸€å¼€å§‹ç”±äºæ²¡æœ‰åŠ å…¥ç½‘ç»œè®¿é—®æƒé™è¯­å¥å¯¼è‡´å®éªŒä¸æˆåŠŸï¼Œåé¢æ‰¾å‡ºé”™è¯¯å¹¶æ”¹æ­£ã€‚
 
