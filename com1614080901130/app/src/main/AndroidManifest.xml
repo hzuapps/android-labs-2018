@@ -7,10 +7,7 @@
 
         android:icon="@drawable/ic_launcher_background"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
         android:fullBackupContent="true">
         <activity android:name=".Anni">
             <intent-filter>
