@@ -17,6 +17,7 @@
 3.编写线程进行获取url，输入输出，并且完成下载
 
 四.实验截图
+
 ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C6%E6%88%AA%E5%9B%BE1.png)
 ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C6%E6%88%AA%E5%9B%BE2.png)
 五.实验体会
