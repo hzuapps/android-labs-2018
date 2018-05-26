@@ -2,17 +2,17 @@
  
     "food": [
         {
-            "name": "小蛋糕",
+            "name": "smallcake",
             "price": "52"
             "count": "12"
         },
         {
-            "name": "中蛋糕",
+            "name": "centercake",
             "price": "108"
             "count":"10"
         },
         {
-             "name": "大蛋糕",
+             "name": "bigcake",
             "price":"151"
             "count":"8"
         },
