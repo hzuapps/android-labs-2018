@@ -20,6 +20,7 @@
 
 ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C6%E6%88%AA%E5%9B%BE1.png)
 ![](https://raw.githubusercontent.com/IsMyLucas/android-labs-2018/master/Soft1612070501328/%E5%AE%9E%E9%AA%8C6%E6%88%AA%E5%9B%BE2.png)
+
 五.实验体会
 
-实验一点点积累，所以在很多不懂的情况下还是挺难的。
+实验一点点积累，这个实验最大的问题是在AndroidManifest.xml忘记获取权限了，因此花了我好长时间去找问题，我忘记所以在很多不懂的情况下还是挺难的。
