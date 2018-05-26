@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="soft1614080902313.androidlabs.hzuapps.edu.eventreminder">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>  
 
     <application
         android:allowBackup="true"
