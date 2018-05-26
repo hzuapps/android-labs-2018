@@ -1,65 +1,88 @@
 package com.example.hasee.soft1612070501328;
 
-import android.support.v7.app.AppCompatActivity;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
+import android.widget.ImageView;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
+public class MainActivity extends Activity {
 
-public class MainActivity extends AppCompatActivity {
-    private EditText et_info;
-    private Button   btn_read;
-    private  Button  btn_save;
-    @Override
+    private EditText editText;
+    private Button button;
+    private ImageView imageView;
+
+    private Bitmap bitmap;
+    //手柄更新的作用
+    Handler handler=new Handler(){
+        public void handleMessage(Message msg) {
+            if(msg.what==111){
+                imageView.setImageBitmap(bitmap);
+            }
+        }
+    };
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //变量初始化
-        et_info=(EditText)findViewById(R.id.et_info);
-        btn_read=(Button)findViewById(R.id.btn_read);
-        btn_save=(Button)findViewById(R.id.btn_save);
-        btn_save.setOnClickListener(new ButtonListener());
-        btn_read.setOnClickListener(new ButtonListener());
 
-    }
-    private class ButtonListener implements View.OnClickListener{
+        //初始化组件
+        editText=(EditText) findViewById(R.id.imagepath);
+        button=(Button) findViewById(R.id.upload);
+        imageView=(ImageView) findViewById(R.id.imageView);
 
-
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()){
-                case R.id.btn_save:
-                    String saveInfo=et_info.getText().toString().trim();
-                    FileOutputStream fos;
-                    try {
-                        fos=openFileOutput("data1.txt",MODE_APPEND);//把文件输出到data中
-                        fos.write(saveInfo.getBytes());//将我们写入的字符串变成字符数组）
-                        fos.close();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    Toast.makeText(MainActivity.this,"下单成功",Toast.LENGTH_SHORT).show();
-                    break;
-                case R.id.btn_read:
-                    String content="";
-                    try {
-                        FileInputStream fis=openFileInput("data1.txt");
-                        byte [] buffer=new  byte[fis.available()];
-                        fis.read(buffer);
-                        content=new String(buffer);
-                        fis.close();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    Toast.makeText(MainActivity.this,"您的订单是"+content,Toast.LENGTH_SHORT).show();
-                    break;
-                default:
+        //给下载按钮添加一个监听
+        button.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                new Thread(t).start();
             }
-        }
+        });
     }
+
+    //为了下载图片资源，开辟一个新的子线程
+    Thread t=new Thread(){
+        public void run() {
+            //下载图片的路径
+            String iPath=editText.getText().toString();
+            try {
+                //对资源链接
+                URL url=new URL(iPath);
+                //打开输入流
+                InputStream inputStream=url.openStream();
+                //对网上资源进行下载转换位图图片
+                bitmap=BitmapFactory.decodeStream(inputStream);
+                handler.sendEmptyMessage(111);
+                inputStream.close();
+
+                //再一次打开
+                inputStream=url.openStream();
+                File file=new File(Environment.getExternalStorageDirectory()+"/1120513656acc03b7dl.jpg");
+                FileOutputStream fileOutputStream=new FileOutputStream(file);
+                int hasRead=0;
+                while((hasRead=inputStream.read())!=-1){
+                    fileOutputStream.write(hasRead);
+                }
+                fileOutputStream.close();
+                inputStream.close();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        };
+    };
 }
