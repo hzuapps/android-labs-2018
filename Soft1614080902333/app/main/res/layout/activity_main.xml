@@ -89,7 +89,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
-        android:onClick="alarmOne"
         android:background="#008080"
         android:text="闹钟预览" />
 
@@ -99,8 +98,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="450dp"
-        android:onClick="alarmOne"
         android:background="#ff8c00"
-        android:text="在线图片查询" />
+        android:text="在线图片下载查询" />
+
+    <Button
+        android:id="@+id/button_remark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:background="#ff8c00"
+        android:text="闹钟备注" />
 
 </RelativeLayout>

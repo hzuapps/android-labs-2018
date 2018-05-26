@@ -19,7 +19,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements Runnable {
     private AlarmManager alarmManager;
-    Button btn;
+    Button btn,btn1,btn2;
      TextView  tt,aa;
     Calendar c=Calendar.getInstance();
     private Handler handler;
@@ -38,6 +38,26 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             public void onClick(View view) {
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this,RingActivity.class);
+                startActivity(intent);
+            }
+        });
+ //保存remark
+        btn1 = (Button) findViewById(R.id.button_remark);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this,SavaremarkActivity.class);
+                startActivity(intent);
+            }
+        });
+        //下载图片
+        btn2 = (Button) findViewById(R.id.button11);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this,OnpActivity.class);
                 startActivity(intent);
             }
         });
