@@ -4,4 +4,10 @@
 }, {
 	"name": "夏日搭配",
 	"description": "适合夏天炎热的天气"
+},{
+	"name":"秋日推荐",
+	"description":"伴随着微凉的秋日"
+},{
+	"name":"严冬暖意"
+	"description":"寒冷的冬天也不失温度"
 }]
