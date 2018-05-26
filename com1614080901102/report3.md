@@ -20,7 +20,7 @@
 
 ## 3.实验结果
 
-![image](https://github.com/liaohuajjj/android-labs-2018/blob/master/soft1614080902233/tupian3.1.png)
+![image](https://github.com/GGGGuoSM/android-labs-2018/blob/master/com1614080901102/41%7BEG5AC%7B6E9XCP%7BPQBF5YK.jpg)
 
 
 ## 4.实验体会
