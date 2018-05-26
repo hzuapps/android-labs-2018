@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -13,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,6 +29,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class soft1614080902223BMainActivity extends AppCompatActivity {
+    private ImageView beijin;
+    private Handler handler=new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +60,14 @@ public class soft1614080902223BMainActivity extends AppCompatActivity {
                 intent.putExtra("name","maomic");
                 washow("maomic");
                 startActivity(intent);
+            }
+        });
+        beijin=(ImageView)findViewById(R.id.tp02_02);
+        ((Button)findViewById(R.id.button_xiazai01)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String s=((EditText)findViewById(R.id.edit_wangzhi)).getText().toString();
+                new httpThread(s,beijin,handler).start();
             }
         });
         ((Button)findViewById(R.id.button_find)).setOnClickListener(new View.OnClickListener() {
