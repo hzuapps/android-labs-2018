@@ -12,10 +12,16 @@ public class Soft1614080902121Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902121);
-        textView=(TextView)findViewById(R.id.button2);
+        textView=(TextView)findViewById(R.id.button3);
         textView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
                 Intent intent=new Intent(Soft1614080902121Activity.this,SecondActivity.class);
+                startActivity(intent);
+            }});
+        textView=(TextView)findViewById(R.id.button6);
+        textView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent=new Intent(Soft1614080902121Activity.this,ThridActivity.class);
                 startActivity(intent);
             }});
     }
