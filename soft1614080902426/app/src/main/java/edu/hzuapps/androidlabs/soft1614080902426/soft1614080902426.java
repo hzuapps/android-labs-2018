@@ -24,5 +24,13 @@ public class soft1614080902426 extends AppCompatActivity {
                 //thisActivity.startActivityForResult(intent, 2016);
             }
         });
+        Button btnOpen2 = (Button) findViewById(R.id.Button3);
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(thisActivity, LoginActivity.class);
+                thisActivity.startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
     }
 }

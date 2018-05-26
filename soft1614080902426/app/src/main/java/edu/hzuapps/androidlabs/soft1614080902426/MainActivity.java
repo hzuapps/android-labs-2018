@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnOpen = (Button) findViewById(R.id.Button1);
         btnOpen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, soft1614080902426.class);
+                Intent intent = new Intent(thisActivity,soft1614080902426.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
