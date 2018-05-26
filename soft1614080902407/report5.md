@@ -1,30 +1,30 @@
-# µÚÎå´ÎÊµÑé
+# ç¬¬äº”æ¬¡å®éªŒ
 
-## Ò»¡¢ÊµÑéÄÚÈİ
+## ä¸€ã€å®éªŒå†…å®¹
 
-Ê¹ÓÃÎÄ¼ş´æ´¢
+ä½¿ç”¨æ–‡ä»¶å­˜å‚¨
 
-1.½«Ó¦ÓÃ²úÉúµÄÊı¾İ±£´æµ½ÎÄ¼ş´æ´¢ÖĞ£»
+1.å°†åº”ç”¨äº§ç”Ÿçš„æ•°æ®ä¿å­˜åˆ°æ–‡ä»¶å­˜å‚¨ä¸­ï¼›
 
-2.ËµÃ÷Ê¹ÓÃµÄÎÄ¼ş´æ´¢·½Ê½£ºÄÚ²¿ or Íâ²¿£»
+2.è¯´æ˜ä½¿ç”¨çš„æ–‡ä»¶å­˜å‚¨æ–¹å¼ï¼šå†…éƒ¨ or å¤–éƒ¨ï¼›
 
-3.½«ÔËĞĞ½á¹û½ØÍ¼¡£
+3.å°†è¿è¡Œç»“æœæˆªå›¾ã€‚
 
-## ¶ş¡¢ÊµÑé²½Öè
+## äºŒã€å®éªŒæ­¥éª¤
 
-1.´ò¿ªAndroid Studio£»
+1.æ‰“å¼€Android Studioï¼›
 
-2.ĞŞ¸ÄSecondActivity.java
+2.ä¿®æ”¹SecondActivity.java
 
-3.ÔÚonCreate()·½·¨ÖĞ»ñÈ¡EditTextµÄÊµÀı²¢ÖØĞ´ÁËonDestroy()·½·¨£¬´Ó¶øÔÚ»î¶¯Ïú»ÙÇ°±Ø¶¨µ÷ÓÃÕâ¸ö·½·¨£¬ÔÚÀïÃæµ÷ÓÃsave()·½·¨°ÑÎÄ±¾ÊäÈë¿òÄÚµÄÄÚÈİ´æ´¢µ½ÎÄ¼şÖĞ£¬²ÉÓÃÄÚ²¿´æ´¢
+3.åœ¨onCreate()æ–¹æ³•ä¸­è·å–EditTextçš„å®ä¾‹å¹¶é‡å†™äº†onDestroy()æ–¹æ³•ï¼Œä»è€Œåœ¨æ´»åŠ¨é”€æ¯å‰å¿…å®šè°ƒç”¨è¿™ä¸ªæ–¹æ³•ï¼Œåœ¨é‡Œé¢è°ƒç”¨save()æ–¹æ³•æŠŠæ–‡æœ¬è¾“å…¥æ¡†å†…çš„å†…å®¹å­˜å‚¨åˆ°æ–‡ä»¶ä¸­ï¼Œé‡‡ç”¨å†…éƒ¨å­˜å‚¨
 
-4.save()·½·¨²ÉÓÃJavaÁ÷µÄ·½Ê½£¬Í¨¹ı»ñÈ¡EditTextµÄÄÚÈİ£¬²ÉÓÃ´øÓĞ»º³åÇøµÄ×Ö·ûÁ÷Ğ´ÈëÎÄ¼şÖĞ£¬ÎÄ¼şµÄ²Ù×÷Ä£Ê½²ÉÓÃÄ¬ÈÏµÄ²Ù×÷Ä£Ê½¡ª¡ªMODE_PRIVATE
+4.save()æ–¹æ³•é‡‡ç”¨Javaæµçš„æ–¹å¼ï¼Œé€šè¿‡è·å–EditTextçš„å†…å®¹ï¼Œé‡‡ç”¨å¸¦æœ‰ç¼“å†²åŒºçš„å­—ç¬¦æµå†™å…¥æ–‡ä»¶ä¸­ï¼Œæ–‡ä»¶çš„æ“ä½œæ¨¡å¼é‡‡ç”¨é»˜è®¤çš„æ“ä½œæ¨¡å¼â€”â€”MODE_PRIVATE
 
-5.load()·½·¨Îª¶ÁÈ¡ÎÄ¼ş·½·¨£¬Ò²ÊÇ²ÉÓÃJavaÁ÷µÄ·½Ê½¶ÁÈ¡µ½EditTextÖĞ£¬µã»÷¶ÁÈ¡°´Å¥¼´¿É¶ÁÈ¡ÎÄ¼şÄÚÈİÖÁÎÄ±¾ÊäÈë¿ò
+5.load()æ–¹æ³•ä¸ºè¯»å–æ–‡ä»¶æ–¹æ³•ï¼Œä¹Ÿæ˜¯é‡‡ç”¨Javaæµçš„æ–¹å¼è¯»å–åˆ°EditTextä¸­ï¼Œç‚¹å‡»è¯»å–æŒ‰é’®å³å¯è¯»å–æ–‡ä»¶å†…å®¹è‡³æ–‡æœ¬è¾“å…¥æ¡†
 
-## Èı¡¢ÊµÑé´úÂëºÍ½ØÍ¼
+## ä¸‰ã€å®éªŒä»£ç å’Œæˆªå›¾
 
-£¨1£©SecondActivity.java
+ï¼ˆ1ï¼‰SecondActivity.java
 
 package edu.hzuapps.androidlabs.soft1614080902407;
 
@@ -65,7 +65,7 @@ public class SecondActivity extends AppCompatActivity {
                 thisActivity.startActivity(intent);
             }
         });
-        btnJoin.setOnClickListener(new View.OnClickListener() {//´ÓÎÄ¼ş¶ÁÈ¡ÄÚÈİ
+        btnJoin.setOnClickListener(new View.OnClickListener() {//ä»æ–‡ä»¶è¯»å–å†…å®¹
             @Override
             public void onClick(View v) {
                 String inputText = load();
@@ -74,7 +74,7 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
     }
-    protected void onDestroy() {                            //´æ´¢ÎÄ¼ş
+    protected void onDestroy() {                            //å­˜å‚¨æ–‡ä»¶
 
         super.onDestroy();
         String  inputText = editText.getText().toString();
@@ -100,7 +100,7 @@ public class SecondActivity extends AppCompatActivity {
         }
 
     }
-    public String load(){                                           //¶ÁÈ¡ÎÄ¼ş
+    public String load(){                                           //è¯»å–æ–‡ä»¶
         FileInputStream in =null;
         BufferedReader reader = null;
         StringBuilder content = new StringBuilder();
@@ -126,7 +126,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 }
 
-£¨2£©Soft1614080902407Activity_1.java
+ï¼ˆ2ï¼‰Soft1614080902407Activity_1.java
 
 package edu.hzuapps.androidlabs.soft1614080902407;
 import java.lang.String;
@@ -147,7 +147,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902407_1);
         final ListView listView = (ListView)findViewById(R.id.listview);
-        adapterData = new String[] { "ÎÄ±¾1","ÎÄ±¾2", "ÎÄ±¾3","ÎÄ±¾4"};
+        adapterData = new String[] { "æ–‡æœ¬1","æ–‡æœ¬2", "æ–‡æœ¬3","æ–‡æœ¬4"};
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>( Soft1614080902407Activity_1.this, android.R.layout.simple_list_item_1, adapterData);
         listView.setAdapter(arrayAdapter);
         final Activity  thisActivity = this;
@@ -183,7 +183,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="ÄÚÈİ"
+            android:text="å†…å®¹"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -224,14 +224,14 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶¨Ê±ÌáĞÑ"
+            android:text="å®šæ—¶æé†’"
             android:textStyle="bold" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ìí¼ÓÍ¼Æ¬"
+            android:text="æ·»åŠ å›¾ç‰‡"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -245,7 +245,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="¶ÁÈ¡±¸ÍüÂ¼"
+            android:text="è¯»å–å¤‡å¿˜å½•"
             android:textStyle="bold" />
 
         <Button
@@ -257,10 +257,10 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
 
 </LinearLayout>
 
-![image]()
+![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE5-1.jpg?raw=true)
 
-![image]()
+![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE5-2.jpg?raw=true)
 
-## ËÄ¡¢ÊµÑéÌå»á
+## å››ã€å®éªŒä½“ä¼š
 
-±¾´ÎÊµÑéÎÒ²ÉÓÃÄÚ²¿´æ´¢µÄ·½Ê½£¬Í¨¹ı±¾´ÎÊµÑé£¬ÎÒÈ¥Ñ§Ï°ÁËJavaÁ÷µÄÖªÊ¶£¬Ñ§»áÁËÈçºÎÊ¹ÓÃJavaÁ÷½øĞĞÒ»Ğ©¼òµ¥µÄ²Ù×÷£¬ÁË½âÁËAndroidÈçºÎ´æ´¢ÎÄ¼şÒÔ¼°¶ÁÈ¡ÎÄ¼ş£¬²¢ÓÃJavaÁ÷µÄ·½Ê½½«EditTextµÄÄÚÈİ´æ´¢µ½ÎÄ¼şÖĞÒÔ¼°¶ÁÈ¡µ½EditText
+æœ¬æ¬¡å®éªŒæˆ‘é‡‡ç”¨å†…éƒ¨å­˜å‚¨çš„æ–¹å¼ï¼Œé€šè¿‡æœ¬æ¬¡å®éªŒï¼Œæˆ‘å»å­¦ä¹ äº†Javaæµçš„çŸ¥è¯†ï¼Œå­¦ä¼šäº†å¦‚ä½•ä½¿ç”¨Javaæµè¿›è¡Œä¸€äº›ç®€å•çš„æ“ä½œï¼Œäº†è§£äº†Androidå¦‚ä½•å­˜å‚¨æ–‡ä»¶ä»¥åŠè¯»å–æ–‡ä»¶ï¼Œå¹¶ç”¨Javaæµçš„æ–¹å¼å°†EditTextçš„å†…å®¹å­˜å‚¨åˆ°æ–‡ä»¶ä¸­ä»¥åŠè¯»å–åˆ°EditTextï¼Œæ–‡ä»¶ä¿å­˜åœ¨/data/data/edu.hzuapps.androidlabs.soft1614080902407/filesæ–‡ä»¶å¤¹ä¸‹
