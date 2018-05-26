@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical" >
+    tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/imagepath"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="https://img.zcool.cn/community/01527858d8b73ea801219c7768cc3b.jpg@1280w_1l_2o_100sh.webp"
-        />
-    <Button
-        android:id="@+id/upload"
+    <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="下载"
-        />
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20dp"
+        android:text="请输入您要菜式:" />
+    <EditText
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:id="@+id/et_info"/>
+    <requestFocus/>
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/et_info"
+        android:layout_below="@id/et_info"
+        android:text="读取订单" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/et_info"
+        android:text="确认下单" />
 
 
-</LinearLayout>
+</RelativeLayout>
