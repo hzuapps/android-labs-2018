@@ -38,10 +38,10 @@ public class TestActivity extends AppCompatActivity {
             case R.id.xieru:
                 EditText ethour = (EditText)findViewById(R.id.hour);
                 data = ethour.getText().toString();
-                save(data);    //调用保存方法，将输入的姓名和年龄保存
+                save(data);    //调用保存方法，将输入的数据保存
                 break;
             case R.id.duqu:
-                readPrefs();   //调用读取方法，将保存的文件中的姓名和年龄显示出来
+                readPrefs();   //调用读取方法，将保存的文件中的数据显示出来
                 break;
         }
     }
