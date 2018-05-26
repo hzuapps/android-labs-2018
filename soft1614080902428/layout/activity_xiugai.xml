@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b"
+    tools:context=".xiugai">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="编辑备忘录"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="140dp"/>
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textColor="#FF0000"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="300dp"/>
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="383dp"
+            android:layout_height="480dp"
+            android:layout_marginTop="50dp"
+            android:gravity="top"/>
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:layout_marginTop="530dp"
+            android:textColor="#30F"
+            android:textStyle="bold"/>
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".chakan">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="384dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="事件查看"
+            android:textColor="#3232CD"
+            android:textSize="40dp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:layout_marginTop="515dp"
+            android:layout_marginLeft="150dp"/>
+        <EditText
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png"
+            android:layout_marginTop="60dp"/>
+        <ImageView
+            android:id="@+id/imview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="100dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="去森林"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginTop="400dp"/>
+
+</RelativeLayout>
+</LinearLayout>
