@@ -22,6 +22,7 @@ public class ContentActivity extends AppCompatActivity {
     private WebView wb;
     private String data_html;
     private String Title;
+    private String imgUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,8 +60,10 @@ public class ContentActivity extends AppCompatActivity {
                     ContentGson g_data = cgson.fromJson(sbody,ContentGson.class);
                     List<String> css = g_data.getCss();
                     Title = g_data.getTitle();
+                    imgUrl = g_data.getImage();
                     css.get(0);
                     data_html = "<link rel=\"stylesheet\" type=\"text/css\" href=\"" + css.get(0) +"\" />";
+                    data_html += "<img  src=\"" + imgUrl +"\"  style=\"max-width:100%; width:100%; max-height:345px; vertical-align:middle;  margin-bottom:-200px;\" />";
                     data_html = data_html + g_data.getBody();
                 }
                 runOnUiThread(new Runnable() {
