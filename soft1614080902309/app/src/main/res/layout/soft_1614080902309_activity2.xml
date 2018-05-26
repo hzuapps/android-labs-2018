@@ -29,34 +29,15 @@
         android:layout_marginStart="72dp"
         android:layout_marginLeft="72dp"
         android:layout_marginTop="123dp"
-        android:text="星期：" />
+        android:text="具体时间段：" />
+
+
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="213dp"
-        android:text="时间段：" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-111dp"
-        android:layout_marginBottom="220dp"
-        android:layout_toStartOf="@+id/textView"
-        android:text="教学楼："
-        android:layout_marginRight="-111dp"
-        android:layout_toLeftOf="@+id/textView" />
-
-    <TextView
-        android:id = "@+id/TextView_city"
+        android:id = "@+id/TextView5"
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
-        android:text = "所在城市："
+        android:text = "您选择的时间段是："
         />
 
 
@@ -71,14 +52,14 @@
         android:layout_marginBottom="0dp"
         tools:ignore="RtlCompat" />
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="120dp"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="244dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginBottom="1dp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="215dp"
+        android:text="开始查询" />
+
+
 </RelativeLayout>

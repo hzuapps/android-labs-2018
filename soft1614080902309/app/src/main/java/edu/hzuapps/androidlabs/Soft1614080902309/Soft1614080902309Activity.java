@@ -13,7 +13,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import edu.hzuapps.androidlabs.Soft1614080902309.*;
 public class Soft1614080902309Activity extends AppCompatActivity {
     private EditText mEditTextContent;
     private Button mButtonSave;
@@ -32,6 +31,16 @@ public class Soft1614080902309Activity extends AppCompatActivity {
                 Intent intent = new Intent(thisActivity,Soft1614080902309Activity2.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+//进入gojson  进行监听
+
+        Button btn = (Button) findViewById(R.id.gojson);
+        btn .setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+    Intent intent = new Intent(thisActivity,Soft1614080902309Activity3.class);
+                thisActivity.startActivity(intent);
             }
         });
 

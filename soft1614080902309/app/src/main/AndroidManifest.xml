@@ -15,6 +15,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Soft1614080902309Activity2" />
+        <activity android:name=".Soft1614080902309Activity3" />
     </application>
 
 </manifest>
