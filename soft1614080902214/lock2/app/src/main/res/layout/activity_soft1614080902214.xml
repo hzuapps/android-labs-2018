@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1614080902214">
+
+    <TextView
+        android:id="@+id/ting"
+        android:layout_width="385dp"
+        android:layout_height="570dp"
+        android:drawableTop="@drawable/timg" />
+
+    <Button
+        android:id="@+id/click_button"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="350dp"
+        android:text="1"
+        app:layout_anchor="@+id/ting" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="350dp"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="350dp"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="420dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="420dp"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="420dp"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="490dp"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="490dp"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="128dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="490dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="250dp"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="260dp"
+        android:text="查看密码"
+        android:onClick="click2"
+        />
+
+
+    <TextView
+        android:text="密 码："
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="130dp"/>
+
+    <EditText
+        android:id="@+id/mima1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="116dp"
+        android:layout_weight="1"
+        android:maxLines="1" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
