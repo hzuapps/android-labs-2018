@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sousuo"
+    tools:context=".Save"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="返回"
+        app:layout_constraintEnd_toEndOf="@+id/path"
+        app:layout_constraintTop_toBottomOf="@+id/path" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="15dp"
+        android:text="保存记录"
+        app:layout_constraintEnd_toStartOf="@+id/sousuo"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/path" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="59dp"
+        android:text="所在的服务器："
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBaseline_toBaselineOf="@+id/saveID"
+        app:layout_constraintEnd_toStartOf="@+id/saveID"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="请输入好友ID："
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintBaseline_toBaselineOf="@+id/saveArea"
+        app:layout_constraintEnd_toStartOf="@+id/saveArea" />
+
+    <EditText
+        android:id="@+id/saveID"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="51dp"
+        android:singleLine="false"
+        app:layout_constraintBottom_toBottomOf="@+id/saveArea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/saveArea"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="101dp"
+        android:singleLine="false"
+        app:layout_constraintEnd_toEndOf="@+id/saveID"
+        app:layout_constraintStart_toStartOf="@+id/saveID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sousuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="搜索"
+        app:layout_constraintBottom_toTopOf="@+id/path"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="187dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+</android.support.constraint.ConstraintLayout>
