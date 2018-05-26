@@ -3,7 +3,10 @@ package edu.hzuapps.androidlabs.soft1614080902326;
 import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -16,6 +19,7 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -38,7 +42,7 @@ import java.util.Date;
 
 import static android.content.ContentValues.TAG;
 
-public class Soft1614080902326Activity extends Activity implements View.OnClickListener,TextWatcher {
+public class Soft1614080902326Activity extends Activity implements View.OnClickListener,TextWatcher ,View.OnTouchListener {
 
     private static final int CODE_GALLERY_REQUEST = 0xa0;//本地
     private static final int CODE_CAMERA_REQUEST = 0xa1;//拍照
@@ -57,10 +61,24 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
     public String cS;
     Uri photoUri;
     public static final String FILENAME = "color_list.txt";
+
+    private TextView tvTouchShowStart;
+    private TextView tvTouchShow;
+    private ImageView iv;
+    private Bitmap bitmap;
+
+    private EditText hex;
+    private EditText s;
+    private EditText r;
+    private EditText g;
+    private EditText b;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902326);
+
+        init();
 
         initPopupWindow();
         initView();
@@ -68,11 +86,20 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         select_Image = (ImageView) findViewById(R.id.selectImage);
         //初始化图片
         select_Image.setImageResource(R.drawable.default_pic);
+        //预览颜色
+        colorShow=(TextView)findViewById(R.id.colorShow);
         Button add =(Button) findViewById(R.id.add_Button);
         add.setOnClickListener(this);
         //打开收藏
         final Button collect = (Button) findViewById(R.id.collectButton);
         collect.setOnClickListener(this);
+
+        hex=(EditText)findViewById(R.id.hexCode) ;
+        s=(EditText)findViewById(R.id.sValue) ;
+        r=(EditText)findViewById(R.id.rValue) ;
+        g=(EditText)findViewById(R.id.gValue) ;
+        b=(EditText)findViewById(R.id.bValue) ;
+
         //保存
         Button save=(Button) findViewById(R.id.save);
         //save.setOnClickListener(this);
@@ -98,7 +125,7 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
                 rV = ((EditText)findViewById(R.id.rValue)).getText().toString();
                 gV = ((EditText)findViewById(R.id.gValue)).getText().toString();
                 bV = ((EditText)findViewById(R.id.bValue)).getText().toString();
-                colorShow=(TextView)findViewById(R.id.colorShow);
+
                 colorShow.setBackgroundColor(Color.argb(Integer.parseInt(sV),Integer.parseInt(rV),Integer.parseInt(gV),Integer.parseInt(bV)));
                 /*hc = ((EditText)findViewById(R.id.hexCode)).getText().toString();
                 cS="#"+hc;
@@ -120,9 +147,9 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
                 String hc = ((EditText)findViewById(R.id.hexCode)).getText().toString();
                 cS="#"+hc;
                 colorShow=(TextView)findViewById(R.id.colorShow);
-
                 if(cS.length()==9||cS.length()==7)
                     colorShow.setBackgroundColor(Color.parseColor(cS));
+
 
             }
 
@@ -146,9 +173,8 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
 
             @Override
             public void afterTextChanged(Editable s) {
-                /*String sV = ((EditText)findViewById(R.id.sValue)).getText().toString();
+                //sValue.setText(sV);
 
-                sValue.setText(sV);*/
 
             }
         });
@@ -219,9 +245,9 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
 
         File dir = this.getFilesDir();
         File file = new File(dir, FILENAME);
-        if (file.exists()) { 
+        if (file.exists()) { // 判断文件是否存在
             Log.i(TAG, file.getAbsolutePath());
-            Log.i(TAG, file.length() + ""); 
+            Log.i(TAG, file.length() + ""); // bytes*1024=kb *1024 MB
             Log.i(TAG, file.isFile() + "");
             file.canRead();
             file.canWrite();
@@ -234,11 +260,13 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
         FileOutputStream fos = null;
         try { // 使用API打开输出流
             fos = openFileOutput(FILENAME, MODE_APPEND);//MODE_APPEND增量方式写入已存在文件，默认使用覆盖私有模式即MODE_PRIVATE
+            //FileOutputStream fos = new FileOutputStream(file);
             fos.write('#');
             fos.write(s.getBytes());
             fos.write('\n');
-            Toast.makeText(getApplicationContext(), "已添加颜色"+"#"+hc, Toast.LENGTH_SHORT).show();
-            fos.close(); 
+            // 写入内容
+            Toast.makeText(getApplicationContext(), "已添加颜色"+"#"+hc+"    "+sV+rV+gV+bV, Toast.LENGTH_SHORT).show();
+            fos.close(); // 关闭流
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -458,9 +486,6 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
                 intent.setClass(Soft1614080902326Activity.this,CollectActivity.class);
                 startActivity(intent);
                 break;
-            /*case R.id.save:
-
-                break;*/
         }
 
     }
@@ -519,4 +544,54 @@ public class Soft1614080902326Activity extends Activity implements View.OnClickL
     public void afterTextChanged(Editable s) {
 
     }
+    private void init() {
+        tvTouchShowStart = (TextView) findViewById(R.id.touch_show_start);
+        tvTouchShow = (TextView) findViewById(R.id.touch_show);
+        iv=(ImageView)findViewById(R.id.selectImage);
+        iv.setOnTouchListener(this);
+    }
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        switch (event.getAction()) {
+            /**
+             * 点击的开始位置
+             */
+            case MotionEvent.ACTION_DOWN:
+                tvTouchShowStart.setText("起始:" + (int)event.getX() + "," + (int)event.getY());
+                break;
+            /**
+             * 触屏实时位置
+             */
+            case MotionEvent.ACTION_MOVE:
+                tvTouchShow.setText("实时:" + (int)event.getX() + "," + (int)event.getY());
+                //colorShow.setBackgroundColor(Color.parseColor("#ff000000"));
+                bitmap = ((BitmapDrawable)select_Image.getDrawable()).getBitmap();
+                int pixel = bitmap.getPixel((int)event.getX(),(int)event.getY());
+                //获取颜色
+                int redValue = Color.red(pixel);
+                int blueValue = Color.blue(pixel);
+                int greenValue = Color.green(pixel);
+                colorShow.setBackgroundColor(Color.rgb(redValue,greenValue,blueValue));
+                ColorValueCalculation cc=new ColorValueCalculation();
+                String hexValue=cc.SRGB2HEX(redValue,greenValue,blueValue);
+                hex.setText(hexValue);
+                s.setText("255");
+                /*r.setText(redValue);
+                g.setText(greenValue);
+                b.setText(blueValue);*/
+
+                break;
+            /**
+             * 离开屏幕的位置
+             */
+            case MotionEvent.ACTION_UP:
+                tvTouchShow.setText("结束:" + (int)event.getX() + "," + (int)event.getY());
+                break;
+            default:
+                break;
+        }
+        return true;
+    }
+
 }
