@@ -36,11 +36,14 @@
         <TextView
             android:id="@+id/textview_history"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="300px"
             android:gravity="center_horizontal"
             android:text="历史记录:"
             />
-
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
 
     </LinearLayout>
