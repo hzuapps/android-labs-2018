@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecordActivity"
-            android:label="@string/title_activity_secord"
+            android:name="SecondActivity"
+            android:label="@string/tv_come"
             android:theme="@style/AppTheme" />
 </application>
 
