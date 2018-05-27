@@ -12,22 +12,12 @@
         android:orientation="vertical"
         >
 
-        <TextView
-            android:id="@+id/title_sys"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="密码备忘录"
-            android:textSize="32dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="80px"
-            />
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_password_logo"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="80px"
+            android:layout_marginTop="120px"
             />
 
         <EditText
@@ -36,7 +26,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="用户名"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:inputType="textPersonName"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="80px"
@@ -48,7 +38,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="密码"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:inputType="textPassword"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40px"
@@ -60,9 +50,19 @@
             android:layout_width="170sp"
             android:layout_height="wrap_content"
             android:text="解锁"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="130px"
+            />
+
+        <Button
+            android:id="@+id/author"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:text="作者"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
             />
 
     </LinearLayout>

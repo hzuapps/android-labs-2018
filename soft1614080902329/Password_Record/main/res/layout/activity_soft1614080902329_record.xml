@@ -24,6 +24,6 @@
             android:textColor="#4edc50"
             android:background="#303f9f"
             android:text="+"
-            android:textSize="38dp" />
+            android:textSize="30dp" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

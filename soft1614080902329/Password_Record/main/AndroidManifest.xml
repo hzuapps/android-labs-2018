@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.soft1614080902329.password_record">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".soft1614080902329RecordActivity" />
-        <activity android:name=".soft1614080902329NewPassActivity"></activity>
+        <activity android:name=".soft1614080902329NewPassActivity" />
+        <activity android:name=".soft1614080902329NetWorkActivity"></activity>
     </application>
 
 </manifest>

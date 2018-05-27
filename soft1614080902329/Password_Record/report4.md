@@ -8,7 +8,7 @@
 ### 1. 设置ListView，获取ListView,通过适配器进行对象循环使用，通过监听每一个Item的获取对应的position，为数据存储做基础
 
 * 设置ListView
-```
+``` xml
 <ListView
 	android:id="@+id/pass_list"
 	android:layout_width="match_parent"
@@ -16,12 +16,12 @@
 ```
 
 * 获取ListView
-```
+``` java
 ListView LvPassList = findViewById(R.id.pass_list);
 ```
 
 * 适配器设置
-```
+``` java
 private class passAdapter extends BaseAdapter {
 
     @Override
@@ -57,13 +57,13 @@ private class passAdapter extends BaseAdapter {
 ```
 
 * 为ListView设置适配器
-```
+``` java
 LvPassList.setAdapter(new passAdapter());
 ```
 
 
 * 为ListView的Item设置监听
-```
+``` java
 LvPassList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -76,7 +76,7 @@ LvPassList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 ### 2. 添加按钮，实现监听，用土司检测功能完整性，为数据存储做准备
 
 * 添加按钮
-```
+``` xml
 <Button
     android:id="@+id/new_pass"
     android:layout_width="match_parent"
@@ -89,12 +89,12 @@ LvPassList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 ```
 
 * 获取Button
-```
+``` java
 Button newPass = findViewById(R.id.new_pass);
 ```
 
 * 为Button设置监听
-```
+``` java
 newPass.setOnClickListener(new View.OnClickListener() {
 	@Override
 	public void onClick(View v) {

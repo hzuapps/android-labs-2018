@@ -181,8 +181,8 @@ public class soft1614080902329RecordActivity extends AppCompatActivity {
                 itemMsg = "";
             }
             tvMsg.setText(itemMsg);
-            tvMsg.setTextSize(32);
-            tvMsg.setPadding(50,50,0,50);
+            tvMsg.setTextSize(24);
+            tvMsg.setPadding(50,20,0,20);
             return tvMsg;
         }
     }

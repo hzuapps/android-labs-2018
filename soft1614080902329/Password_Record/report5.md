@@ -9,7 +9,7 @@
 ### 1. 新增soft1614080902329NewPassActivity用于新增密码Item，并存储在Sqlite中
 
 * 布局
-``` java
+``` xml
         <EditText
             android:id="@+id/new_username"
             android:layout_width="wrap_content"
@@ -48,10 +48,10 @@
 
 * 获取相关控件
 ``` java
-newPassButton = findViewById(R.id.save);
-tipMsgEditText = findViewById(R.id.tip_msg);
-newUsernameEditText = findViewById(R.id.new_username);
-newPasswrodEditText = findViewById(R.id.new_password);
+      newPassButton = findViewById(R.id.save);
+      tipMsgEditText = findViewById(R.id.tip_msg);
+      newUsernameEditText = findViewById(R.id.new_username);
+      newPasswrodEditText = findViewById(R.id.new_password);
 ```
 
 * 判断数据是否合理

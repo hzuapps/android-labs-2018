@@ -8,21 +8,33 @@ import android.widget.Button;
 
 public class soft1614080902329Activity extends AppCompatActivity{
 
-    private Button login_buttom = null;
+    private Button loginButtom = null;
+    private Button authorButtom = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902329);
 
-        login_buttom = findViewById(R.id.login);
-        login_buttom.setOnClickListener(new MyButtonListener());
+        loginButtom = findViewById(R.id.login);
+        authorButtom = findViewById(R.id.author);
+        loginButtom.setOnClickListener(new loginButtomListener());
+        authorButtom.setOnClickListener(new authorButtomListerner());
     }
 
-    class MyButtonListener implements View.OnClickListener {
+    private class loginButtomListener implements View.OnClickListener {
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(soft1614080902329Activity.this, soft1614080902329RecordActivity.class);
+            soft1614080902329Activity.this.startActivity(intent);
+        }
+    }
+    private class authorButtomListerner implements View.OnClickListener{
+
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent();
+            intent.setClass(soft1614080902329Activity.this, soft1614080902329NetWorkActivity.class);
             soft1614080902329Activity.this.startActivity(intent);
         }
     }
