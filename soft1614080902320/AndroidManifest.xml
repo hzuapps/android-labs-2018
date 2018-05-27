@@ -22,6 +22,9 @@
         <activity android:name=".ThirdActivity">
 
         </activity>
+        <activity android:name=".FileStorageActivity">
+
+        </activity>
 
     </application>
 
