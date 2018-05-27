@@ -91,7 +91,7 @@ private Handler handler = new Handler(){
 
 ## 3.实验结果
 * 实验截图
-![实验截图]()
+![实验截图](https://github.com/OrangeHap/android-labs-2018/blob/master/soft1614080902329/lab6.png)
 
 ## 4.实验体会 
 
