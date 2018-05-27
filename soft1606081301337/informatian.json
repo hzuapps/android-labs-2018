@@ -1,8 +1,4 @@
-[{"Time":"2018/5/25","Adress":"北京"},
-{"Time":"2018/5/26","Adress":"广州"},
-{"Time":"2018/5/27","Adress":"惠州"},
-{"Time":"2018/5/29","Adress":"惠州学院"},
-{"Time":"2018/5/30","Adress":"快递已签收"}
+[
 {"home team":"广州恒大","goal1":"2","visiting team":"江苏苏宁","goal2":"1"},
 {"home team":"上海上港","goal1":"3","visiting team":"北京人和","goal2":"1"},
 {"home team":"广州富力","goal1":"0","visiting team":"天津权健","goal2":"0"},
