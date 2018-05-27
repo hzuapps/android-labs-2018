@@ -85,8 +85,10 @@
     <EditText
         android:layout_width="250dp"
         android:layout_height="150dp"
-        android:id="@+id/editText4"
+        android:id="@+id/editText3"
         android:layout_alignTop="@+id/textView4"
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2" />
+
+
 </RelativeLayout>
