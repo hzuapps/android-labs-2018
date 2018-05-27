@@ -29,7 +29,7 @@
 ###6，在每个Activity控件布局界面加入约束布局条件
 
 ## 三.实验结果
-![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/3%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/4%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.jpg?raw=true"配置教育网下载代理")
 
 ## 四.实验体会    
 通过本次实验，了解到了如何在android控件布局界面加入各类控件，同时也明白布局结束后要将约束布局条件设置好，否则运行时控件的布局是乱的。
