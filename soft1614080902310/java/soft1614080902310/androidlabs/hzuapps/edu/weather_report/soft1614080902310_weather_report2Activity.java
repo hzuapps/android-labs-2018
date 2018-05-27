@@ -14,17 +14,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class soft1614080902310_weather_report2Activity extends AppCompatActivity {
-
     private String filename="City_name.txt";
     private Button Bt2;
     private Button Bt3;
+    private Button BBJ;
+    private  Button BSH;
     private EditText Et1;
     private TextView mTvContent;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902310_weather_report2);
-
+        BBJ=findViewById(R.id.B_bj);
+        BSH=findViewById(R.id.B_sh);
         Bt2=findViewById(R.id.bt2);
         Bt3=findViewById(R.id.bt3);
         Et1=findViewById(R.id.et1);
@@ -43,6 +45,31 @@ public class soft1614080902310_weather_report2Activity extends AppCompatActivity
             mTvContent.setText(read());
             }
         });
+
+        BSH.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+
+               Intent intent= new Intent(soft1614080902310_weather_report2Activity.this,soft1614080902310weather_report1Activity.class);
+                String et1Str = BSH.getText().toString();
+                intent.putExtra("et1", et1Str);
+               startActivity(intent);
+
+            }
+        });
+        BBJ.setOnClickListener(new View.OnClickListener() {
+
+
+            public void onClick(View v) {
+
+
+                Intent intent= new Intent(soft1614080902310_weather_report2Activity.this,soft1614080902310weather_report1Activity.class);
+                String et1Str = BBJ.getText().toString();
+                intent.putExtra("et1", et1Str);
+                startActivity(intent);
+            }
+        });
+
     }
 
 
