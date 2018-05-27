@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Com1614080901101Activity">
 
-    <TextView
-        android:id="@+id/background1"
+    <ImageView
+        android:id="@+id/background_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/background1" />
+        android:scaleType="fitXY"
+        android:src="@drawable/space" />
 
     <TextView
         android:id="@+id/main_title"
@@ -19,11 +20,11 @@
         android:text="打蜜蜂"
         android:textColor="#ebfa45"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/background1"
-        app:layout_constraintEnd_toStartOf="@+id/background1"
+        app:layout_constraintBottom_toTopOf="@+id/background_main"
+        app:layout_constraintEnd_toStartOf="@+id/background_main"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/background1"
-        app:layout_constraintTop_toBottomOf="@+id/background1"
+        app:layout_constraintStart_toEndOf="@+id/background_main"
+        app:layout_constraintTop_toBottomOf="@+id/background_main"
         app:layout_constraintVertical_bias="0.650" />
 
     <Button
@@ -33,10 +34,9 @@
         android:text="开始游戏"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.650" />
 
     <Button
         android:id="@+id/button_leaderboard"
@@ -45,8 +45,21 @@
         android:text="排行榜"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.880" />
+        app:layout_constraintVertical_bias="0.775" />
+
+    <Button
+        android:id="@+id/background_settings"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="背景设置"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.900" />
 
 </android.support.constraint.ConstraintLayout>

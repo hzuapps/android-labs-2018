@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Activity2">
 
-    <TextView
-        android:id="@+id/background1"
+    <ImageView
+        android:id="@+id/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/background1" />
+        android:scaleType="fitXY"
+        android:src="@drawable/space" />
 
     <TextView
         android:id="@+id/Airplane"
@@ -51,5 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.965" />
+
+
 
 </android.support.constraint.ConstraintLayout>
