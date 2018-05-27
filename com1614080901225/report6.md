@@ -17,7 +17,7 @@ Android网络编程
 3、最后在 Main1Activity 中进行测试
 
 二、实验结果
-![image](https://github.com/BingleHu/android-labs-2018/blob/master/Com1614080901225/6.png)
+![](https://github.com/LaineChen/android-labs-2018/blob/master/com1614080901225/6.png)
 
 三、实验体会
 这一次实验采用Android 本地加载网页&显示网络图片，通过从网络下载一个图片，保存到手机，在应用中使用文件。
