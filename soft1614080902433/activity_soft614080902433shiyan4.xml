@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft614080902433shiyan4">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:shadowColor="@color/grey"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="1"
+            android:text="Moments"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <EditText
+            android:id="@+id/ed"
+            android:text="http://img158.ph.126.net/ZwBZno6k_2BLgB5kY6AIOA==/1491817376567835185.jpg"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ima"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="100dp"
+            android:maxHeight="700dp"
+            android:maxWidth="500dp"
+            android:src="@drawable/moments1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:background="@color/pink">
+
+            <Button
+                android:id="@+id/up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/none"
+                android:text="UP" />
+
+            <Button
+                android:id="@+id/commits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@color/none"
+                android:text="COMMITS" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@color/none"
+                android:text="NEXT" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/dl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下载"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="300dp"
+            android:background="@color/none"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
