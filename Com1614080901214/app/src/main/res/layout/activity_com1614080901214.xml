@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".jumpActivity">
+    android:background="@drawable/com1614080901214"
+    tools:context=".Com1614080901214Activity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -20,14 +21,14 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_jump" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <include layout="@layout/content_com1614080901214" />
+    <TextView
+        android:id="@+id/textview_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:drawableTop="@drawable/ds"
+        android:text="hello_world"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </android.support.design.widget.CoordinatorLayout>
