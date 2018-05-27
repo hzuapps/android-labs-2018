@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class Soft1614080902144Activity extends AppCompatActivity {
@@ -17,12 +18,13 @@ public class Soft1614080902144Activity extends AppCompatActivity {
 
         imageView=(ImageView)findViewById(R.id.image_view);
         imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(Soft1614080902144Activity.this,Soft1614080902144Activity2.class);
-                startActivity(intent);
-            }
-        });
+                                         @Override
+                                         public void onClick(View v) {
+                                             Intent intent=new Intent(Soft1614080902144Activity.this,Soft1614080902144Activity2.class);
+                                             startActivity(intent);
+                                         }
+                                     }
+        );
 
     }
 }
