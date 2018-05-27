@@ -18,3 +18,6 @@
 # 实验截图
   ![image](https://github.com/LinCJ1998/android-labs-2018/blob/master/soft1614080902211/p1.PNG)
   ![image](https://github.com/LinCJ1998/android-labs-2018/blob/master/soft1614080902211/p2.PNG)
+  
+ # 实验体会
+  学会了如何在xml文件中添加图片,按钮,文字以及Activity之间的跳转
