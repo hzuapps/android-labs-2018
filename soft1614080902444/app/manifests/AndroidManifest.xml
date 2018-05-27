@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="edu.hzuapps.androidlabs.soft1614080902444">
 
     <application
@@ -22,10 +23,22 @@
         <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.MessageActivity"></activity>
         <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.TrendsActivity"></activity>
         <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.ContactsActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.TestActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.HudongActivity"></activity>
+        <activity android:name="edu.hzuapps.androidlabs.soft1614080902444.DownloadActivity"></activity>
+
+
+
+
 
 
 
 
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
