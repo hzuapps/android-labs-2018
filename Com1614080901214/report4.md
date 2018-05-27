@@ -1,43 +1,32 @@
-# 第三次实验
+1.实验要求  
 
-## 1.实验目标
+1）根据选题要求设计界面布局及控件使用；
 
-（1）掌握在Android应用中使用图片等资源的方法。
+2）布局xml及界面控制操作代码提交并截图； 
 
-（2）在界面上显示至少一张图片（按照自己的题目添加）；
+3）将应用运行结果截图。    
+# 2.实验内容  
 
-（3）提交res/drawable及图片使用的代码；
+1）使用其中一种布局方式 ；   
 
-（4）提交res/values, res/layout等其他代码；
+2）通过控件id获取界面对象，执行相关操作；  
 
-（5）将应用运行结果截图，放到实验报告中；
+3）实现界面控件的事件处理，例如点击按钮。  
 
-（6）点击图片（或按钮）时，打开另一个Activity。
+# 3.实验步骤  
 
-# 2.实验步骤
+(1)在xml文件中使用线性布局linearlayout;
 
-（1）阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab
+(2)新设计两个button;
 
-（2）在电脑上Android Studio编写代码
+(3)运行，截图，把图片用git上传到自己的库中；
 
-（3）使用Git将代码提交到自己的库中：https://github.com/lixubin51/android-labs-2018
+(4)写实验报告，提交；
+# 4.实验结果  
+https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE1.png
 
-   $ git pull
+https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE2.png
 
-   $ git add Com1614080901214/*
-
-   $ git commit -m "#3 #1334 实时显示是否下雨天气查询"
-
-   $ git push
-
-（4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
-
-（5）在GitHub中使用Markdown文件编写实验报告（report3.md）
-
-# 3.实验结果
-
-![](https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C3%E6%88%AA%E5%9B%BE1.jpg)
-![](https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C3%E6%88%AA%E5%9B%BE2.jpg)
-
-# 4.实验体会 
- 这次实验搞定的时间还算不错。通过老师给的资料，跟做好的同学的建议，不断修改就会了。主要熟悉安卓内部的目录结构，还有怎么实现图片的插入和两个activity之间的联系。
+https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE3.png
+# 5.实验体会
+ 这次实验做的比较迟，通过老师给的学习资料和同学的指导还是可以做出来的。在调按钮的时候和activity的时候花费的时间蛮多的。
