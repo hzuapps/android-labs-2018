@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.hzuapps.androidlabs.soft1614080902205.MainActivity2">
+    tools:context="edu.hzuapps.androidlabs.soft1614080902205.MainActivity3">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/readview2"
         android:layout_width="0dp"
-        android:layout_height="28dp"
-        android:text="已分享的音乐"
+        android:layout_height="40dp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
@@ -18,16 +17,4 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="下载推荐音乐"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="-2dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="-161dp" />
 </android.support.constraint.ConstraintLayout>
