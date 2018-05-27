@@ -14,7 +14,7 @@
 在Activity的design界面中拖入一个id为button的按钮（搜索）和一个输入文本框（请输入搜索关键词）并设好位置
 
 ### 3. 在Activity对应的java文件中加入对此按钮的监听以及事件，如下代码
-   ……
+   ~~~
    Button button2 = (Button)findViewById(R.id.button);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -22,7 +22,7 @@
                 Intent intent = new Intent();
                 intent.setClass(Soft1614080902314Activity.this,soft1614080902314Activity3.class);
                 startActivity(intent);
-   ……
+   ~~~
 
 ### 4. 在Activity3的design界面拖入一个listview控件作为搜索的输出
 
