@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.hzuapps.androidlabs.soft1614080902240.Soft1614080902240Activity2">
+    tools:context="edu.hzuapps.androidlabs.soft1614080902240.Soft1614080902240Activity3">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="417dp"
-        android:layout_height="611dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/bj9"
-        android:contentDescription=""
-        tools:ignore="ContentDescription" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
