@@ -29,7 +29,7 @@
 
 ![image](https://github.com/PanHaoRui/android-labs-2018/blob/master/Soft1614080902144/APP/4-2.png)
 
-![image](https://github.com/PanHaoRui/android-labs-2018/tree/master/Soft1614080902144/APP)
+![image](https://github.com/PanHaoRui/android-labs-2018/blob/master/Soft1614080902144/APP/4-3.png)
 # 5.实验体会
 此次实验较前几次难点，多个按钮拖动时容易出现问题，不过通过查看书籍和请教同学我学会了如何使用相对布局，按钮初始颜色不好看
 尝试了一下设置背景颜色和按钮透明度
