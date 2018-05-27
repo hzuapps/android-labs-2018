@@ -49,7 +49,7 @@ public class Soft1614080902332Activity5 extends AppCompatActivity {
             public void run() {
                 try {
                     //你的URL
-                    String url_s = "https://raw.githubusercontent.com/QFJay/android-labs-2018/master/LAB6.json";
+                    String url_s = "https://raw.githubusercontent.com/QFJay/android-labs-2018/master/soft1614080902332/LAB6.json";
                     URL url = new URL(url_s);
                     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                     conn.setConnectTimeout(5000);
