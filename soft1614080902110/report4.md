@@ -29,9 +29,9 @@ public void onClick(View v) { ......
 
 #4.实验结果
 
-![]https://raw.githubusercontent.com/ccccssxxxx/android-labs-2018/master/soft1614080902110/ZJM.png
+![Activity1](https://raw.githubusercontent.com/ccccssxxxx/android-labs-2018/master/soft1614080902110/ZJM.png)
 
-![]https://raw.githubusercontent.com/ccccssxxxx/android-labs-2018/master/soft1614080902110/TZ.png
+![Activity2](https://raw.githubusercontent.com/ccccssxxxx/android-labs-2018/master/soft1614080902110/TZ.png)
 
 #5.实验体会： 
 
