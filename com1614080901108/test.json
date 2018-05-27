@@ -1,7 +1,2 @@
-﻿[
-  {
-   "content":"wlcome to game"
-  },{
-   "content":"hello"
-  }
-]
+[{ "content":"wlcome to game"},
+ { "content":"hello" }]
