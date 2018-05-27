@@ -15,6 +15,7 @@
 ### 2. 实验3实现的打开Activity2作为新建短信功能的实现，同样的，要弄一个打开Activity3以实现搜索功能
 在Activity的design界面中拖入一个id为button的按钮（搜索）和一个输入文本框（请输入搜索关键词）并设好位置
 ### 3. 在Activity对应的java文件中加入对此按钮的监听以及事件，如下代码
+
 ……
   Button button2 = (Button)findViewById(R.id.button);
         button2.setOnClickListener(new View.OnClickListener() {
@@ -24,6 +25,7 @@
                 intent.setClass(Soft1614080902314Activity.this,soft1614080902314Activity3.class);
                 startActivity(intent);
 ……
+
 ### 4. 在Activity3的design界面拖入一个listview控件作为搜索的输出
 ### 5. 健全新建短信功能的界面
    打开Activity2的design界面，拖入两个输入文本框（输入收件人，输入短信内容）作为短信的基本内容，由于能力不足，加入的两个按钮（通讯录，发送）仅作修饰作用
