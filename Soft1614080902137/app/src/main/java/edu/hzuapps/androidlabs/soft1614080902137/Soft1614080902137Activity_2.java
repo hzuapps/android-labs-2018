@@ -1,4 +1,4 @@
-package edu.hzuapps.androidlabs.myapplication;
+package edu.hzuapps.androidlabs.soft1614080902137;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
