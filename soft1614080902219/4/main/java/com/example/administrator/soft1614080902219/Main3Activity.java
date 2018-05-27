@@ -23,6 +23,24 @@ public class Main3Activity extends Activity {
                 //thisActivity.startActivityForResult(intent, 2016);
             }
         });
+        Button btnOpen2 = (Button) findViewById(R.id.book);
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(thisActivity, book.class);
+                thisActivity.startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
+        Button btnOpen4 = (Button) findViewById(R.id.me);
+        btnOpen4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(thisActivity, me.class);
+                thisActivity.startActivity(intent);
+                //thisActivity.startActivityForResult(intent, 2016);
+            }
+        });
         Button btnOpen1 = (Button) findViewById(R.id.classify);
         btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
