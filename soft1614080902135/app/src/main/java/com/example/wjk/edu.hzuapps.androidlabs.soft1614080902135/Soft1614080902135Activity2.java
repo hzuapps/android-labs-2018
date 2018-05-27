@@ -15,10 +15,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-import com.example.wjk.edu.hzuapps.androidlabs.soft1614080902135.R;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+
 
 public class Soft1614080902135Activity2 extends AppCompatActivity {
     private ImageView iv;
@@ -26,18 +27,32 @@ public class Soft1614080902135Activity2 extends AppCompatActivity {
     private Canvas canvas;
     private Paint paint;
     private Button newButton1;
+    private Button newButton2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft16140809021352);
-        newButton1=(Button)findViewById(R.id.button_3);
+
+
+        newButton2 = (Button) findViewById(R.id.button_2);
+        newButton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent1=new Intent(Soft1614080902135Activity2.this,Soft1614080902135Activity3.class);
+                startActivity(intent1);
+            }
+        });
+
+
+        newButton1 = (Button) findViewById(R.id.button_3);
         newButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View v) {
                 save();
             }
         });
+
+
 
         this.iv = (ImageView) this.findViewById(R.id.iv);
         // 创建一张空白图片
@@ -98,9 +113,10 @@ public class Soft1614080902135Activity2 extends AppCompatActivity {
                     .getExternalStorageDirectory()));
             sendBroadcast(intent);
         } catch (Exception e) {
-            Toast.makeText(Soft1614080902135Activity2.this, "保存图片成功",Toast.LENGTH_SHORT).show();
+            Toast.makeText(Soft1614080902135Activity2.this, "保存图片成功", Toast.LENGTH_SHORT).show();
 
             e.printStackTrace();
         }
     }
 }
+

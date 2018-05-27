@@ -20,7 +20,7 @@
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:id="@+id/button_2"
-        android:text="清除画布"
+        android:text="跳转至下载界面"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         />
@@ -33,6 +33,8 @@
       android:layout_alignParentLeft="true"
      android:layout_alignParentBottom="true"
       android:text="保存画布" />
+
+
 
 
 

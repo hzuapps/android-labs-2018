@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    
     package="com.example.wjk.eduhzuappsandroidlabssoft1614080902135">
-
-
 
     <application
         android:allowBackup="true"
@@ -22,7 +19,8 @@
         <activity
             android:name=".Soft1614080902135Activity2"
             android:label="@string/title_activity_soft16140809021352"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Soft1614080902135Activity3" />
     </application>
 
 </manifest>
