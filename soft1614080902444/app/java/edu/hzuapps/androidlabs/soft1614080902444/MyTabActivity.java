@@ -24,12 +24,12 @@ public class MyTabActivity extends TabActivity {
 
 
 
-     /*   TabHost tabHost2=getTabHost();
+       TabHost tabHost2=getTabHost();
         Intent intent2=new Intent();
-        intent2.setClass(this,ContactsActivity.class);
-        TabHost.TabSpec  spec2= tabHost1.newTabSpec("联系人");
+        intent2.setClass(this,TestActivity.class);
+        TabHost.TabSpec  spec2= tabHost1.newTabSpec("互动");
         Resources resources2 =getResources();
-        spec2.setIndicator("联系人",resources2.getDrawable(R.drawable.lianxiren));
+        spec2.setIndicator("互动",resources2.getDrawable(R.drawable.lianxiren));
         spec2.setContent(intent2);
         tabHost2.addTab(spec2);
 
@@ -37,12 +37,12 @@ public class MyTabActivity extends TabActivity {
 
         TabHost tabHost3=getTabHost();
         Intent intent3=new Intent();
-        intent3.setClass(this,TrendsActivity.class);
+        intent3.setClass(this,HudongActivity.class);
         TabHost.TabSpec  spec3= tabHost1.newTabSpec("动态");
         Resources resources3 =getResources();
         spec3.setIndicator("动态",resources3.getDrawable(R.drawable.dongtai));
 
         spec3.setContent(intent3);
-        tabHost3.addTab(spec3);*/
+        tabHost3.addTab(spec3);
     }
 }
