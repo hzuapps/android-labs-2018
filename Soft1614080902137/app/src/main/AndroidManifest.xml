@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.hzuapps.androidlabs.soft1614080902137">
+    package="edu.hzuapps.androidlabs.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -16,11 +23,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Soft1614080902137Activity_next"
-            android:label="@string/text_1">
-        </activity>
-        <activity android:name=".Soft1614080902137Activity_1"
-            android:label="@string/text_2"></activity>
+        <activity
+            android:name=".Soft1614080902137Activity_next"
+            android:label="@string/text_1"></activity>
+        <activity
+            android:name=".Soft1614080902137Activity_1"
+            android:label="@string/text_2" />
+        <activity android:name=".Soft1614080902137Activity_2"></activity>
     </application>
 
 </manifest>
