@@ -14,7 +14,7 @@
     $ git pull
     $ git add 学号目录/* 
     $ git commit -m "#2 #1020 第二次实验 "
-    $ git push
+    $ git push <br>
   （4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files） <br>
         // 是否只修改了自己的文件？ <br>
   （5）在GitHub中使用Markdown文件编写实验报告（report2.md） <br>
