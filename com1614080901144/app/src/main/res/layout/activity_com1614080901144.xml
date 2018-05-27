@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="20dp"
-    android:gravity="center"
     android:background="@drawable/rrr"
+    android:gravity="center"
     tools:context="edu.hzuapps.androidlabs.com1614080901144.com1614080901144Activity">
     <TextView
     android:id="@+id/textView_01"

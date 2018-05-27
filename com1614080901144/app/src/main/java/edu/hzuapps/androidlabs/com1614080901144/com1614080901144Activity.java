@@ -15,17 +15,12 @@ public class com1614080901144Activity extends AppCompatActivity {
         setContentView(R.layout.activity_com1614080901144);
        Button button1=(Button) findViewById(R.id.button_1);
       button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(com1614080901144Activity.this,com16140809011442Activity.class);
-                startActivity(intent);
-            }
-        }
-
-
-
+          @Override
+          public void onClick(View view) {
+              Intent intent = new Intent(com1614080901144Activity.this, com16140809011442Activity.class);
+              startActivity(intent);
+          }
+      }
         );
-
-
     }
 }
