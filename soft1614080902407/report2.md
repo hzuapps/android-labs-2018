@@ -99,6 +99,8 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
     <string name="app_name">Soft1614080902407备忘录</string>
 </resources>
 
+![image](https://raw.githubusercontent.com/Qiujialin/android-labs-2018/patch-2/soft1614080902407/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png)
+
 ## 4.实验体会
 
 此次实验比之前的实验要复杂一点，但从中学会了许多基础知识，也更加熟悉Android Studio的操作
