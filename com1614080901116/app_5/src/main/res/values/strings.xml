@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">com1614080901116</string>
+    <string name="action_settings">Settings</string>
+    <string name="te">打开</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="paobu">跑步小助手</string>
+    <string name="jilu">记录</string>
+    <string name="nini">分享</string>
+    <string name="str">分享</string>
+    <string name="title_activity_third">thirdActivity</string>
+    <string name="dd">保存</string>
+</resources>
