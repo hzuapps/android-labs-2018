@@ -19,7 +19,6 @@ public class com1614080901229Activity2 extends AppCompatActivity {
     private EditText et;
     private Button btnSave;
     private  Button btn1;
-    private TextView txv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +28,6 @@ public class com1614080901229Activity2 extends AppCompatActivity {
         et = findViewById(R.id.et);
         btnSave=findViewById(R.id.btnSave);
         btn1=findViewById(R.id.btn1);
-        txv=findViewById(R.id.txv);
 
         readSavedText();
 
@@ -43,15 +41,13 @@ public class com1614080901229Activity2 extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                readText();
+                readSavedText();
             }
         });
 
     }
 
-    private void readText(){
-        txv.setText(et.getText().toString());
-    }
+
     private void readSavedText() {
 
         try {
@@ -61,6 +57,7 @@ public class com1614080901229Activity2 extends AppCompatActivity {
             is.close();
             String str = new String(bytes, "utf-8");
             et.setText(str);
+            Toast.makeText(this,str,Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             e.printStackTrace();
         }
