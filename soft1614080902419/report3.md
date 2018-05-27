@@ -41,9 +41,9 @@ b.setOnClickListener(this);
 
 ## 3.实验结果
 Soft1614080902419Activity  
-
+![Image text](https://github.com/ccxm/android-labs-2018/blob/master/soft1614080902419/3.1.png)
 Second_Activity  
-
+![Image text](https://github.com/ccxm/android-labs-2018/blob/master/soft1614080902419/3.2.png)
 
 ## 4.实验体会
 学会了怎么新建Activity、如何添加图片、怎么切换Activity。刚开始做实验时，直接新建java类文件,报了很多错误,原来是活动需要注册,然后在manifest里注册,可是运行的时候页面不见了。对照着Soft1614080902419Activity看，原来每个活动都要调用一个界面才有显示。后来偶然翻书来看一下，发现直接新建Activity这样更方便，把注册活动和注册页面都省了。  
