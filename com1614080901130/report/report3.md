@@ -10,9 +10,9 @@
 
 ## 3、实验结果 
 我的Android应用第一个activity截图。
-![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report3_screen1.jpg) 
-![]
-点击按钮后跳转的activity.(https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report3_screen2.jpg) 
+![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report3_screen01.png)
+点击按钮后跳转的activity.
+![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report3_screen02.png)
 ## 4、实验体会 
 1. 配置android环境的时候用了很多时间，心态有点崩，自己走了弯路。 
 2. 现在看到成果还是不错的。
