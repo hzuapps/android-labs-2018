@@ -18,7 +18,7 @@
 
 1.首先上网搜索相关的资料 这里我选择了该网址作为参考：https://blog.csdn.net/u011340932/article/details/38819307
 
-按照步骤  修改AndroidManifest.xml中的文件，以获取上网的相关权限  以及   <activity android:name=".Soft1614080902404SecondActivity">
+按照步骤  修改AndroidManifest.xml中的文件，以获取上网的相关权限  以及  activity android:name=".Soft1614080902404SecondActivity
 
 2.在Soft1614080902404SecondActivity.java文件中定义功能类（实现连接网络获取图片，显示图片）以及异步线程下载图片等功能
 
