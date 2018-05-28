@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dfg"
+    tools:context=".Soft161408090211603Activity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="每日最高消费:"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/onput"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="221dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="228dp"
+        android:layout_height="66dp"
+        android:layout_centerInParent="true"
+        android:text="保存" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="22dp"
+        android:textSize="25dp" />
+
+</RelativeLayout>
