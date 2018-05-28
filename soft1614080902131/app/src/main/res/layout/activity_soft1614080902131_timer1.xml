@@ -8,44 +8,23 @@
     tools:context=".Soft1614080902131Timer1Activity"
     android:background="#ddd6db">
 
-    <ImageView
+    <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#7c88da"
-        android:id="@+id/image_view_1"/>
-
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_marginTop="60dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/linear_layout_1"
-        >
-
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:background="@drawable/sw_2_blue"/>
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#469bdb"
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp">
 
         <TextView
-            android:layout_width="150dp"
-            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="计  时"
-            android:textSize="40sp"
-            android:gravity="center"
-            />
-    </LinearLayout>
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_below="@+id/linear_layout_1"
-        android:background="@drawable/radius_shape"
-        android:layout_marginTop="10dp"
-        android:id="@+id/image_view_2"/>
+
+
 
     <TextView
         android:layout_width="match_parent"
@@ -53,18 +32,18 @@
         android:text="00:00.00"
         android:textSize="60sp"
         android:gravity="center"
-        android:layout_below="@id/image_view_2"
+        android:layout_below="@id/toolbar"
         android:id="@+id/timer_1_text_view"/>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_below="@+id/timer_1_text_view"
         android:background="@drawable/radius_shape"
         android:layout_marginTop="10dp"
         android:id="@+id/image_view_3"
         android:text="记  录"
-        android:textSize="40sp"
+        android:textSize="32sp"
         android:gravity="center"
         />
 
@@ -74,8 +53,9 @@
         android:layout_marginBottom="70dp"
         android:layout_below="@+id/image_view_3"
         android:id="@+id/timer_1_recycler_view">
-
     </android.support.v7.widget.RecyclerView>
+
+
 
     <RelativeLayout
         android:layout_width="300dp"
@@ -118,7 +98,7 @@
         <Button
             android:layout_width="145dp"
             android:layout_height="50dp"
-            android:text="重置"
+            android:text="完成"
             android:textSize="20sp"
             android:gravity="center"
             android:background="@drawable/radius_shape"

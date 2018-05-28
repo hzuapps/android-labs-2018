@@ -37,23 +37,17 @@
             android:layout_width="120dp"
             android:layout_height="20dp" />
 
-        <TextView
-            android:layout_width="120dp"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:text="倒计时"
-            android:textSize="20sp"
-            android:id="@+id/timer_2_intent_text_view"/>
+
 
         <LinearLayout
             android:layout_width="120dp"
-            android:layout_height="20dp" />
+            android:layout_height="10dp" />
 
         <TextView
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:text="历史记录"
+            android:text="历史"
             android:textSize="20sp"
             android:id="@+id/record_intent_text_view"/>
 

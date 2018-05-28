@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902131SaveActivity"
+    android:background="#ddd6db">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#469bdb"
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="保存数据"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="备注！"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:id="@+id/remark_edit_text"
+        android:layout_below="@id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@id/remark_edit_text"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/camera_linear_layout">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/camera_icon"
+            android:id="@+id/camera_image_button"
+            />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="拍张照记录一下吧！"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/camera_linear_layout"
+        android:id="@+id/picture_image_view"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="保存"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/save_button"
+        android:background="@drawable/radius_shape"/>
+
+
+</RelativeLayout>

@@ -1,11 +1,13 @@
 package com.example.soft1614080902131stopwatch;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import org.litepal.tablemanager.Connector;
 import org.w3c.dom.Text;
 
 import java.nio.channels.NonReadableChannelException;
@@ -13,7 +15,6 @@ import java.nio.channels.NonReadableChannelException;
 public class Soft1614080902131HomeActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView timer1TextView;
-    private TextView timer2TextView;
     private TextView recordTextView;
 
     @Override
@@ -21,14 +22,13 @@ public class Soft1614080902131HomeActivity extends AppCompatActivity implements 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1614080902131_home);
         init();
+        SQLiteDatabase db = Connector.getDatabase();
     }
 
     private void init(){
         timer1TextView=(TextView) findViewById(R.id.timer_1_intent_text_view);
-        timer2TextView=(TextView) findViewById(R.id.timer_2_intent_text_view);
         recordTextView=(TextView) findViewById(R.id.record_intent_text_view);
         timer1TextView.setOnClickListener(this);
-        timer2TextView.setOnClickListener(this);
         recordTextView.setOnClickListener(this);
 
     }
@@ -39,11 +39,6 @@ public class Soft1614080902131HomeActivity extends AppCompatActivity implements 
         switch (v.getId()){
             case R.id.timer_1_intent_text_view:
                 intent=new Intent(Soft1614080902131HomeActivity.this,Soft1614080902131Timer1Activity.class);
-                startActivity(intent);
-                break;
-
-            case R.id.timer_2_intent_text_view:
-                intent=new Intent(Soft1614080902131HomeActivity.this,Soft1614080902131Timer2Activity.class);
                 startActivity(intent);
                 break;
 
