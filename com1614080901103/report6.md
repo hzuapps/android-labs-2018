@@ -16,8 +16,7 @@
  （1）.新建一个新的activity,用来下载网络上的图片；  
  （2）.在对应的xml文件中设置一个Button，实现下载功能；ImageView用来显示图片；  
  （3）.在java中增加上实现从网络下载图片的代码，并设置好对应图片的网址;  
- （4）.在AndroidManifest.xml中声明权限：
-       <uses-permission android:name="android.permission.INTERNET" />
+ （4）.在AndroidManifest.xml中声明权限： <uses-permission android:name="android.permission.INTERNET" />
 
 ## 4. 实验结果
 
