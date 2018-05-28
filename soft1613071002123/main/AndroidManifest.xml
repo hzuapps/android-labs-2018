@@ -14,7 +14,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.hzuapps.androidlabs.soft1613071002123.myapplication.LoginActivity">
+        <activity android:name="edu.hzuapps.androidlabs.soft1613071002123.myapplication.LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
 
         </activity>
         <activity android:name="edu.hzuapps.androidlabs.soft1613071002123.myapplication.RegisterActivity">
