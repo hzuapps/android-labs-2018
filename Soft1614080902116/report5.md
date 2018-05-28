@@ -20,7 +20,7 @@
 
 4.实验结果
 
-![image](https://github.com/zrh116/android-labs-2018/blob/master/Soft1614080902116/%E5%AE%9E%E9%AA%8C5.jpg)
+![image](https://github.com/zrh116/android-labs-2018/blob/master/Soft1614080902116/%E5%AE%9E%E9%AA%8C5%E4%BF%AE%E6%94%B9.jpg)
 
 5.实验体会
 
