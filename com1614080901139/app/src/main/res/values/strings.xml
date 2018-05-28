@@ -7,6 +7,5 @@
     <string name="logo">校园威客</string>
     <string name="et_user">请输入您的账号</string>
     <string name="et_psw">请输入密码</string>
-    <string name="login">登录</string>
     <string name="forgerpassword">忘记密码</string>
 </resources>
