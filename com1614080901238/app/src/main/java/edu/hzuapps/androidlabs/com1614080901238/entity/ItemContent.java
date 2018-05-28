@@ -7,17 +7,18 @@ import java.util.List;
  * Created by 陈梓聪 on 2018/5/19.
  */
 
-public class ItemContent  implements Serializable{
+public class ItemContent implements Serializable {
     private int id;
     private String title;
-    private List<String> comment;
+
+    private List<String> comnent;
 
     public List<String> getComnent() {
-        return comment;
+        return comnent;
     }
 
-    public void setComnent(List<String> comment) {
-        this.comment = comment;
+    public void setComnent(List<String> comnent) {
+        this.comnent = comnent;
     }
 
     public String getTitle() {

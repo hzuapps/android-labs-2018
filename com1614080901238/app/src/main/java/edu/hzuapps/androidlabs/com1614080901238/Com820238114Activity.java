@@ -12,19 +12,28 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import edu.hzuapps.androidlabs.com1614080901238.mostbeautifulwallpaper.adapter.WallpaperAdapter;
 import edu.hzuapps.androidlabs.com1614080901238.mostbeautifulwallpaper.db.WallpaperDB;
 import edu.hzuapps.androidlabs.com1614080901238.mostbeautifulwallpaper.entity.ItemContent;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class Com820238114Activity extends AppCompatActivity {
     private Context context;
-    private List<ItemContent> itemContents;
+    private List<ItemContent> itemContents = new ArrayList<>();
     private List<String> comments;
     private WallpaperDB wallpaperDB;
     private SQLiteDatabase db;
+    private RecyclerView rv;
+    private WallpaperAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,34 +43,71 @@ public class Com820238114Activity extends AppCompatActivity {
         initView();
     }
 
-//            public void DBclick(View view){
-//        //初始化数据库，建表
-//        wallpaperDB = new WallpaperDB(this, "wallpaper.db", null, 1);
-//        db = wallpaperDB.getWritableDatabase();
-//
-//        //初始化数据
-//        //插入item内容
-//        for (int i = 1; i < 100; i++) {
-//            ContentValues values = new ContentValues();
-//            values.put("title", "小动物" + i + "号");
-//            values.put("comment_id", i);
-//            db.insert("wallpaper_content", null, values);
-//            values.clear();
-//            //插入评论
-//            for (int j = 1; j <= 5; j++) {
-//                values.put("comment_id", i);
-//                values.put("comment_text", "小动物" + i + "号的第" + j + "评论");
-//                db.insert("comment", null, values);
-//                values.clear();
-//            }
-//        }
-//            Toast.makeText(context, "ojbk", Toast.LENGTH_SHORT).show();
-//    }
-    private void initData() {
-        context = getApplicationContext();
+    public void DBclick(View view) {
+        //初始化数据库，建表
         wallpaperDB = new WallpaperDB(this, "wallpaper.db", null, 1);
         db = wallpaperDB.getWritableDatabase();
-        itemContents = new ArrayList<>();
+
+        //初始化数据
+        //插入item内容
+        for (int i = 1; i < 100; i++) {
+            ContentValues values = new ContentValues();
+            values.put("title", "小动物" + i + "号");
+            values.put("comment_id", i);
+            db.insert("wallpaper_content", null, values);
+            values.clear();
+            //插入评论
+            for (int j = 1; j <= 5; j++) {
+                values.put("comment_id", i);
+                values.put("comment_text", "小动物" + i + "号的第" + j + "评论");
+                db.insert("comment", null, values);
+                values.clear();
+            }
+        }
+        Toast.makeText(context, "ojbk", Toast.LENGTH_SHORT).show();
+    }
+
+    private void initData() {
+        context = getApplicationContext();
+
+     initDataByDB();
+        initDataByNetWork();
+
+
+    }
+
+    private void initDataByNetWork() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+                OkHttpClient okHttpClient = new OkHttpClient();
+                Request request = new Request.Builder().url("https://raw.githubusercontent.com/zicong-chen/android-labs-2018/master/com1614080901238/%E5%AE%9E%E9%AA%8C6_%E6%96%87%E4%BB%B6/android_json.json").build();
+                try {
+                    Response execute = okHttpClient.newCall(request).execute();
+                    String jsonData = execute.body().string();
+                    Gson gson =new Gson();
+                    List<ItemContent> newData= gson.fromJson(jsonData, new TypeToken<List<ItemContent>>(){}.getType());
+                    itemContents.addAll(newData);
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                    adapter.notifyDataSetChanged();
+                            Log.i("czc", "run: "+itemContents.get(2).getTitle());
+                        }
+                    });
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+    }
+
+    private void initDataByDB() {
+        wallpaperDB = new WallpaperDB(this, "wallpaper.db", null, 1);
+        db = wallpaperDB.getWritableDatabase();
+
 
         Cursor wallpaperCursor = db.query("wallpaper_content", null, null, null, null, null, null);
         if (wallpaperCursor.moveToFirst()) {
@@ -76,7 +122,7 @@ public class Com820238114Activity extends AppCompatActivity {
                     do {
 
                         comments.add(commentCursor.getString(commentCursor.getColumnIndex("comment_text")));
-                        Log.i("czc", "initData: "+comments.get(commentCursor.getPosition()));
+                        Log.i("czc", "initData: " + comments.get(commentCursor.getPosition()));
 
                     }
                     while (commentCursor.moveToNext());
@@ -89,8 +135,6 @@ public class Com820238114Activity extends AppCompatActivity {
             } while (wallpaperCursor.moveToNext());
             wallpaperCursor.close();
         }
-
-
     }
 
     private void initView() {
@@ -98,10 +142,10 @@ public class Com820238114Activity extends AppCompatActivity {
     }
 
     private void initRV() {
-        RecyclerView rv = findViewById(R.id.recycler_view);
+        rv = findViewById(R.id.recycler_view);
         GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
         rv.setLayoutManager(layoutManager);
-        WallpaperAdapter adapter = new WallpaperAdapter(itemContents, context);
+        adapter = new WallpaperAdapter(itemContents, context);
         rv.setAdapter(adapter);
     }
 }

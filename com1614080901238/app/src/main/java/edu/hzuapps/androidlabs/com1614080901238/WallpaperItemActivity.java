@@ -47,7 +47,7 @@ public class WallpaperItemActivity extends AppCompatActivity {
         final EditText editText = findViewById(R.id.RV_item_edit);
         Button commentButton = (Button) findViewById(R.id.comment_button);
         final ScrollView scrollView = (ScrollView) findViewById(R.id.scrollView);
-        
+
         initRV();
 
 
