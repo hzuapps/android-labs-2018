@@ -22,7 +22,7 @@ Android资源使用编程
 
 ![image](https://github.com/shaoqiangli/android-labs-2018/blob/master/Soft1614080902136/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE1.png)
 
-![image](https://github.com/shaoqiangli/android-labs-2018/blob/master/Soft1614080902136/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE1.png)
+![image](https://github.com/shaoqiangli/android-labs-2018/blob/master/Soft1614080902136/%E7%AC%AC%E4%B8%89%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE2.png)
 
 ## 4.实验体会
 
