@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="390dp"
+        android:layout_weight="1"
+        android:text="修改" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="191dp"
+        android:layout_marginTop="390dp"
+        android:layout_weight="1"
+        android:text="显示时间"
+        android:onClick="click2"
+        />
+
+    <TextView
+        android:id="@+id/ting"
+        android:layout_width="match_parent"
+        android:layout_height="838dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/time"
+        android:drawableTop="@drawable/time" />
+
+
+    <EditText
+        android:id="@+id/mima1"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:maxLines="1" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
