@@ -1,4 +1,4 @@
-﻿package com.example.soft1614080902208;
+package com.example.soft1614080902208;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class DownloadPictureActivity extends AppCompatActivity  {
+public class DownloadPictureActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
