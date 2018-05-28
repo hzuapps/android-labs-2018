@@ -20,6 +20,9 @@
 
 ## 3.实验结果
 
+文件展示列表截图：
+![image](https://github.com/Beginner-hww/android-labs-2018/blob/master/soft1613071002123/%E6%96%87%E4%BB%B6%E5%B1%95%E7%A4%BA.png?raw=true)
+
 注册界面截图
 ![image](https://github.com/Beginner-hww/android-labs-2018/blob/master/soft1613071002123/%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2.png?raw=true)
 
