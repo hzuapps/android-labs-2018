@@ -4,9 +4,9 @@
 掌握在Android App中存储数据。
 
 ## 2.实验步骤 
-（1）新创建一个Soft1614080902441userActivity和一个  activity_soft1614080902415_login.xml    和一个  activity_soft1614080902415_user.xml    
+（1）新创建一个Soft1614080902441userActivity和一个  activity_soft1614080902415_login.xml进行一个用户登录并且保存数据    和一个  activity_soft1614080902415_user.xml    进行用户查看login登录的用户数据查看
 （2）在Soft1614080902441Activityuser中加入按钮监听，点击 activity_soft1614080902415_main.xml 中查看用户查询所有用户，调用read从中读取数据，
-（3）实现一个读取数据
+（3）实现一个App中存储数据读取数据
 （4）跳转到activity_soft1614080902441_user.xml页面查看用户操作
 
 ## 3.实验结果
