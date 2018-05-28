@@ -26,6 +26,14 @@
             android:name="edu.hzuapps.andriodlabs.soft1614080902228.Jiemian"
             android:label="@string/title_activity_jiemian" >
         </activity>
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.ChessView"
+            android:label="@string/title_activity_chess_view" >
+        </activity>
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
     </application>
 
 </manifest>
