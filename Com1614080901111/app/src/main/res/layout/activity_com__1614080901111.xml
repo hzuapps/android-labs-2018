@@ -10,10 +10,12 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <EditText
+            android:id="@+id/edittext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="填写高考的日期"/>
         <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="修改"/>
