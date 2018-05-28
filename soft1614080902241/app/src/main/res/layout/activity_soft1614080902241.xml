@@ -18,17 +18,17 @@
         <TextView
             android:id="@+id/textView_01_01"
             android:layout_width="match_parent"
-            android:layout_height="520dp"
+            android:layout_height="540dp"
             android:drawableTop="@drawable/huanying" />
         <Button
             android:id="@+id/button_01_01"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:background="#FFFFFF"
 
             android:text="欢迎使用"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="40dp"
             />
     </LinearLayout>
 

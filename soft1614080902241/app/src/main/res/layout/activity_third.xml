@@ -33,27 +33,42 @@
 
                 />
             <EditText
+                android:id="@+id/edittext_shuru"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="                ¥ 0.00"
+                android:hint="                ¥ 0.00"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
                 android:textSize="30sp"
+                android:inputType="numberDecimal"
 
                 />
 
+
         </LinearLayout>
 
-        <Button
-            android:id="@+id/button01_02"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="保存"
-            android:textSize="30sp"
-            android:textStyle="bold"
-
-            android:background="#FFFFFF"
-            />
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="取消"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/button_hold"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="保存"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
