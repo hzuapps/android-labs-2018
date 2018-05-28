@@ -22,6 +22,6 @@ https://github.com/luolihaoo/android-labs-2018/blob/master/soft1614080902331/%E7
 
      文件存储是Android中最基本的一种数据存储方式，它与Java中的文件存储类似，都是通过I/O流的形式把数据原封不动的存储到文档中。而且Android的文件存储分为内部和外部两种，本次实验采用了内部存储。
 
-    context类中提供了一个openFileOutPut( para1 ， para 2)方法，用于将数据存储到指定的文件中。para1 ：文件名。para2 ：文件的操作模式（MODE_PRIVATE:表示当文件重名的时候，直接覆盖原先同名文件；MODE_APPEND:表示当文件重名的时候，向原同名文件增加新有内容）
+     context类中提供了一个openFileOutPut( para1 ， para 2)方法，用于将数据存储到指定的文件中。para1 ：文件名。para2 ：文件的操作模式（MODE_PRIVATE:表示当文件重名的时候，直接覆盖原先同名文件；MODE_APPEND:表示当文件重名的时候，向原同名文件增加新有内容）
 
-    ontext类中提供了一个openFileInput("文件名")，用于将数据显示到指定的view中。在文件输出时，主要注意输出条件语句。
+     ontext类中提供了一个openFileInput("文件名")，用于将数据显示到指定的view中。在文件输出时，主要注意输出条件语句。
