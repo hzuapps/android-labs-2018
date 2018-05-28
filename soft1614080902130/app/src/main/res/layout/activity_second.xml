@@ -11,12 +11,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.hzuapps.androidlabs.soft1614080902130.SecondActivity">
 
-
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/flybrid"
-        android:drawableTop="@drawable/flybird"
-        android:text="loadding..."
+        android:id="@+id/my_editText"
         />
+
 </RelativeLayout>
