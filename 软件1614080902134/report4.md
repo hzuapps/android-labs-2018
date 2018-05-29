@@ -30,5 +30,5 @@
  
 ## 四、实验体会
  
- 这次实验原本只需在实验三的基础上加上一个布局的 GameStartactivity 就可以了，使用 Androidstdio里设计模式布局非常的简易、方便，
+ 这次实验原本只需在实验三的基础上加上一个布局的 GameStartactivity 就可以了，使用 Androidstdio里设计模式布局简易、方便，
  操作基本都是托拉拽，比起以前学习的html布局易上手。
