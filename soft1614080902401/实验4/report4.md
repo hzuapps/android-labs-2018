@@ -1,6 +1,6 @@
 1.实验目标
-  ①根据选题要求设计界面布局及控件使用；
-  ②布局xml及界面控制操作代码提交并截图；
++  ①根据选题要求设计界面布局及控件使用；
++  ②布局xml及界面控制操作代码提交并截图；
   ③将应用运行结果截图。（不要做登录注册！）
   
 2.实验内容
@@ -21,4 +21,4 @@
    ⑤界面2实验LinearLayout布局。
    
 4.实验结果
-  [image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/Fourth/tupian3.png)
+  [image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/%E5%AE%9E%E9%AA%8C4/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180529195037.png)
