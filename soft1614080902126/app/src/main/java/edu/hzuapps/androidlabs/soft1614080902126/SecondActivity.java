@@ -1,8 +1,10 @@
 package edu.hzuapps.androidlabs.soft1614080902126;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -44,6 +46,15 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         initViews();
+
+        Button button2=(Button)findViewById(R.id.button_2);
+        button2.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v){
+                Intent intent=new Intent(SecondActivity.this,ThirdActivity.class);
+                startActivity(intent);
+            }
+        });
     }
     private void initViews() {
         mint = (TextView) findViewById(R.id.mint);
@@ -94,4 +105,5 @@ public class SecondActivity extends Activity {
         else
             sec.setText("" + second);
     }
+
 }
