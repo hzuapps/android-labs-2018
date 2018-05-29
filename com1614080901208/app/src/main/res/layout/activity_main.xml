@@ -4,20 +4,28 @@
     <data>
         <variable
             name="imageViewVm"
-            type="com.example.cnt.textapplication.VM.ImageViewVM"/>
+            type="edu.hzuapps.androidlabs.Com1614080901208.ImageViewVM"/>
     </data>
 <LinearLayout
+    android:id="@+id/linearlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <ImageView
-        app:uri="@{imageViewVm.uri}"
-        android:id="@+id/image"
+    <!--<ImageView-->
+        <!--app:uri="@{imageViewVm.uri}"-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:onClick="@{imageViewVm::onClick}"-->
+        <!--android:scaleType="fitXY"-->
+       <!--/>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:onClick="@{imageViewVm::onClick}"
-        android:scaleType="fitXY"
-       />
+        android:layout_height="match_parent"/>
+        <!--android:layoutAnimation="@anim/anim_item"/>-->
+
+
 
 </LinearLayout>
 </layout>

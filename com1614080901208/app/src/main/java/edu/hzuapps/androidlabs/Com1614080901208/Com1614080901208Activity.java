@@ -9,12 +9,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.view.View;
+import android.widget.LinearLayout;
 
 
 import com.example.cnt.textapplication.R;
 import com.example.cnt.textapplication.VM.ImageViewBean;
 import com.example.cnt.textapplication.databinding.ActivityMainBinding;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,7 +55,13 @@ public class Com1614080901208Activity extends AppCompatActivity {
         binding.mainRecyclerview.setLayoutManager(new LinearLayoutManager(this));
 
 
+        LinearLayout linearLayout = (LinearLayout)findViewById(R.id.linearlayout);
+
+        //将下载下来的图片设置背景图片
+        new mythread("http://pic.qiantucdn.com/58pic/11/62/97/41S58PICNCu.jpg",linearLayout,new Handler()).start();
+
     }
+
 
     private void initListData() {
         list = new ArrayList<>();
