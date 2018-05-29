@@ -1,0 +1,24 @@
+1.实验目标
+  ①根据选题要求设计界面布局及控件使用；
+  ②布局xml及界面控制操作代码提交并截图；
+  ③将应用运行结果截图。（不要做登录注册！）
+  
+2.实验内容
+  ①使用其中一种布局方式，设计所选题目的界面：
+  ②通过控件ID获取界面对象，执行相关操作：
+  ③实现界面控件的事件处理，例如点击按钮：
+  
+3.实验步骤  
+  ①创建新项目
+  ②选好理想的布局。
+  ③根据需要向xml中添加控件。
+  ④为点击按钮添加触发事件代码
+   public void jilu(View view) {
+       //实现点击该按钮后跳转到指定界面
+        Intent intent = new Intent(Soft1614080902401.this, Soft16140809024012.class);
+        startActivity(intent);
+    }
+   ⑤界面2实验LinearLayout布局。
+   
+4.实验结果
+  [image](https://github.com/heyingsen/android-labs-2018/blob/master/soft1614080902302/Fourth/tupian3.png)
