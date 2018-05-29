@@ -16,14 +16,14 @@
 （2）选定一种布局。我选定了linearlayout,则可以在其中添加
 
 ```
-<LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"//或者"horizontal"，可以垂直分布也可以水平分布
-        android:gravity="center"//设置使该模块居中
-        >//之后再加上各种组件代码
-        />
-</LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"//或者"horizontal"，可以垂直分布也可以水平分布
+                android:gravity="center"//设置使该模块居中
+                >//之后再加上各种组件代码
+                />
+        </LinearLayout>
 ```
 
 （3）想好如何把各个组件布局好。可以选择垂直分布也可以水平分布。也可以在水平分布中的其中一个模块中再进行水平分布或者垂直分布。
