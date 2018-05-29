@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/urgent_selector">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imview"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:id="@+id/view2"
+        android:text="https://github.com/lhyyhl/android-labs-2018/blob/07249e0aba31f5d9ef0e60602305e49ee672e670/soft1614080902304/601.png"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_3"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        android:text="下载"/>
+
+</FrameLayout>

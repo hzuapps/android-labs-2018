@@ -24,8 +24,8 @@
     </activity>
     <activity android:name=".FileStorageActivity">
     </activity>
-        <activity android:name=".DownloadImage">
-        </activity>
+    <activity android:name=".Check">
+    </activity>
     </application>
 
 
