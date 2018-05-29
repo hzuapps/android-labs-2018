@@ -31,8 +31,8 @@ public class FileAdapter extends ArrayAdapter<File> {
         }else {
             view = convertView;
         }
-        ImageView fileImage = (ImageView)view.findViewById(R.id.file_image);
-        TextView fileName = (TextView)view.findViewById(R.id.file_name);
+        ImageView fileImage = view.findViewById(R.id.file_image);
+        TextView fileName = view.findViewById(R.id.file_name);
         fileImage.setImageResource(file.getImageId());
         fileName.setText(file.getName());
         return view;

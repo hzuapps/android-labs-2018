@@ -21,13 +21,13 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.login);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 LoginActivity.this, android.R.layout.simple_list_item_1, data);
-        ListView listView = (ListView) findViewById(R.id.liset_view);
+        ListView listView = findViewById(R.id.liset_view);
         listView.setAdapter(adapter);
 
         //
         initFiles();
         FileAdapter adapter1 = new FileAdapter(LoginActivity.this, R.layout.file_layout, fileList);
-        ListView listView1 = (ListView) findViewById(R.id.liset_view);
+        ListView listView1 = findViewById(R.id.liset_view);
         listView.setAdapter(adapter);
     }
 
