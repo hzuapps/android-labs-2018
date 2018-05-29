@@ -8,7 +8,7 @@
 ## 实验步骤
 ### 1.在实验四的基础上添加一个ThreeActivity界面；
 ### 2.在SecondActivity.java中添加监听器，点击“心得体会”进入到ThreeActivity。
-### 3.在ThreeActivity.xml文件中，添加EditText控件，在此控件中添加一个id，添加一个Button控件用于保存数据。
+### 3.在activity_three.xml文件中，添加EditText控件，在此控件中添加一个id，添加一个Button控件用于保存数据。
 ### 4.在ThreeActivity.java加入输入需要的文件操作的代码，选择内部存储的方式，添加监听器和文件输入输出流，以及每点击一次界面就刷新一次。
 ## 实验结果
 ![image t](https://github.com/chenzhiH/android-labs-2018/blob/master/soft1614080902122/%E5%AE%9E%E9%AA%8C%E4%BA%94%E6%88%AA%E5%9B%BE2.png)
