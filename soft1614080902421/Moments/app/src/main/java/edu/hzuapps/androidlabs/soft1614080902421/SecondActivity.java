@@ -15,6 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.secondactivity);
         ImageButton button = (ImageButton) findViewById(R.id.button2);//返回开始界面
+        ImageButton button1 =(ImageButton) findViewById(R.id.button3);
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
@@ -23,5 +24,15 @@ public class SecondActivity extends AppCompatActivity {
                 }
 
         });
+        button1.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+                Intent intent = new Intent(SecondActivity.this,ThirdActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
     }
+
 }
