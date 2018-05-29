@@ -15,10 +15,18 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
         Button button3 = (Button)findViewById(R.id.button_2);
+        Button buttont=(Button)findViewById(R.id.button_t);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ThirdActivity.this,FourActivity.class);
+                startActivity(intent);
+            }
+        });
+        buttont.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ThirdActivity.this,FifthActivity.class);
                 startActivity(intent);
             }
         });
