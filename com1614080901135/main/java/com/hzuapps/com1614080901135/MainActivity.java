@@ -14,9 +14,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-/**
- * @author 王治平
- */
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
