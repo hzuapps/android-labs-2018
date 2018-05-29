@@ -20,5 +20,6 @@
 的josn对象并将json对象赋值到JAVABEAN中
 -5、返回主线程去更新UI利用runOnUiThread（）便可
 -四、实验体会
+![image](https://github.com/unihaoke/android-labs-2018/blob/master/soft1609081602618/889509428610662967.jpg)
 --
 -这次的实验主要使用了两个框架：OkHttp和Gson极大的简化了我们的代码，有利于我们快速开发app
