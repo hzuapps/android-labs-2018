@@ -1,0 +1,16 @@
+# 第六次实验报告
+## Android网络编程
+## 一、实验步骤
+### 1.修改AndroidManifest，加入必要的连接网络的权限。
+### 2.修改ActivitySecond.java，在其中添加功能为点击按钮完成图片的下载。
+### 3.运行程序并截图；
+### 4.提交代码和截图。
+## 二、实验结果截图
+### 原图片:
+###1，未1.png是还未点击按钮下载图片时的截图。
+![image](https://github.com/zhangzepo/android-labs-2018/blob/master/soft1614080902141/%E6%9C%AA1.png)
+###2，已下载.png是点击按钮下载好图片时的截图
+![image](https://github.com/zhangzepo/android-labs-2018/blob/master/soft1614080902141/%E5%B7%B2%E4%B8%8B%E8%BD%BD.png)
+
+## 三、实验体会
+### 1.通过实验，我对安卓的网络编程有了一定的认识，并加深了对安卓其他方面的理解，并知道了如何去编写程序，对程序开放权限并实现图片下载并显示。
