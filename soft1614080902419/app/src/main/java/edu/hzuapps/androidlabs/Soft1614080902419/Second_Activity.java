@@ -1,10 +1,16 @@
 package edu.hzuapps.androidlabs.Soft1614080902419;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 public class Second_Activity extends AppCompatActivity implements View.OnClickListener {
     TextView t[] = new TextView[18];
@@ -46,10 +52,38 @@ public class Second_Activity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
         for(int i=0;i<18;i++){
-            if(t[i]==view){
+            if(t[i]==view&&i==14){            //点击等号
+                String str = t[i].getText().toString(),str1="10";
+                this.save(str,str1);
+                String s = counting.getText().toString();
+                result.setText(s);
+                counting.setText(str1);
+            }
+            else if(t[i]==view){
                 String str = t[i].getText().toString();
-                Log.d("dd",str);
-                counting.setText(str);
+                counting.append(str);
+            }
+        }
+    }
+    public void save(String str,String str1){
+        String data = str,data1 = str1;
+        FileOutputStream out = null;
+        FileOutputStream out1 = null;
+        BufferedWriter writer1 = null;
+        BufferedWriter writer2 = null;
+        try{
+            out = openFileOutput("counting.txt", Context.MODE_PRIVATE);
+            writer1 = new BufferedWriter(new OutputStreamWriter(out));
+            writer1.write(data);
+            out1 = openFileOutput("result.txt", Context.MODE_PRIVATE);
+            writer2 = new BufferedWriter(new OutputStreamWriter(out1));
+            writer2.write(data1);
+        }catch (IOException e){
+        }finally {
+            try {
+                writer1.close();
+                writer2.close();
+            } catch (IOException e) {
             }
         }
     }
