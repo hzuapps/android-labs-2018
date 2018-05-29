@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902210.SecondActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_second" />
+
+
+    <TextView
+        android:id="@+id/ting"
+        android:layout_width="580dp"
+        android:layout_height="869dp"
+        android:drawableTop="@drawable/a" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="260dp"
+        android:text="显示" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="050dp"
+        android:layout_marginLeft="260dp"
+        android:text="确定" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
