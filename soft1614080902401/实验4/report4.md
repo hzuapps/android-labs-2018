@@ -25,3 +25,6 @@
   
    [image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/%E5%AE%9E%E9%AA%8C4/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180529195054.png)
 
+5.实验体会
+  此次实验需要先对自己所选课题进行布局选择，选择适合的布局后，根据需要添加控件，需要熟悉对监听event，如点击按钮后触发跳转界面等。
+
