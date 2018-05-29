@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">朋友圈</string>
-    <string name="context1">朋友圈</string>
-    <string name="user_name1">Soft1614080902421</string>
-    <string name="btn_open">查看动态 &gt;</string>
-    <string name="btn_back">&lt; 返回</string>
-</resources>
