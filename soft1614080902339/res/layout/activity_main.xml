@@ -16,25 +16,34 @@
             android:layout_height="20dp"
             android:orientation="vertical"/>
 
-        <TextView
-            android:id="@+id/textview_01"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/textNormal"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
-            android:lineSpacingExtra="10sp"
-            android:text="標題"
-            android:textColor="#949494"
-            android:textSize="33sp" />
+            android:background="@null"
+            android:hint="@string/title"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
 
-        <TextView
-            android:id="@+id/textview_02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="left"
-            android:lineSpacingExtra="10sp"
-            android:text="內容"
-            android:textColor="#949494"
-            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:id="@+id/textNormal2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@null"
+            android:gravity="start"
+            android:hint="@string/text"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            />
 
     </LinearLayout>
 

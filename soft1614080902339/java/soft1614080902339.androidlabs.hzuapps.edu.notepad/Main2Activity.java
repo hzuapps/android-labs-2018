@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 
+import org.litepal.crud.DataSupport;
+
 public class Main2Activity extends AppCompatActivity {
 
     @Override
@@ -22,13 +24,14 @@ public class Main2Activity extends AppCompatActivity {
                 Intent intent = new Intent(thisActivity, MainActivity.class);
                 thisActivity.startActivity(intent);
             }
+
         });
 
         Button btnOpen2 = (Button) findViewById(R.id.roundBtn2);
         btnOpen2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, Main3Activity.class);
+                Intent intent = new Intent(thisActivity, ListActivity.class);
                 thisActivity.startActivity(intent);
             }
         });
