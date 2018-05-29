@@ -14,14 +14,14 @@
 +  ③根据需要向xml中添加控件。
 +  ④为点击按钮添加触发事件代码
 +   public void jilu(View view) {
-       //实现点击该按钮后跳转到指定界面
-        Intent intent = new Intent(Soft1614080902401.this, Soft16140809024012.class);
-        startActivity(intent);
-    }
++       //实现点击该按钮后跳转到指定界面
++        Intent intent = new Intent(Soft1614080902401.this, Soft16140809024012.class);
++        startActivity(intent);
++    }
 +   ⑤界面2实验LinearLayout布局。
    
 4.实验结果
   [image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/%E5%AE%9E%E9%AA%8C4/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180529195037.png)
   
-   [image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/%E5%AE%9E%E9%AA%8C4/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180529195037.png)
+   [image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/%E5%AE%9E%E9%AA%8C4/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180529195054.png)
 
