@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="soft1614080902317.androidlabs.hzuapps.edu.tripmanager">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Soft1614080902317" />
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".ShowTripActivity" />
+        <activity android:name=".ModifyTrip" />
+        <activity android:name=".DownloadActivity"></activity>
     </application>
 
 </manifest>
