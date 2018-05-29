@@ -1,10 +1,10 @@
 # 一、实验步骤
 
-1.在activity_soft1614080902120.xml界面添加一张图片aa.jpg，同时添加一个按钮-开始游戏，id为button1；
+1.在activity_soft1614080902120.xml界面添加一张图片aa.jpg，id为button1；
 
 2.创建一个新的activity--Soft1614080902120Activity2.java；
 
-3.在Soft1614080902120Activity.java中添加实验要求中提供的代码，即加入Intent类，使得点击开始游戏（button1）时打开Soft1614080902120Activity2.java；
+3.在Soft1614080902120Activity.java中添加实验要求中提供的代码，即加入Intent类，使得点击图片时打开Soft1614080902120Activity2.java；
 
 4.将应用运行结果截图；
 
