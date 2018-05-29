@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com1614080901125.androidlabs.hzuapps.edu.hkmacgo.MainActivity">
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="25dp"
+        android:text="请输入产品名称:" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="28dp"
+        android:text="请输入购买数量：" />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:id="@+id/et_info"
+        android:layout_alignParentStart="true" />
+    <requestFocus/>
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:layout_alignBottom="@+id/btn_save"
+        android:layout_alignEnd="@+id/et_info"
+        android:layout_marginEnd="66dp"
+        android:layout_alignTop="@+id/btn_save" />
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定提交"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/et_info"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="66dp" />
+
+
+</RelativeLayout>
