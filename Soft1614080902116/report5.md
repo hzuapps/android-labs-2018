@@ -14,13 +14,13 @@
 
 (2)对新的activity进行relativelayout布局，添加一个Button按钮和两个edittext，再对前面的一个activity代码进行修改，是这两个进行连接
 
-(3)然后用文件存储方式进行数据存储，保存所输入的数据
+(3)进入系统界面后，点击设置消费按钮，进入新的界面，输入最高消费，然后点击保存，保存了所输入的数据
 
 (4)连上手机，在真机上运行，得到想要的效果，最后上传
 
 4.实验结果
 
-![image](https://github.com/zrh116/android-labs-2018/blob/master/Soft1614080902116/%E5%AE%9E%E9%AA%8C5.jpg)
+![image](https://github.com/zrh116/android-labs-2018/blob/master/Soft1614080902116/%E5%AE%9E%E9%AA%8C5%E4%BF%AE%E6%94%B9.jpg)
 
 5.实验体会
 
