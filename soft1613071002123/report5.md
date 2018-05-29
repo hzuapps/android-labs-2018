@@ -23,7 +23,7 @@
 ## 3.实验结果
 
 记住密码截图：
-![image] (https://github.com/Beginner-hww/android-labs-2018/blob/master/soft1613071002123/%E8%AE%B0%E4%BD%8F%E5%AF%86%E7%A0%81.jpg?raw=true)
+![image](https://github.com/Beginner-hww/android-labs-2018/blob/master/soft1613071002123/%E8%AE%B0%E4%BD%8F%E5%AF%86%E7%A0%81.jpg?raw=true)
 
 ## 4.实验体会 
 这次实验没有连接数据库，而是直接把数据存储在手机的内部文件中，使用的技术是首选项，实现的功能是用户登陆的记住密码。
