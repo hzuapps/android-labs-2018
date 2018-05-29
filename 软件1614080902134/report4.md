@@ -22,7 +22,7 @@
 
  打开加减王者时，出现下面的图片效果： 
  
-  ![image](https://github.com/zero297217464/android-labs-2018/blob/master/com1614080901116/dakai.png)
+  ![image](https://github.com/lgc1999/android-labs-2018/blob/master/soft1614080902134/%E5%AE%9E%E9%AA%8C%E5%9B%9B1.png)
  
  接着按下“打开”按钮后，用户可以编辑，效果如下：  
  
