@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Search extends AppCompatActivity {
@@ -48,7 +49,8 @@ public class Search extends AppCompatActivity {
             }
         });
 
-        Button btn1=(Button)findViewById(R.id.ShowAll);
+        Button btn1=(Button)findViewById(R.id.ShowButton);
+
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,6 +59,9 @@ public class Search extends AppCompatActivity {
                 Cursor cursor = db.query(table,columns,selection,new String[]{str},groupBy,having,orderBy);
                 //Cursor cursor = db.query(table,columns,null,null,groupBy,having,orderBy);
                 //调用moveToFirst()将数据指针移动到第一行的位置。
+
+                //cursor光标遍历
+                /*
                 if (cursor.moveToFirst()){
                     do {
                         //然后通过Cursor的getColumnIndex()获取某一列中所对应的位置的索引
@@ -64,7 +69,6 @@ public class Search extends AppCompatActivity {
                         String description = cursor.getString(cursor.getColumnIndex("description"));
                         Log.d("MainActivity","name is "+name);
                         Log.d("MainActivity","description is "+description);
-                        //Toast.makeText(Search.this, name+description, Toast.LENGTH_LONG).show();
                         Intent intent=new Intent(Search.this,ShowSearch.class);
                         intent.putExtra("name",name);
                         intent.putExtra("description",description);
@@ -72,7 +76,31 @@ public class Search extends AppCompatActivity {
                     }while(cursor.moveToNext());
                 }
                 cursor.close();
+                */
+
+                //单个查询
+                if(cursor.moveToFirst()){
+                    String name=cursor.getString(cursor.getColumnIndex("name"));
+                    String description = cursor.getString(cursor.getColumnIndex("description"));
+                    Intent intent=new Intent(Search.this,ShowSearch.class);
+                    intent.putExtra("name",name);
+                    intent.putExtra("description",description);
+                    startActivity(intent);
+                }
+                else{
+                    Toast.makeText(Search.this,"查询无名为"+str+"的搭配",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        Button btn2=(Button)findViewById(R.id.fromJSON);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(),ShowFromJSON.class);
+                startActivity(intent);
             }
         });
     }
+
 }
