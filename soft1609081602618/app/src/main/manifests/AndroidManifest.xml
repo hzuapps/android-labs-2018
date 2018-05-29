@@ -14,14 +14,17 @@
         </activity>
         <activity android:name=".SchoolNewsActivity" />
         <activity android:name=".MainActivity" >
+        </activity>
+        <activity android:name=".LostActivity"
+            >
+        </activity>
+        <activity android:name=".RecordSearchActivity" />
+        <activity android:name=".LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LostActivity"
-            />
-        <activity android:name=".RecordSearchActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
