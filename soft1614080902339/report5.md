@@ -39,13 +39,13 @@
 
 ## 4.实验截图
 &emsp;   
-![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_1.png "Home Page")
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_4.png "Home Page")
 &emsp;   
 &emsp;   
-![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_2.png "Edit Page")
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_5.png "Edit Page")
 &emsp;   
 &emsp;   
-![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_3.png "Read Page")
+![](https://raw.githubusercontent.com/Strakly/android-labs-2018/master/soft1614080902339/AndroidScreenshot_6.png "Read Page")   
 ## 5.实验体会
 &emsp;&emsp;本次实验对总的App设计较大，首先改写了撰写页面，抛弃原先只用于显示效果、无法编辑的TextView控件改为可编辑的EditView文件。   
 &emsp;&emsp;并由于存储多条内容后显示对应内容的需要，添加了控件RecyclerView，使得在有限的窗口展示大量的数据。   
