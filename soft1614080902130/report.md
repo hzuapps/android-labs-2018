@@ -1,58 +1,26 @@
-<<<<<<< HEAD
-µÚÎå´ÎÊµÑé
-1.ÊµÑéÄ¿±ê
- 1.ÕÆÎÕÔÚAndroid AppÖÐ´æ´¢Êý¾Ý¡£
+µÚÁù´ÎÊµÑé
+Ò».ÊµÑéÄ¿µÄ
  
-2.ÊµÑéÄÚÈÝ
- 1.½«Ó¦ÓÃ²úÉúµÄÊý¾Ý´æ´¢µ½Êý¾Ý¿âÖÐ£»
- 2.Ê¹ÓÃUMLÀàÍ¼ÃèÊö±í½á¹¹£»
- 3.½«Ó¦ÓÃÔËÐÐ½á¹û½ØÍ¼¡£
+1.ÕÆÎÕAndroidÍøÂç·ÃÎÊ·½·¨£» 
+2.Àí½âXMLºÍJSON±íÊ¾Êý¾ÝµÄ·½·¨¡£
  
-3.ÊµÑé²½Öè 
-	1.ÔÚresÎÄ¼þ¼ÐÖÐÌí¼ÓÒ»¸örawÎÄ¼þ£¬½«data.txtÎÄ±¾Êý¾Ý·ÅÈë
-	2.ÀûÓÃandroidÏµÍ³µÄResourcesÀà£¬Í¨¹ýÀàµÄopenRawResource·½·¨£¬ÀûÓÃInputStream¶ÁÈ¡ÎÄ±¾Êý¾Ý
-	3.ÔÙÀûÓÃScanner¶ÁÈ¡ÎÄ¼þ
-	4.ÀûÓÃArrayList<String>´æ´¢¶ÁÈ¡µÄÊý¾Ý
-	5.ÔÚÀûÓÃArrayAdapter<String>½«Êý¾Ý´«ËÍ¸ølistViewÖÐÕ¹ÏÖ³öÀ´
-
-4.ÊµÑé½á¹û
-	ÊµÑé½ØÍ¼1
-	
-5.ÊµÑéÌå»á
-	±¾´ÎÊµÑé¾­¹ý°Ù¶È£¬²é¿´±ðÈËµÄ´úÂëÐ´³öÀ´¡£´ó²¿·Ö¹¦ÄÜ»¹Î´ÊµÏÖÔÚÅ¬Á¦ÊµÏÖÖÐ¡£
-=======
-# ç¬¬4æ¬¡å®žéªŒæŠ¥å‘Š
-## 1.å®žéªŒç›®æ ‡
-1.æ ¹æ®é€‰é¢˜è¦æ±‚è®¾è®¡ç•Œé¢å¸ƒå±€åŠæŽ§ä»¶ä½¿ç”¨ï¼›  
-2.å¸ƒå±€xmlåŠç•Œé¢æŽ§åˆ¶æ“ä½œä»£ç æäº¤å¹¶æˆªå›¾ï¼›  
-3.å°†åº”ç”¨è¿è¡Œç»“æžœæˆªå›¾ã€‚  
-  
-## 2.å®žéªŒè¦æ±‚
-1.ä½¿ç”¨ä¸€ç§å¸ƒå±€æ–¹å¼ï¼Œè®¾è®¡æ‰€é€‰é¢˜ç›®çš„ç•Œé¢ï¼š   
-2.é€šè¿‡æŽ§ä»¶IDèŽ·å–ç•Œé¢å¯¹è±¡ï¼Œæ‰§è¡Œç›¸å…³æ“ä½œï¼š  
-3.å®žçŽ°ç•Œé¢æŽ§ä»¶çš„äº‹ä»¶å¤„ç†ï¼Œä¾‹å¦‚ç‚¹å‡»æŒ‰é’®ï¼š 
-
-## 3.å®žéªŒæ­¥éª¤
-1.  æ–°å»ºä¸€ä¸ª`ThirdActivity`ï¼Œå¹¶æ”¹å†™å…¶å†…å®¹ï¼Œå®žçŽ°Listviewæ˜¾ç¤ºçŽ©å®¶ä¿¡æ¯;
-2.  åœ¨`res/layout`ä¸‹ç¼–å†™ç›¸åº”çš„`activity_third.xml`æ–‡ä»¶ï¼Œè¿™é‡Œæˆ‘å°†ListviewåŠ å…¥ï¼Œå®žçŽ°ä¿¡æ¯å±•ç¤º
-	 <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/list_view"/>
-4.  æ£€æŸ¥å¥½é¢„è§ˆæ•ˆæžœï¼Œæ•´ç†å¥½ç•Œé¢çš„å¸ƒå±€ä»¥åŠæŽ§ä»¶çš„ä½ç½®ã€‚æœ€å¥½ç”¨è™šæ‹Ÿæœºè¿è¡Œå³å¯ã€‚`
-5.  ä½¿ç”¨Gitå°†ä»£ç æäº¤åˆ°è‡ªå·±çš„åº“ä¸­ï¼š
-	$  git pull <br>
-	$  git add å­¦å·ç›®å½•/* <br>
-	$  git commit "#12345678 "<br>
-	$  git push <br>
-6.  ç¼–è¾‘å®žéªŒæŠ¥å‘Šï¼Œç„¶åŽå°†é¡¹ç›®ç›®å½•ä¸€å¹¶pullç»™è€å¸ˆ;
-  
-
-## 4.å®žéªŒç»“æžœ
-appè¿è¡Œæˆªå›¾æƒ…å†µ 
-
-å®žéªŒæˆªå›¾1,2,3
-
-## 5.å®žéªŒä½“ä¼š
-é€šè¿‡è¿™æ¬¡å®žéªŒï¼Œæˆ‘å­¦ä¼šäº†åœ¨activityä¸Šå¸ƒå±€ï¼Œå­¦ä¼šäº†æ·»åŠ buttonã€imageviewç­‰ç»„ä»¶ï¼Œå­¦ä¼šäº†å¯¹ç»„ä»¶è¿›è¡Œç»‘å®šäº‹ä»¶ï¼Œ  
->>>>>>> f1c00c46047e22804f223deebf128c36c649571d
+¶þ.ÊµÑéÄÚÈÝ
+ 
+1.Í¨¹ýurlÏÂÔØÒ»ÕÅÕÕÆ¬
+2.½«ÕÕÆ¬ÏÔÊ¾µ½ImagViewÉÏ
+3.ÊµÑé½ØÍ¼
+ 
+Èý.ÊµÑé²½Öè
+ 
+1.Í¨¹ýÐÂ½¨Ò»¸öÐÂÏß³Ì£¬¼ÓÔØÍ¼Æ¬ÐÅÏ¢
+2.½«¼ÓÔØµÄÍ¼Æ¬ÐÅÏ¢·¢ËÍµ½ÏûÏ¢¶ÓÁÐÖÐ
+3.×¢Òâµã£ºÍøÂçÍ¼Æ¬Í¨¹ý×ª»¯inputStreamÁ÷£¬ÔÚ×ª»¯ÎªbitMap£¬×îºó½«bitMap´«¸øimageView
+4.ÔÚÏûÏ¢¶ÓÁÐÖÐ½øÐÐUIÐÞ¸Ä
+5.ÔËÐÐ´úÂë½ØÍ¼²¢ÓÃgitÉÏ½»Ïà¹ØÎÄ¼þ¡£
+ 
+ËÄ.ÊµÑé½ØÍ¼
+	ÊµÑé½ØÍ¼1,2£»
+ 
+Îå.ÊµÑéÌå»á
+ 
+ Í¨¹ýÕâ´ÎÊµÑéÁË½âÁËAndroidÍøÂç·ÃÎÊ·½·¨£¬»ñÈ¡È¨ÏÞ£¬androidµÄÏß³ÌÓëjavaÊÇÒ»ÑùµÄ¡£
