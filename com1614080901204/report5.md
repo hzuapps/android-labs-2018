@@ -25,7 +25,5 @@
 ![image](https://github.com/xiebaoshu/android-labs-2019/blob/master/com1614080901204/app/jieguo1.png)
 
 # 实验体会
+掌握了如何在AS中存储数据至文件中，也掌握了如何从文件中读取数据，也加深了对布局设计的理解
 
-1.掌握了文件存储数据方法，包括读取和存入。
-
-2.掌握了edittext的编程使用。
