@@ -25,7 +25,7 @@ public class Com1614080901206Activity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(Com1614080901206Activity.this,SecondActivity.class);
+                Intent intent=new Intent(Com1614080901206Activity.this,BuyActivity.class);
                 startActivity(intent);
             }
         });
