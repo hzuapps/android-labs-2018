@@ -2,6 +2,7 @@ package edu.hzuapps.androidlabs.Com1614080901239;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -77,6 +78,7 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
     private Button And_btn;
     private Button journal_btn;
     private EditText mResultText;
+    private Button picture_btn;
     private String existedText = "";
     private boolean isCounted = false;
     private boolean startWithOperator = false;
@@ -91,6 +93,8 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
 
         initView();
         initEvent();
+        new pictureThread("https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1527601939&di=2a4b28667c41ebb7b2a07f29c6c57f7b&src=http://pic.90sjimg.com/back_pic/u/00/38/54/05/55fbe8a6d099d.jpg",mResultText,new Handler()).start();
+
 
     }
 
@@ -131,6 +135,7 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
         Not_btn = (Button) findViewById(R.id.Not_btn);
         And_btn = (Button) findViewById(R.id.And_btn);
         journal_btn = (Button) findViewById(R.id.journal_btn);
+        picture_btn = (Button) findViewById(R.id.picture_btn);
         mResultText = (EditText) findViewById(R.id.result_text);
         existedText = mResultText.getText().toString();
 
@@ -159,6 +164,7 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
         delete_btn.setOnClickListener(this);
         ac_btn.setOnClickListener(this);
         journal_btn.setOnClickListener(this);
+        picture_btn.setOnClickListener(this);
     }
     public void onClick(View v) {
 
@@ -213,6 +219,10 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
                 Intent intent = new Intent(thisActivity, journal.class);
                 thisActivity.startActivity(intent);
                 break;
+            case R.id.picture_btn:
+                Intent intent1 = new Intent(thisActivity, journal.class);
+                thisActivity.startActivity(intent1);
+                break;
         }
     }
 
@@ -221,81 +231,6 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
         SharedPreferences.Editor editor = getSharedPreferences("data",MODE_PRIVATE).edit();
         editor.putString("text",text);
         editor.apply();
-
-
-        // 获取内部存储目录
-//        File dir = this.getFilesDir();
-//        //File dir = getCacheDir();
-//
-//        if (dir.isDirectory()) {
-////            dir.mkdir();
-////            dir.mkdirs();
-//        }
-//
-//        if (dir.isFile()) {
-//            // D:/Abc.txt , -> D:/Abc1.txt ->D:/abc.txt
-//        }
-//
-//        File file = new File(dir, FILENAME);
-//
-////        try {
-////            File = File.createTempFile(FILENAME, null, dir);
-////        } catch (IOException e) {
-////            e.printStackTrace();
-////        }
-//
-//        if (file.exists()) { // 判断文件是否存在
-//            Log.i(TAG, file.getAbsolutePath());
-//            Log.i(TAG, file.length() + ""); // bytes*1024=kb *1024 MB
-//            Log.i(TAG, file.isFile() + "");
-//            file.canRead();
-//            file.canWrite();
-//            file.canExecute();
-//
-//            file.getFreeSpace();
-//            file.getTotalSpace();
-//        }
-//
-//        FileOutputStream fos = null;  // 字节流  | char | cn : gbk 2 bytes, utf8 3 bytes
-//
-//        try { // 使用API打开输出流
-//            fos = openFileOutput(FILENAME, MODE_PRIVATE);
-//            //FileOutputStream fos = new FileOutputStream(file);
-//            fos.write(text.getBytes()); // 写入内容
-//            fos.close(); // 关闭流
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } finally {
-//            try {
-//                fos.close();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//
-//        FileReader reader = null; // char
-//
-//        try {
-//            reader = new FileReader(file.getAbsoluteFile());
-//            BufferedReader bReader = new BufferedReader(reader);
-//            String line = bReader.readLine();
-//            Log.i(TAG, "从文件读取的内容: " + line);
-//            bReader.close();
-//            reader.close();
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        FPATH=file.getAbsolutePath();
-        // 显示结果
-        //showResult(file.getAbsolutePath());
-
-        // 删除文件
-        // file.delete();
-        // deleteFile(FILENAME);
     }
 
 
