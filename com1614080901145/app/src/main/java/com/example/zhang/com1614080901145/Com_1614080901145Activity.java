@@ -1,6 +1,7 @@
 package com.example.zhang.apps;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -37,8 +38,17 @@ public class Com_1614080901145Activity extends AppCompatActivity{
                 Toast.makeText(Com_1614080901145Activity.this, "非常抱歉，暂时没有找到相关资源，我们已经将你的需求记录，敬请期待！", Toast.LENGTH_SHORT).show();
             }
         });
+        Button button2 = (Button)findViewById(R.id.button_9);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Com_1614080901145Activity.this,Download.class);
+                startActivity(intent);
+            }
+        });
 
     }
+
         // 将文字保存到内部存储
         private void saveTextIntoInternalStorage(String text) {
                 // 获取内部存储目录
