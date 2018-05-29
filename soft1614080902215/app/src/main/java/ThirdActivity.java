@@ -9,12 +9,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class ThirdActivity extends AppCompatActivity{
     private TextView textView;
@@ -25,6 +32,9 @@ public class ThirdActivity extends AppCompatActivity{
     private boolean addNum;
     private Button More;
     //private Button Build;
+    private TextView texts;
+    private String text;
+    public static final String TAG1 = ThirdActivity.class.getSimpleName();
 
     public static final String DIRECTORY = "demo";
     public static final String FILENAME = "file_demo.txt";
@@ -37,6 +47,9 @@ public class ThirdActivity extends AppCompatActivity{
         textView1 = (TextView) findViewById(R.id.textView);
         addNum = true;
 
+        texts = ((TextView) findViewById(R.id.textView));
+        getJson();
+
         More=(Button)findViewById(R.id.btn_more);
         More.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +59,8 @@ public class ThirdActivity extends AppCompatActivity{
             }
         });
 
+
+
         ((Button) findViewById(R.id.btn_save)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,6 +68,58 @@ public class ThirdActivity extends AppCompatActivity{
                 saveTextIntoInternalStorage(text);
             }
         });}
+    public void getJson() {
+        new Thread() {
+            @Override
+            public void run() {
+                try {
+                    //你的URL
+                    Log.i(TAG1, "01");
+                    String url_s = "https://raw.githubusercontent.com/Zhenghizhong/android-labs-2018/master/soft1614080902215/text.json";
+                    URL url = new URL(url_s);
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    Log.i(TAG1, "1");
+                    conn.setConnectTimeout(5000);
+                    conn.setUseCaches(false);
+                    conn.connect();
+                    InputStream inputStream = conn.getInputStream();
+                    InputStreamReader input = new InputStreamReader(inputStream);
+                    BufferedReader buffer = new BufferedReader(input);
+                    if (conn.getResponseCode() == 200) {
+                        String inputLine;
+                        StringBuffer resultData = new StringBuffer();
+                        while ((inputLine = buffer.readLine()) != null) {
+                            resultData.append(inputLine);
+                        }
+                        text = resultData.toString();
+                        Log.v("out---------------->", text);
+
+
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                try {
+                                   // JSONArray js = new JSONArray(text);
+                                    JSONObject ob = new JSONObject(text);
+                                    String str = ob.getString("text");
+                                    texts.setText(str);
+                                }catch(Exception e){
+                                    e.printStackTrace();
+                                }
+                            }
+                        });
+
+                    }
+                } catch (Exception e) {
+                    Log.i(TAG1, "5");
+                    e.printStackTrace();
+                }
+
+            }
+
+
+        }.start();
+    }
 // 将文字保存到内部存储
     private void saveTextIntoInternalStorage(String text) {
         // 获取内部存储目录

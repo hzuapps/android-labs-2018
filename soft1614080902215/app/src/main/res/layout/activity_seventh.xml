@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidlabs.hzuapps.edu.soft1614080902215.SeventhActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:id="@+id/贷款金额"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="22sp"
+                android:text="贷款金额(万)"/>
+            <EditText
+                android:id="@+id/贷款金额_num"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="25sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/还款方式"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="22sp"
+                android:text="还款方式"/>
+            <TextView
+                android:id="@+id/还款方式_num"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="25sp"
+                android:text="    等额本息"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/按揭年数"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="22sp"
+                android:text="按揭年数"/>
+            <EditText
+                android:id="@+id/按揭年数_num"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="25sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/首次还款日期"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="22sp"
+                android:text="首次还款日期"/>
+            <EditText
+                android:id="@+id/首次还款日期_num"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="25sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/贷款利率"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="22sp"
+                android:text="贷款利率"/>
+            <EditText
+                android:id="@+id/贷款利率_num"
+                android:layout_width="180dp"
+                android:height="50dp"
+                android:layout_span="1"
+                android:textSize="25sp" />
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn_cle"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:layout_span="2"
+                    android:text="CLEAR" />
+
+                <Button
+                    android:id="@+id/btn_del"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:layout_span="1"
+                    android:text="☜" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/btn_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/btn_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="9" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_4"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/btn_6"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="6" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="3" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn_0"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/btn_point"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="." />
+
+                <Button
+                    android:id="@+id/btn_equ"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:textSize="18sp"
+                    android:text="=" />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

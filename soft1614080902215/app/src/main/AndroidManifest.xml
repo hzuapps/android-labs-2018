@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="androidlabs.hzuapps.edu.soft1614080902215">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +28,10 @@
             android:label="@string/title_activity_second"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".FouthActivity"></activity>
+        <activity android:name=".FouthActivity" />
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".SixthActivity" />
+        <activity android:name=".SeventhActivity"></activity>
     </application>
 
 </manifest>
