@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Moments">
+
+    <!--app图标-->
+    <TextView
+        android:id="@+id/timg0"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:drawableTop="@drawable/timg0"
+        android:gravity="center"
+        android:text="@string/context1"
+        android:textAllCaps="false" />
+
+    <!--查看动态-->
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/btn_open"
+        android:gravity="center"
+        android:visibility="visible"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+</RelativeLayout>
