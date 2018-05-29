@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:id="@+id/sousuo"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="10dp"
+        android:hint="搜索"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/kk"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignLeft="@+id/kk1"
+        android:layout_alignStart="@+id/kk1"
+        android:layout_centerVertical="true"
+        android:text="搜索记录:"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/kk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sousuo"
+        android:text="搜索"
+        android:textSize="20dp"/>
+</RelativeLayout>

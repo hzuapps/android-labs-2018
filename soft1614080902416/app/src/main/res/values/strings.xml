@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">soft1614080902416加法计算器</string>
+    <string name="action_settings">Settings</string>
+    <string name="c_ce">C</string>
+    <string name="c_c">保存</string>
+    <string name="c_xx">%</string>
+    <string name="c_div">÷</string>
+
+    <string name="c_7">7</string>
+    <string name="c_8">8</string>
+    <string name="c_9">9</string>
+    <string name="c_X">X</string>
+
+    <string name="c_4">4</string>
+    <string name="c_5">5</string>
+    <string name="c_6">6</string>
+    <string name="c_delete">－</string>
+
+    <string name="c_1">1</string>
+    <string name="c_2">2</string>
+    <string name="c_3">3</string>
+    <string name="c_add">＋</string>
+
+    <string name="c_aord">±</string>
+    <string name="c_0">0</string>
+    <string name="c_point">·</string>
+    <string name="c_equal">＝</string>
+</resources>

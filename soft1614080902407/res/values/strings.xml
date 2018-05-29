@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Soft1614080902407备忘录</string>
+    <string name="title_activity_second">首页</string>
+    <string name="button_new">新建备忘录</string>
+    <string name="hint_content">请在这里输入备忘录的内容</string>
+</resources>

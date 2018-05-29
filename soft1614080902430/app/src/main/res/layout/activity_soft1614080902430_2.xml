@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1614080902430Activity_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57pt"
+                android:background="#38f6f2f2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_A"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hotel_a" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/title_A"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="A酒店"
+                        android:textSize="35sp"
+                        android:textColor="#0b0b0b"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/address_A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#da0b0b0b"
+                        android:text="XXX地址" />
+                    <TextView
+                        android:id="@+id/price_A"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="bottom"
+                        android:textColor="#b81212"
+                        android:text="¥135起" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57pt"
+                android:background="#38f6f2f2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_B"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hotel_b" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/title_B"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="B酒店"
+                        android:textSize="35sp"
+                        android:textColor="#0b0b0b"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/address_B"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#da0b0b0b"
+                        android:text="XXX地址" />
+                    <TextView
+                        android:id="@+id/price_B"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="bottom"
+                        android:textColor="#b81212"
+                        android:text="¥135起" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57pt"
+                android:background="#38f6f2f2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_C"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hotel_c" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/title_C"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="C酒店"
+                        android:textSize="35sp"
+                        android:textColor="#0b0b0b"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/address_C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#da0b0b0b"
+                        android:text="XXX地址" />
+                    <TextView
+                        android:id="@+id/price_C"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="bottom"
+                        android:textColor="#b81212"
+                        android:text="¥135起" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57pt"
+                android:background="#38f6f2f2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_D"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hotel_d" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/title_D"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="D酒店"
+                        android:textSize="35sp"
+                        android:textColor="#0b0b0b"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/address_D"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#da0b0b0b"
+                        android:text="XXX地址" />
+                    <TextView
+                        android:id="@+id/price_D"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="bottom"
+                        android:textColor="#b81212"
+                        android:text="¥135起" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="57pt"
+                android:background="#38f6f2f2"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_E"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/hotel_e" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/title_E"
+                        android:layout_width="242dp"
+                        android:layout_height="wrap_content"
+                        android:text="E酒店"
+                        android:textSize="35sp"
+                        android:textColor="#0b0b0b"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                    <TextView
+                        android:id="@+id/address_E"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#da0b0b0b"
+                        android:text="XXX地址" />
+                    <TextView
+                        android:id="@+id/price_E"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30sp"
+                        android:gravity="bottom"
+                        android:textColor="#b81212"
+                        android:text="¥135起" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

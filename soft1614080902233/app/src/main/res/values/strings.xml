@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">每日理财</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">third</string>
+</resources>

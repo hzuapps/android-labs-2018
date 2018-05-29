@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.resourcemanager.save">
+
+
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:background="@android:drawable/edit_text"
+        >
+    </EditText>
+
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:background="#FF4040"
+        android:textColor="#F7F7F7"
+        android:textSize="25dp"
+        android:text="确定" />
+
+
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="139dp"
+        android:background="#FF4040"
+        android:textColor="#F7F7F7"
+        android:textSize="25dp"
+        android:text="保存" />
+
+
+    <TextView
+
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_4"
+        android:layout_marginTop="-139dp"
+        android:text="文件内容："
+        android:textSize="30dp" />
+
+
+</RelativeLayout>

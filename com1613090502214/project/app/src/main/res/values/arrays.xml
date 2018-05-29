@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="day">
+
+        <item>星期天</item>
+
+        <item>星期一</item>
+
+        <item>星期二</item>
+
+        <item>星期三</item>
+
+        <item>星期四</item>
+
+        <item>星期五</item>
+
+        <item>星期六</item>
+    </string-array>
+</resources>

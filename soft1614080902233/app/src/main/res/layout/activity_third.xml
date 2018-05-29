@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"
+        android:background="#C1FFC1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="#6495Ed"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="记一笔"
+                android:gravity="center"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="金额"
+            android:textSize="30sp"
+            android:background="#FFFFFF"/>
+        <EditText
+            android:id="@+id/edittext_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="0.00"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:inputType="numberDecimal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp">
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/button_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="取消"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_marginLeft="40dp"
+                android:id="@+id/button_int"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="收入"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_marginLeft="40dp"
+                android:id="@+id/button_out"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="支出"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

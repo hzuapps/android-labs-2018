@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902406ActivityA2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittext_input"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:hint="输入" />
+            <Button
+                android:id="@+id/button_seek"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="查找"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textview_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="查询历史:"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

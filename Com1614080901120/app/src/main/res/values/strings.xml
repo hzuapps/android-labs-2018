@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">表情包制作</string>
+    <string name="title_activity_add_picture">添加图片</string>
+</resources>

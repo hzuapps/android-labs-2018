@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/dingbu"/>
+
+    <EditText
+        android:id="@+id/sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="搜索" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+
+        android:id="@+id/button_save_external"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="保存到外部存储" />
+
+
+
+    <Button
+
+        android:id="@+id/button_save_internal"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="保存到内部存储" />
+
+
+
+    <TextView
+
+        android:id="@+id/text_path"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"/>
+
+
+
+    <include layout="@layout/dibu"/>
+</TableLayout>

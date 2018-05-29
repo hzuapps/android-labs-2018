@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902131CoverActivity"
+    android:background="#ddd6db">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="i 秒 表"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/cover_text_view"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="20dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/sw_1"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

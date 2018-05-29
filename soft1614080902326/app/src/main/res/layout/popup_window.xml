@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ffffff"
+
+        >
+
+        <TextView
+            android:id="@+id/selectFromCamera"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="@string/selectFromCamera"
+            android:clickable="true"
+            android:textColor="#2b2b2b"
+            android:textSize="18sp"/>
+        <TextView android:layout_width="fill_parent" android:layout_height="1px"  android:background="#000000"/>
+        <TextView
+            android:id="@+id/selectFromGallery"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="@string/selectFromGallery"
+            android:textColor="#2b2b2b"
+            android:textSize="18sp" />
+        <TextView android:layout_width="fill_parent" android:layout_height="3dp"  android:background="#1b000000"/>
+        <TextView
+            android:id="@+id/cancelButton"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="#2b2b2b"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

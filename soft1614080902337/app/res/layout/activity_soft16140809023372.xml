@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902337Activity2">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_soft16140809023372" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:drawableBottom="@drawable/background1"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/week1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/no1"
+                />
+
+            <TextView
+                android:id="@+id/week2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:background="@drawable/no2"/>
+
+            <TextView
+                android:id="@+id/week3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:background="@drawable/no3"/>
+
+            <TextView
+                android:id="@+id/week4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:background="@drawable/no4"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:background="@drawable/no5"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/class11"
+                android:height="80dp"
+                android:hint="第一节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第一节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第一节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第一节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第一节"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:height="80dp"
+                android:hint="第二节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第二节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第二节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第二节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第二节"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:height="80dp"
+                android:hint="第三节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第三节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第三节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第三节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第三节"
+                android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:height="80dp"
+                android:hint="第四节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第四节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第四节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第四节"
+                android:gravity="center"/>
+            <EditText
+                android:height="80dp"
+                android:hint="第四节"
+                android:gravity="center"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="150dp"
+        android:background="#43e24e"
+        android:text="写入课程" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+
+</android.support.design.widget.CoordinatorLayout>

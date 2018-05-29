@@ -1,0 +1,26 @@
+#实验目的
+
+掌握在Android应用中使用图片等资源的方法。
+
+#实验要求
+
+在界面上显示至少一张图片（按照自己的题目添加）；
+提交res/drawable及图片使用的代码；
+提交res/values, res/layout等其他代码；
+将应用运行结果截图，放到实验报告中；
+点击图片（或按钮）时，打开另一个Activity。
+
+#实验步骤（仅供参考）
+
+统一步骤：
+https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
+Android 在TextView 中显示图片的4种方式：
+https://blog.csdn.net/u012724237/article/details/79010741
+
+#实验结果
+https://github.com/hzulwy/android-labs-2018/blob/master/soft1614080902228/%E6%8D%95%E8%8E%B72.GIF
+
+https://github.com/hzulwy/android-labs-2018/blob/master/soft1614080902228/%E6%8D%95%E8%8E%B71.GIF
+
+#实验体会
+ 整个实验只要明白了如何导入图片，其余的都不难，因为以前学过java，android的编程思想大体上与java一样，所以写起代码来比较熟练，过程的思路很清晰。

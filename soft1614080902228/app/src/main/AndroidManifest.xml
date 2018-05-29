@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.hzuapps.andriodlabs.soft1614080902228"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.Soft1614080902228Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.Jiemian"
+            android:label="@string/title_activity_jiemian" >
+        </activity>
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.ChessView"
+            android:label="@string/title_activity_chess_view" >
+        </activity>
+        <activity
+            android:name="edu.hzuapps.andriodlabs.soft1614080902228.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+    </application>
+
+</manifest>

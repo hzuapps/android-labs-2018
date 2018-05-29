@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenActivity">
+
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:layout_alignParentTop="true"
+    android:background="@drawable/timg">
+
+        <TextView
+            android:id="@+id/textview_01"
+            android:layout_width="wrap_content"
+            android:layout_height="526dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:drawableTop="@drawable/timg"
+            android:text="Start"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-21dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="196dp"
+            android:ems="10"
+            android:hint="在这里输入筛选范围"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="45dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_above="@+id/Startbutton"
+            android:layout_centerHorizontal="true"
+
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <Button
+            android:id="@+id/Startbutton"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="137dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="82dp"
+            android:text="开始游戏" />
+
+        <Button
+            android:id="@+id/Readbutton"
+            style="@android:style/Widget.DeviceDefault.Button"
+            android:layout_width="137dp"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:text="查看结果" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

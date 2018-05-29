@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soft1614080902227activity.Soft1614080902227Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/add"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textColor="#ffff"
+                android:background="@color/colorPrimary"
+                android:textSize="30sp" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="200dp"
+                android:layout_marginLeft="40dp"
+                android:text="万能遥控"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#ffff"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Air"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/air1"
+            android:text="志高空调"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            />
+        <Button
+            android:id="@+id/TV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/tv1"
+            android:text="乐视TV"
+            android:textSize="20sp"
+            android:background="#ffffff"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

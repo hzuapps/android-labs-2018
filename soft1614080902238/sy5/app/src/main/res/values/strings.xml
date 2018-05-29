@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">备忘录</string>
+    <string name="title_activity_second_">Second_Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="infomation">欢迎使用！</string>
+    <string name="title_activity_third">ThirdActivity</string>
+</resources>

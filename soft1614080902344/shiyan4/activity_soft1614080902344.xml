@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3">
+
+    <TextView
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   欢迎来到简易学生成绩管理系统"
+        android:textSize="50px"
+        android:layout_marginBottom="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新增用户"
+        android:id="@+id/add"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_alignTop="@+id/query"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除用户"
+        android:id="@+id/delete"
+        android:layout_above="@+id/inquire"
+        android:layout_alignRight="@+id/query"
+        android:layout_alignEnd="@+id/query"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询信息"
+        android:id="@+id/inquire"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/add"
+        android:layout_alignLeft="@+id/add"
+        android:layout_alignStart="@+id/add" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改信息"
+        android:id="@+id/change"
+        android:layout_alignTop="@+id/inquire"
+        android:layout_alignLeft="@+id/delete"
+        android:layout_alignStart="@+id/delete" />
+
+
+</RelativeLayout>

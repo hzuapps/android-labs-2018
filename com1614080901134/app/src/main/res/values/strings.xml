@@ -1,0 +1,12 @@
+<resources>
+
+
+    <string name="app_name">订单系统(点餐下单)</string>
+
+    <string name="title_activity_com1614080901134">Com1614080901134Activity</string>
+
+    <string name="title_activity_secord">SecordActivity</string>
+
+    <string name="startDinner">开始点餐</string>
+
+</resources>

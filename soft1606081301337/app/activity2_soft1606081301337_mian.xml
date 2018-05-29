@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1606081301337Activity2"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="511dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:background="#ffffff"
+            android:contentDescription="@string/title_activity_2"
+            app:srcCompat="@drawable/pic03" />
+
+        <TableRow
+            android:layout_width="396dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/buttontext"
+                tools:layout_editor_absoluteX="296dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="请输入你要查询的单号" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="历史记录" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:contentDescription="@string/title_activity_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+            app:srcCompat="@drawable/pic12" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

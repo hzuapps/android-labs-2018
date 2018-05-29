@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/music"
+
+
+    android:orientation="vertical"
+    tools:context=".Com1614080901218Activity">
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activity_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="歌单列表"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="367dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_third"
+        android:layout_gravity="center_horizontal"
+        android:text="歌曲排行榜"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="432dp"
+        
+
+        />
+
+
+</LinearLayout>+++++++99+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++9+99999999999999

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<com.example.a14775.soft1614080902112activity.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="98dp"
+        android:layout_height="61dp"
+        android:background="@mipmap/tubiao2"
+        android:text="创建项目"
+        android:elevation="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="98dp"
+        android:layout_height="61dp"
+        android:background="@mipmap/tubiao2"
+        android:text="查看项目"
+        android:elevation="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

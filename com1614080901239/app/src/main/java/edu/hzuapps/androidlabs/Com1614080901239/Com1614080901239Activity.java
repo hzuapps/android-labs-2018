@@ -1,6 +1,5 @@
 package edu.hzuapps.androidlabs.Com1614080901239;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -9,37 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import android.content.Context;
-import android.os.Bundle;
-import android.os.Environment;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-
-import android.content.Intent;
-import android.app.Activity;
-
 public class Com1614080901239Activity extends AppCompatActivity implements View.OnClickListener {
-
-    final Activity thisActivity = this;
-
-    public static final String DIRECTORY = "demo";
-    public static final String FILENAME = "file_demo.txt";
-    public static final String TAG = Com1614080901239Activity.class.getSimpleName();
-    public static String FPATH=" ";
-
     private Button num0;
     private Button num1;
     private Button num2;
@@ -76,7 +45,6 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
     private Button Xor_btn;
     private Button Not_btn;
     private Button And_btn;
-    private Button journal_btn;
     private EditText mResultText;
     private Button picture_btn;
     private String existedText = "";
@@ -136,6 +104,7 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
         And_btn = (Button) findViewById(R.id.And_btn);
         journal_btn = (Button) findViewById(R.id.journal_btn);
         picture_btn = (Button) findViewById(R.id.picture_btn);
+
         mResultText = (EditText) findViewById(R.id.result_text);
         existedText = mResultText.getText().toString();
 
@@ -165,6 +134,7 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
         ac_btn.setOnClickListener(this);
         journal_btn.setOnClickListener(this);
         picture_btn.setOnClickListener(this);
+
     }
     public void onClick(View v) {
 
@@ -236,3 +206,8 @@ public class Com1614080901239Activity extends AppCompatActivity implements View.
 
 
 }
+
+        }
+    }
+        }
+

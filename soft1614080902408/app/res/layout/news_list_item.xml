@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+    android:descendantFocusability="blocksDescendants"
+
+    阻止 ImageButton 捕获layout的点击事件
+
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/Song_list_item_constraintLayout"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:descendantFocusability="blocksDescendants"
+
+    android:padding="10dp"
+
+    >
+
+
+    <ImageButton
+
+        android:id="@+id/startButton"
+
+        android:layout_width="80dp"
+
+        android:layout_height="60dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:background="@drawable/banzan"
+
+        android:scaleType="fitCenter"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+
+        app:layout_constraintHorizontal_bias="0.318"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.41" />
+
+
+    <TextView
+
+        android:id="@+id/title_name"
+
+        android:layout_width="0dp"
+
+        android:layout_height="26dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:focusable="false"
+
+        android:focusableInTouchMode="false"
+
+        android:gravity="center_vertical"
+
+        android:text="TextView"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.111"
+
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/fenlei_name"
+
+        android:layout_width="0dp"
+
+        android:layout_height="21dp"
+
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+
+        android:focusable="false"
+
+        android:focusableInTouchMode="false"
+
+        android:gravity="center_vertical"
+
+        android:text="TextView"
+
+        android:textColor="@android:color/darker_gray"
+
+        android:textSize="12sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.111"
+
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+
+        app:layout_constraintTop_toBottomOf="@+id/title_name"
+
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <android.support.constraint.Guideline
+
+        android:id="@+id/guideline"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        app:layout_constraintGuide_percent="0.21" />
+
+
+</android.support.constraint.ConstraintLayout>

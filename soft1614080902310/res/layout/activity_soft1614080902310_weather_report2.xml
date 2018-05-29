@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".soft1614080902310_weather_report2Activity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv1"
+    android:text="查询其他城市"
+    android:layout_marginLeft="130dp"
+    android:layout_marginTop="10dp"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    >
+</TextView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="20dp"
+    android:background="#E3E3E3">
+
+</View>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/et1"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:hint="搜索城市"/>
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+      <Button android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:id="@+id/bt2"
+        android:text="保存"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/bt3"
+
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:text="读取" />
+
+    <TextView
+        android:id="@id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:text="" />
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E3E3E3">
+    </View>
+
+    <GridLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:rowCount="5"
+        android:columnCount="3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_columnSpan="3"
+            android:text="推荐城市"
+            android:textSize="25sp"
+            />
+        <Button
+            android:text="当前位置"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="北京"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="上海"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="广州"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="沈阳"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="重庆"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+
+        <Button
+            android:text="杭州"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="南京"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="哈尔滨"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="长春"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="石家庄"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="呼和浩特"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="银川"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="西安"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+        <Button
+            android:text="汕头"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            />
+    </GridLayout>
+
+</LinearLayout>

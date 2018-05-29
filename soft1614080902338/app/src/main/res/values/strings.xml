@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Second</string>
+    <string name="title_activity_third">Third</string>
+    <string name="title_activity_main_json">MainActivityJson</string>
+    <string name="title_activity_json">Json</string>
+    <string name="title_activity_soft1614080902338">Soft1614080902338</string>
+</resources>

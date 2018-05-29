@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/t01dfe70a34b74d1d0a"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902135Activity">
+
+
+
+  <ImageView
+      android:id="@+id/iv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="50dp"
+      />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/button_2"
+        android:text="跳转至下载界面"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+  <Button
+
+      android:id="@+id/button_3"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      android:layout_alignParentLeft="true"
+     android:layout_alignParentBottom="true"
+      android:text="保存画布" />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/graywhite"
+    android:orientation="vertical"
+    tools:context=".Soft1614080902335Activity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <include layout="@layout/activity_soft1614080902335_qqhead"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="昵称"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:hint="请输入昵称"
+            android:textColorHint="@color/gray"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:text="性别"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/_sex"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:hint="请输入性别"
+            android:textSize="25sp"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginTop="6dp"
+            android:text="地区"
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/_area"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:hint="请输入地区"
+            android:textSize="25sp"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:background="@color/gray" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:id="@+id/button_save"
+            android:background="@color/backgroundcolor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="保存"
+            android:textSize="20sp"
+            tools:ignore="Suspicious0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

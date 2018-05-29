@@ -28,10 +28,14 @@ public class MainActivity extends Activity  implements OnClickListener {
 ### 1、选择linearlayout新建布局文件activity_modle.xml
 ### 2、参考资料，编写布局代码
 ### 3、调整按钮大小，美化界面
+### 4、编写Com1614080901239中的代码
+### 5、测试监听器的功能
 # 实验结果
 实现了界面
 ![image](https://github.com/symbatius/android-labs-2018/blob/master/com1614080901239/lab4.png)
+实现了点击数字键显示对应数字的功能
+![image](https://github.com/symbatius/android-labs-2018/blob/master/com1614080901239/lab4.2.png)
 # 实验体会
 这次实验开始做界面布局，由于本次要做的app是参考windows自带的计算器，所以界面也参考了windows的计算器界面，
 同时上网查找了制作类似界面的代码，根据自己的需求进行了修改。并查找了一些关于界面修改的技巧，总的来说还是
-比较简单的。
+比较简单的。由于选题的按钮比较多，所以定义了比较多的监听器，代码比较长，后面的运算逻辑部分还要继续编写。

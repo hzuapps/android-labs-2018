@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Com1614080901118英雄小助手</string>
+    <string name="tv_come">进入</string>
+    <string name="tv_welcome">欢迎使用英雄小助手  v1.0</string>
+    <string name="tv_heroTitle">英雄列表</string>
+
+    <string name="tv_eyu">荒漠屠夫</string>
+    <string name="tv_eyuName">雷克顿</string>
+    <string name="tv_eyuTip">这是一条来自恕瑞玛的凶狠鳄鱼。</string>
+
+    <string name="tv_ruiwen">放逐之刃</string>
+    <string name="tv_ruiwenName">瑞文</string>
+    <string name="tv_ruiwenTip">光速QQQ可以让你打爆一切！</string>
+
+    <string name="tv_yasuo">疾风剑豪</string>
+    <string name="tv_yasuoName">亚索</string>
+    <string name="tv_yasuoTip">承载着大部分召唤师信仰和梦想的英雄。</string>
+
+    <string name="tv_huangzi">德玛西亚皇子</string>
+    <string name="tv_huangziName">嘉文四世</string>
+    <string name="tv_huangziTip">草丛三基友之一，经常出没打野位置。</string>
+
+    <string name="tv_timo">迅即斥候</string>
+    <string name="tv_timoName">提莫</string>
+    <string name="tv_timoTip">团战可以输，提莫必须死！</string>
+
+    <string name="tv_nuoshou">诺克萨斯之手</string>
+    <string name="tv_nuoshouName">德莱厄斯</string>
+    <string name="tv_nuoshouTip">Q是回血E先手，W减速R收头。</string>
+</resources>

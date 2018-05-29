@@ -1,0 +1,65 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6" >
+
+    <SearchView
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <TextView
+        android:id="@+id/textview_03"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:drawableTop="@drawable/xls"
+        android:text="                         xls"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textview_04"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:drawableTop="@drawable/txt"
+        android:text="                       txt"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:drawableTop="@drawable/word"
+        android:text="                       word"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <TextView
+        android:id="@+id/textview_02"
+        android:layout_width="190dp"
+        android:layout_height="185dp"
+        android:drawableTop="@drawable/ppt"
+        android:text="                         ppt"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+
+
+
+</GridLayout>

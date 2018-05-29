@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="750px"
+            android:layout_height="300px"
+            android:layout_x="20px"
+            android:layout_y="32px"
+            android:text="请猜那一张是方块A"
+            android:textSize="18sp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageButton
+                android:id="@+id/mImage01"
+                android:layout_width="127dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
+
+            <ImageButton
+                android:id="@+id/mImage02"
+                android:layout_width="125dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
+
+            <ImageButton
+                android:id="@+id/mImage03"
+                android:layout_width="125dp"
+                android:layout_height="200dp"
+                android:background="@drawable/beimian" />
+
+           </LinearLayout>
+                   <TextView
+                android:id="@+id/mText4"
+                android:layout_width="750px"
+                android:layout_height="80px"
+                android:layout_x="20px"
+                android:layout_y="32px"
+                android:text="显示游戏历史记录"
+                android:textSize="18sp">
+            </TextView>
+             <TextView
+                android:id="@+id/text1"
+                android:layout_width="750px"
+                android:layout_height="400px"
+                android:layout_x="20px"
+                android:layout_y="32px"
+                android:text=""
+                android:textSize="18sp">
+        </TextView>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Main3Activity"
+    android:gravity="bottom">
+<Button android:id="@+id/book"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="书城"
+    />
+ <Button android:id="@+id/classify"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+     android:layout_weight="1"
+        android:text="分类" />
+<Button android:id="@+id/bookcase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    android:layout_weight="1"
+        android:text="书架" />
+<Button android:id="@+id/me"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+    android:layout_weight="1"
+        android:text="我的" />
+</LinearLayout>
