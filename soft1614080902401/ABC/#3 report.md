@@ -8,6 +8,7 @@
  （4) 提交res/values, res/layout等其他代码。 
  （5）将运行结果放入报告中。 
 # 3.实验结果
- ![image](https://github.com/deasyful/android-labs-2018/blob/master/soft1614080902206/%E5%AE%9E%E9%AA%8C%E4%B8%89%E6%88%AA%E5%9B%BE.jpg)   
+ ![image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/ABC/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180501213815.png)   
+  ![image](https://github.com/uzi-up/android-labs-2018/blob/master/soft1614080902401/ABC/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180501213823.png)   
  ## 4.实验体会
- 在这次实验中了解了在手机界面上添加图片的方法，懂得了如何创建按钮，了解了如何在一个activity中通过按钮打开另一个activity。
+ 本次实验需掌握如何创建按钮，如何在一个activity中通过按钮打开另一个activity。
