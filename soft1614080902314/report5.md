@@ -134,7 +134,7 @@
 ![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/5.1%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.jpg?raw=true"配置教育网下载代理")
 ### 搜索
 
-![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/5.1%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.jpg?raw=true"配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/5.2%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.jpg?raw=true"配置教育网下载代理")
 
 ## 四.实验体会    
 通过本次实验，了解到android文件的存储，同时也明白了java编程在android开发中的重要。
