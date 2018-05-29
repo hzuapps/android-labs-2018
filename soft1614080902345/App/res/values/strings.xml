@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">小兼职</string>
     <string name="run_name">兼职页面</string>
+    <string name="search_hint">请输入搜索的兼职信息</string>
 </resources>

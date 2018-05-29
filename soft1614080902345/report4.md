@@ -22,7 +22,7 @@
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C3%E6%88%AA%E5%9B%BE1.jpg "配置教育网下载代理")
 
 点击按钮后跳转的activity.
-![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE1.jpg "配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/chinesehope/android-labs-2018/blob/master/soft1614080902345/%E5%AE%9E%E9%AA%8C4%E6%88%AA%E5%9B%BE2.jpg "配置教育网下载代理")
 
 ## 4、实验体会 
 1. 这个实验的布局其实有多种方法，我采用的是线性布局通过嵌套和控制margin间距来使页面看起来更好看点。
