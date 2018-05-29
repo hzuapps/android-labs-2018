@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="610sp"
+    android:layout_width="410sp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:id="@+id/activity_difficulty">
+
+    <LinearLayout
+        android:layout_width="410sp"
+        android:layout_height="305sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/normal"
+            android:layout_width="200sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:text="@string/normal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="410sp"
+        android:layout_height="305sp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:text="@string/hard" />
+    </LinearLayout>
+</LinearLayout>
