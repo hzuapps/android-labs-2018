@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".com1614080901221Activity">
+
+    <DatePicker
+        android:id="@+id/main_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerBackground="#259669"
+       android:background="#259669" />
+    <TextView
+        android:id="@+id/tView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="日期为"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_1"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="276dp"
+        android:text="保存"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textSize="14sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_2"
+        android:layout_marginLeft="327dp"
+        android:layout_marginTop="393dp"
+        android:text="显示"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textSize="14sp"/>
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/main_dp"
+        />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="225dp"
+        android:text="下载"
+        android:textSize="14sp"/>
+</RelativeLayout>
