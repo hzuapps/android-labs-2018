@@ -10,7 +10,7 @@
         android:id="@+id/imagepath"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="https://img.zcool.cn/community/01527858d8b73ea801219c7768cc3b.jpg@1280w_1l_2o_100sh.webp"
+        android:text="http://ppt.downhot.com/d/file/p/2014/07/24/afd8b2135086cc9f2787d114bd73005a.png"
         />
     <Button
         android:id="@+id/upload"
