@@ -22,7 +22,12 @@
             android:name="edu.hzuapps.androidlabs.Com1614080901237.secondActivity"
             android:label="@string/title_activity_second"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="edu.hzuapps.androidlabs.Com1614080901237.thirdActivity"
+        <activity
+            android:name="edu.hzuapps.androidlabs.Com1614080901237.thirdActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="edu.hzuapps.androidlabs.Com1614080901237.fourthActivity"
+            android:label="@string/title_activity_fourth"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
