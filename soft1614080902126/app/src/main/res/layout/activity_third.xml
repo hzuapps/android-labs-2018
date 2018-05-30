@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902126.SecondActivity"
+    android:weightSum="1">
+
+    <EditText
+    android:id="@+id/edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="请在此输入你的学习心得"
+        android:layout_weight="0.22" />
+
+    <Button
+        android:id="@+id/save_data"
+        android:text="Save data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+         />
+
+    <TextView
+        android:text="按Save data键保存"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:text="背景下载页面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_xiazai"
+        android:layout_weight="0.03" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902126.SecondActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="欢迎使用学习时长计算工具"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:id="@+id/textView"
+        android:gravity="center"
+        />
+
+    <Button
+        android:text="开始计时"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:id="@+id/button_1" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:id="@+id/image_view"
+        />
+    
+
+</LinearLayout>
