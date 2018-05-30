@@ -12,6 +12,8 @@
     android:background="@drawable/view"
     >
 
+    <!--重命名ID-->
+    
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
@@ -24,17 +26,17 @@
         android:layout_marginLeft="14dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="10dp"
-        android:id="@+id/text1" />
+        android:id="@+id/editText1" />
 
     <EditText
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:text="第二题："
-        android:id="@+id/text2"
+        android:id="@+id/editText2"
         android:textSize="25dp"
-        android:layout_below="@+id/text1"
-        android:layout_alignLeft="@+id/text1"
-        android:layout_alignStart="@+id/text1"
+        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
         android:layout_marginTop="10dp" />
 
     <EditText
@@ -42,49 +44,16 @@
         android:layout_height="50dp"
         android:text="第三题："
         android:textSize="25dp"
-        android:layout_below="@+id/text2"
-        android:layout_alignLeft="@+id/text2"
-        android:layout_alignStart="@+id/text2"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
         android:layout_marginTop="17dp"
         android:id="@+id/editText3" />
 
 
-
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:text="第四题："
-        android:textSize="25dp"
-        android:id="@+id/editText4"
-        android:layout_marginTop="11dp"
-        android:layout_below="@+id/editText3"
-        android:layout_alignLeft="@+id/editText3"
-        android:layout_alignStart="@+id/editText3" />
-
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:text="第五题："
-        android:textSize="25dp"
-        android:layout_marginTop="10dp"
-        android:id="@+id/editText5"
-        android:layout_below="@+id/editText4"
-        android:layout_alignLeft="@+id/editText4"
-        android:layout_alignStart="@+id/editText4" />
-    <EditText
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:text="第六题："
-        android:textSize="25dp"
-        android:id="@+id/editText6"
-        android:layout_below="@+id/editText5"
-        android:layout_alignLeft="@+id/editText5"
-        android:layout_alignStart="@+id/editText5"
-        android:layout_marginTop="17dp" />
-
     <ImageButton
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
         android:src="@drawable/right"
         android:id="@+id/btn3"
         android:layout_alignParentBottom="true"
@@ -102,4 +71,36 @@
         android:layout_marginEnd="16dp"
         android:id="@+id/btn4" />
 
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第六题："
+        android:textSize="25dp"
+        android:id="@+id/editText6"
+        android:layout_above="@+id/btn3"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="31dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第五题："
+        android:textSize="25dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第四题："
+        android:textSize="25dp"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
 </RelativeLayout>
+
