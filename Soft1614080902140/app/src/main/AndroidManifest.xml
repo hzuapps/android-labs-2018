@@ -12,11 +12,13 @@
         <activity android:name=".Soft1614080902140CoverActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Soft1614080902140HomeActivity"></activity>
+        <activity android:name=".Soft1614080902140HomeActivity">
+
+        </activity>
     </application>
+
 
 </manifest>
