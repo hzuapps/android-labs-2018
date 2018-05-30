@@ -1,5 +1,6 @@
 package com.example.hzu.com1614080901107;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -21,6 +22,18 @@ public class secondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+
+        Button btn = (Button) findViewById(R.id.button4);
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick (View v){
+                Intent intent = new Intent(secondActivity.this, thirdActivity.class);
+                startActivity(intent);
+            }
+
+        });
+
 
         ((Button) findViewById(R.id.btn_save)).
 
