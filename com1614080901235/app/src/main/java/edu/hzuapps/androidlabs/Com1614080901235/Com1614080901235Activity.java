@@ -19,6 +19,7 @@ public class Com1614080901235Activity extends AppCompatActivity {
         setContentView(R.layout.activity_com1614080901235);
         Button button1=(Button) findViewById(R.id.chakan);
         Button button2=(Button) findViewById(R.id.xiangqing);
+        Button button3=(Button) findViewById(R.id.xiazai);
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -29,7 +30,14 @@ public class Com1614080901235Activity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(Com1614080901235Activity.this,SecondActivity.class);
+                Intent intent=new Intent(Com1614080901235Activity.this,ThirdActivity.class);
+                startActivity(intent);
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(Com1614080901235Activity.this,FourthActivity.class);
                 startActivity(intent);
             }
         });
