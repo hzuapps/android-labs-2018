@@ -1,73 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.hzuapps.androidlabs.soft1613071002123.myapplication.Soft1613071002123Activity">
-    <FrameLayout
-        android:layout_width="368dp"
-        android:layout_height="500dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="135dp"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/addition"
-            />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fatherchristmas"
+        />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <TextView
-            android:textSize="28dp"
-            android:layout_width="133dp"
-            android:layout_height="44dp"
             android:text="用户名："
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="200dp"
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             />
+
+        <EditText
+            android:id="@+id/accound"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <TextView
-            android:textSize="28dp"
-            android:layout_width="133dp"
-            android:layout_height="44dp"
             android:text="密    码："
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="250dp"
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             />
 
-        <EditText
-            android:layout_width="203dp"
-            android:layout_height="51dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="200dp"
-            />
+
 
         <EditText
-            android:layout_width="203dp"
-            android:layout_height="51dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="250dp"
+            android:id="@+id/password"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
             />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/remember_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住密码"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/button_login"
+            android:text="登    录"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="登录"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="350dp"
+            android:textSize="20dp"
             />
 
         <Button
             android:id="@+id/button_register"
+            android:text="注     册"
             android:layout_width="137dp"
             android:layout_height="48dp"
-            android:text="注册"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="350dp"
+            android:textSize="20dp"
             />
-    </FrameLayout>
 
-</android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
