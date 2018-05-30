@@ -32,7 +32,7 @@
  ## 四.实验截图
  读取json的内容
  
-![image](https://github.com/liyanxian12/android-labs-2018/blob/master/com1614080901106/6-1.png)
+![image](https://github.com/liyanxian12/android-labs-2018/blob/master/com1614080901107/6-1.png)
 
  ## 五.实验体会
  
