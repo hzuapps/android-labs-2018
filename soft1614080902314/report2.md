@@ -11,11 +11,10 @@
 + 2.创建自己的安卓工程，打开Strings.xml修改自己app的名称。
 
 ## 实验提示
--
-根据MVC、MVP设计模式或其他Android App设计模式设计Java类；
-先设计表示业务数据的Java类，如表示订单、图书、商品、车辆、音乐、笔记等的类；
-再考虑设计一些业务服务类，如网络连接等类；
-上传代码时，代码放到自己的学号里面，同时保留Studio的目录结果，如：
++ 根据MVC、MVP设计模式或其他Android App设计模式设计Java类；
++ 先设计表示业务数据的Java类，如表示订单、图书、商品、车辆、音乐、笔记等的类；
++ 再考虑设计一些业务服务类，如网络连接等类；
++ 上传代码时，代码放到自己的学号里面，同时保留Studio的目录结果，如：
 
 app
 - src
@@ -33,5 +32,5 @@ app
 
 ![在Android SDK Manager中选择6.0库](https://github.com/Zhengmianjie/android-labs-2018/blob/master/soft1614080902314/2%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE.png?raw=true"配置教育网下载代理")
 
-##实验体会
+## 实验体会
 
