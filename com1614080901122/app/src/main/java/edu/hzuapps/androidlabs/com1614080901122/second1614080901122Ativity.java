@@ -11,6 +11,7 @@ import android.widget.Button;
 
 public class second1614080901122Ativity extends AppCompatActivity {
 
+    private Button newbutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,12 +19,21 @@ public class second1614080901122Ativity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+            }
+        });
+        newbutton=(Button)findViewById(R.id.button4);
+        newbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(second1614080901122Ativity.this,otherActivity.class);
+                startActivity(intent);
             }
         });
 
