@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soft1614080902106">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/photo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="42dp"
+        tools:text="今日比赛" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="95dp"
+        android:layout_height="51dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="106dp"
+        tools:text="文字直播" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="94dp"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary"
+        android:text="Button"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large.Inverse"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="178dp"
+        tools:text="观众热线" />
+</android.support.constraint.ConstraintLayout>

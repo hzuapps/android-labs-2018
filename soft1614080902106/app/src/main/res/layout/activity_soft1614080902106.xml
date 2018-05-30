@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902106Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:text="欢迎来到本直播软件" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="221dp"
+        android:layout_height="132dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Button"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="189dp"
+        tools:text="点击进入今日比赛目录" />
+
+</android.support.constraint.ConstraintLayout>
