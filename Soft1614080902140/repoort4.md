@@ -14,10 +14,10 @@
 
 4   使用Git将文件提交到自己的库中。
 
-# 3. 实验结果
+# 三. 实验结果
 ![screen](https://github.com/czwly/android-labs-2018/blob/master/Soft1614080902140/%E7%95%8C%E9%9D%A21.jpg)
 
 ![screen](https://github.com/czwly/android-labs-2018/blob/master/Soft1614080902140/%E7%95%8C%E9%9D%A22.jpg)
-# 4.实验体会
+# 四.实验体会
 
  这次实验主要修改了标题，通过布局Relativelayout，添加了TextView和按钮控件，进行了一些简单的布局。
