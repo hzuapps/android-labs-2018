@@ -55,15 +55,26 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/but_one"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
     <Button
         android:id="@+id/but_thr"
         android:text="布"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/but_tow"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/img"
+        android:text="下载图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/but_thr"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 

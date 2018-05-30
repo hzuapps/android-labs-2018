@@ -18,6 +18,7 @@ public class soft1614080902341MainActivity extends ActionBarActivity {
     private Button myBtn_one;
     private Button myBtn_tow;
     private Button myBtn_thr;
+    private Button img;
 
 
     @Override
@@ -27,10 +28,20 @@ public class soft1614080902341MainActivity extends ActionBarActivity {
         myBtn_one = (Button) findViewById(R.id.but_one);
         myBtn_tow = (Button) findViewById(R.id.but_tow);
         myBtn_thr = (Button) findViewById(R.id.but_thr);
+        img = (Button)findViewById(R.id.img);
         //通过实现onclicklistener接口的类的对象
         myBtn_one.setOnClickListener(new MainActivity());
         myBtn_tow.setOnClickListener(new MainActivity());
         myBtn_thr.setOnClickListener(new MainActivity());
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(soft1614080902341MainActivity.this, ImageActivity.class); //设置跳转的Activity
+                soft1614080902341MainActivity.this.startActivity(intent);
+            }
+        });
+
     }
 //        myBtn_one.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -97,6 +108,7 @@ public class soft1614080902341MainActivity extends ActionBarActivity {
                             intent.setClass(soft1614080902341MainActivity.this, buMainActivity.class); //设置跳转的Activity
                             soft1614080902341MainActivity.this.startActivity(intent);
                             break;
+
                     }
                 }
             }
