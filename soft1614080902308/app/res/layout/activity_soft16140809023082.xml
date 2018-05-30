@@ -127,6 +127,8 @@
                 android:textColor="#666666"
                 android:textSize="14sp" />
 
+
+
             <ImageView
                 android:id="@+id/bottom_bar_image_myself"
                 android:layout_width="27dp"
