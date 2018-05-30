@@ -16,12 +16,12 @@ public class Com1614080901102Activity extends AppCompatActivity {
 
         textView=(TextView)findViewById(R.id.overwatch.jpg);
 
-         textView.setOnClickListener(new View.OnClickListener() {
+        textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                        Intent intent=new Intent(Com1614080901102Activity.this,SecordActivity.class);
-                        startActivity(intent);
-                         }
+                Intent intent=new Intent(Com1614080901102Activity.this,SecordActivity.class);
+                startActivity(intent);
+            }
 +        });
     }
 }
