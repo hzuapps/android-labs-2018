@@ -36,7 +36,19 @@
         android:text="∏Ë«˙≈≈––∞Ò"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="432dp"
-        
+         <Button
++        android:id="@+id/Button11"
++        android:layout_width="match_parent"
++        android:layout_height="38dp"
++        android:text="±£¥Ê" />
++
++    <TextView
++        android:id="@+id/view1"
++        android:layout_width="match_parent"
++        android:layout_height="31dp"
++        android:gravity="center" />
++
+ 
 
         />
 
