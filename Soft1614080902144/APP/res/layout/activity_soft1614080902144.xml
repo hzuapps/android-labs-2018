@@ -12,6 +12,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/image_view"
         android:background="@drawable/soft1614080902144"
-       />
-
+        />
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="44sp"
+        android:textColor="#ffffffff"
+        android:text="点名啦"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        />
 </RelativeLayout>
