@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="¸èµ¥ÁÐ±í"
+        android:text="æ­Œå•åˆ—è¡¨"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="367dp" />
     <Button
@@ -33,21 +33,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/activity_third"
         android:layout_gravity="center_horizontal"
-        android:text="¸èÇúÅÅÐÐ°ñ"
+        android:text="æ­Œæ›²æŽ’è¡Œæ¦œ"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="432dp"
          <Button
-+        android:id="@+id/Button11"
-+        android:layout_width="match_parent"
-+        android:layout_height="38dp"
-+        android:text="±£´æ" />
-+
-+    <TextView
-+        android:id="@+id/view1"
-+        android:layout_width="match_parent"
-+        android:layout_height="31dp"
-+        android:gravity="center" />
-+
+        android:id="@+id/Button11"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="ä¿å­˜" />
+
+        <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:gravity="center" />
+
  
 
         />
