@@ -7,7 +7,7 @@
 4. 根据自己选择的题目实现Activity中导航、调用等功能（选做）。
 
 
-# 2.实验步骤
+# 2. 实验步骤
 
 1. 阅读实验要求：https://github.com/hzuapps/android-labs-2018/labels/Lab   
 
@@ -20,8 +20,8 @@
 3. 使用Git将代码提交到自己的库中：https://github.com/YOUR_NAME/android-labs-2018   
 ```  
 $ git pull
-$ git add 学号目录/*
-$ git commit "#12345678 "
+$ git add 学号目录/*  (git rm 学号目录/*)
+$ git commit "#实验次数 #Issue号 XXXXXXX"
 $ git push
 ```  
 
