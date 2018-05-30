@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.imagic.com1614080901222">
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,9 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.hzuapps.androidlabs.Com1614080901222.SecondActivity"
-            android:screenOrientation="userLandscape">
-        </activity>
+
+        <activity
+            android:name="edu.hzuapps.androidlabs.Com1614080901222.SecondActivity"
+            android:screenOrientation="userLandscape"></activity>
+
+        <activity android:name="edu.hzuapps.androidlabs.Com1614080901222.ThirdActivity"></activity>
     </application>
 
 </manifest>

@@ -19,4 +19,13 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button1"
         android:text="游戏音效          开" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/musicButton"
+        android:text="这是一个有意思的按钮"
+        />
 </RelativeLayout>
