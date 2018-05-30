@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class CircleOfFriends extends Activity {
+public class Moments extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.circle_of_friends);
+        setContentView(R.layout.moments);
         final Activity thisActivity = this;
         final Button btn_open = (Button) findViewById(R.id.btn_open);//进入子页面
         btn_open.setOnClickListener(new View.OnClickListener() {
