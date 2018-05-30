@@ -1,5 +1,6 @@
 package edu.hzuapps.androidlabs.soft1614080902126;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -31,6 +32,14 @@ public class ThirdActivity extends AppCompatActivity {
                 TextView textView = (TextView) findViewById(R.id.textView3);
                 textView.setText(getResources().getString(R.string.file));
 
+            }
+        });
+        Button button1=(Button)findViewById(R.id.button_xiazai);
+        button1.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v){
+                Intent intent=new Intent(ThirdActivity.this,FinallyActivity.class);
+                startActivity(intent);
             }
         });
 
