@@ -25,7 +25,6 @@ public class Third_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
         File dir = this.getFilesDir();
-        //File dir = getCacheDir();
         File file = new File(dir, FILENAME);
         if (!file.exists()){
             try {
@@ -51,13 +50,6 @@ public class Third_Activity extends AppCompatActivity {
         //File dir = getCacheDir();
 
         File file = new File(dir, FILENAME);
-
-//        try {
-//            File = File.createTempFile(FILENAME, null, dir);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-
         if (file.exists()) { // 判断文件是否存在
             Log.i(TAG, file.getAbsolutePath());
             Log.i(TAG, file.length() + ""); // bytes*1024=kb *1024 MB
@@ -65,7 +57,6 @@ public class Third_Activity extends AppCompatActivity {
             file.canRead();
             file.canWrite();
             file.canExecute();
-
             file.getFreeSpace();
             file.getTotalSpace();
         }
@@ -88,22 +79,7 @@ public class Third_Activity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-
-        FileReader reader = null; // char
-
-        try {
-            reader = new FileReader(file.getAbsoluteFile());
-            BufferedReader bReader = new BufferedReader(reader);
-            String line = bReader.readLine();
-            showResult(line);   // 显示结果
-            Log.i(TAG, "从文件读取的内容: " + line);
-            bReader.close();
-            reader.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        Reader(file);
     }
     private void showResult(String result) {
         ((TextView) findViewById(R.id.text)).setText(result.toCharArray(), 0, result.length());

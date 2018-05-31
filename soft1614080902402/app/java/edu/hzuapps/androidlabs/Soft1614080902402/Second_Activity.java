@@ -19,6 +19,14 @@ public class Second_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button record2 = findViewById(R.id.record2);
+        record2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Second_Activity.this, Fourth_Activity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 
