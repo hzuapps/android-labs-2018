@@ -16,6 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Soft1614080902140HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Soft1614080902140RankActivity">
 
         </activity>
     </application>
