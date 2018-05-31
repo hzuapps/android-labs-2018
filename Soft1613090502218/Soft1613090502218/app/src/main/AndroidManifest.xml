@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.hzuapps.androidlabs.soft1613090502218.soft1613090502218">
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,8 @@
         <activity android:name=".difficulty" />
         <activity android:name=".Score" />
         <activity android:name=".InputName" />
-        <activity android:name=".Playing"></activity>
+        <activity android:name=".Playing" />
+        <activity android:name=".ShowNString" />
     </application>
 
 </manifest>
