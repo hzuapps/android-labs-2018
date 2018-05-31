@@ -23,8 +23,9 @@
 
 四.实验截图
 
-![screen](https://github.com/zzhuangj/android-labs-2018/blob/master/soft1614080902413/9.png)
-![screen](https://github.com/zzhuangj/android-labs-2018/blob/master/soft1614080902413/10.png)
+![image](https://github.com/lixubin51/android-labs-2018/blob/master/Com1614080901109/com1614080901109-11.png)
+
+![image](https://github.com/lixubin51/android-labs-2018/blob/master/Com1614080901109/com1614080901109-12.png)
 
 
 五.实验体会 
