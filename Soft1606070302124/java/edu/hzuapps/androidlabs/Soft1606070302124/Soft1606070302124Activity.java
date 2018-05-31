@@ -12,7 +12,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.widget.Button;
 public class Soft1606070302124Activity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
