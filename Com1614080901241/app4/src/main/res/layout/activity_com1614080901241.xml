@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com1614080901241Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="352dp">
+
+        <TextView
+            android:id="@+id/textview_01"
+            android:layout_width="400sp"
+            android:layout_height="300dp"
+            android:drawableTop="@drawable/bm"
+            android:text="hello_world"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView_fengjing"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/button_xiazai"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="点击下载背景图片" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
