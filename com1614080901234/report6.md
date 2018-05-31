@@ -39,5 +39,5 @@ https://api.github.com/repos/hzuapps/android-labs-2018/pulls
 6. 完成实验，截图
 
 # 实验结果
-
+![image](https://github.com/henyiwu/android-labs-2018/blob/master/com1614080901234/1527766100(1).jpg?raw=true)
 
