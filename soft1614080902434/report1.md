@@ -1,4 +1,4 @@
-# 第一次实验
+)# 第一次实验
 
 ## 1.实验目标  
 
@@ -19,7 +19,7 @@
  （6）提交代码并发Pull Request。  
  
 ## 3.实验结果
-！[Image text] (https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/1.0.png)
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/1.0.png)
 
 ## 4.实验心得
    因为第一次接触Android,感觉很陌生，下载Android3.0之后，不会用，要自己去百度找答案，然后就是git的使用了，因为不知道git的用法，导致自己去网上找了很久，终于做好了。
