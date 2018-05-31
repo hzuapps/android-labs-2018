@@ -17,7 +17,7 @@
 
 ## 3.实验结果
 
- ![10](C:\android-labs-2018\soft1614080902402\10.png) ![11](C:\android-labs-2018\soft1614080902402\11.png)
+![在Android SDK Manager中选择6.0库](https://github.com/Ghlyh/android-labs-2018/blob/master/soft1614080902402/10.png "配置教育网下载代理") ![在Android SDK Manager中选择6.0库](https://github.com/Ghlyh/android-labs-2018/blob/master/soft1614080902402/11.png "配置教育网下载代理")
 
 
 
