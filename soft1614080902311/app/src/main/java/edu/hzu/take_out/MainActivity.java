@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button btn_jmp = findViewById(R.id.btn_jmp);
+        setContentView(R.layout.activity3);
+     Button btn_jmp = findViewById(R.id.btn_jmp);
         ImageButton ib_add=findViewById(R.id.ib_add);
 
 
@@ -52,6 +52,6 @@ public class MainActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity3);
         }
-    }
 
+    }
 }
