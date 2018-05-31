@@ -16,7 +16,7 @@
  
      // 代码要可以运行！
  
- 1. 使用Git将代码提交到自己的库中：https://github.com/BACodeLab/android-labs-2018 
+ 1. 使用Git将代码提交到自己的库中：https://github.com/1614080901144/android-labs-2018 
  
  
      $ git pull  
