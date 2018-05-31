@@ -60,7 +60,7 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/colorBlack"
-                android:text="@string/share_content" />
+                android:text="@string/share_name" />
 
             <EditText
                 android:id="@+id/name"
