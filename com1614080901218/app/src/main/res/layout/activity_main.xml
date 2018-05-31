@@ -37,20 +37,15 @@
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="432dp"
          <Button
-+        android:id="@+id/Button11"
-+        android:layout_width="match_parent"
-+        android:layout_height="38dp"
-+        android:text="±£´æ" />
-+
-+    <TextView
-+        android:id="@+id/view1"
-+        android:layout_width="match_parent"
-+        android:layout_height="31dp"
-+        android:gravity="center" />
-+
+        android:id="@+id/Button11"
+        android:layout_width="match_parent"
+       android:layout_height="38dp"
+       android:text="±£´æ" /    <TextView        android:id="@+id/view1"
+       android:layout_width="match_parent"
+       android:layout_height="31dp"        android:gravity="center" />
  
 
         />
 
 
-</LinearLayout>+++++++99+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++9+99999999999999
+</LinearLayout>
