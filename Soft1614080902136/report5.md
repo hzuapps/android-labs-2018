@@ -6,7 +6,7 @@
  ## 二.实验步骤
  1.打开已经建立好的工程  
 
- 2.在FabuActivity中利用SharedPreferences存储，并且为按钮添加监听，点击后把内容分别保存到zhanghao，mima，dengji里面；
+ 2.在FabuActivity中利用SharedPreferences存储，并且为按钮添加监听；
 
  3.在ChakanActivity中读取刚刚保存的zhanghao，mima，dengji；  
 
