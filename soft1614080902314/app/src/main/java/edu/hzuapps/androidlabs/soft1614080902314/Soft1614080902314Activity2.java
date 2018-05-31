@@ -26,7 +26,7 @@ public class Soft1614080902314Activity2 extends AppCompatActivity {
             public void onClick(View v) {
                 //向内部存储写入数据
                 saveContent();
-                Toast.makeText(Soft1614080902314Activity2.this, "saved!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Soft1614080902314Activity2.this, "信息存储成功!", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -66,7 +66,6 @@ public class Soft1614080902314Activity2 extends AppCompatActivity {
         String s=null;
         FileInputStream fis = null;
         try {
-            //通过该方法从内部存储中的edit_data.txt文件中读取数据
             fis = this.openFileInput("amount.txt");
             int len = 0;
             byte[] buf = new byte[1024];
