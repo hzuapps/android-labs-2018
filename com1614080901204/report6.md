@@ -3,7 +3,7 @@
  一、实验步骤
  1.修改AndroidManifest，加入必要的连接网络的权限。
  2.创建activity_tp.java，其功能为完成图片的下载。
- 3.创建activity_com1614080901240_3.xml文件,实现图片的下载和显示
+ 3.创建activity_tp.xml文件,实现图片的下载和显示
 二、实验结果截图
 ![image](https://github.com/xiebaoshu/android-labs-2019/blob/master/com1614080901204/app/jt.png)
 ![image](https://github.com/xiebaoshu/android-labs-2019/blob/master/com1614080901204/app/jt1.png.jpg)
