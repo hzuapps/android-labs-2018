@@ -9,7 +9,14 @@
      <RelativeLayout
          android:layout_width="fill_parent"
          android:layout_height="fill_parent">
+         <ImageView
+             android:id="@+id/imagev1"
+             android:layout_width="300dp"
+             android:layout_height="300dp"
+             android:background="@drawable/shiyan5"
+             android:layout_marginLeft="45dp"/>
          <Button
+             android:id="@+id/btn1"
              android:layout_width="120dp"
              android:layout_height="80dp"
              android:text="开始"
