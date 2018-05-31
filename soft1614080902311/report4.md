@@ -23,7 +23,7 @@
 ## 4.实验结果
 ![在Android SDK Manager中选择6.0库](https://github.com/lazytea/android-labs-2018/blob/c6b335ae9a598d518b11f4a1de6aaa36b4e67fd8/soft1614080902311/test3.2.jpg "配置教育网下载代理")
 
-![在Android SDK Manager中选择6.0库](https://github.com/lazytea/android-labs-2018/blob/c6b335ae9a598d518b11f4a1de6aaa36b4e67fd8/soft1614080902311/test4.jpg "配置教育网下载代理")
+![在Android SDK Manager中选择6.0库](https://github.com/lazytea/android-labs-2018/tree/d901c8b2f2f6d6e093a7599603d29681b1801be0/soft1614080902311/test4.jpg "配置教育网下载代理")
 
 ## 5.实验体会
 android studio 3.1版本提供的ConstraintLayout布局的方式与以前最流行的线性布局和相对布局相结合的应用方式要好用不少。新建xml文件改动tag标签发现了许多问题。
