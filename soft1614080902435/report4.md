@@ -15,5 +15,7 @@ Android界面设计编程
 6、成功后通过git bash将更新的文件Push到GitHub上并提交给老师
 
 ## 3.实验结果
+![image](https://raw.githubusercontent.com/AisakaTaika/android-labs-2018/master/soft1614080902435/4.1.png)
+![image](https://raw.githubusercontent.com/AisakaTaika/android-labs-2018/master/soft1614080902435/4.2.png)
 ## 4.实验心得
 此次实验需要在实验3的基础上设计界面，因此我从书和网上找到了相关的资料慢慢设计。在大概了解之后，发现其实难度不大，设置控件的时候可以复制第一个控件然后修改里面的几个数值就行了，因为除了一个等号其他的都是一样的格式。怎么把界面设计得好一点是整个实验中最花心思的地方，不过看到自己设计出来的还行也挺开心的。
