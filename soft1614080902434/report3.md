@@ -1,4 +1,4 @@
-# 第三次实验  
+!# 第三次实验  
 ## 1.实验目的  
 掌握在Android应用中使用图片等资源的方法  
 ## 2.实验步骤  
@@ -39,6 +39,7 @@ public void onClick(View view) {
 9、打开git bash，将文件夹push上github，向老师提交pull request.  
 
 ## 3.实验结果:  
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/3.1.png)
 
 
 ## 4.实验体会：  
