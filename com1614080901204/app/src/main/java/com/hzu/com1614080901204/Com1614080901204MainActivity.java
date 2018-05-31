@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 
-
-
-
 public  class Com1614080901204MainActivity extends AppCompatActivity  {
 
     @Override
@@ -53,6 +50,22 @@ public  class Com1614080901204MainActivity extends AppCompatActivity  {
                                         @Override
                                         public  void onClick(View v){
                                             Intent intent = new Intent(Com1614080901204MainActivity.this, FourActivity.class);
+
+                                            startActivity(intent);
+
+
+                                        }
+
+
+                                    }
+
+        );
+
+        Button btnOpen3 = (Button) findViewById(R.id.activity_tp);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public  void onClick(View v){
+                                            Intent intent = new Intent(Com1614080901204MainActivity.this, tpActivity.class);
 
                                             startActivity(intent);
 
