@@ -1,4 +1,4 @@
-# 第二次试验
+!# 第二次试验
 ## 1.实验目的
 
 Android组件编程  
@@ -29,7 +29,7 @@ edu\hzuapps\androidlabs\Soft1614080902434,
 
 
 ## 3.实验结果
-
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/2.0.png)
 
 ## 4.实验体会
    这次实验初步了解了Android的结构，并知道怎么创建文件。
