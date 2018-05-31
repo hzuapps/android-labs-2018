@@ -59,7 +59,7 @@ public class SecondActivity extends Activity {
         public void onClick(View arg0) {
             // TODO Auto-generated method stub
             Intent intent = new Intent();
-            intent.setClass(SecondActivity.this,Button3Activity.class);
+            intent.setClass(SecondActivity.this,Download.class);
             SecondActivity.this.startActivity(intent);
         }
 
