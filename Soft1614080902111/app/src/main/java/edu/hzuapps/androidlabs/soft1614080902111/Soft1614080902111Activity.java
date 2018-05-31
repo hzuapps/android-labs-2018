@@ -20,5 +20,13 @@ public class Soft1614080902111Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        android.widget.Button button2=(android.widget.Button)findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(Soft1614080902111Activity.this,beijing.class);
+                startActivity(intent);
+            }
+        });
     }
 }
