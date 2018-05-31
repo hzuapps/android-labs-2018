@@ -4,6 +4,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -11,6 +12,7 @@ import android.widget.EditText;
 
 public class Soft1613071002123Activity extends AppCompatActivity{
 
+    private static final String TAG = "Soft1613071002123Activi";
     private Button login;
     private Button register;
 
@@ -23,7 +25,7 @@ public class Soft1613071002123Activity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soft1613071002123);
-
+        Log.d(TAG, "onCreate: ");
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         accountEdit = findViewById(R.id.accound);
         passwordEdit = findViewById(R.id.password);
