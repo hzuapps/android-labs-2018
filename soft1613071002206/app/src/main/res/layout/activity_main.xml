@@ -24,6 +24,7 @@
              android:layout_marginTop="400dp"
              android:layout_marginLeft="20dp"/>
          <Button
+             android:id="@+id/btn3"
              android:layout_width="120dp"
              android:layout_height="80dp"
              android:text="停止"
