@@ -11,6 +11,7 @@ public class saierhaoin extends AppCompatActivity{
 
     private Button buttonpk;
     private Button buttonzc;
+    private Button buttonjc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,15 @@ public class saierhaoin extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(saierhaoin.this,edu.hzuapps.androidlabs.soft1614080902331.saierhaozc.class);
+                startActivity(intent);
+            }
+        });
+
+        buttonjc = findViewById(R.id.button3);
+        buttonjc.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(saierhaoin.this,edu.hzuapps.androidlabs.soft1614080902331.json.class);
                 startActivity(intent);
             }
         });

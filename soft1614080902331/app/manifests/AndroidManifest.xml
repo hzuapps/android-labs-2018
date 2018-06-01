@@ -23,7 +23,11 @@
         <activity
             android:name=".saierhaozc"
             android:label="@string/title_activity_saierhaozc"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".json"
+            android:label="@string/title_activity_json"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
