@@ -13,15 +13,30 @@
         android:id="@+id/image_view"
         android:background="@drawable/soft1614080902144"
         />
-    <TextView
-        android:id="@+id/text_view"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/downpt"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="44sp"
-        android:textColor="#ffffffff"
-        android:text="点名啦"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:text="下载图片"
+        android:textColor="#FFFFFFFF" />
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/soft1614080902144"
         />
+    <EditText
+        android:id="@+id/imagepath"
+        android:layout_width="276dp"
+        android:layout_height="47dp"
+
+        android:layout_centerHorizontal="true"
+
+        android:text="http://pic36.photophoto.cn/20150711/0005018718403003_b.png"
+        android:textColor="#000000" />
+
 </RelativeLayout>
