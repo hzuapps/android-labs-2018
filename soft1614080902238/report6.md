@@ -14,11 +14,26 @@
 
 三、实验步骤
 -
-1、在自己的Github库中创建一个JSON数据文件<br>
-2、在子线程中新建一个URL对象，使用url.openConnection()去访问URL，获得请求<br>
-3、使用输入流去读取请求的数据（也就是JSON的数据类型转换成String）<br>
-4、解析JSON，通过键取得对应的值，添加到数据类型ArrayList中<br>
-5、返回主线程去更新UI<br>
+*在自己的Github库中创建一个JSON数据文件<br>
+*在子线程中新建一个URL对象，使用url.openConnection()去访问URL，获得请求<br>
+*使用输入流去读取请求的数据（也就是JSON的数据类型转换成String）<br>
+*解析JSON，通过键取得对应的值，添加到数据类型ArrayList中<br>
+*返回主线程去更新UI<br>
+*调试运行程序。<br>
+
+*提交res/drawable以及两个Activity的.java文件以及xml布局文件等文件到github 仓库中，并编写实验报告。<br>
+
+*res/drawable以及两个Activity的.java文件以及xml布局文件等文件到github 仓库中：https://github.com/mvp-szf/android-labs-2018
+  
+      $ git pull origin master
+      
+      $ git add soft1614080902238(git rm 学号目录/*)
+      
+      $ git commit "#3 # 963 第3次实验"
+      
+      $ git push
+
+*在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）<br>
 
 四、实验截图
 -
@@ -27,5 +42,7 @@
 ![](https://github.com/mvp-szf/android-labs-2018/blob/master/soft1614080902238/xg/sy63.png)
 五、实验体会
 -
-这次实验获取JSON和解析JSON方法不难，就是更新UI有点困难，因为刚开始不知道子线程如果用来更新UI会造成程序终止，百度后，使用 runOnUiThread返回主线程后就可以了
+这次实验获取JSON和解析JSON方法不难，我觉得主要难度在于将读出的json
+文件显示在Activity中，一开始，我设置的位置不合理，导致在显示屏上看
+不到读取的文件，一开始以为没读取成功，后来调了下显示的位置，就成功了。
   
