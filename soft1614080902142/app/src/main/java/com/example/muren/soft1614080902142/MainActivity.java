@@ -1,7 +1,6 @@
 package com.example.muren.soft1614080902142;
 
 
-import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
