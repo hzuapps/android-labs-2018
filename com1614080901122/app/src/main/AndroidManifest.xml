@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.hzuapps.androidlabs.com1614080901122">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +19,10 @@
         <activity
             android:name=".second1614080901122Ativity"
             android:label="@string/title_activity_second1614080901122_ativity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".otherActivity"
+            android:label="@string/title_activity_other"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
