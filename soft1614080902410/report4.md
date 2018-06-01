@@ -11,7 +11,10 @@
 
 
 ## 3.实验结果
-![image]
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE%E4%B8%80.jpg)
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE%E4%BA%8C.jpg)
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE%E4%B8%89.jpg)
+![image](https://github.com/liyanghey/android-labs-2018/blob/master/soft1614080902410/%E5%AE%9E%E9%AA%8C%E5%9B%9B%E6%88%AA%E5%9B%BE%E5%9B%9B.jpg)
 
 ## 4.实验体会
 这次实验中，其实一开始遇到了挺多难题，关于布局部分内容还不够了解，后来通过学习使用了线性布局，在线性布局中控件可以通过纵向和横向排列的方式，而在线性布局中还可以对控件进行线性布局。这次实验花费了很长实验，得到的收获也很不同！
