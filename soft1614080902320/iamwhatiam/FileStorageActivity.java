@@ -1,4 +1,12 @@
-package com.example.linliqin.iamwhatiam;
+package myapplication5.com.example.iam;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
 
 import android.app.Activity;
 import android.content.Context;
@@ -41,7 +49,7 @@ public class FileStorageActivity extends Activity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.storage);
+        setContentView(R.layout.activity_file_storage);
 
 
 
@@ -73,6 +81,13 @@ public class FileStorageActivity extends Activity {
 
             }
 
+        });
+        ((Button)findViewById(R.id.button_save_external)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(FileStorageActivity.this,Download.class);
+                startActivity(intent);
+            }
         });
 
     }
