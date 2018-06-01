@@ -1,48 +1,31 @@
-# 第六次实验
- 
-# 一、实验目标
-
-1. 掌握Android网络访问方法；
-
-2. 理解XML和JSON表示数据的方法。
-
-# 二、实验内容（选做一）
-
-1. 在个人目录中创建一个表示数据的XML或JSON文件；
-
-2. 数据文件代码提交之后从GitHub获取文件URL；
-
-3. 在应用中通过网络编程访问GitHub的数据文件；
-
-4. 在应用中解析并显示文件所包含的数据；
-
-5. 将应用运行结果截图。
-
-# 实验内容（选做一）
-
-1. 从网络下载一个文件（图片、MP3、MP4）；
-
-2. 保存到手机，在应用中使用文件；
-
-3. 将应用运行结果截图。
-
-# 三、实验步骤
-
-1.在主类soft1614080902238Activity中添加一个下载按钮，点击可跳转至soft1614080902238Activity2
-  进入图片下载界面；
+实验六
+=
+一.实验目的
+-
+掌握Android网络访问方法<br>
   
-2.在activity_soft1614080902238.xml中添加EditText控件，使得在EditText中可输入图片下载链接，
-  同时添加下载按钮，并添加监听，点击可进行下载并用ImageView显示图片；
- 
-3.在soft1614080902238Activity2中添加子线程Thread t=new Thread()；使得可进行多次下载，同时将
-  EditText中获取的图片链接用String iPath=editText.getText().toString();进行获取再用
-  URL url=new URL(iPath);进行链接，再用InputStream inputStream=url.openStream();打开输出流
-  将图片下载转换后关闭输出流inputStream.close();
-  
-# 四、实验截图
+二.实验内容
+-
+在个人目录中创建一个表示数据的XML或JSON文件<br>
+数据文件代码提交之后从GitHub获取文件URL<br>
+在应用中通过网络编程访问GitHub的数据文件<br>
+在应用中解析并显示文件所包含的数据；<br>
+将应用运行结果截图。<br>
 
+三、实验步骤
+-
+1、在自己的Github库中创建一个JSON数据文件<br>
+2、在子线程中新建一个URL对象，使用url.openConnection()去访问URL，获得请求<br>
+3、使用输入流去读取请求的数据（也就是JSON的数据类型转换成String）<br>
+4、解析JSON，通过键取得对应的值，添加到数据类型ArrayList中<br>
+5、返回主线程去更新UI<br>
 
-
-# 五、实验体会
-  
+四、实验截图
+-
+![](https://github.com/mvp-szf/android-labs-2018/blob/master/soft1614080902238/xg/sy61.png)
+![](https://github.com/mvp-szf/android-labs-2018/blob/master/soft1614080902238/xg/sy62.png)
+![](https://github.com/mvp-szf/android-labs-2018/blob/master/soft1614080902238/xg/sy63.png)
+五、实验体会
+-
+这次实验获取JSON和解析JSON方法不难，就是更新UI有点困难，因为刚开始不知道子线程如果用来更新UI会造成程序终止，百度后，使用 runOnUiThread返回主线程后就可以了
   
