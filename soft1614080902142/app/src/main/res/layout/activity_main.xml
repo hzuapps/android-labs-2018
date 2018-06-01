@@ -48,5 +48,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/stoptime"
         android:layout_weight="0.05" />
+    <Button
+        android:text="保存秒数"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:background="@color/colorYellow"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/savetime"
+        android:layout_weight="0.05" />
 
 </LinearLayout>

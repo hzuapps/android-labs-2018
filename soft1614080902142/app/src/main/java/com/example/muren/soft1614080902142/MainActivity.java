@@ -2,6 +2,7 @@ package com.example.muren.soft1614080902142;
 
 
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,9 +13,10 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity{
 
     private EditText inputet;
-    private Button getTime,startTime,stopTime;
+    private Button getTime,startTime,stopTime,saveTime;
     private TextView time;
     private  int i=0;
+    private  int t=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity{
         startTime=(Button)findViewById(R.id.starttime);
         stopTime =(Button)findViewById(R.id.stoptime);
         time = (TextView)findViewById(R.id.time);
+        saveTime = (Button)findViewById(R.id.savetime);
         getTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,6 +55,16 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
 
+            }
+        });
+
+        saveTime.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                t = Integer.parseInt(inputet.getText().toString());
+                SharedPreferences.Editor editor = getSharedPreferences("time",MODE_PRIVATE).edit();
+                editor.putInt("Time",t);
+                editor.apply();
             }
         });
 
