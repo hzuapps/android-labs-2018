@@ -16,7 +16,7 @@
 4.安装app并截图上传到自己的库中
  
 #实验截图
-！[截图](https://github.com/Nickum/android-labs-2018/blob/master/com1614080901121/app/view2.jpg)
+！[截图] (https://github.com/Nickum/android-labs-2018/blob/master/com1614080901121/app/view2.jpg)
 
 ##实验体会
 此次实验对于我来说还是比较困难的，因为要去学习如何在Android app中存储数据，自己本身对java也不熟，也改了很多次，最终通过同学的指导和书上的一些关于
