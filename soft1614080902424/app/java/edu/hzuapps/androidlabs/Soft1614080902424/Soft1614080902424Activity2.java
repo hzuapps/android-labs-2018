@@ -13,10 +13,12 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+
 public class Soft1614080902424Activity2 extends AppCompatActivity{
     private Button mButtonDisplay;
     private Spinner mEditTextContent1;
     private EditText mEditTextContent5;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +33,7 @@ public class Soft1614080902424Activity2 extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
        Button get = (Button) findViewById(R.id.get);
 
        get.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +46,15 @@ public class Soft1614080902424Activity2 extends AppCompatActivity{
         Button submit = (Button) findViewById(R.id.submit);
 
         submit.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setClass(Soft1614080902424Activity2.this, Soft1614080902424Activity5.class);
+                startActivity(intent);
+            }
+        });
+        Button yes = (Button) findViewById(R.id.yes);
+
+        yes.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent();
                 intent.setClass(Soft1614080902424Activity2.this, Soft1614080902424Activity5.class);
@@ -62,7 +74,9 @@ public class Soft1614080902424Activity2 extends AppCompatActivity{
             }
         });
 
+
     }
+
     private String getContent() {
         String s = null;
         FileInputStream fis = null;
