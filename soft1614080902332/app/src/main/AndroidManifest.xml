@@ -18,9 +18,17 @@
         </activity>
         <activity android:name=".Soft1614080902332Activity2" />
         <activity android:name=".Soft1614080902332Activity3" />
-
-        <provider android:name="Soft1614080902332Activity4"
+        <activity android:name=".Soft1614080902332Activity5" />
+        <activity android:name=".Soft1614080902332Activity6" />
+        <provider
+            android:name=".Soft1614080902332Activity4"
             android:authorities="edu.hzuapps.androidlabs.Soft1614080902332" />
-    </application>
 
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
