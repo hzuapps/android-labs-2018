@@ -29,7 +29,7 @@
       
       $ git add soft1614080902238(git rm 学号目录/*)
       
-      $ git commit "#3 # 963 第3次实验"
+      $ git commit "#6 # 963 第6次实验"
       
       $ git push
 
