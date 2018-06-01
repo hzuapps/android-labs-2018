@@ -1,4 +1,4 @@
-!# 第四次实验
+!!# 第四次实验
 ## 1.实验目的
 Android界面设计编程  
 
@@ -17,7 +17,8 @@ Android界面设计编程
 
 ## 3.实验结果  
 ![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/4.1.png)
-
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/4.2.png)
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/4.3.png)
 
 ## 4.实验心得  
 这次实验主要学会了该如何去弄按钮颜色以及聊天输入，这个界面布局虽然很丑，但也花费了很多时间去搞这个布局，那些按钮，我已经很细心去弄好它，但还是歪歪曲曲。
