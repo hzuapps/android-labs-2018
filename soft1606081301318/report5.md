@@ -49,13 +49,16 @@ tags TEXT NOT NULL);
 
 ## 实验截图
 
+news表中的部分数据
+
 ![image](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot5_1.png)
 
+没有缓存之前的项目截图
 ![image](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot5_2.png)
 
+缓存后断网的项目截图
 ![image](https://raw.githubusercontent.com/0r2dev/android-labs-2018/master/soft1606081301318/screenshot5_3.png)
 
 ## 实验体会
    
-  这次实验主要就是输入数据并且存储，然后将数据提取数来，步骤并不难，一开始把密码显示设置在输入密码界面时就会出错，输出的密码总是上一次输入的密码，
-  可能是因为没有更新数据，然后新建一个界面来显示密码就解决了问题
+  这次实验主要在数据库和表的创建和设计，以及项目缓存点放在哪里的逻辑问题，整体并不难。 也尝试了解如何去写一个最为简单的ORM
