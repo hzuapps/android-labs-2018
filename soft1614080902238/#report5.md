@@ -1,29 +1,43 @@
-第五次实验
- 
-# 实验目标
-
+实验五
+=
+一、实验目的
+-
 掌握在Android App中存储数据
+  
+二、实验内容
+-
+*根据选题要求使用文件存储
+*将应用产生的数据保存到文件存储中；<br>
+*说明使用的文件存储方式：内部 or 外部；<br>
+*将运行结果截图。<br>
+三、实验步骤
+*在package edu.hzuapps.androidlabs包下添加FileUtil工具类
+*在Activity中利用输入输出流进行文件读取
+*创建两个按钮，并添加事件监听，调用文件读写方法。
+*读取文件时，创建Stringbuilder对象，逐一接收openFileInput对象中文件的内容，返回其内容字符串类型 <br>
+*调试运行程序。
 
-# 实验步骤
+*提交res/drawable以及两个Activity的.java文件以及xml布局文件等文件到github 仓库中，并编写实验报告。
 
-1.在 activity_soft1614080902238_next 中添加一个TextView 作为提示文本，添加一个 EditText 来输入所猜的数字，添加一个 Button 并且赋予监听事件来判断所输入数字的情况，根据情况在提示文本输出
+*res/drawable以及两个Activity的.java文件以及xml布局文件等文件到github 仓库中：https://github.com/mvp-szf/android-labs-2018
+  
+      $ git pull origin master
+      
+      $ git add soft1614080902238(git rm 学号目录/*)
+      
+      $ git commit "#5 # 963 第5次实验"
+      
+      $ git push
 
-2.在 activity_soft1614080902238_next 再添加一个 Button，然后参考实验要求五文件存储的示范代码，添加监听器，以及文件输入输出流，编写内部存储的代码，把游戏的情况储存。
-
-3.在 activity_soft1614080902238_next 继续添加一个TextView 用来显示文件存储的路径
-
-4.运行程序并截图
-
-5.使用git将代码提交到自己的库里
-
-# 实验结果
+*在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+四、实验截图
+-
 
 ![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy51.png
 
 ![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy52.png
 
 ![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy53.png
-
-# 实验体会
- 
- 这次是有是第5次试验，主要考察的内容是如何在安卓中存储数据，总体难度较之前几次难，也比较复杂，需要花费更多的耐心和时间去完成，虽然难度比较大，但是花费心血去完成后的感觉很好！
+五、实验体会
+-
+通过这次实验，我掌握了利用输入输出流进行文件读写。
