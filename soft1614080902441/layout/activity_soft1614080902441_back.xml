@@ -80,11 +80,19 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="154dp"
-        android:layout_height="145dp"
+        android:layout_width="157dp"
+        android:layout_height="62dp"
         app:srcCompat="@drawable/user"
         tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="281dp" />
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="301dp" />
 
 
 </android.support.constraint.ConstraintLayout>
