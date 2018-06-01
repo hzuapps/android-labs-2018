@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asus.myapplication">
+    package="com.example.asus">
 
     <application
         android:allowBackup="true"
@@ -16,11 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Main_wzq_Activity"
-            android:label="@string/title_activity_main_wzq_"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".Wuziqipanel"></activity>
     </application>
 
 </manifest>
