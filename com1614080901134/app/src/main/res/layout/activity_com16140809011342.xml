@@ -243,6 +243,12 @@
                 android:layout_marginLeft="50dp"
                 android:text="取消订单"/>
         </LinearLayout>
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="完成"/>
 </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

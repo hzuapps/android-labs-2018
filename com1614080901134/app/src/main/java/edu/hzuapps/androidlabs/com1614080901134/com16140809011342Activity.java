@@ -1,5 +1,6 @@
 package edu.hzuapps.androidlabs.com1614080901134;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,14 @@ public class com16140809011342Activity extends AppCompatActivity {
         Button button9=(Button) findViewById(R.id.button_3);
         ImageButton button3 = (ImageButton) findViewById(R.id.button1);
         final TextView textView = (TextView) findViewById(R.id.textView_2);
+        Button button_9=(Button)findViewById(R.id.button9);
+        button_9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(com16140809011342Activity.this,thirdActivity.class);
+                startActivity(intent);
+            }
+        });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
