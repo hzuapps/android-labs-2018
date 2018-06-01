@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="正在播放：《狂暴巨兽》"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="411dp"
+        app:srcCompat="@drawable/bofang"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:text="关闭"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="点击下载"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+</android.support.constraint.ConstraintLayout>
