@@ -1,5 +1,6 @@
 package myapplication3.com.example.myapplication3;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -66,6 +67,13 @@ public class Main3Activity extends AppCompatActivity {
             public void onClick(View view) {
                 String text = ((EditText) findViewById(R.id.view1)).getText().toString();
                 saveTextIntoInternalStorage(text);
+            }
+        });
+        ((Button)findViewById(R.id.bt4)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(Main3Activity.this,Main4Activity.class);
+                startActivity(intent);
             }
         });
     }
