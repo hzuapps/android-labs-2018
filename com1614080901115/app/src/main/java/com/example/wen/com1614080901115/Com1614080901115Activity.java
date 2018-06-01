@@ -21,6 +21,6 @@ public class Com1614080901115Activity extends AppCompatActivity {
                 startActivity(it); //执行
             }
         };
-        timer.schedule(task, 1000 * 5);
+        timer.schedule(task, 1000 * 3);
     }
 }
