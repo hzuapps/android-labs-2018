@@ -29,7 +29,7 @@
       
       $ git push
 
-*在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
+*在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）<br>
 四、实验截图
 -
 
@@ -37,7 +37,7 @@
 
 ![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy52.png
 
-![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy53.png
+![]https://github.com/hzuapps/android-labs-2018/blob/0b4474405e90a9aeb6c3c173ec5a18f298f5bff1/soft1614080902238/sy5/sy53.png<br>
 五、实验体会
 -
 通过这次实验，我掌握了利用输入输出流进行文件读写。
