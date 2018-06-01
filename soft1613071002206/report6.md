@@ -21,6 +21,8 @@
 3.定义connectNet类用以下载图片，new 一个线程Thread进行下载；
 
 4.使用加载保存按钮获取URL的图片并保存；
+如图为结果
+![Alt text](https://github.com/ZZZZmin/android-labs-2018/blob/master/soft1613071002206/%E5%AE%9E%E9%AA%8C6-2.png?raw=true)
 
 5.使用Git将代码提交到自己的库中：https://github.com/Kehp/android-labs-2018
 
