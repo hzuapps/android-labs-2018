@@ -10,7 +10,7 @@
 
  ## 二、实验步骤
 
- ### 1.acitvity_soft1614080902441_back添加一个DownLoad按钮，并且在activity_soft1614080902441backActivity中添加事件，并添加监听跳转到Soft1614080902441DownLoad01Acitvity，并实现安卓软件的联网功能
+### 1.acitvity_soft1614080902441_back添加一个DownLoad按钮，并且在activity_soft1614080902441backActivity中添加事件，并添加监听跳转到Soft1614080902441DownLoad01Acitvity，并实现安卓软件的联网功能
 ### 2.在Soft1614080902441Download01Acitvity输入下载连接，点击下载公众号图片
 ### 3.跳转到Soft1614080902441DownLoad02Acitvity中，实现图片下载显示
 ### 4.在Soft1614080902441DownLoad02Acitvity实现接收网址并且从网上下载图片的功能。
