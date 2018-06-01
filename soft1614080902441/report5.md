@@ -1,25 +1,24 @@
- # µÚËÄ´ÎÊµÑé £ºAndroid½çÃæÉè¼Æ±à³Ì 
+ # ç¬¬äº”æ¬¡å®žéªŒ
 
- ##1.ÊµÑéÄ¿±ê
-   £¨1£©ÒªÇó¸ù¾Ý×Ô¼ºµÄÑ¡ÌâÒªÇóÉè¼ÆÏàÓ¦µÄ½çÃæ²¼¾Ö¼°Æä¿Ø¼þÊ¹ÓÃ£»  
-   £¨2£©½«×Ô¼ºËùÐ´µÄ²¼¾ÖxmlÒÔ¼°½çÃæ¿ØÖÆ²Ù×÷´úÂëÌá½»£»  
-   £¨3£©½«Ó¦ÓÃÔËÐÐ½á¹û½ØÍ¼¡£  
- 
- ##2.ÊµÑé²½Öè
-   £¨1£©Ê×ÏÈÎÒÔÚµÚÒ»¸öActivityµÄxmlÎÄ¼þÖÐÉè¼Æ²¼¾Ö£¬Ê¹ÓÃµÄÊÇLinearLayoutÏßÐÔ²¼¾Ö
-   £¨Í¨¹ý²éÑ¯ÎÒÖªµÀÁË²¼¾Ö¹²ÓÐ5ÖÖ£º  LinearLayout,RelativeLayout,TableLayout,AbsoluteLayout,FrameLayout,ÒòÎª³£ÓÃµÄÊÇ
-     LinearLayoutºÍRelativeLayoutËùÒÔÎÒÑ¡ÔñÁËLinearLayout£©
-   £¨2£©ÔÚ¸ÃActivityµÄxmlÎÄ¼þÖÐÒÀ´ÎÊ¹ÓÃ¿Ø¼þTextView¡¢ImageView¡¢TextView¡¢EditText¡¢Button¡¢TextViewºÍImageView
-   £¨3£©ÔÚ¸ÃActivityµÄjavaÎÄ¼þÖÐÉèÖÃ¶ÔÓ¦µÄ¼àÌýÆ÷ÊµÏÖÊ¹ÓÃButtonÌø×ª
-   £¨5£©È»ºóÏÈ°ÑÕû¸öÒ³ÃæÉèÖÃÎª´¹Ö±²¼¾Ö£¬Ê¹µÃÃ¿Ò»¿éÇøÓò´¹Ö±ÍùÏÂÅÅÁÐ
-   £¨6£©×îºóÔÚÃ¿Ò»¿éÇøÓòÄÚ£¬ÔÚÇ¶Ì×Ê¹ÓÃLinearLayoutÉèÖÃÎªË®Æ½²¼¾Ö   
-     (7)  ×îºó½øÐÐÁËÕæ»úµ÷ÊÔ³É¹¦ÔËÐÐ
- 
-## 3.ÊµÑé½á¹û
-![ÔÚAndroid SDK ManagerÖÐÑ¡Ôñ6.0¿â](https://raw.githubusercontent.com/xieguocheng/android-labs-2018/master/soft1614080902441/soft1614080902441.png)
+## 1.å®žéªŒç›®æ ‡
+æŽŒæ¡åœ¨Android Appä¸­å­˜å‚¨æ•°æ®ã€‚
 
- ##4. ÊµÑéÌå»á
-      Í¨¹ý±¾´ÎÊµÑé£¬ÎÒÑ§»áÁËÉè¼Æ½çÃæ²¼¾ÖºÍÊ¹ÓÃ¿Ø¼þ£¬ÊµÑé¹ý³ÌÖÐÎÒÃÇÐèÒªÈ·¶¨½çÃæµÄ²¼¾Ö¡£ÕâÑù²ÅÄÜÉè¼Æ×Ô¼ºµÄ¹«ÖÚºÅ¹ÜÀíÏµÍ³£¬Í¨¹ýÔÚxmlÎÄ¼þÖÐ£¬±àÐ´Éè¼ÆËùÐèÒªµÄ½çÃæ£¬Í¨¹ý²»¶ÏµÄµ÷Õû£¬Éè¼Æ³öÁËÈçÉÏÈçËùÊ¾µÄ½çÃæ£¬Í¬Ê±½øÐÐÌø×ª£¬½çÃæÏà±ÈÉÏ´ÎÊµÑéÓÐËùµ÷Õû£¬×ÜµÄÀ´Ëµ£¬¹ý³Ì±È½ÏµÄ¼èÐÁ£¬²»¹ýÍ¨¹ý°Ù¶ÈÎÒ»¹ÊÇÇå³þÁË²¼¾Ö¡£¶®µÃÁË´óÖÂµÄÔ­Àí£¬×îºóÊ¹µÃÎÒÓÐÁË¸ü¼ÓÉî¿ÌµÄÁË½â¡£
+## 2.å®žéªŒæ­¥éª¤ 
+### ï¼ˆ1ï¼‰æ–°åˆ›å»ºä¸€ä¸ªSoft1614080902441UserActivity å’Œä¸€ä¸ª  activity_soft1614080902441_user.xml  å’Œä¸€ä¸ª  activity_soft1614080902441_login.xml
+### ï¼ˆ2ï¼‰åœ¨Soft1614080902441UserActivityä¸­åŠ å…¥æŒ‰é’®ç›‘å¬ï¼Œç‚¹å‡»æŒ‰é’®è°ƒç”¨æ–¹æ³•saveï¼ŒæŸ¥è¯¢æ•°æ®çŠ¶æ€è°ƒç”¨read ï¼Œä»Žä¸­è¯»å‡ºæ•°æ®     
+### ï¼ˆ3ï¼‰å®žçŽ°ä¸€ä¸ªä¿å­˜æ•°æ®å’Œè¯»å–æ•°æ®
+### ï¼ˆ4ï¼‰è·³è½¬åˆ°activity_soft1614080902441_user.xmlé¡µé¢æ‰§è¡ŒæŸ¥çœ‹æ•°æ®æ“ä½œï¼Œå¯ä»¥çœ‹åˆ°ç”¨æˆ·çš„ä¿¡æ¯ã€‚
+
+##  3.å®žéªŒç»“æžœ
+
+![image](https://github.com/xieguocheng/android-labs-2018/blob/master/soft1614080902441/4.png)
+![image](https://github.com/xieguocheng/android-labs-2018/blob/master/soft1614080902441/6.png)
+![image](https://github.com/xieguocheng/android-labs-2018/blob/master/soft1614080902441/8.png)
+![image](https://github.com/xieguocheng/android-labs-2018/blob/master/soft1614080902441/7.png)
+
+## 4.å®žéªŒä½“ä¼š
+è¿™æ¬¡å®žéªŒé€šè¿‡æ•°æ®çš„ä¿å­˜ä¸Žè¯»å–ï¼Œå¯¹æŒ‰é’®è¿›è¡Œç›‘å¬ï¼Œé€šè¿‡ç™¾åº¦å’Œè€å¸ˆç»™çš„èµ„æ–™ï¼Œé€šè¿‡é¡µé¢ä¹‹é—´çš„è·³è½¬ï¼Œè¯»å–æ•°æ®ä»¥åŠå†™å…¥æ•°æ®ï¼Œå……ä»Žè€ŒæŸ¥çœ‹ç”¨æˆ·çš„æ•°æ®ï¼Œæœ€ç»ˆå¾—ä»¥å®žçŽ°ã€‚
+    
 
       
 
