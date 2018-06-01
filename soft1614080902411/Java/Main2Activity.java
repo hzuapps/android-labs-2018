@@ -1,9 +1,10 @@
-package com.example.edu.hzu.myapplication4;
+package myapplication5.com.example.myapplication5;
 
+import android.os.Bundle;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -25,7 +26,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import com.example.edu.hzu.myapplication4.R;
+import myapplication5.com.example.myapplication5.R;
 
 public class Main2Activity extends AppCompatActivity {
     public static final String DIRECTORY = "demo";
@@ -53,6 +54,13 @@ public class Main2Activity extends AppCompatActivity {
 
             public void onClick(View view) {
                 Intent intent=new Intent(Main2Activity.this,Main3Activity.class);
+                startActivity(intent);
+            }
+        });
+        ((Button)findViewById(R.id.bt5)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Main2Activity.this,Main4Activity.class);
                 startActivity(intent);
             }
         });
