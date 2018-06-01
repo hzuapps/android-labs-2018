@@ -1,4 +1,4 @@
-# 第四次实验
+!# 第四次实验
 ## 1.实验目的
 Android界面设计编程  
 
@@ -16,6 +16,7 @@ Android界面设计编程
 
 
 ## 3.实验结果  
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/4.1.png)
 
 
 ## 4.实验心得  
