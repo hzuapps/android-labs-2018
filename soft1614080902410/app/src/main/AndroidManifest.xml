@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".Soft1614080902410_2" />
         <activity android:name=".Soft1614080902410Activity_3" />
-        <activity android:name=".Soft1614080902410Activity_4"></activity>
+        <activity android:name=".Soft1614080902410Activity_4" />
+        <activity
+            android:name=".Soft1614080902410Activity_5"
+            android:label="@string/title_activity_soft1614080902410_5"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
