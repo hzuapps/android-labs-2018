@@ -5,23 +5,47 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Build;
+import android.os.Environment;
+import android.os.Message;
 import android.provider.MediaStore;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import android.os.Handler;
 
 public class add_music extends AppCompatActivity {
 
+
+    private EditText editText;
+    private Button button02;
+    private Bitmap bitmap;
+    private ImageView imageView;
+    private URL url = null;
 
     public List<Song> getLocalMusic(Context context) {
         List<Song> list_local = new ArrayList<>();
@@ -113,11 +137,89 @@ public class add_music extends AppCompatActivity {
         return true;
     }
 
+
+
+    /*public String  getFileByUrl(String baseUrl) {
+        try {
+            URL url = new URL(baseUrl);
+            HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();
+            urlConn.setDoInput(true);        //设置输入流采用字节流
+            urlConn.setDoOutput(true);        //设置输出流采用字节流
+            urlConn.setRequestMethod("POST");
+            urlConn.setUseCaches(false);    //设置缓存
+            urlConn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+            urlConn.setRequestProperty("Charset", "utf-8");
+            urlConn.connect();
+
+            DataOutputStream dos = new DataOutputStream(urlConn.getOutputStream());
+            dos.writeBytes("tqpadmac=" + URLEncoder.encode("B407F9D67C80", "utf-8"));
+            dos.writeBytes("tqpadver=" + URLEncoder.encode("1", "utf-8"));
+            dos.flush();
+            dos.close();
+
+            //这句：new InputStreamReader(urlConn.getInputStream(), "gbk")  设置编码
+            BufferedReader br = new BufferedReader(new InputStreamReader(urlConn.getInputStream(), "gbk"));
+            String line = "";
+            String result = "";
+            while (null != (line = br.readLine())) {
+                result += line;
+            }
+            Log.d("chenzhu","chenzhu--->get data byurl接到的数据: " + result);
+            br.close();
+            urlConn.disconnect();
+            return result;
+        } catch (Exception e1) {
+            e1.printStackTrace();
+        }
+        return "";
+    }*/
+
+    Handler handler=new Handler(){
+        public void handleMessage(Message msg) {
+            if(msg.what==111){
+                imageView.setImageBitmap(bitmap);
+            }
+        };
+    };
+
+    Thread t=new Thread(){
+        public void run() {
+            String iPath=editText.getText().toString();
+            try {
+                URL url=new URL(iPath);
+                InputStream inputStream=url.openStream();
+                bitmap=BitmapFactory.decodeStream(inputStream);
+                handler.sendEmptyMessage(111);
+                inputStream.close();
+                inputStream=url.openStream();
+                File sdCardDir = Environment.getExternalStorageDirectory();//获取sd卡目录
+                File file = new File(sdCardDir,"p1.png");
+                //File file=new File(Environment.getExternalStorageDirectory()+"/DCIM/");
+                FileOutputStream fileOutputStream=new FileOutputStream(file);
+                int hasRead=0;
+                while((hasRead=inputStream.read())!=-1){
+                    fileOutputStream.write(hasRead);
+                }
+                fileOutputStream.close();
+                inputStream.close();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        };
+    };
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         final Activity thisActivity = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_music);
+        editText = findViewById(R.id.editText);
+        button02 = findViewById(R.id.button02);
+        imageView=(ImageView) findViewById(R.id.imageView);
         ImageView back_view_add = findViewById(R.id.imageView_back_add);
         Button button_add = findViewById(R.id.button);
 
@@ -132,6 +234,13 @@ public class add_music extends AppCompatActivity {
             }
         });
 
+        button02.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+                new Thread(t).start();
+
+            }
+        });
+
         back_view_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -141,4 +250,6 @@ public class add_music extends AppCompatActivity {
         });
 
     }
+
+
 }

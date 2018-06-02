@@ -56,7 +56,7 @@ public class locallist_Fragment extends Fragment {
     public void setListAdapter(List<HashMap<String, String>> mp3list) {
 
 
-        mAdapter = new SimpleAdapter( this.getActivity().getApplicationContext(), mp3list,
+            mAdapter = new SimpleAdapter( this.getActivity().getApplicationContext(), mp3list,
                 R.layout.music_item, new String[]{"number","title","check_music",
                 "Artist", "music_menu"}, new int[]{R.id.number, R.id.music_title,
                 R.id.music_Artist, R.id.music_menu});
