@@ -22,7 +22,7 @@ public class soft1614080902310_weather_reportActivity extends AppCompatActivity 
         Timer time=new Timer();
         TimerTask task=new TimerTask(){
             public void run(){
-                Intent intent=new Intent(soft1614080902310_weather_reportActivity.this,soft1614080902310weather_report1Activity.class);
+                Intent intent=new Intent(soft1614080902310_weather_reportActivity.this,soft1614080902310_weather_report2Activity.class);
                 startActivity(intent);
                 soft1614080902310_weather_reportActivity.this.finish();
             }
