@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已分享资源"
+            android:textColor="#000000"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title_ranking"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="剧名"
+                android:textColor="#104aea"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/title_name"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="主演"
+                android:textColor="#eae310"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/title_point"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="链接"
+                android:textColor="#10ea81"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/save"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#10ea81"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ranking1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="甄嬛传"
+                    android:textColor="#104aea"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="忽而今夏"
+                    android:textColor="#104aea"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="大诱拐"
+                    android:textColor="#104aea"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="大人物"
+                    android:textColor="#104aea"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="金城公主"
+                    android:textColor="#104aea"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ranking1_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="孙俪"
+                    android:textColor="#eae310"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking2_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="杨幂"
+                    android:textColor="#eae310"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking3_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="蔡明"
+                    android:textColor="#eae310"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking4_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="黄子韬"
+                    android:textColor="#eae310"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking5_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="杨幂"
+                    android:textColor="#eae310"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ranking1_point"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="观看"
+                    android:textColor="#10ea81"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking2_point"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="观看"
+                    android:textColor="#10ea81"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking3_point"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="观看"
+                    android:textColor="#10ea81"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking4_point"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="观看"
+                    android:textColor="#10ea81"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/ranking5_point"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="观看"
+                    android:textColor="#10ea81"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_open4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查看"
+                    android:textColor="#10ea81"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_open5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查看"
+                    android:textColor="#10ea81"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_open6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查看"
+                    android:textColor="#10ea81"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_open7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查看"
+                    android:textColor="#10ea81"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button_open8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="查看"
+                    android:textColor="#10ea81"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_open3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="《返回首页"></Button>
+
+</LinearLayout>
