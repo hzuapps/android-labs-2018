@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">学习软件</string>
+    <string name="title_activity_soft1614080902115_main2">学习软件</string>
+    <string name="gz"></string>
+    <string name="rm">课程</string>
+    <string name="wb">首页</string>
+    <string name="xx">课程</string>
+    <string name="fx">离线下载</string>
+    <string name="wo"> 个人中心</string>
+    <string name="bj">点击背景进入拍照</string>
+    <string name="title_activity_soft1614080902115_main3">Soft1614080902115MainActivity3</string>
+</resources>
