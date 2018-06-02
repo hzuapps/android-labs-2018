@@ -38,6 +38,13 @@
                 android:layout_height="wrap_content"
                 android:text="高等数学" />
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="相关资料" />
+
         </LinearLayout>
 
         <LinearLayout
