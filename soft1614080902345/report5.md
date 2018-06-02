@@ -18,18 +18,23 @@
 
 ## 3、实验结果 
 我的Android应用第一个activity截图。
+
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE1.jpg "配置教育网下载代理")
 
 点击按钮后跳转的发布兼职页面activity.
+
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE2.jpg "配置教育网下载代理")
 
 输入信息后的页面情况。
+
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE3.jpg "配置教育网下载代理")
 
 点击发布按钮查看在activity中实现的提示框功能。显示功能正常
+
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE4.jpg "配置教育网下载代理")
 
 查询数据有无存入文件中。
+
 ![在Android SDK Manager中选择6.0库](https://raw.githubusercontent.com/chinesehope/android-labs-2018/master/soft1614080902345/%E5%AE%9E%E9%AA%8C5%E6%88%AA%E5%9B%BE5.jpg "配置教育网下载代理")
 
 ## 4、实验体会 
