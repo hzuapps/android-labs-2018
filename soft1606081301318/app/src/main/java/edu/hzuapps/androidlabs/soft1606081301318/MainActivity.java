@@ -1,6 +1,8 @@
 package androidlabs.hzuapps.edu.soft1606081301318;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -27,7 +29,10 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.facebook.stetho.Stetho;
+import com.facebook.stetho.okhttp3.StethoInterceptor;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 
@@ -61,7 +66,10 @@ public class MainActivity extends AppCompatActivity
     private InfoListAdapter adapter;
     private int otherdate=0;
     private RequestQueue mQueue;
-
+    private RequestQueue mNewsQueue;
+    private dbHelper helper;
+    private ItemBean ib;
+    public static String DB_NAME="news";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         mInstance = this;
@@ -94,6 +102,13 @@ public class MainActivity extends AppCompatActivity
         mRollViewPager.setAnimationDurtion(500);
         mRollViewPager.setAdapter(new RVNormalAdapter(imgList));
         mRollViewPager.setHintView(new ColorPointHintView(mInstance, Color.BLACK,Color.WHITE));
+
+        helper = new dbHelper(MainActivity.this,DB_NAME,null,1);
+
+        Stetho.initializeWithDefaults(this);
+        new OkHttpClient.Builder()
+                .addNetworkInterceptor(new StethoInterceptor())
+                .build();
 
 
         initNewsData();
@@ -134,10 +149,16 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void initNewsData() {
-
+        boolean Cached = checkCache("news_hot");
+        if(Cached){
+            Log.i("CACHED", "news_hot iscached ");
+            mRollViewPager.setAdapter(new RVNormalAdapter(imgUrl_List));
+            mRollViewPager.setHintView(new ColorPointHintView(mInstance, Color.BLACK,Color.WHITE));
+            return;
+        }
         OkHttpClient mOkHttpClient=new OkHttpClient();
 
-        Request.Builder requestBuilder = new Request.Builder().url("https://news-at.zhihu.com/api/3/news/hot");
+        Request.Builder requestBuilder = new Request.Builder().url("https://news-at.zhihu.com/api/4/news/hot");
         requestBuilder.method("GET",null);
         Request request = requestBuilder.build();
         Call mcall= mOkHttpClient.newCall(request);
@@ -152,22 +173,26 @@ public class MainActivity extends AppCompatActivity
                 String sbody;
                 if (null != response.cacheResponse()) {
                 } else {
-                    sbody = response.body().string();
-                    Gson gson_ = new Gson();
-                    NewsGson g_data = gson_.fromJson(sbody,NewsGson.class);
-                    List<NewsGson.RecentBean> dataList = g_data.getRecent();
-                    for (int i = 0; i < 5; i++) {
-                        NewsGson.RecentBean gr = dataList.get(i);
-                        imgUrl_List[i] = gr.getThumbnail();
-                        titleList[i] = gr.getTitle();
-                        idArr[i] = gr.getNews_id();
-                    }
-                    mRollViewPager.setAdapter(new RVNormalAdapter(imgUrl_List));
-                    mRollViewPager.setHintView(new ColorPointHintView(mInstance, Color.BLACK,Color.WHITE));
+                        sbody = response.body().string();
+                        Gson gson_ = new Gson();
+                        NewsGson g_data = gson_.fromJson(sbody, NewsGson.class);
+                        List<NewsGson.RecentBean> dataList = g_data.getRecent();
+                        for (int i = 0; i < 5; i++) {
+                            NewsGson.RecentBean gr = dataList.get(i);
+                            imgUrl_List[i] = gr.getThumbnail();
+                            titleList[i] = gr.getTitle();
+                            idArr[i] = gr.getNews_id();
+                            helper.insert(""+ gr.getNews_id(), gr.getTitle(), gr.getThumbnail(),"https://news-at.zhihu.com/api/4/news/" + gr.getNews_id(),"news_hot");
+
+                        }
+
+
                 }
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
+                        mRollViewPager.setAdapter(new RVNormalAdapter(imgUrl_List));
+                        mRollViewPager.setHintView(new ColorPointHintView(mInstance, Color.BLACK,Color.WHITE));
                     }
                 });
             }
@@ -262,12 +287,19 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    private void getInfoFromNet(){
 
+
+    private void getInfoFromNet(){
+        boolean Cached = checkCache("news_list");
+        if(Cached){
+            Log.i("CACHED", "news_list iscached ");
+            return;
+        }
         mQueue = Volley.newRequestQueue(this);
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest("https://news-at.zhihu.com/api/4/news/latest" , null, new com.android.volley.Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
+                SQLiteDatabase db1 = helper.getWritableDatabase();
                 try {
                     JSONArray list = null;
                     try {
@@ -284,6 +316,8 @@ public class MainActivity extends AppCompatActivity
                         listItem.setTitle(item.getString("title"));
                         listItem.setImgurl(images.getString(0));
                         new_IdArr[i] = item.getString("id");
+
+                        helper.insert(item.getString("id"), item.getString("title"), images.getString(0),"https://news-at.zhihu.com/api/4/news/" + item.getString("id"),"news_list");
                         mDatas.add(listItem);
 
                     }
@@ -300,6 +334,36 @@ public class MainActivity extends AppCompatActivity
             }
         });
         mQueue.add(jsonObjectRequest);
+    }
+
+    private boolean checkCache(String tags){
+        Cursor cursor = helper.select(tags);
+        boolean isCache = false;
+        int i = 0;
+        if(cursor.moveToFirst()){
+            do{
+                String id=cursor.getString(cursor.getColumnIndex("news_id"));
+                String title=cursor.getString(cursor.getColumnIndex("title"));
+                String img_url=cursor.getString(cursor.getColumnIndex("thumbnail"));
+                if(id !="" && title !="" && img_url !=""){
+                    isCache = true;
+                }
+                if(i<5 && tags == "news_hot") {
+                    imgUrl_List[i] = img_url;
+                    titleList[i] = title;
+                    idArr[i] = Integer.parseInt(id);
+                }
+                if(i<8 && tags == "news_list") {
+                    new_IdArr[i] = id;
+                    ib = new ItemBean();
+                    ib.setTitle(title);
+                    ib.setImgurl(img_url);
+                    mDatas.add(ib);
+                }
+                i++;
+            }while(cursor.moveToNext());
+        }
+        return isCache;
     }
 
 
