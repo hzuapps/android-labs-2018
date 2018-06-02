@@ -1,0 +1,16 @@
+﻿{
+ 
+    "number": [
+        {
+            "number": "parent",
+            "number1": "父母"
+            "number2": "兄弟"
+        },
+        {
+            "number": "boy",
+            "number1": "男孩"
+            "number2":"女孩"
+        },
+
+    ]
+}
