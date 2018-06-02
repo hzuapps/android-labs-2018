@@ -23,14 +23,24 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="230dp"
-        android:text="请输入关键词" />
+        android:text="请输入搭配名称" />
 
     <Button
-        android:id="@+id/ShowAll"
+        android:id="@+id/ShowButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="94dp"
         android:text="显示" />
+
+    <Button
+        android:id="@+id/fromJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="展示搭配（非本地）" />
+
 </RelativeLayout>

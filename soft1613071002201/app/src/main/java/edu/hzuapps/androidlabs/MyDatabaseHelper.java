@@ -29,6 +29,7 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(CREATE_INFO);
         //创建成功
         Toast.makeText(mContext, "Create succeeded", Toast.LENGTH_SHORT).show();
+        System.out.println();
     }
 
     @Override

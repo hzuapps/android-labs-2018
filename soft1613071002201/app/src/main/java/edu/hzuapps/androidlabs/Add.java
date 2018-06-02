@@ -1,6 +1,7 @@
     package edu.hzuapps.androidlabs;
 
 import android.content.ContentValues;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Handler;
@@ -80,9 +81,11 @@ import android.widget.Toast;
             public void onClick(View v) {
                 SQLiteDatabase db=dbHelper.getWritableDatabase();
                 //db.execSQL(CREATE_INFO);
-                //ContentValues values=new ContentValues();
                 db.execSQL("insert into textinfo(name,description) values(?,?)",
                         new Object[]{str1,str2});
+                Toast.makeText(Add.this,"添加成功",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(Add.this,Soft1613071002201Activity.class);
+                startActivity(intent);
             }
         });
     }

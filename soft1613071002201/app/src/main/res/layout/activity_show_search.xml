@@ -40,4 +40,13 @@
         android:layout_marginBottom="-224dp"
         android:text="描述" />
 
+    <TextView
+        android:id="@+id/textDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:text="删除该搭配" />
+
 </RelativeLayout>
