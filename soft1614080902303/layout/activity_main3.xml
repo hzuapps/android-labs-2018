@@ -21,7 +21,7 @@
             android:id="@+id/bt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="保存"
+            android:text="开始查询"
             android:textSize="25dp"
             android:layout_marginTop="450dp"
             android:layout_marginLeft="300dp"/>
@@ -32,6 +32,13 @@
             android:text=""
             android:textSize="18dp"
             android:layout_marginTop="500dp"/>
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginLeft="320dp"
+            android:background="#00000000"/>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main4Activity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="http://pic29.photophoto.cn/20131204/0034034499213463_b.jpg"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:text="下载"
+            android:textSize="25dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="80dp"/>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="150dp"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
