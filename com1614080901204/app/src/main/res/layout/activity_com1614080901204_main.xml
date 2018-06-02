@@ -15,6 +15,7 @@
     android:orientation="vertical"
     tools:context=".Com1614080901204MainActivity">
 
+
     <TextView
         android:id="@+id/textview_01"
         android:layout_width="wrap_content"
@@ -28,17 +29,41 @@
         android:text="热门电台"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="367dp" />
+
     <Button
+        android:id="@+id/activity_third"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/activity_third"
         android:layout_gravity="center_horizontal"
-        android:text="电台排行榜"
+        android:text="电台排行"
+        tools:layout_editor_absoluteX="145dp"
+
+
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/activity_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="新建收藏单"
+        tools:layout_editor_absoluteX="145dp"
+
+
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+
+        android:id="@+id/activity_tp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="432dp"
-        
-
-        />
+        android:baselineAligned="false"
+        android:text="图片下载" />
 
 
 </LinearLayout>

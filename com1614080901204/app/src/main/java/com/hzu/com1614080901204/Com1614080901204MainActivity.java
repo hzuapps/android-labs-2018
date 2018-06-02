@@ -8,9 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 
-
-
-
 public  class Com1614080901204MainActivity extends AppCompatActivity  {
 
     @Override
@@ -21,17 +18,17 @@ public  class Com1614080901204MainActivity extends AppCompatActivity  {
         Button btnOpen = (Button) findViewById(R.id.activity_second);
 
         btnOpen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public  void onClick(View v){
-                Intent intent = new Intent(Com1614080901204MainActivity.this, SecondActivity.class);
+                                       @Override
+                                       public  void onClick(View v){
+                                           Intent intent = new Intent(Com1614080901204MainActivity.this, SecondActivity.class);
 
-                startActivity(intent);
-
-                
-            }
+                                           startActivity(intent);
 
 
-        }
+                                       }
+
+
+                                   }
         );
         Button btnOpen1 = (Button) findViewById(R.id.activity_third);
         btnOpen1.setOnClickListener(new View.OnClickListener() {
@@ -41,11 +38,42 @@ public  class Com1614080901204MainActivity extends AppCompatActivity  {
 
                 startActivity(intent);
 
-                
+
             }
 
 
                                    }
+
+        );
+        Button btnOpen2 = (Button) findViewById(R.id.activity_four);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public  void onClick(View v){
+                                            Intent intent = new Intent(Com1614080901204MainActivity.this, FourActivity.class);
+
+                                            startActivity(intent);
+
+
+                                        }
+
+
+                                    }
+
+        );
+
+        Button btnOpen3 = (Button) findViewById(R.id.activity_tp);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public  void onClick(View v){
+                                            Intent intent = new Intent(Com1614080901204MainActivity.this, tpActivity.class);
+
+                                            startActivity(intent);
+
+
+                                        }
+
+
+                                    }
 
         );
 
