@@ -20,6 +20,17 @@ public class com1614080901106Activity extends AppCompatActivity {
         rbMan = (RadioButton) findViewById(R.id.rbMan);
         rbWoman = (RadioButton) findViewById(R.id.rbWoman);
         etTall = (EditText) findViewById(R.id.etTall);
+
+        Button btn = (Button) findViewById(R.id.button2);
+        btn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick (View v){
+                Intent intent = new Intent(com1614080901106Activity.this, thirdActivity.class);
+                startActivity(intent);
+            }
+
+        });
     }
 
 
