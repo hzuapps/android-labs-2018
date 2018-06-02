@@ -5,17 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".jumpActivity">
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
 
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+
         <EditText
             android:id="@+id/editText"
-            android:layout_width="252dp"
+            android:layout_width="281dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:layout_weight="1"
             android:ems="10"
             android:hint="请输入你要查询天气的城市"
             android:inputType="textPersonName"
@@ -23,17 +27,22 @@
 
         </EditText>
 
-
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="sendMessage"
-            android:text="查询">
+            android:text="保存">
 
         </Button>
-        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
