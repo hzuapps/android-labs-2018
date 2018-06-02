@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/lv_lost"
+        />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="55dp"
+        android:paddingLeft="10dp"
+        app:menu_labels_ellipsize="end"
+        android:layout_marginRight="10dp"
+        >
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_voice_search"
+            android:scaleType="fitEnd"
+            fab:fab_size="mini"
+            fab:fab_label="发布" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fb_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_search"
+            fab:fab_size="mini"
+            fab:fab_label="查询" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fb_personal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:borderWidth="0dp"
+            android:src="@drawable/perm_group_personal_info"
+            fab:fab_size="mini"
+            fab:fab_label="个人中心" />
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
