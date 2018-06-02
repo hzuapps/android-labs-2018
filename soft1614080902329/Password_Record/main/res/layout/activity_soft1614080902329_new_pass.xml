@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="类型"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="80px"
             />
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="用户名"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="60px"
             />
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="密码"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="60px"
             />
@@ -61,9 +61,9 @@
             android:layout_width="170sp"
             android:layout_height="wrap_content"
             android:text="保存"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="200px"
+            android:layout_marginTop="100px"
             />
 
     </LinearLayout>
