@@ -16,11 +16,19 @@ public class Soft161408092410Activity extends AppCompatActivity {
 
         final Activity thisActivity = this;
         Button btnHome = (Button) findViewById(R.id.buttom1);
+        Button btnHome3 = (Button) findViewById(R.id.buttom4);
         btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(thisActivity, Soft1614080902410_2.class);
                 thisActivity.startActivity(intent);
+            }
+        });
+        btnHome3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(thisActivity, NetworkActivity.class);
+                thisActivity.startActivity(intent3);
             }
         });
     }

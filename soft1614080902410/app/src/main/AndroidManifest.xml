@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.liyang.soft1614080902410">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,10 +22,8 @@
         <activity android:name=".Soft1614080902410_2" />
         <activity android:name=".Soft1614080902410Activity_3" />
         <activity android:name=".Soft1614080902410Activity_4" />
-        <activity
-            android:name=".Soft1614080902410Activity_5"
-            android:label="@string/title_activity_soft1614080902410_5"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NetworkActivity"></activity>
+
     </application>
 
 </manifest>
