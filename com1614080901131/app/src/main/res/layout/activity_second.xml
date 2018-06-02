@@ -28,8 +28,9 @@
         android:orientation="horizontal"
         android:layout_below="@id/tv_text"
         android:layout_marginTop="25dp"
-        >
+        android:id="@+id/linearLayout">
         <Button
+            android:id="@+id/bt_put"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,5 +58,15 @@
 
 
     </LinearLayout>
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/tv_text"
+        android:layout_alignStart="@+id/tv_text"
+        android:layout_alignTop="@+id/tv_text"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp" />
 
 </RelativeLayout>
