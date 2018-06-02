@@ -20,11 +20,11 @@
 
 （2）使用Git将代码提交到自己的库中；
 
- git add app/
+    git add app/
 
- git commit -m "#3 第三次实验"
+    git commit -m "#3 第三次实验"
 
- git push
+    git push
 
 （3）在自己的GitHub库上创建和发送Pull Request；
 
