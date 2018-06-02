@@ -39,7 +39,7 @@
  点击显示 即可显示留言
  ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%BA%941.png)
  
- ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C3%E4%BA%94.png)
+ ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%BA%943.png)
  
  ## 五.实验体会
    
