@@ -38,7 +38,7 @@
                 android:textStyle="bold" />
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/block"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -55,13 +55,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/share_"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/colorBlack"
-                android:text="@string/share_content" />
+                android:text="@string/share_name" />
 
             <EditText
                 android:id="@+id/name"
@@ -103,7 +102,21 @@
                 tools:ignore="LabelFor" />
         </LinearLayout>
 
-
+        <!--显示提交后的内容-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/upload_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:ems="10"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"/>
+            
+        </LinearLayout>
+        
     </LinearLayout>
 
 
