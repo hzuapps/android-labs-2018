@@ -68,7 +68,7 @@ public class Activity3 extends AppCompatActivity {
                 ((TextView) findViewById(R.id.ranking1)).setText(r);
                 ((TextView) findViewById(R.id.ranking1_name)).setText(n);
                 ((TextView) findViewById(R.id.ranking1_point)).setText(p);
-                Toast.makeText(Activity3.this,"已更新："+r+" "+n+" "+p,Toast.LENGTH_SHORT).show();
+                Toast.makeText(Activity3.this,"已修改："+r+" "+n+" "+p,Toast.LENGTH_SHORT).show();
             }
         });
     }

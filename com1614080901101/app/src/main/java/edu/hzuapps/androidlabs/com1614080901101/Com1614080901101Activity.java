@@ -31,6 +31,14 @@ public class Com1614080901101Activity extends AppCompatActivity{
                 startActivity(intent);
             }
         });
+
+        Button background_settings = (Button) findViewById(R.id.background_settings);
+        background_settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Com1614080901101Activity.this, Activity4.class);
+                startActivity(intent);
+            }
+        });
     }
 }
-

@@ -27,6 +27,18 @@
             android:name=".Activity3"
             android:label="@string/title_activity_third"
             android:theme="@style/AppTheme" />
-    </application>
 
+        <activity
+            android:name=".Activity4"
+            android:label="@string/title_activity_background_settings"
+            android:theme="@style/AppTheme" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="andorid.permission.MONUN_UNMOUNT_FILESYSTEMS"/>
 </manifest>
