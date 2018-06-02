@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity" >
+
+  <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <Button
+
+           android:id="@+id/e"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:onClick="click"
+           android:text="新建生日"/>
+       <Button
+
+           android:id="@+id/d"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="修改生日"/>
+       <Button
+
+           android:id="@+id/t"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="删除生日"/>
+
+   </LinearLayout>
+
+</RelativeLayout>
