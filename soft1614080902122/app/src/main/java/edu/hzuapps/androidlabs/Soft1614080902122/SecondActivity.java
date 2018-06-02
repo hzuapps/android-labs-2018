@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
     private TextView textView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +26,7 @@ public class SecondActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        textView=(TextView)findViewById(R.id.textview_02);
+        textView=(TextView)findViewById(R.id.textview_05);
 
 
 
@@ -37,7 +36,7 @@ public class SecondActivity extends AppCompatActivity {
 
             public void onClick(View v) {
 
-                Intent intent=new Intent(SecondActivity.this,ThreeActivity.class);
+                Intent intent=new Intent(SecondActivity.this,FourActivity.class);
 
                 startActivity(intent);
 

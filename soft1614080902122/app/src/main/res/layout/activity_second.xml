@@ -78,7 +78,7 @@
             android:layout_centerVertical="true"
             android:width="500px"
             android:height="700px"
-            android:text="心得体会" />
+            android:text="阅读理解" />
 
         <TextView
             android:id="@+id/textview_01"
