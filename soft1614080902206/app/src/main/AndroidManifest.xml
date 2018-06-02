@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.asus.soft1614080902206">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,9 +22,11 @@
             android:name="soft1614080902206.layout.button"
             android:label="@string/title_activity_button"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".message" />
+        <activity android:name=".Main2Activity" />
         <activity
-            android:name=".message"
-            android:label="@string/title_activity_message"
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

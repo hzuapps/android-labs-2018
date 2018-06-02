@@ -16,50 +16,8 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="-16dp"
-        android:layout_marginTop="0dp" />
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="218dp"
-        android:orientation="horizontal"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="35dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintHorizontal_bias="1.0">
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="#D1EEEE"
-            android:layout_gravity="center_vertical"
-            android:text="查看成绩"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:textSize="60dp"
-            android:onClick="Click"/>
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:background="#D1EEEE"
-            android:layout_marginLeft="35dp"
-            android:layout_gravity="center_vertical"
-            android:text="查询课表"
-            android:textStyle="bold"
-            android:textColor="@color/colorPrimary"
-            android:textSize="60dp"
-            android:onClick="Click"/>
-    </LinearLayout>
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="-28dp" />
 
     <EditText
         android:id="@+id/editText"
@@ -71,7 +29,7 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="@+id/autoCompleteTextView2"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView2"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/autoCompleteTextView2"
@@ -134,6 +92,53 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="@+id/button"
         android:onClick="Click"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="218dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:background="#D1EEEE"
+            android:onClick="Click"
+            android:text="查看成绩"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:background="#D1EEEE"
+            android:onClick="Click"
+            android:text="查询课表"
+            android:textColor="@color/colorPrimary"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
 
 
 </android.support.constraint.ConstraintLayout>
