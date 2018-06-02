@@ -4,7 +4,7 @@
 
 Android存储编程
 ## 2.实验步骤
-1.打开实验4的工程项目，我要存储发送出去的数据。
+1.打开实验4的工程项目，我要存储发送出去的数据，我做的是内部存储。
 
 
 2.用到两个关键字： FileOutputStream和BufferedWriter writer。 
