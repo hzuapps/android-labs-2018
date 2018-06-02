@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="点我发表微博"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/微博1"
+        android:background="@drawable/weibo1"
+         />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:hint="留下点评论吧"
+        android:background="@null"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/微博2"
+        android:background="@drawable/weibo2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="留下点评论吧"
+        android:background="@null"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/微博3"
+        android:background="@drawable/weibo3"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="留下点评论吧"
+        android:background="@null"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/微博4"
+        android:background="@drawable/weibo4"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:hint="留下点评论吧"
+        android:background="@null"
+        />
+
+</LinearLayout>
+
