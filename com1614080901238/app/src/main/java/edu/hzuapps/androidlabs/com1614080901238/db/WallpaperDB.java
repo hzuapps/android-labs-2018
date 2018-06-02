@@ -10,11 +10,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class WallpaperDB extends SQLiteOpenHelper {
 
-    public static final String CREATE_WALLPAPER = "create table wallpaper_content (" +
+    private static final String CREATE_WALLPAPER = "create table wallpaper_content (" +
             "id integer primary key autoincrement," +
             "title text," +
             "comment_id  integer)";
-    public static final String CREATE_COMMENT = "create table comment (" +
+    private static final String CREATE_COMMENT = "create table comment (" +
             "id integer primary key autoincrement," +
             "comment_id integer," +
             "comment_text text)";
