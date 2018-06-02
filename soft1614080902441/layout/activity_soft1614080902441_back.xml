@@ -68,6 +68,31 @@
         tools:layout_editor_absoluteX="77dp"
         tools:layout_editor_absoluteY="90dp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="222dp"
+        android:layout_height="59dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="查看用户"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="301dp" />
 
 
 </android.support.constraint.ConstraintLayout>
