@@ -142,6 +142,7 @@
         android:layout_x="269dp"
         android:layout_y="262dp"
         android:text="发送"
+        android:clickable="true"
         tools:layout_editor_absoluteX="298dp"
         tools:layout_editor_absoluteY="538dp" />
 
