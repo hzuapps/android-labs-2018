@@ -19,6 +19,16 @@
             android:name="ezu.hzuapps.androidlabs.Com1614080901216.SecondActivity"
             android:label="@string/title_activity_com1614080901216"
             android:theme="@style/AppTheme.NoActionBar" />
-    </application>
+        <activity android:name="ezu.hzuapps.androidlabs.Com1614080901216.ThirdActivity" />
+        <activity android:name="ezu.hzuapps.androidlabs.Com1614080901216.FabuActivity" />
+        <activity android:name="ezu.hzuapps.androidlabs.Com1614080901216.ChakanActivity" />
+        <activity android:name="ezu.hzuapps.androidlabs.Com1614080901216.XiazaiActivity"></activity>
 
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
