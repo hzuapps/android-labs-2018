@@ -19,9 +19,13 @@
 （3）使用Git将代码提交到自己的库中：https://github.com/Qiujialin/android-labs-2018
 
 $ git pull
+
 $ git add soft1614080902407/*
+
 $ git commit "#2 #1015 备忘录 "
+
 $ git push
+
 
 （4）在自己的GitHub库上创建和发送Pull Request（注意查看Changed files）
 
@@ -95,6 +99,8 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
 <resources>
     <string name="app_name">Soft1614080902407备忘录</string>
 </resources>
+
+![image](https://github.com/Qiujialin/android-labs-2018/blob/master/soft1614080902407/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png?raw=true)
 
 ## 4.实验体会
 
