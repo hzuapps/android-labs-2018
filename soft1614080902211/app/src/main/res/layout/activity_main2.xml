@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:text="精选站点"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/textView3"
-        android:layout_toStartOf="@+id/textView3" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button3"
@@ -43,7 +43,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button2"
         android:layout_marginTop="63dp"
-        android:text="工具箱" />
+        android:text="关于" />
 
     <Button
         android:id="@+id/button6"
@@ -68,11 +68,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="网页导航"
-        android:textColor="@color/colorAccent"
-        android:textSize="50dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="Quark"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp" />
 
     <SearchView
         android:layout_width="match_parent"
@@ -80,7 +80,8 @@
         android:layout_marginTop="31dp"
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:id="@+id/searchView" />
 
 
 </RelativeLayout>
