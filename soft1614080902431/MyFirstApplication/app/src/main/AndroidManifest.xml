@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyActivity">
+        <activity android:name=".Soft1614080902431Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +23,27 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InterfaceActivity"
+            android:label="@string/title_activity_interface"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendActivity"
+            android:label="@string/title_activity_send"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InformationActivity"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
