@@ -18,7 +18,8 @@ Android存储编程
 
 ## 3.实验结果
 运行截图：  
-
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/5.1.png)
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/5.2.png)
 
 
 ## 4.实验心得
