@@ -23,7 +23,7 @@ public class Soft1606070302124Activity extends AppCompatActivity {
         btnOpen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(thisActivity, Soft1606070302124oActivity.class);
+                Intent intent = new Intent(thisActivity, Soft1606070302124thirdActivity.class);
                 thisActivity.startActivity(intent);
                 //thisActivity.startActivityForResult(intent, 2016);
             }
