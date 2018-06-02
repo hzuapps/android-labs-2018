@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410sp"
+    android:layout_height="610sp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:id="@+id/activity_Score">
+    <TextView
+        android:layout_width="410sp"
+        android:layout_height="560sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/showText" />
+    <Button
+        android:id="@+id/Return"
+        android:layout_width="410sp"
+        android:layout_height="50sp"
+        android:layout_gravity="bottom|end"
+        android:text="@string/Return" />
+</LinearLayout>

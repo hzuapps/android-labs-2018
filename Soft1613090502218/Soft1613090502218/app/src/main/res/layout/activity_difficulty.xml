@@ -11,7 +11,6 @@
         android:layout_height="305sp"
         android:gravity="center_vertical"
         android:orientation="vertical">
-
         <Button
             android:id="@+id/normal"
             android:layout_width="200sp"
