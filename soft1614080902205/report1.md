@@ -16,7 +16,7 @@ $ git clone https://github.com/ChaseChennn/android-labs-2018/<br>
 （1）开发环境搭建后运行程序：<br>
 ![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/soft1614080902205%E5%AE%9E%E9%AA%8C1%EF%BC%881%EF%BC%89.png?raw=true)
 （2）代码提交合并截图<br>
-![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/soft1614080902205%E5%AE%9E%E9%AA%8C1%EF%BC%882%EF%BC%89.png?raw=true）
+![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/soft1614080902205%E5%AE%9E%E9%AA%8C1%EF%BC%882%EF%BC%89.png?raw=true)
 ## 4.实验体会
 本次实验让我知道了如何搭建安卓的开发环境和初步了解了怎么运用这个github平台
 过程中有很多不会，通过自身努力上网查询和询问别人解决了，但途中还有不少粗心的地方 
