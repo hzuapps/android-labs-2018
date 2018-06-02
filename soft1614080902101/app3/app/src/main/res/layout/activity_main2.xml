@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="273dp"
+        android:layout_height="27dp"
+        android:text="请输入商品"
+        android:visibility="请输入商品"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:text="取消"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="62dp"
+        android:layout_height="37dp"
+        android:text="nike"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="61dp"
+        android:layout_height="37dp"
+        android:text="AJ"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:text="红包"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="69dp"
+        android:layout_height="37dp"
+        android:text="欧文3"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="343dp"
+        android:layout_height="21dp"
+        android:text="历史搜索"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+</android.support.constraint.ConstraintLayout>
