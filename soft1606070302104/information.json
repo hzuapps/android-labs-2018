@@ -1,0 +1,8 @@
+[{"time":"今天","result":"胜"},
+{"time":"昨天","result":"负"},
+{"time":"前一天","result":"平"},
+{"time":"前两天","result":"无"},
+{"time":"前三天","result":"胜"},
+{"time":"前四天","result":"负"},
+{"time":"前五天","result":"平"},
+]
