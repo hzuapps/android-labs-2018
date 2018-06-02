@@ -1,24 +1,37 @@
-#µÚ¶ş´ÎÊµÑé
+# ç¬¬äºŒæ¬¡å®éªŒ
 
-## 1.ÊµÑéÄ¿±ê
-£¨1£©ÔÚIssuesÖĞ´´½¨×Ô¼ºµÄÑ¡Ìâ£ºhttps://github.com/hzuapps/android-labs-2018/issues £»
-£¨2£©¸ù¾İ×ÔÑ¡ÌâÄ¿£¬±àĞ´Ò»¸ö»ò¶à¸öActivity£¨ËùÓĞ¾ù´øÉÏÑ§ºÅÇ°×º£¬·Åµ½×Ô¼ºµÄJava°üÏÂ£©£»
-£¨3£©½«±êÌâÉèÖÃÎª×Ô¼ºµÄÑ§ºÅ+¶ÔÓ¦µÄ¹¦ÄÜ»òÌâÄ¿£»
-£¨4£©¸ù¾İ×Ô¼ºÑ¡ÔñµÄÌâÄ¿ÊµÏÖActivityÖĞµ¼º½¡¢µ÷ÓÃµÈ¹¦ÄÜ£¨Ñ¡×ö£©¡£
-## 2.ÊµÑé²½Öè
-£¨1£©ÔÄ¶ÁÊµÑéÒªÇó£ºhttps://github.com/hzuapps/android-labs-2018/labels/Lab
-£¨2£©ÔÚµçÄÔÉÏAndroid Studio±àĞ´´úÂë
-// ´úÂëÒª¿ÉÒÔÔËĞĞ£¡
-£¨3£©Ê¹ÓÃGit½«´úÂëÌá½»µ½×Ô¼ºµÄ¿âÖĞ£ºhttps://github.com/Qiujialin/android-labs-2018
+## 1.å®éªŒè¦æ±‚
+
+ï¼ˆ1ï¼‰åœ¨Issuesä¸­åˆ›å»ºè‡ªå·±çš„é€‰é¢˜ï¼šhttps://github.com/hzuapps/android-labs-2018/issues ï¼›
+
+ï¼ˆ2ï¼‰æ ¹æ®è‡ªé€‰é¢˜ç›®ï¼Œç¼–å†™ä¸€ä¸ªæˆ–å¤šä¸ªActivityï¼ˆæ‰€æœ‰å‡å¸¦ä¸Šå­¦å·å‰ç¼€ï¼Œæ”¾åˆ°è‡ªå·±çš„JavaåŒ…ä¸‹ï¼‰ï¼›
+
+ï¼ˆ3ï¼‰å°†æ ‡é¢˜è®¾ç½®ä¸ºè‡ªå·±çš„å­¦å·+å¯¹åº”çš„åŠŸèƒ½æˆ–é¢˜ç›®ï¼›
+
+ï¼ˆ4ï¼‰æ ¹æ®è‡ªå·±é€‰æ‹©çš„é¢˜ç›®å®ç°Activityä¸­å¯¼èˆªã€è°ƒç”¨ç­‰åŠŸèƒ½ï¼ˆé€‰åšï¼‰ã€‚
+
+## 2.å®éªŒæ­¥éª¤
+
+ï¼ˆ1ï¼‰é˜…è¯»å®éªŒè¦æ±‚ï¼šhttps://github.com/hzuapps/android-labs-2018/labels/Lab
+
+ï¼ˆ2ï¼‰åœ¨ç”µè„‘ä¸ŠAndroid Studioç¼–å†™ä»£ç 
+
+ï¼ˆ3ï¼‰ä½¿ç”¨Gitå°†ä»£ç æäº¤åˆ°è‡ªå·±çš„åº“ä¸­ï¼šhttps://github.com/Qiujialin/android-labs-2018
+
 $ git pull
+
 $ git add soft1614080902407/*
-$ git commit "#2 #1015 ±¸ÍüÂ¼ "
+
+$ git commit "#2 #1015 å¤‡å¿˜å½• "
+
 $ git push
-£¨4£©ÔÚ×Ô¼ºµÄGitHub¿âÉÏ´´½¨ºÍ·¢ËÍPull Request£¨×¢Òâ²é¿´Changed files£©
-// ÊÇ·ñÖ»ĞŞ¸ÄÁË×Ô¼ºµÄÎÄ¼ş£¿
-£¨5£©ÔÚGitHubÖĞÊ¹ÓÃMarkdownÎÄ¼ş±àĞ´ÊµÑé±¨¸æ£¨report1.md, report2.md£©
-// ±£´æÔÚ×Ô¼ºµÄÎÄ¼ş¼ĞÏÂ
-## 3.ÊµÑé½á¹û
+
+ï¼ˆ4ï¼‰åœ¨è‡ªå·±çš„GitHubåº“ä¸Šåˆ›å»ºå’Œå‘é€Pull Requestï¼ˆæ³¨æ„æŸ¥çœ‹Changed filesï¼‰
+
+ï¼ˆ5ï¼‰åœ¨GitHubä¸­ä½¿ç”¨Markdownæ–‡ä»¶ç¼–å†™å®éªŒæŠ¥å‘Šï¼ˆreport1.md, report2.mdï¼‰
+
+## 3.å®éªŒç»“æœ
+
 1.AndroidManifest.xml
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -72,7 +85,7 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="#1015 ±¸ÍüÂ¼"
+        android:text="#1015 å¤‡å¿˜å½•"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -83,8 +96,11 @@ public class Soft1614080902407Activity_1 extends AppCompatActivity {
 4.strings.xml
 
 <resources>
-    <string name="app_name">Soft1614080902407±¸ÍüÂ¼</string>
+    <string name="app_name">Soft1614080902407å¤‡å¿˜å½•</string>
 </resources>
 
-##4.ÊµÑéÌå»á
-´Ë´ÎÊµÑé±ÈÖ®Ç°µÄÊµÑéÒª¸´ÔÓÒ»µã£¬µ«´ÓÖĞÑ§»áÁËĞí¶à»ù´¡ÖªÊ¶£¬Ò²¸ü¼ÓÊìÏ¤Android StudioµÄ²Ù×÷
+![image](https://raw.githubusercontent.com/Qiujialin/android-labs-2018/patch-2/soft1614080902407/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png)
+
+## 4.å®éªŒä½“ä¼š
+
+æ­¤æ¬¡å®éªŒæ¯”ä¹‹å‰çš„å®éªŒè¦å¤æ‚ä¸€ç‚¹ï¼Œä½†ä»ä¸­å­¦ä¼šäº†è®¸å¤šåŸºç¡€çŸ¥è¯†ï¼Œä¹Ÿæ›´åŠ ç†Ÿæ‚‰Android Studioçš„æ“ä½œ
