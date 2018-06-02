@@ -24,6 +24,20 @@ public class Soft1614080902406Activity extends AppCompatActivity {
                 startActivity(intent01);
             }
         });
+        button_03.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent02=new Intent(Soft1614080902406Activity.this,Soft1614080902406ActivityA2.class);
+                startActivity(intent02);
+            }
+        });
+        button_04.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent03=new Intent(Soft1614080902406Activity.this,Soft1614080902406ActivityA3.class);
+                startActivity(intent03);
+            }
+        });
     }
 
 }
