@@ -247,4 +247,18 @@
             android:textSize="30dp" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:text="http://d7.yihaodianimg.com/N11/M07/B7/B5/ChEwoFkalXSAfX4kAABZ29FoNLc09100_600x600.jpg" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="182dp"
+        android:layout_height="177dp"
+        android:layout_x="87dp"
+        android:layout_y="185dp" />
 </AbsoluteLayout>
