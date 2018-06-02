@@ -1,0 +1,16 @@
+# 实验六
+## 一.实验目的
+### 掌握Android网络访问方法；
+## 二.实验要求
+### 1.从网络下载一个文件（图片、MP3、MP4）
+### 2.保存到手机，在应用中使用文件
+### 3.将应用运行结果截图；
+## 三.实验步骤
+### 1.在实验五的基础上添加一个FourActivity界面；
+### 2.在SecondActivity.java中添加监听器，点击“精品课程”进入到FourActivity。
+### 3.在activity_four.xml文件中，添加一个Button控件，点击即下载图片。
+### 4.在FourActivity.java加入监听器，连接网络，下载图片，存储图片，显示图片的代码。
+## 四.实验截图
+![image t](https://github.com/chenzhiH/android-labs-2018/blob/master/soft1614080902122/%E5%AE%9E%E9%AA%8C%E5%85%AD%E6%88%AA%E5%9B%BE.png)
+## 五.心得体会
+### 通过这次实验，我对app如何访问网络，图片下载存储后如何再显示到界面上有了一个较为清晰的第认识。
