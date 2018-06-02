@@ -15,6 +15,7 @@
 
 ## 四、实验内容、程序清单及运行结果
 实验步骤：
+
 （1）在电脑上Android Studio编写代码
 
 （2）使用Git将代码提交到自己的库中；
@@ -30,6 +31,7 @@
 （4）在GitHub网站上创建新文件编写实验报告。
 
 实验截图：
+
 ![image](https://github.com/czwly/android-labs-2018/blob/master/Soft1614080902140/cover.png)
 
 ![image](https://github.com/czwly/android-labs-2018/blob/master/Soft1614080902140/home.png)
