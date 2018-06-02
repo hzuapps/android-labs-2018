@@ -21,11 +21,12 @@ public class Com1614080901206Activity extends AppCompatActivity {
         Button button1=(Button) findViewById(R.id.buy);
         Button button2=(Button) findViewById(R.id.change);
         Button button3=(Button) findViewById(R.id.shangjia);
+        Button button4=(Button) findViewById(R.id.huoqu);
 
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(Com1614080901206Activity.this,SecondActivity.class);
+                Intent intent=new Intent(Com1614080901206Activity.this,BuyActivity.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +44,13 @@ public class Com1614080901206Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        button4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent=new Intent(Com1614080901206Activity.this,thirdActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

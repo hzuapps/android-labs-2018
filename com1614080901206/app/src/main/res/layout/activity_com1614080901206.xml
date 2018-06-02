@@ -31,6 +31,12 @@
         android:id="@+id/shangjia"
         android:text="上架"
         android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/huoqu"
+        android:text="获取图片"
+        android:layout_gravity="center_horizontal"/>
 
 
 </LinearLayout>
