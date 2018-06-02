@@ -12,8 +12,8 @@
     <RelativeLayout
         android:layout_width="435dp"
         android:layout_height="723dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-60dp">
 
         <Button
             android:id="@+id/button5"
@@ -74,6 +74,16 @@
             android:text="便签1"
             tools:layout_editor_absoluteX="38dp"
             tools:layout_editor_absoluteY="249dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button3"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_marginBottom="22dp"
+            android:text="帮助" />
 
     </RelativeLayout>
 
