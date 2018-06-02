@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main3Activity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:text=""
+            android:textSize="25dp"
+            android:gravity="top"
+            />
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="±£´æ"
+            android:textSize="25dp"
+            android:layout_marginTop="366dp"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginTop="500dp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
