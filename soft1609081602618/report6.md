@@ -23,3 +23,4 @@
 ![image](https://github.com/unihaoke/android-labs-2018/blob/master/soft1609081602618/889509428610662967.jpg)
 --
 -这次的实验主要使用了两个框架：OkHttp和Gson极大的简化了我们的代码，有利于我们快速开发app。
+使用Glid直接获取网络上的图片
