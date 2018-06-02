@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft161408092410Activity">
-
-    <ImageView
-        android:id="@+id/textview_01"
-        android:layout_width="387dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_launcher"
-        android:text="hello_world"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+    tools:context=".Soft161408092410Activity"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher2">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="246dp"
-        tools:ignore="MissingConstraints" />
+        android:gravity="center_horizontal"
+        android:text="欢迎来到superteam"
+        android:textColor="#4A4AEF"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="334dp" />
 
 
     <Button
@@ -30,5 +27,8 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="首页" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_gravity="center_horizontal"
+        android:text="进入首页"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="387dp" />
+</LinearLayout>
