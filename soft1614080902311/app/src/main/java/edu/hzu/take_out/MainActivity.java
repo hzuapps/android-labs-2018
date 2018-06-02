@@ -13,15 +13,15 @@ import java.io.FileOutputStream;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity3);
+        setContentView(R.layout.activity_main);
+
         Button btn_jmp = findViewById(R.id.btn_jmp);
         ImageButton ib_add = findViewById(R.id.ib_add);
         Button btn_search = findViewById(R.id.btn_search);
+        ImageButton ib_info=findViewById(R.id.ib_info);
 
         btn_jmp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +36,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent();
-                it.setClass(MainActivity.this, Activity2.class);
+                it.setClass(MainActivity.this, Activity3.class);
+                startActivity(it);
+            }
+        });
+
+        ib_info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent();
+                it.setClass(MainActivity.this, Activity4.class);
                 startActivity(it);
             }
         });
@@ -72,7 +81,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    public class Activity4 extends AppCompatActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity3);
+        }
 
+    }
     private void refreshHistory(String msg) {
         if (msg == null) return;
         TextView tv_history = findViewById(R.id.tv_history);
