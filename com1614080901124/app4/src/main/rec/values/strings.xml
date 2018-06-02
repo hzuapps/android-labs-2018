@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">影视剧分享</string>
+    <string name="title_activity_Film">资源库</string>
+    <string name="title_activity_third">添加资源</string>
+</resources>
