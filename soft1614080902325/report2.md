@@ -1,24 +1,25 @@
-# 第二次实验 
+﻿## 第二次实验 
 
 ## 1. 实验目的
 Android组件编程
 ## 2. 实验步骤
-1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues ；
-2、然后打开Android Studio建立一个project。
-3、根据自选题目，编写一个或多个Activity（所有均带上学号前缀，放到自己的Java包下）；
-	然后按照要求，把相应的文件放到自己的包下面。
+1、在Issues中创建自己的选题：https://github.com/hzuapps/android-labs-2018/issues/1185 ；  
+2、然后打开Android Studio建立一个project。  
+3、根据自选题目，编写一个或多个Activity；  
+然后按照要求，把相应的文件放到自己的包下面。  
+    
 	app
 	- src
 	-- main
-	--- AndroidManifest.xml (第1个文件)
+	--- AndroidManifest.xml 
 	--- java
-	---- edu / hzuapps / androidlabs / Soft学号 / Soft学号Activity.java (第2个文件)
+	---- edu / hzuapps / androidlabs / Soft1614080902325 / Soft1614080902325Activity.java 
 	--- res 
 	---- layout
-	----- soft_学号_activity.xml (第3个文件)
+	----- soft_1614080902325_activity.xml (第3个文件)
 	---- values
-	----- strings.xml (第4个文件)
-4、然后将文件push上去，编写将标题设置为自己的学号+对应的功能或题目；
+	----- strings.xml 
+4、然后将文件push上去
 
 
 
