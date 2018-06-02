@@ -18,7 +18,8 @@
 
 
 ## 四.实验截图  
-
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/6.1.png)
+![Image text](https://github.com/Min4396/android-labs-2018/blob/master/soft1614080902434/6.2.png)
 
 
 ## 五.实验心得   
