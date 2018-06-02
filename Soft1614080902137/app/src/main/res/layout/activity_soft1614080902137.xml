@@ -6,11 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Soft1614080902137Activity">
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@drawable/tu"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,5 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="开始游戏" />
+
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="网络下载" />
 
 </RelativeLayout>

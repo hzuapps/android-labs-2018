@@ -11,6 +11,7 @@ public class Soft1614080902137Activity extends AppCompatActivity {
 
     Button button1 = null;
     Button button2 = null;
+    Button button3 = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,16 @@ public class Soft1614080902137Activity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setClass(Soft1614080902137Activity.this,Soft1614080902137Activity_1.class);
+                startActivity(intent);
+            }
+        });
+
+        button3 = (Button)findViewById(R.id.button_5);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(Soft1614080902137Activity.this,Soft1614080902137Activity_2.class);
                 startActivity(intent);
             }
         });
