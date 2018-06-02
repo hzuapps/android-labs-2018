@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setSelected();
                 tab_local.setSelected(true);
                 if(fg2 == null){
-                    fg2 = new MyFragment().newInstance(2);
+                    fg2 = new MyFragment2().newInstance(2);
                     fTransaction.add(R.id.ly_content,fg2);
                 }else{
                     fTransaction.show(fg2);
