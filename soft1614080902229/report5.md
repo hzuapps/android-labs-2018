@@ -28,9 +28,9 @@ res/drawable以及两个Activity的.java文件以及xml布局文件等文件到g
 
 四、实验截图
 
-![image]https://github.com/hzuapps/android-labs-2018/blob/526ba7dfcf655671d0c18906758428be3293223f/soft1614080902229/shiyan5/实验5截图1.png
+![image]（https://github.com/hzuapps/android-labs-2018/blob/526ba7dfcf655671d0c18906758428be3293223f/soft1614080902229/shiyan5/实验5截图1.png）
 
-![image]https://github.com/hzuapps/android-labs-2018/blob/526ba7dfcf655671d0c18906758428be3293223f/soft1614080902229/shiyan5/实验5截图2.png
+![image]（https://github.com/hzuapps/android-labs-2018/blob/526ba7dfcf655671d0c18906758428be3293223f/soft1614080902229/shiyan5/实验5截图2.png）
 
   
 五、实验体会
