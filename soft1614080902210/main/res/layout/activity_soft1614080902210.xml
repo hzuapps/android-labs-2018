@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902210.soft1614080902210">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_soft1614080902210" />
+
+
+
+
+
+
+
+
+    <Button
+
+        android:id="@+id/button10"
+
+        android:layout_width="140dp"
+
+        android:layout_height="70dp"
+
+        android:layout_marginLeft="120dp"
+
+        android:layout_marginTop="250dp"
+
+        android:text="确定" />
+
+
+
+    <Button
+
+        android:id="@+id/button11"
+
+        android:layout_width="80dp"
+
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="150dp"
+
+        android:layout_marginTop="175dp"
+
+        android:text="查看尺寸"
+
+        android:onClick="click"
+
+        />
+
+
+
+
+
+    <TextView
+
+        android:text="输入尺寸："
+
+        android:textSize="25sp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="130dp"/>
+
+
+
+    <EditText
+
+        android:id="@+id/chicun"
+
+        android:layout_width="142dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="145dp"
+
+        android:layout_marginTop="116dp"
+
+        android:layout_weight="1"
+
+        android:maxLines="1" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
