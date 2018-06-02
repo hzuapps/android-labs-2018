@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="BookStore" ></dbname>
+
+    <version value="1" ></version>
+
+    <list>
+        <mapping class="soft1614080902339.androidlabs.hzuapps.edu.notepad.Database"></mapping>
+    </list>
+</litepal>
