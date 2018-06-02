@@ -28,6 +28,16 @@
 
             tools:layout_editor_absoluteX="169dp"
             tools:layout_editor_absoluteY="272dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="解 码" />
+
         <Button
             android:layout_marginTop="100dp"
             android:layout_marginLeft="30dp"
