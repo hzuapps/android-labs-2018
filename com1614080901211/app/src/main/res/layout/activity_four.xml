@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_four"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:id="@+id/textView"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:text="新建备忘录"
+
+        android:textAppearance="@style/TextAppearance.AppCompat"
+
+        android:textSize="24sp" />
+
+
+    <EditText
+
+        android:id="@+id/editText8"
+
+        style="?android:attr/textViewStyle"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:background="?android:attr/actionModeBackground"
+        android:ems="10" />
+
+
+    <Button
+
+        android:id="@+id/button5"
+
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="186dp"
+        android:elevation="0dp"
+        android:text="完成" />
+
+
+    <Button
+
+        android:id="@+id/button7"
+
+        style="@style/Widget.AppCompat.Button.Borderless"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="118dp"
+        android:elevation="0dp"
+        android:text="取消" />
+
+
+</RelativeLayout>
