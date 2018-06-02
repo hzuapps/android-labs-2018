@@ -10,9 +10,9 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="130dp"
-        android:layout_height="32dp"
+        android:layout_height="30dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="224dp"
+        android:layout_marginTop="268dp"
         android:text="姓名"
         android:textAlignment="textEnd"
         android:textSize="20dp"
@@ -24,7 +24,7 @@
         android:layout_width="130dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="332dp"
         android:text="电话/手机"
         android:textAlignment="textEnd"
         android:textSize="20dp"
@@ -39,10 +39,9 @@
         android:layout_marginBottom="138dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="212dp"
+        android:layout_marginTop="260dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toEndOf="@+id/textView3"
@@ -63,7 +62,7 @@
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toEndOf="@+id/phone"
         app:layout_constraintTop_toBottomOf="@+id/editname"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.06" />
 
     <Button
         android:id="@+id/submit"
@@ -76,10 +75,10 @@
         android:text="创建"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintHorizontal_bias="0.342"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.928" />
 
     <Button
         android:id="@+id/read"
@@ -92,7 +91,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/submit"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.872" />
+        app:layout_constraintVertical_bias="0.928" />
+
+    <Button
+        android:id="@+id/downloadphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="下载头像"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/photo"
+
+        android:layout_width="99dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
 
 
 </android.support.constraint.ConstraintLayout>
