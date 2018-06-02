@@ -1,4 +1,4 @@
-package com.example.com1614080901244;
+﻿package com.example.com1614080901244;
 
 import android.os.Bundle;
 
@@ -41,7 +41,7 @@ public class Main3Activity extends AppCompatActivity {
             public void run() {
                 try {
                     //文件的URL
-                    String url_s="https://raw.githubusercontent.com/xiamilin/android-labs-2018/master/content.json";
+                    String url_s="https://raw.githubusercontent.com/xiamilin/android-labs-2018/master/com1614080901244/content.json";
                     URL url = new URL(url_s);
                     HttpURLConnection conn = (HttpURLConnection)url.openConnection();
                     //设置连接属性
