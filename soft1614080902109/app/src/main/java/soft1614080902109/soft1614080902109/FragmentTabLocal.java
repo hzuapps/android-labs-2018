@@ -27,6 +27,7 @@ public class FragmentTabLocal extends Fragment implements View.OnClickListener{
         txt_content.setOnClickListener(this);
     }
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.tab_fg_1,container,false);
