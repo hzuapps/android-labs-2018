@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Soft1614080902320Activity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/textview_01"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bg"
         android:text="hello_world"
-         />
+        />
     <Button
         android:id="@+id/click"
         android:layout_width="100dp"
