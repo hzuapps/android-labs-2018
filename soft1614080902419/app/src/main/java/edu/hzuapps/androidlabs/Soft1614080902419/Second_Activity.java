@@ -1,21 +1,41 @@
 package edu.hzuapps.androidlabs.Soft1614080902419;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStreamWriter;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class Second_Activity extends AppCompatActivity implements View.OnClickListener {
     TextView t[] = new TextView[18];
     TextView counting,result;
 
+    public TextView text;
+    private ImageView imageview;
+    private Bitmap bitmap;
+    Handler handler=new Handler(){
+        public void handleMessage(Message msg) {
+            if(msg.what==123){
+                imageview.setImageBitmap(bitmap);
+            }
+        };
+    };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +43,8 @@ public class Second_Activity extends AppCompatActivity implements View.OnClickLi
         this.RegisterEvent();
     }
     public void RegisterEvent(){
+        imageview=(ImageView) findViewById(R.id.image);
+        text = (TextView)findViewById(R.id.address);
         counting = (TextView) findViewById(R.id.counting);
         result = (TextView) findViewById(R.id.result);
         String str = "R.id.n_0";
@@ -58,6 +80,7 @@ public class Second_Activity extends AppCompatActivity implements View.OnClickLi
                 String s = counting.getText().toString();
                 result.setText(s);
                 counting.setText(str1);
+                new Thread(download).start();
             }
             else if(t[i]==view){
                 String str = t[i].getText().toString();
@@ -87,4 +110,29 @@ public class Second_Activity extends AppCompatActivity implements View.OnClickLi
             }
         }
     }
+    Thread download = new Thread(){
+        public void run() {
+            String Path=text.getText().toString();//下载图片的路径
+            try {
+                URL url=new URL(Path);//对资源链接
+                InputStream inputStream=url.openStream();
+                bitmap= BitmapFactory.decodeStream(inputStream);//转换成位图图片
+                handler.sendEmptyMessage(123);
+                inputStream.close();
+                inputStream=url.openStream();
+                File file=new File(Environment.getExternalStorageDirectory()+"./DCIM/t1.jpg");
+                FileOutputStream fileOutputStream=new FileOutputStream(file);
+                int hasRead=0;
+                while((hasRead=inputStream.read())!=-1){
+                    fileOutputStream.write(hasRead);
+                }
+                fileOutputStream.close();
+                inputStream.close();
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    };
 }
