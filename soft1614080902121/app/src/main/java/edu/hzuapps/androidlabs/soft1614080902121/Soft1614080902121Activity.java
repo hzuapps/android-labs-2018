@@ -24,6 +24,12 @@ public class Soft1614080902121Activity extends AppCompatActivity {
                 Intent intent=new Intent(Soft1614080902121Activity.this,ThridActivity.class);
                 startActivity(intent);
             }});
+        textView=(TextView)findViewById(R.id.button4);
+        textView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Intent intent=new Intent(Soft1614080902121Activity.this,SixthActivity.class);
+                startActivity(intent);
+            }});
     }
 
     }
