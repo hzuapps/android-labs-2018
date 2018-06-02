@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hzu.soft1614080902437">
+    package="com.hzu.soft1614080902437">
 
     <application
         android:allowBackup="true"
@@ -16,18 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".test.soft1614080902437Activity2"
-            android:label="@string/title_activity_soft16140809024372"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".test.soft1614080902437Activity_2"
-            android:label="@string/title_activity_soft1614080902437_2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.example.hzu.soft1614080902437.soft1614080902437Activity_2"
-            android:label="@string/title_activity_soft1614080902437_2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Soft1614080902437Activity" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
