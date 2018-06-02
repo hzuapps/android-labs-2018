@@ -16,11 +16,12 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
-
+import android.content.Intent;
 import android.widget.Toast;
 
 public class SecondActivity extends AppCompatActivity {
 
+    private Button nextbtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +44,14 @@ public class SecondActivity extends AppCompatActivity {
                         readsy5();
                     }
                 });
-
+        nextbtn=(Button)findViewById(R.id.btn_t);
+        nextbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(SecondActivity.this,ThirdActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
