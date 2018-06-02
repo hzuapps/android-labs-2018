@@ -20,8 +20,8 @@
 （4）在GitHub网站上创建新文件编写实验报告。
 
 ## 3. 实验结果
-![image](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/1.png)
-![image](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/2.png)
+![image](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/test3/1.png)
+![image](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/test3/2.png)
 
 ## 4. 实验体会
 本次实验主要是实现两个activity之间的转换，对我来说有一点难度，在舍友和实验要求上的步骤帮助下，终于成功地完成了这次实验。

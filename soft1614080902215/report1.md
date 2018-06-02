@@ -20,7 +20,7 @@ $git clone https://github.com/Zhenghizhong/android-labs-2018/
 
 ### 3.实验结果
 
-![](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/soft1614080902215.png)
+![image](https://github.com/Zhenghizhong/android-labs-2018/blob/master/soft1614080902215/test1/soft1614080902215.png)
 
 ### 4.实验体会
 

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidlabs.hzuapps.edu.soft1614080902215.SixthActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableRow>
+            <TextView
+                android:id="@+id/CNY"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 人民币"/>
+            <EditText
+                android:id="@+id/CNY_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/USD"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 美元"/>
+            <EditText
+                android:id="@+id/USD_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/EUR"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 欧元"/>
+            <EditText
+                android:id="@+id/EUR_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/JPY"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 日元"/>
+            <EditText
+                android:id="@+id/JPY_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/KPW"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 韩元"/>
+            <EditText
+                android:id="@+id/KPW_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/GBP"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp"
+                android:text=" 英镑"/>
+            <EditText
+                android:id="@+id/GBP_num"
+                android:layout_width="180dp"
+                android:height="45dp"
+                android:layout_span="1"
+                android:textSize="30sp" />
+        </TableRow>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn_cle"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:layout_span="2"
+                    android:text="CLEAR" />
+
+                <Button
+                    android:id="@+id/btn_del"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:layout_span="1"
+                    android:text="☜" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/btn_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="8" />
+
+                <Button
+                    android:id="@+id/btn_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="9" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_4"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="4" />
+
+                <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/btn_6"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="6" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="3" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+                <Button
+                    android:id="@+id/btn_0"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/btn_point"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="." />
+
+                <Button
+                    android:id="@+id/btn_equ"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:textSize="18sp"
+                    android:text="=" />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
