@@ -38,14 +38,13 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="130dp"
+            android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="124dp"
+            android:layout_marginTop="93dp"
             android:background="@drawable/ic_launcher_background"
             android:text="游戏币数"
-            android:textColor=""
             android:textSize="30dp" />
 
         <Button
@@ -54,11 +53,20 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="59dp"
+            android:layout_marginBottom="43dp"
             android:text="招财"
             android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:background="@color/colorAccent"
+            android:ems="10"
+            android:inputType="number" />
     </RelativeLayout>
-
-
 
 </android.support.design.widget.CoordinatorLayout>

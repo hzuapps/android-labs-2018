@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".saierhaoin"
-    tools:layout_editor_absoluteY="81dp">
+    tools:context=".saierhaoin">
 
     <TextView
         android:id="@+id/textview_01"
@@ -30,13 +29,21 @@
             />
 
         <Button
-            android:layout_weight="1"
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="招财"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="解析"
+            android:textSize="20sp"/>
+
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
