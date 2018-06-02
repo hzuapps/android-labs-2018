@@ -23,6 +23,8 @@
 四、实验截图
 # 实验结果
 ![avatar](https://github.com/Hongms/android-labs-2018/blob/master/com1614080901137/json.png)
+![avatar](https://github.com/Hongms/android-labs-2018/blob/master/com1614080901137/6.png)
+
 
 
 四、实验体会
