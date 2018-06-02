@@ -38,7 +38,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/button"
         android:layout_marginEnd="67dp"
-        android:text="显示咨询"
+        android:text="查看个人信息"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="326dp" />
 

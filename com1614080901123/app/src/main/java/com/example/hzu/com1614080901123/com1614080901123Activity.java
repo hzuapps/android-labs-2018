@@ -22,6 +22,17 @@ public class com1614080901123Activity extends AppCompatActivity {
             }
 
         });
+
+        Button btn1 = (Button) findViewById(R.id.button2);
+        btn1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick (View v){
+                Intent intent = new Intent(com1614080901123Activity.this, thirdActivity.class);
+                startActivity(intent);
+            }
+
+        });
     }
 }
 
