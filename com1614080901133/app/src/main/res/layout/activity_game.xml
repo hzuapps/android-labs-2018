@@ -5,21 +5,51 @@
     android:layout_height="match_parent"
     tools:context="edu.hauapps.androidlabs.com1614080901133.GameActivity">
 
-
-    <TextView
-        android:id="@+id/tv_grade"
+    <LinearLayout
+        android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="分数:"
-        android:gravity="center"
-        android:textSize="25sp"
-        />
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分数:"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/tv_fenshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="20sp"
+            />
 
+        <TextView
+            android:id="@+id/tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看排行"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
     <TextView
         android:id="@+id/tv_game"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:layout_below="@id/tv_grade"
+        android:layout_below="@id/title"
         android:background="#a3a3a3"
         android:layout_marginLeft="30sp"
         android:layout_marginRight="30sp"
