@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="调节声音"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/voice_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="调节亮度"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/light_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/voice_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/light_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定调节"/>
+
+</LinearLayout>
