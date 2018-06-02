@@ -9,14 +9,38 @@
     android:label="@string/app_name"
     >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="进入兼职"
-        android:textSize="16sp"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="284dp"
-        tools:ignore="MissingConstraints" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="接受兼职"
+            android:textSize="16sp"
+
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="272dp" />
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布兼职"
+            android:textSize="16sp"
+
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="272dp" />
+    </LinearLayout>
+
+
+
 </android.support.constraint.ConstraintLayout>

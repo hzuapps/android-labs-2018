@@ -24,6 +24,13 @@
             android:label="@string/run_name">
 
         </activity>
+        <activity
+            android:name=".Run2"
+            android:screenOrientation="portrait"
+            android:label="兼职页面">
+
+        </activity>
+
     </application>
 
 </manifest>
