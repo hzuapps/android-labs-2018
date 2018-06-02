@@ -1,30 +1,21 @@
-# 一、实验要求
+# 一、实验步骤
 
-1、在界面上显示至少一张图片（按照自己的题目添加）；
+1.在activity_soft1614080902120.xml界面添加一张图片aa.jpg，id为button1；
 
-2.提交res/drawable及图片使用的代码；
+2.创建一个新的activity--Soft1614080902120Activity2.java；
 
-3.提交res/values, res/layout等其他代码；
+3.在Soft1614080902120Activity.java中添加实验要求中提供的代码，即加入Intent类，使得点击图片时打开Soft1614080902120Activity2.java；
 
-4.将应用运行结果截图，放到实验报告中；
+4.将应用运行结果截图；
 
-5.点击图片（或按钮）时，打开另一个Activity。
-# 二、实验步骤
 
-1.统一步骤：
-https://github.com/hzuapps/android-labs-2018/blob/master/labs-steps.md
-
-2.Android 在TextView 中显示图片的4种方式：
-https://blog.csdn.net/u012724237/article/details/79010741
-
-# 三、实验结果
+# 二、实验结果
 
 ![image](https://github.com/zelstudy/android-labs-2018/blob/master/Soft1614080902120/%E9%A1%B5%E9%9D%A22.jpg)
 
 ![image](https://github.com/zelstudy/android-labs-2018/blob/master/Soft1614080902120/%E9%A1%B5%E9%9D%A21.jpg)
 
 
-四、实验体会
-
+# 三、实验体会
 
 通过本次实验，学习了如何进行上传图片并且进行布局，了解了如何将图片显示在主页上方,掌握了了添加点击事件进行跳转。

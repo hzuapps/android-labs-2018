@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.androidlabsr.soft1614080902120">
+    package="edu.hzuapps.androidlabs.soft1614080902120">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +24,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Soft1614080902120Activity2"
+            android:label="@string/title_activity_soft16140809021202"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Soft1614080902120Activity3"
             android:label="@string/title_activity_soft16140809021203"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -25,8 +36,8 @@
             android:label="@string/title_activity_soft16140809021204"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Soft1614080902120Activity2"
-            android:label="@string/title_activity_soft16140809021202"
+            android:name=".Soft1614080902120Activity5"
+            android:label="@string/title_activity_soft16140809021205"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
