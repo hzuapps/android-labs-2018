@@ -38,17 +38,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Play"
-            android:textSize="30dp"
+            android:textSize="15dp"
              />
         <Button
             android:id="@+id/button0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Regulation"
-            android:textSize="30dp" />
+            android:textSize="15dp" />
 
 
              />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player"
+            android:textSize="15dp" />
+
+
+        />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gains"
+            android:textSize="15dp" />
+
+
+        />
     </LinearLayout>
 
 
