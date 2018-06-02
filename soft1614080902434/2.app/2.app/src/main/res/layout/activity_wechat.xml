@@ -33,6 +33,7 @@
         android:layout_x="243dp"
         android:layout_y="293dp"
         android:text="表情包"
+        android:clickable="true"
         tools:layout_editor_absoluteX="262dp"
         tools:layout_editor_absoluteY="47dp" />
 
