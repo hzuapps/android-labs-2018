@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.hzuapps.android.labs.Com1614080901141.FifthActivity"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="450dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" />
+
+        <Button
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="455dp"
+            android:background="#ff8c00"
+            android:text="下载图片" />
+
+</RelativeLayout>
+
+
