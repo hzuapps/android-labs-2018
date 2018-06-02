@@ -21,8 +21,10 @@
 5、通过url获取json并通过key来取得相关的value显示出来<br>
 
 四、实验截图
--
-![](https://github.com/wojiaojianxiaobai/-/blob/master/%E7%AC%AC%E5%85%AD%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE.png)
+*json文件截图
+![](https://github.com/Hongms/android-labs-2018/blob/master/com1614080901137/json.png)
+*运行结果截图
+![](https://github.com/Hongms/android-labs-2018/blob/master/com1614080901137/6.png)
 
 四、实验体会
 
