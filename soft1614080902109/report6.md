@@ -29,5 +29,5 @@
 ## 五.实验体会
 
  这次实验刚开始因为网络权限不够而出现了异常，查阅资料之后按照网上方法添加了权限，如图：![image](https://github.com/GhostITS/android-labs-2018/blob/master/soft1614080902109/%E7%AC%AC%E5%85%AD%E6%AC%A1%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE1.png?raw=true)。本次实验初步了解android的网络编程。
-       学会了使用url从网络上请求资源，并利用资源。
+       学会了使用url从网络上请求资源，并利用资源
 
