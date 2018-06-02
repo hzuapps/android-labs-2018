@@ -1,5 +1,6 @@
 package edu.hzuapps.androidlabs.com1614080901143;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,6 +22,8 @@ public class ThirdActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor=getSharedPreferences("data",MODE_PRIVATE).edit();
                 editor.putString("便签内容",editText.getText().toString());
                 editor.apply();
+                Intent intent=new Intent(ThirdActivity.this,jsonActivity.class);
+                startActivity(intent);
             }
         });
     }
