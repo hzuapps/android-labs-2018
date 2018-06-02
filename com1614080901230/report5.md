@@ -12,8 +12,8 @@
  
  
  # 4.实验结果
-![image](https://raw.githubusercontent.com/JingZXian/android-labs-2018/master/com1614080901230/5.png)
- ![image](https://raw.githubusercontent.com/JingZXian/android-labs-2018/master/com1614080901230/6.png)
+ ![](https://github.com/WJKAAA/android-labs-2018/blob/master/com1614080901230/5.png)
+ ![](https://github.com/WJKAAA/android-labs-2018/blob/master/soft1614080902135/6.png)
  
  # 5.实验体会
  这次实验很困难，不知道怎么下手，而且老师给的指导有点少，储存代码放进去老是出现错误，这几天一直再调试，还问了好几个同学才做了出来，然后，才能做完这次的实验。
