@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="304dp"
         android:layout_x="0dp"
-        android:layout_y="2dp"
+        android:layout_y="0dp"
         android:background="#EBEBEB"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="0dp" />
@@ -166,15 +166,6 @@
         tools:layout_editor_absoluteX="340dp"
         tools:layout_editor_absoluteY="212dp" />
 
-    <Button
-        android:id="@+id/n_15"
-        android:layout_width="414dp"
-        android:layout_height="wrap_content"
-        android:layout_x="0dp"
-        android:layout_y="2dp"
-        android:text=" " />
-
-
     <TextView
         android:id="@+id/n_16"
         android:layout_width="250dp"
@@ -193,6 +184,30 @@
         android:layout_height="wrap_content"
         android:layout_x="7dp"
         android:layout_y="260dp" />
+
+    <Button
+        android:id="@+id/Down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="199dp"
+        android:text="图片"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="13dp"
+        android:layout_y="0dp"
+        android:text="https://upload.wikimedia.org/wikipedia/commons/8/84/Tibia_insulaechorab.jpg" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="232dp"
+        android:layout_height="131dp"
+        android:layout_x="74dp"
+        android:layout_y="53dp" />
 
 
 </AbsoluteLayout>
