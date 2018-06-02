@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/listView"
-    tools:context=".MainActivitysoft_1614080902340">
+    tools:context=".SecondActivity">
 
 </android.support.constraint.ConstraintLayout>
