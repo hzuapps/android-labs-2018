@@ -32,12 +32,21 @@ public class Com1614080901222Activity extends AppCompatActivity {
             }
         });
 
+        Button button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Com1614080901222Activity.this, ThirdActivity.class);
+                startActivity(intent);
+            }
+        });
+
         musicButton = findViewById(R.id.musicButton);
         musicButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 SharedPreferences read = getSharedPreferences("user_info", MODE_PRIVATE);
-                boolean musicValue = read.getBoolean("musicValue", true);
+                musicValue = read.getBoolean("musicValue", true);
                 if(musicValue) musicValue = false;
                 else musicValue = true;
 
@@ -67,7 +76,7 @@ public class Com1614080901222Activity extends AppCompatActivity {
     private void initData() {
         //创建一个SharedPreferences接口对象
         SharedPreferences read = getSharedPreferences("user_info", MODE_PRIVATE);
-        boolean musicValue = read.getBoolean("musicValue", true);
+        musicValue = read.getBoolean("musicValue", true);
 
         musicButton = findViewById(R.id.musicButton);
         if (musicValue) musicButton.setText("游戏音效           开");
