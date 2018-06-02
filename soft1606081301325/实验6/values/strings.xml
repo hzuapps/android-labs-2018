@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"Resource Manager "</string>
+    <string name="title_activity_second">.DOC</string>
+    <string name="title_save">新建Doc</string>
+    <string name="title_activity_ppt">.PPT</string>
+    <string name="title_activity_txt">.TXT</string>
+    <string name="title_activity_xls">.XLS</string>
+    <string name="title_activity_update">updateActivity</string>
+    <string name="title_activity_undate">UndateActivity</string>
+</resources>
