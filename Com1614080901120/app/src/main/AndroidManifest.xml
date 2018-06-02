@@ -25,6 +25,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.hzu.com1614080901120.Com1614080901120MainActivity" />
         </activity>
+        <activity
+            android:name=".ThirdMainActivity"
+            android:label="@string/title_activity_third_main"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
