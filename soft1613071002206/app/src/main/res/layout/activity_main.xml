@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+     <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+         <ImageView
+             android:id="@+id/imagev1"
+             android:layout_width="300dp"
+             android:layout_height="300dp"
+             android:background="@drawable/shiyan5"
+             android:layout_marginLeft="45dp"/>
+         <Button
+             android:id="@+id/btn1"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             android:text="开始"
+             android:textSize="25dp"
+             android:layout_marginTop="400dp"
+             android:layout_marginLeft="20dp"/>
+         <Button
+             android:id="@+id/btn3"
+             android:layout_width="120dp"
+             android:layout_height="80dp"
+             android:text="停止"
+             android:textSize="25dp"
+             android:layout_marginTop="400dp"
+             android:layout_marginLeft="240dp"/>
+     </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
