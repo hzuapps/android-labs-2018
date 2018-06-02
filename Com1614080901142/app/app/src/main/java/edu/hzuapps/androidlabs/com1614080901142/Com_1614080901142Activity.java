@@ -1,5 +1,6 @@
 package edu.hzuapps.androidlabs.com1614080901142;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,6 +28,8 @@ public class com_1614080901142Activity extends AppCompatActivity {
                 editor.putString("商品价格",textview3.getText().toString());
                 editor.putString("商品库存",textview4.getText().toString());
                 editor.apply();
+                Intent intent=new Intent(com_1614080901142Activity.this,jsonActivity.class);
+                startActivity(intent);
             }
         });
     }
