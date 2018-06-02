@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class Soft1614080902325Activity extends AppCompatActivity {
     private Button textview_01;
+    private Button textview_02;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,15 @@ public class Soft1614080902325Activity extends AppCompatActivity {
             public void onClick(View v) {
                 //跳转到个人信息页面
                 Intent intent = new Intent(Soft1614080902325Activity.this,personalInformationActivity.class);
+                startActivity(intent);
+            }
+        });
+        textview_02 = findViewById(R.id.textview_02);
+        textview_02.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //跳转到作者信息页面
+                Intent intent = new Intent(Soft1614080902325Activity.this,zuozheActivity.class);
                 startActivity(intent);
             }
         });

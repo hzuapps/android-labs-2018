@@ -3,13 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".personalInformationActivity">
-    <TextView
-        android:id="@+id/huibiao"
+
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableTop="@drawable/huibiao"
-        android:text="hello_world" />
+        android:layout_height="250dp"
+        android:src="@drawable/huibiao"
+        />
+    <ImageView
+        android:id="@+id/tv_11"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
 </LinearLayout>
