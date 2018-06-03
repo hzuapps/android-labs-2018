@@ -26,15 +26,22 @@
     <View
         android:id="@+id/view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="511dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="257dp"
-        android:layout_height="45dp"
+        android:layout_width="253dp"
+        android:layout_height="43dp"
+        android:src="@drawable/Link"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="13dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
 
 </android.support.constraint.ConstraintLayout>

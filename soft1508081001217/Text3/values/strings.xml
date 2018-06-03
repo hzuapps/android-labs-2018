@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">图书阅读程序（txt）</string>
+    <string name="list_title">图书列表:</string>
+    <string name="add">添加图书</string>
+    <string name="file_select_title">请选择.txt文件:</string>
+
+</resources>
