@@ -5,10 +5,16 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+import android.content.Context;
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+
 
 public class jiemianerActivity extends AppCompatActivity implements View.OnClickListener {
     TextView t[] = new TextView[19];
-    TextView counting,result;
+    TextView counting, result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +22,8 @@ public class jiemianerActivity extends AppCompatActivity implements View.OnClick
         setContentView(R.layout.activity_jiemianer);
         this.RegisterEvent();
     }
-    public void RegisterEvent(){
+
+    public void RegisterEvent() {
         counting = (TextView) findViewById(R.id.counting);
         result = (TextView) findViewById(R.id.result);
         String str = "R.id.n_0";
@@ -39,19 +46,49 @@ public class jiemianerActivity extends AppCompatActivity implements View.OnClick
         t[16] = (TextView) findViewById(R.id.n_16);
         t[17] = (TextView) findViewById(R.id.n_17);
         t[18] = (TextView) findViewById(R.id.n_18);
-        for(int i=0;i<19;i++){
+        for (int i = 0; i < 19; i++) {
             t[i].setOnClickListener(this);
         }
     }
 
     @Override
     public void onClick(View view) {
-        for(int i=0;i<19;i++){
-            if(t[i]==view){
+        for (int i = 0; i < 19; i++) {
+            if (t[i] == view) {
+                if (t[i] == view && i == 18) {
+                    String str = t[i].getText().toString(), str1 = "10";
+                    this.save(str, str1);
+                    String s = counting.getText().toString();
+                    result.setText(s);
+                counting.setText(str1);
+            } else if (t[i] == view) {
                 String str = t[i].getText().toString();
-                Log.d("dd",str);
-                counting.setText(str);
+                counting.append(str);
+                }
+
             }
         }
+    }
+        public void save (String str, String str1){
+            String data = str, data1 = str1;
+            FileOutputStream out = null;
+            FileOutputStream out1 = null;
+            BufferedWriter writer1 = null;
+            BufferedWriter writer2 = null;
+            try {
+                out = openFileOutput("counting.txt", Context.MODE_PRIVATE);
+                writer1 = new BufferedWriter(new OutputStreamWriter(out));
+                writer1.write(data);
+                out1 = openFileOutput("result.txt", Context.MODE_PRIVATE);
+                writer2 = new BufferedWriter(new OutputStreamWriter(out1));
+                writer2.write(data1);
+            } catch (IOException e) {
+            } finally {
+                try {
+                    writer1.close();
+                    writer2.close();
+                } catch (IOException e) {
+                }
+            }
     }
 }
