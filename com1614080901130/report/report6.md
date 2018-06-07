@@ -1,4 +1,4 @@
-﻿# 第六次实验
+# 第六次实验
 
 ## 1. 实验要求
 1. 从网络下载一个文件（图片、MP3、MP4）；
@@ -14,8 +14,8 @@
 
 ## 3. 实验结果
 输入一个图片的url地址然后点击保存加载，成功加载到一个图片。  
-![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report6_screen1.png)  
-![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report6_screen2.png)  
+![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report6_screen1.jpg)  
+![](https://github.com/YoMiao/android-labs-2018/blob/master/com1614080901130/screen/report6_screen2.jpg)  
 
 ## 4. 实验心得
 不懂的东西可以百度一下，或者去参考别人的，进一步学习。
