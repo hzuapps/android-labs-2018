@@ -12,6 +12,7 @@
     <string name="share_block">选择你要分享的版块：</string>
     <string name="share_name">你的名字：</string>
     <string name="share_content">你的分享内容：</string>
+    <string name="share_download">下载</string>
     <string-array name="block">
         <item >电影</item>
         <item >旅行</item>
