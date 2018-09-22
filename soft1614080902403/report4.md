@@ -10,4 +10,4 @@
  ![image](https://raw.githubusercontent.com/w123rq/android-labs-2018/master/soft1614080902403/pic4_1.png)
  ![image](https://raw.githubusercontent.com/w123rq/android-labs-2018/master/soft1614080902403/pic4_2.png)
 ## 4.实验体会
-  本次实验是Android界面设计编程，我在实际编码过程中，根据自己的项目的实际情况，并考虑性能和兼容性的因素，对每个界面选取了合适的布局方法，并以控件id为依据，使用findViewById、setOnClickListener等几个方法，实现了指定控件监听事件的注册，结合ListView控件的使用，最终得以实现了点击按钮展开一个popwindow菜单的效果。本地实验，锻炼了我的综合编程能力，使我更加熟练的操作Android Studio IDE，并且能够通过git命令提交代码到版本库中。
+  本次实验是Android界面设计编程，我在实际编码过程中，根据自己的项目的实际情况，并考虑性能和兼容性的因素，对每个界面选取了合适的布局方法，并以控件id为依据，使用findViewById、setOnClickListener等几个方法，实现了指定控件监听事件的注册，结合ListView控件的使用，最终得以实现了点击按钮展开一个popwindow菜单的效果。本地实验，锻炼了我的综合编程能力，使我更加熟练的操作Android Studio IDE，并且能够通过git命令提交代码到版本库中。 
