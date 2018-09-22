@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="soft1614080902306.androidlabs.hzuapps.edu.Soft1614080902306.Main3Activity">
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="143dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="108dp"
+        android:text="查看"
+        android:layout_marginLeft="108dp"
+        android:layout_marginBottom="218dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
