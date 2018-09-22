@@ -12,4 +12,4 @@
  ![image](https://raw.githubusercontent.com/w123rq/android-labs-2018/master/soft1614080902403/pic5_1.png)
  ![image](https://raw.githubusercontent.com/w123rq/android-labs-2018/master/soft1614080902403/pic5_2.png)
 ## 4.实验体会
-  本次实验涉及到了AndroidAPP本地持久化数据存储，常见的方案有数据库和文件，sqlite是安卓默认支持的本地数据库，简单易用，因此我选用了sqlite来存取数据，使用了DBHelper类来简化sqlite的使用，sqlite支持标准的sql语句，在接口返回数据之后，将记录插入，在打开我的记录模块的时候，将数据查询出来，实现了APP的数据存储能力。
+  本次实验涉及到了AndroidAPP本地持久化数据存储，常见的方案有数据库和文件，sqlite是安卓默认支持的本地数据库，简单易用，因此我选用了sqlite来存取数据，使用了DBHelper类来简化sqlite的使用，sqlite支持标准的sql语句，在接口返回数据之后，将记录插入，在打开我的记录模块的时候，将数据查询出来，实现了APP的数据存储能力。 
