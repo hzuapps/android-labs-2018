@@ -1,6 +1,6 @@
-package edu.hzuapps.androidlabs.soft1614080902323
-  public class Soft1614080902323Activity{
-      public static void main(String args[])
-      { 
-       }
+package edu.hzuapps.androidlabs.t123456;
+
+// 
+public class Tea123456Activity {
+  
 }
