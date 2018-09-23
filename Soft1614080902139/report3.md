@@ -22,9 +22,9 @@
 
 3.打开Android studio 在drawable 粘贴之前拷贝到桌面的两张图片
 
-4.在activity-soft1614080902404.xml 添加显示图片的代码（将代码其中图片名字改为自己图片的名字）
+4.在activity-soft1614080902139.xml 添加显示图片的代码（将代码其中图片名字改为自己图片的名字）
 
-5.在java/com.example.administrator.soft1614080902404 鼠标右键创建otherActivity（用于响应点击打开按钮时跳转到这个activity 具体代码在文件）
+5.在java/com.example.administrator.soft1614080902139 鼠标右键创建otherActivity（用于响应点击打开按钮时跳转到这个activity 具体代码在文件）
 
 6.在layout创建一个activitopen.xml（具体代码在文件）
 
@@ -32,7 +32,7 @@
 
 ## 3.实验结果
 
-![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%B8%891.png)
+![在Android SDK Manager中选择6.0库](https://github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/3.png)
 
 ![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902404/main/%E5%AE%9E%E9%AA%8C%E4%B8%892.png)
 
