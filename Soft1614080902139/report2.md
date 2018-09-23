@@ -20,7 +20,7 @@
  5. 在github上创建report2.md 完成这个实验报告
  
  ## 3.实验结果
- ![在Android SDK Manager中选择6.0库](https://github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/png) 4.实验体会
+ ![在Android SDK Manager中选择6.0库](https://github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/png) 
   ## 4.实验体会
  通过这次实验学习了Android Studio的一些基本操作（如何改变app上的名字等） 
  
