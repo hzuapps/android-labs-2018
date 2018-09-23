@@ -15,13 +15,13 @@
  
  3. 点开 app/res/values/strings.xml  将相关代码的地方改为自己app的名字（每日推荐音乐）  操作后的结果可以在layout下的文件 双击可看到效果 截图保存
 
- 4. 利用 git bash 提交截图和文件（一个在layout下 另一个在java/com.example.hzu.1614080902404下）
+ 4. 利用 git bash 提交截图和文件（一个在layout下 另一个在java/com.example.hzu.1614080902139下）
  
  5. 在github上创建report2.md 完成这个实验报告
  
  ## 3.实验结果
- ![在Android SDK Manager中选择6.0库](github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/2.png) 4.实验体会
+ ![在Android SDK Manager中选择6.0库](https://github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/2.png) 4.实验体会
+  ## 4.实验体会
+ 通过这次实验学习了Android Studio的一些基本操作（如何改变app上的名字等） 
  
- 通过这次实验学习了Android Studio的一些基本操作（如何改变app上的名字等）  还有了解到了这些操作在哪些文件来看
- 
- 最后 值得一提就是在进行实验时 一定要保持精神 认真听老师讲课 不然实验完成会乏力 不知道如何下手
+
