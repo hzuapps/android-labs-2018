@@ -18,6 +18,6 @@
 (6)将本次实验报告完成 上交
 
 ## 3.实验结果
-![在Android SDK Manager中选择6.0库](https://github.com/Beinglzb/android-labs-2018/blob/master/soft1614080902139/soft1614080902139.PNG.png)
+![在Android SDK Manager中选择6.0库](https://github.com/1614080902139/android-labs-2018/blob/master/Soft1614080902139/11.png)
 ## 4.实验体会
 本次实验 让我体会到了 从AndroidStudio的安装 到创建项目 到截图  到push 到完成本次实验报告 。
