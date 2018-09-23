@@ -64,7 +64,7 @@ public class Soft1614080902403DefaultActivity extends AppCompatActivity  {
     public BottomNavigationBar mBottomNavigationBar;
     private Fragment frag1;
     private Fragment frag2;
-    private YWLoadingDialog load;
+    private LoadingDialog load;
     private TextView textView1;
     private View View;
     private String Result;
@@ -76,8 +76,8 @@ public class Soft1614080902403DefaultActivity extends AppCompatActivity  {
           if(msg.what == 2){
                 load.hide();
             }else if(msg.what == 3){
-                load.dimissFail("未识别到文字");
-                load.show();
+                load.show(2,"未识别到文字");
+                //load.show();
           }else if(msg.what == 4){
               Intent intent =new Intent(Soft1614080902403DefaultActivity.this,Content.class);
               Bundle bundle = new Bundle();
@@ -122,7 +122,8 @@ public class Soft1614080902403DefaultActivity extends AppCompatActivity  {
 
             }
         }, 2000);
-
+        load = new LoadingDialog(this);
+        load.show(3,"loading测试");
     }
 
 
@@ -137,8 +138,8 @@ public class Soft1614080902403DefaultActivity extends AppCompatActivity  {
                     fis = new FileInputStream(fragtemp.mFilePath); // 根据路径获取数据
                     Bitmap bitmap = BitmapFactory.decodeStream(fis);
                     fis.close();
-                    load = new YWLoadingDialog(this);
-                    load.show();
+                    load = new LoadingDialog(this);
+                    load.show(1,"加载中");
                     new Upload(bitmap).start();
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
@@ -153,8 +154,8 @@ public class Soft1614080902403DefaultActivity extends AppCompatActivity  {
                 int columnIndex = c.getColumnIndex(filePathColumns[0]);
                 String imagePath = c.getString(columnIndex);
                 c.close();
-                load = new YWLoadingDialog(this);
-                load.show();
+                load = new LoadingDialog(this);
+                load.show(1,"加载中");
                 Bitmap bitmap = BitmapFactory.decodeFile(imagePath);
                 new Upload(bitmap).start();
             }

@@ -74,7 +74,7 @@ public class Fragment2 extends Fragment {
     private ViewPager vpager_one;
     private ArrayList<View> aList;
     private int currentPosition=0;
-    public YWLoadingDialog load;
+    public LoadingDialog load;
     Handler handler=new Handler(){
         @Override
         public void handleMessage(Message msg) {
