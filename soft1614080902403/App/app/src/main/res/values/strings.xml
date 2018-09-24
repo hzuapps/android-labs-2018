@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">图片转文字小工具</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_one">Fish</string>
+    <string name="tab_two">Fly</string>
+    <string name="tab_three">Bird</string>
+    <string name="tab_four">Coffee</string>
+</resources>
