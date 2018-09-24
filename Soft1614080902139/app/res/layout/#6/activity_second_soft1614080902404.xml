@@ -1,0 +1,35 @@
+?<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/Í¼Æ¬Â·¾¶"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="110dp"
+            android:text="ÇëÊäÈëPictureµÄurlµØÖ·"
+            android:textColor="#7D26CD" />
+
+    <Button
+        android:id="@+id/Í¼Æ¬ÏÂÔØ"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="ÏÔÊ¾Í¼Æ¬"
+        android:textColor="#7D26CD" />
+
+    <ImageView
+        android:id="@+id/Í¼Æ¬ÏÔÊ¾"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
