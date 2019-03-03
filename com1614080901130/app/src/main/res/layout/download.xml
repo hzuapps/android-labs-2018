@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_home"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="250dp"
+        android:hint="请输入图片网址"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="https://apic.douyucdn.cn/upload/avatar/002/48/83/16_avatar_big.jpg"/>
+
+    <Button
+        android:id="@+id/button_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载保存图片" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="382dp" />
+
+</LinearLayout>

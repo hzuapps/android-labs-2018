@@ -1,8 +1,7 @@
 package edu.hzuapps.androidlabs.Com1614080901130;
 
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
@@ -10,10 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-
 import java.io.IOException;
 import java.nio.file.FileStore;
 
@@ -22,7 +21,7 @@ public class Share extends Activity {
 
     public static final String DIRECTORY = "demo";
     public static final String FILENAME = "file_demo.txt";
-    public static final String TAG = FileStore.class.getSimpleName();
+    public static final String TAG = File.class.getSimpleName();
 
 
     @Override
