@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">图形计算器</string>
+    <string-array name="danwei">
+        <item>厘米cm</item>
+        <item>分米dm</item>
+        <item>  米m </item>
+    </string-array>
+</resources>

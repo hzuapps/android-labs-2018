@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+    android:background="@drawable/l"
+    android:gravity="center"
+android:layout_width="fill_parent"
+android:layout_height="match_parent"
+tools:context="edu.hzuapps.androidlabs.com1614080901142.com1614080901142Activity">
+
+    <TextView
+        android:id="@+id/textView_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="仓库管理系统"/>
+       <Button
+           android:id="@+id/button_1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="start"
+           />
+   </LinearLayout>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902309Activity">
+
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/picture"
+
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/iii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <Button
+        android:id="@+id/button_open"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="综合查询" />
+
+    <Button
+        android:id="@+id/button_open1"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iii"
+        android:layout_toStartOf="@+id/button_open"
+        android:text="保存"
+        android:layout_toLeftOf="@+id/button_open" />
+
+    <Button
+        android:id="@+id/button_open2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iii"
+        android:layout_alignParentEnd="true"
+        android:text="读取"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/gojson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="91dp"
+        android:text="进入Json" />
+
+</RelativeLayout>

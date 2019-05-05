@@ -1,0 +1,8 @@
+<resources>
+    <string name="阅读器">soft1614080902219</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_book">book</string>
+    <string name="title_activity_classify">classify</string>
+    <string name="title_activity_bookcase">bookcase</string>
+    <string name="title_activity_me">me</string>
+</resources>

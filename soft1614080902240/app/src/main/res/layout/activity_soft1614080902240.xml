@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902240.Soft1614080902240Activity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <RelativeLayout
+        android:layout_width="435dp"
+        android:layout_height="723dp"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-60dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="167dp"
+            android:layout_height="160dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="124dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="便签4"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="468dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="164dp"
+            android:layout_height="166dp"
+            android:layout_alignTop="@+id/button5"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:layout_toLeftOf="@+id/button5"
+            android:layout_toStartOf="@+id/button5"
+            android:text="便签3"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="468dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bj9"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="-39dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="179dp"
+            android:layout_height="144dp"
+            android:layout_above="@+id/button5"
+            android:layout_alignEnd="@+id/button5"
+            android:layout_alignRight="@+id/button5"
+            android:layout_marginBottom="61dp"
+            android:text="便签2"
+            tools:layout_editor_absoluteX="246dp"
+            tools:layout_editor_absoluteY="244dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="164dp"
+            android:layout_height="142dp"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_alignTop="@+id/button3"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="便签1"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button3"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignRight="@+id/button3"
+            android:layout_marginBottom="22dp"
+            android:text="帮助" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

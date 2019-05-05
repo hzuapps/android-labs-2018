@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.soft1614080902131stopwatch">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Soft1614080902131CoverActivity"
+            android:theme="@style/AppTheme.full_screen_style">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Soft1614080902131HomeActivity"
+            android:theme="@style/AppTheme.full_screen_style" />
+        <activity android:name=".Soft1614080902131Timer1Activity" />
+        <activity android:name=".Soft1614080902131RecordActivity" />
+        <activity android:name=".Soft1614080902131SaveActivity">
+        </activity>
+        <activity android:name=".Soft1614080902131QueryActivity">
+
+        </activity>
+    </application>
+
+</manifest>

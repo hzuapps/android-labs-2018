@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">电动自行车管理系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="Recharge">充值</string>
+    <string name="Query">查询</string>
+    <string name="Sure">确定</string>
+    <string name="Reture">返回</string>
+    <string name="Check">记录</string>
+
+</resources>

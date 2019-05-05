@@ -1,0 +1,99 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902441MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/back_head"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="54dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/back_news"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="58dp"
+        android:layout_height="73dp"
+        app:srcCompat="@drawable/back_notice"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/back_message"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="306dp"
+        android:layout_height="53dp"
+        android:background="@color/colorPrimary"
+        android:text="留言管理"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="304dp"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimary"
+        android:text="通知管理"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="307dp"
+        android:layout_height="68dp"
+        android:background="@color/colorPrimary"
+        android:text="消息管理"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="222dp"
+        android:layout_height="59dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="查看用户"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="436dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="download"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+
+</android.support.constraint.ConstraintLayout>
+

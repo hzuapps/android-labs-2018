@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902131Timer1Activity"
+    android:background="#ddd6db">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#469bdb"
+        android:id="@+id/toolbar"
+        app:contentInsetStart="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="计  时"
+            android:textSize="20sp" />
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="00:00.00"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/timer_1_text_view"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/timer_1_text_view"
+        android:background="@drawable/radius_shape"
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_view_3"
+        android:text="记  录"
+        android:textSize="32sp"
+        android:gravity="center"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_below="@+id/image_view_3"
+        android:id="@+id/timer_1_recycler_view">
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="开始"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/radius_shape"
+            android:visibility="visible"
+            android:id="@+id/start_button"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:text="计次"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/radius_shape"
+            android:visibility="gone"
+            android:id="@+id/record_button"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:text="暂停"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/radius_shape"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:id="@+id/pause_button"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:text="完成"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/radius_shape"
+            android:visibility="gone"
+            android:id="@+id/clear_button"/>
+
+        <Button
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:text="继续"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/radius_shape"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:id="@+id/continue_button"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

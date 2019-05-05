@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902305Activity1">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TableRow>
+        <TextView
+            android:text="图书馆系统登陆界面"
+            android:textSize="20sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="130dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:text="账号"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-100dp"
+            android:hint="请输入用户名"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="70dp"
+            android:text="密码"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-100dp"
+            android:inputType="textPassword"
+            android:hint="******"
+            />
+    </TableRow>
+    <TableRow android:layout_marginTop="20dp">.
+        <Button
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/button1"
+            android:text="确定"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="注册"/>
+    </TableRow>
+
+<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+</TableLayout>

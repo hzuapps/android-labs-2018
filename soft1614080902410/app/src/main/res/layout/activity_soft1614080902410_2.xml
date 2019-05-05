@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902410_2"
+    android:orientation="vertical"
+    android:background="@drawable/ic_launcher3">
+
+    <Button
+        android:id="@+id/buttom2"
+        android:layout_width="136dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="球队赛程"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/buttom3"
+        android:layout_width="136dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="球队球员"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="63dp" />
+</LinearLayout>

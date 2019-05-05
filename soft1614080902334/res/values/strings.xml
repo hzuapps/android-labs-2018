@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">天气查询</string>
+    <string name="context">简约小天气</string>
+    <string name="weather_sunny">晴朗</string>
+    <string name="weather_cloudy">多云</string>
+    <string name="weather_fog">有雾</string>
+    <string name="weather_shower">下雨</string>
+    <string name="btn_open">查询 &gt;</string>
+    <string name="btn_back">&lt; 返回</string>
+    <string name="btn_search">搜索…</string>
+    <string name="defaultText">请输入城市名</string>
+</resources>

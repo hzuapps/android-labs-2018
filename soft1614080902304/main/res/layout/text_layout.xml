@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FF7B7878">
+    <TextView
+        android:id="@+id/mTextView"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="@drawable/urgent_selector"
+        android:textColor="#ffffff"/>
+    <ImageView android:src="@drawable/tip"
+               android:layout_width="wrap_content"
+               android:id="@+id/imgPic"
+               android:layout_gravity="center|center_vertical"
+               android:layout_height="fill_parent"/>
+
+</FrameLayout>

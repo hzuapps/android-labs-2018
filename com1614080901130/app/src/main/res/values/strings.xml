@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">安利空间</string>
+    <string name="share">分享</string>
+    <string name="anni_context">欢迎来到安妮空间</string>
+    <string name="upload">上传</string>
+    <string name="home">主页</string>
+    <string name="movie_buttom">电影</string>
+    <string name="travel_buttom">旅行</string>
+    <string name="music_buttom">音乐</string>
+    <string name="food_buttom">美食</string>
+    <string name="share_title">分享你想分享的东西</string>
+    <string name="share_block">选择你要分享的版块：</string>
+    <string name="share_name">你的名字：</string>
+    <string name="share_content">你的分享内容：</string>
+    <string-array name="block">
+        <item >电影</item>
+        <item >旅行</item>
+        <item >音乐</item>
+        <item >美食</item>
+    </string-array>
+
+</resources>

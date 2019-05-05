@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Com1614080901139校园威客系统</string>
+    <string name="come">进入威客</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="logo_witkey">Witkey</string>
+    <string name="logo">校园威客</string>
+    <string name="et_user">请输入您的账号</string>
+    <string name="et_psw">请输入密码</string>
+    <string name="forgerpassword">忘记密码</string>
+</resources>

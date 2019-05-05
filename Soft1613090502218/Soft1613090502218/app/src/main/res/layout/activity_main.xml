@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="410sp"
+    android:layout_height="610sp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="150sp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:background="@drawable/paper_flight" />
+
+    <Button
+        android:id="@+id/btu1"
+        android:layout_width="140sp"
+        android:layout_height="80sp"
+        android:layout_gravity="center"
+        android:text="@string/test" />
+
+</LinearLayout>

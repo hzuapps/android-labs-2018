@@ -1,0 +1,11 @@
+第六次实验报告 
+                                         Android网络编程
+一、实验步骤
+1.修改AndroidManifest，加入必要的连接网络的权限。 
+2.创建activity_tp.java，其功能为完成图片的下载。 
+3.创建activity_tp.xml文件,实现图片的下载和显示
+二、实验结果截图   
+https://github.com/quanquanCc/android-labs-2018/blob/master/Com1614080901214/%E5%AE%9E%E9%AA%8C6%E6%88%AA%E5%9B%BE.jpg
+三、实验体会
+通过本次实验，我认识到当设置连接超时,如果网络不好,Android系统在超过默认时间会收回资源中断操作.还有就是在对大文件的操作时,要将文件写到SDCard上面,
+不要直接写到手机内存上。

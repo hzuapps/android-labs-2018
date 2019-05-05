@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <!--<TextClock-->
+        <!--android:id="@+id/text_clock"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:format24Hour="HH:mm"-->
+        <!--android:format12Hour="hh:mm"-->
+        <!--android:textColor="#fff"-->
+        <!--android:textSize="16sp"-->
+        <!--android:layout_margin="8dp"/>-->
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="12dp"
+            android:background="@drawable/edit_text_background"
+            android:gravity="top"
+            android:hint="编写事件内容"
+            android:padding="8dp"
+            android:textColorHint="#7f8ad2"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期：       "
+                android:textSize="22sp"
+                android:textColor="#e4dede"/>
+
+            <TextView
+                android:id="@+id/set_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="设置日期"
+                android:layout_alignParentRight="true"
+                android:textColor="#bdc6e2"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间："
+                android:textSize="22sp"
+                android:textColor="#e4dede"/>
+
+            <TextView
+                android:id="@+id/set_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置时间"
+                android:textSize="22sp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:textColor="#bdc6e2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重要程度："
+                android:textSize="22sp"
+                android:textColor="#e4dede"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:spinnerMode="dialog"
+                android:theme="@style/SpinnerStyle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开启通知栏通知："
+                android:textSize="22sp"
+                android:textColor="#e4dede"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_notification"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e4dede"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:checked="true"
+                    android:text="是"/>
+
+                <RadioButton
+                    android:id="@+id/radio_no_notification"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="#e4dede"
+                    android:textSize="22sp"
+                    android:background="@drawable/radio_selector"
+                    android:layout_marginRight="8dp"
+                    android:text="否"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开启闹钟："
+                android:textSize="22sp"
+                android:textColor="#e4dede"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_clock"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e4dede"
+                    android:textSize="22sp"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/radio_selector"
+                    android:checked="true"
+                    android:text="是"/>
+
+                <RadioButton
+                    android:id="@+id/radio_no_clock"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:textColor="#e4dede"
+                    android:textSize="22sp"
+                    android:background="@drawable/radio_selector"
+                    android:layout_marginRight="8dp"
+                    android:text="否"/>
+
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:background="@drawable/button_selector"
+            android:text="完成"/>
+
+    </LinearLayout>
+
+</ScrollView>

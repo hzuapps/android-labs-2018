@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">soft健康运动</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main3">Main3Acitvity</string>
+    <string name="title_activity_main4">Main4Acitvity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/app_name"
+    tools:context=".Main2Activity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pikaqiu">
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="教室信息查询"
+            android:textSize="25dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="90dp"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

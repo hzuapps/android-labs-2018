@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902131HomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ddd6db"
+        android:id="@+id/home_background_image_view"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/home_image_view"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/sw_1" />
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="计时"
+                android:textSize="20sp"
+                android:id="@+id/timer_1_intent_text_view"/>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="20dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="历史"
+                android:textSize="20sp"
+                android:id="@+id/record_intent_text_view"/>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="更换壁纸"
+                android:textSize="20sp"
+                android:id="@+id/change_background_text_view"/>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="40dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+﻿# 第六次实验
+
+ ## 1.实验目标
+ ### 1.掌握Android网络访问方法；
+ ### 2.理解XML和JSON表示数据的方法。
+ ## 2.实验内容
+ ### 1.在个人目录中创建一个表示数据的XML或JSON文件；
+ ### 2.数据文件代码提交之后从GitHub获取文件URL；
+ ### 3.在应用中通过网络编程访问GitHub的数据文件；
+ ### 4.在应用中解析并显示文件所包含的数据；
+ ### 5.将应用运行结果截图。
+ ## 3.实验步骤 
+ ### 1.新建一个JSON文件，通过git上传到库中；
+ ### 2.获取库中JSON文件的URL；
+ ### 3.新建名为INFO的BEAN类，用作数据的处理；
+ ### 4.新建FetchJSON类，在类中新建函数getJSON();
+ ### 5.在getJSON()函数中通过http访问先前获取的URL，获得JSON数据后返回JSON的字符串；
+ ### 6.新建AnalyseJSON类，在类中新建函数parseByGSON()；
+ ### 7.在parseByGSON()函数中通过GSON将JSON字符串转换为对象，并将其信息分别存放到数组中；
+ ### 8.新建用作显示的Activity，显示分析后JSON中的数据。
+ ## 4.实验结果
+ ### ![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E5%85%AD%E6%88%AA%E5%9B%BE/01.png) 
+ ### ![image](https://raw.githubusercontent.com/zhaokangye/android-labs-2018/master/soft1613071002201/%E5%AE%9E%E9%AA%8C%E5%85%AD%E6%88%AA%E5%9B%BE/02.png) 
+ ## 5.实验体会
+ ### 这次实验通过URL，HTTP等方法获取JSON文件，给我带来了很多启发，大致明白了数据在网络中是以什么方式来传播，也实际将网络上的数据显示在自己的APP上，学到了很多的东西！

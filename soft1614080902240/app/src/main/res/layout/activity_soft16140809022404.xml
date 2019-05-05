@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902240.Soft1614080902240Activity4">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/button_save_internal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内部保存"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="178dp"
+        android:layout_alignBaseline="@+id/button_save_external"
+        android:layout_alignBottom="@+id/button_save_external"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="38dp"
+        android:text="便签内容:"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="21dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button_save_external"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="外部保存"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="178dp"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="113dp"
+        android:text="网址储存的位置:"
+        android:layout_below="@+id/button_save_internal"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:text=""
+        android:layout_toRightOf="@+id/button_save_internal"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+</RelativeLayout>

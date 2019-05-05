@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">简单的日程管理</string>
+    <string name="tvText">你还没有添加日程，点击下方的按钮添加吧！</string>
+    <string name="tvTime">时间</string>
+    <string name="tvContent">内容</string>
+    <string name="btnSave">保存</string>
+    <string name="btnCancel">取消</string>
+    <string name="tvPlan">计划的名称</string>
+</resources>

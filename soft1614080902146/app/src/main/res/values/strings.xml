@@ -1,0 +1,19 @@
+<resources>
+
+
+    <string name="tv_title"> 今日热点</string>
+
+    <string name="tv_xw1">   航母编队  </string>
+    <string name="tv_xw1ct"> 第五代战斗机歼20在辽宁舰上进行训练</string>
+
+    <string name="tv_xw2">大型运输机首飞</string>
+    <string name="tv_xw2ct">经过长达十年研发的大型运输机，5月11日16：05分进行了首飞试验</string>
+
+    <string name="tv_xw3">远洋训练</string>
+    <string name="tv_xw3ct">C50大型驱逐舰昨日去大西洋进行远洋训练，进一步加强我军的战备状态</string>
+
+    <string name="tv_xw4">卫星电话</string>
+    <string name="tv_xw4ct">什么是卫星电话？</string>
+
+
+</resources>

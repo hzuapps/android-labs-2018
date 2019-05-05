@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anniu1"
+        android:text="微信"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anniu2"
+        android:text="通讯录"
+        android:layout_toRightOf="@+id/anniu1"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"/>/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anniu3"
+        android:text="发现"
+        android:layout_toRightOf="@+id/anniu2"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anniu4"
+        android:text="我"
+        android:layout_toRightOf="@+id/anniu3"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        />
+
+</RelativeLayout>
+

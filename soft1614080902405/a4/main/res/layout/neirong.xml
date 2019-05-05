@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/dingbu"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="搜索" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <include layout="@layout/dibu"/>
+</TableLayout>

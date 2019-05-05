@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ll1"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+
+
+    <EditText android:id="@+id/url"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="?attr/actionModeBackground"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="47dp" />
+
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/url"
+
+        android:layout_centerHorizontal="true"
+
+        android:text="下载" />
+
+
+
+    <TextView
+
+        android:text="请输入你要下载的地址"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView3"
+
+        android:textSize="24sp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="354dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp" />
+
+
+
+</RelativeLayout>

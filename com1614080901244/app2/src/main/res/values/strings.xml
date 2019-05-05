@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">美食分享</string>
+    <string name="action_settings">settings</string>
+    <string name="title_activity_second">欢迎</string>
+    <string name="title_activity_third">thirdActivity</string>
+    <string name="edit_message1" />
+    <string name="app">打开app</string>
+    <string name="text">分享</string>
+    <string name="tess">分享墙</string>
+    <string name="today_i_found_a_good_restaurant_delicious_and_affordable_you_can_try_it_when_you_re_free_it_s_in_the_alley_in_front_of_the_village_its_shop_is_called_delicious_and_delicious">Today I found a good restaurant, delicious and affordable. You can try it when you\'re free. It\'s in the alley in front of the village. Its shop is called delicious and delicious.</string>
+    <string name="textview">TextView</string>
+</resources>

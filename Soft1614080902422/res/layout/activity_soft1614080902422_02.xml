@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902422Activity_02">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/m_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="ºìÑÕ¾É-ÁõÌÎ" />
+
+        <Button
+            android:id="@+id/m_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Ð¡ÐÒÔË-Ìïð¥Õç" />
+
+        <Button
+            android:id="@+id/m_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Ï²»¶Äã-µË×ÏÆå" />
+
+        <Button
+            android:id="@+id/m_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Í¯»°Õò-³ÂÒ»·¢¶ù" />
+
+        <Button
+            android:id="@+id/m_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Óö¼û-ËïÑà×Ë" />
+
+        <Button
+            android:id="@+id/m_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="trouble is a friend-lenka" />
+
+        <Button
+            android:id="@+id/m_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="°µÏã-É³±¦ÁÁ" />
+
+        <Button
+            android:id="@+id/m_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/m_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="¸æ°×ÆøÇò-ÖÜ½ÜÂ×" />
+
+        <Button
+            android:id="@+id/m_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="ÓÐµãÌð-ÍôËÕãñ" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

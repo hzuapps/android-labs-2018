@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DIY课表</string>
+    <string name="tab_menu_local">本地课表</string>
+    <string name="tab_menu_user">用户中心</string>
+    <string name="tab_menu_find">"发现课表"</string>
+
+</resources>

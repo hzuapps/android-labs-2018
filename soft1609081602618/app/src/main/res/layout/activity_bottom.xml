@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+       style="@style/menu.LineLayout"
+        >
+        <ImageView
+            android:id="@+id/ic_main"
+            style="@style/menu.Image"
+            android:src="@drawable/ic_main_main"
+            />
+        <TextView
+           style="@style/menu.text"
+            android:text="首页"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/menu.LineLayout"
+        >
+        <ImageView
+            android:id="@+id/ic_tzsc"
+            style="@style/menu.Image"
+            android:src="@drawable/ic_main_tzsc"
+            />
+        <TextView
+            style="@style/menu.text"
+            android:text="跳蚤市场"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/menu.LineLayout"
+        >
+        <ImageView
+            android:id="@+id/ic_swzl"
+            style="@style/menu.Image"
+            android:src="@drawable/ic_main_swzl"
+            />
+        <TextView
+            style="@style/menu.text"
+            android:text="失物招领"
+            />
+    </LinearLayout>
+</LinearLayout>

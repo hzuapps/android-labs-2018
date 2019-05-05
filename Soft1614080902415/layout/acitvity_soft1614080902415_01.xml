@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:textColor="#FFAD33"
+        android:hint="欢迎进入租车管理系统" />
+
+    <TextView
+    android:id="@+id/Text2"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="20sp"
+    android:textColor="#FFAD33"
+    android:layout_below="@id/Text1"
+    android:hint="你的用户名为：" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:textColor="#FFAD33"
+        android:layout_below="@id/Text2"
+        android:hint="用户名" />
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_below="@id/editText1"
+    android:text="租车"
+    android:background="@drawable/ic_launcher_background"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    />
+
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_login"
+        android:text="查询你的身份信息"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_login1"
+        android:text="查询可租车辆"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_login3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_login2"
+        android:text="查询历史租车信息"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_login4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_login3"
+        android:text="还车操作"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btn_login5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="下载车辆相关信息"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+
+</RelativeLayout>
+</RelativeLayout>

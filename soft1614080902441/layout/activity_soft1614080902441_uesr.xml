@@ -1,0 +1,64 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902441UserActivity">
+
+    <TextView
+        android:id="@+id/textView0"
+        nTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-19dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="用户：用户名-用户账号-性别"
+        android:textColor="@mipmap/timg" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="用户1：xiaoming-1614080902441-female"
+        android:background="blue"
+        android:textColor="@mipmap/timg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="用户2：xiaobai-1614080902431-male"
+        android:textColor="@mipmap/timg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="用户3：xiaoliu-1614080902421-female"
+        android:textColor="@mipmap/timg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="391dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="用户4：xiaohei-1614080902411-female"
+        android:textColor="@mipmap/timg"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+
+</android.support.constraint.ConstraintLayout>

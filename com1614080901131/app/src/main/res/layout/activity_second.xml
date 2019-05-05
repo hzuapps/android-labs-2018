@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hauapps.androidlabs.com1614080901131.SecondActivity"
+    android:background="@drawable/textbackground"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/tv_text"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#8cd4c7"
+        android:layout_centerInParent="true"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_text"
+        android:layout_marginTop="25dp"
+        android:id="@+id/linearLayout">
+        <Button
+            android:id="@+id/bt_put"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="发送"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="取消"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="保存"
+            />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/tv_text"
+        android:layout_alignStart="@+id/tv_text"
+        android:layout_alignTop="@+id/tv_text"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp" />
+
+</RelativeLayout>

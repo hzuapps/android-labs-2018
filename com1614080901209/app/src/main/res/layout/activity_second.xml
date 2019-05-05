@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/timg1"
+    tools:context="edu.hzuapps.androidlabs.Com1614080901209.SecondActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请输入一个数字:"
+        android:textSize="30sp"
+        android:layout_weight="0.04"
+        android:layout_gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/edit"
+    android:layout_width="174dp"
+    android:layout_height="wrap_content"
+   android:background="#fff"
+        android:layout_weight="0.08"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="提交"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>

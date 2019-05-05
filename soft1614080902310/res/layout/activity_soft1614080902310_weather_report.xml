@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yuntu"
+    tools:context=".soft1614080902310_weather_reportActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text="小强天气"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="40sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="欢迎您"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:gravity="center">
+        </TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

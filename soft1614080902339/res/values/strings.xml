@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">小记</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="open">撰</string>
+    <string name="save">存</string>
+    <string name="read">閱</string>
+    <string name="compile">輯</string>
+    <string name="title">標題</string>
+    <string name="text">內容</string>
+    <string name="time">時間</string>
+</resources>

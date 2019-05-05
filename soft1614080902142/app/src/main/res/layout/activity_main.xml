@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muren.soft1614080902142.MainActivity"
+
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/inputtime"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/colorYellow"
+        android:text="获取倒计时时间"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_width="149dp"
+        android:layout_height="47dp"
+        android:id="@+id/gettime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:id="@+id/time"/>
+    <Button
+        android:text="开始计时"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:background="@color/colorYellow"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:id="@+id/starttime" />
+
+    <Button
+        android:text="停止计时"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:background="@color/colorYellow"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/stoptime"
+        android:layout_weight="0.05" />
+    <Button
+        android:text="保存秒数"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:background="@color/colorYellow"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/savetime"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:text="下载图片"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:background="@color/colorYellow"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/download"
+        android:layout_weight="0.05" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_view"/>
+</LinearLayout>

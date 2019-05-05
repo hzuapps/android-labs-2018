@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902202.SecondActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_second" />
+
+
+    <TextView
+        android:id="@+id/ting"
+        android:layout_width="385dp"
+        android:layout_height="488dp"
+        android:layout_marginTop="0dp"
+        android:drawableTop="@drawable/ting" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:text="停止"
+         />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"
+        android:text="读取"/>
+
+
+
+    <TextView
+        android:text="目标为："
+        android:textSize="30sp"
+        android:layout_width="131dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="400dp"
+        />
+
+    <EditText
+        android:id="@+id/mb"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="400dp"
+        android:layout_weight="1"
+        android:maxLines="1" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

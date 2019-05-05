@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_01"
+        android:layout_width="wrap_content"
+        android:layout_height="528dp"
+        android:drawableTop="@drawable/lbh"
+        android:text="hello_world"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/bt_dial"
+        android:layout_width="178dp"
+        android:layout_height="53dp"
+<<<<<<< HEAD
+        android:text="¸èÊÖÇëµã»÷´Ë"
+=======
+        android:text="æ­Œæ‰‹è¯·ç‚¹å‡»æ­¤"
+>>>>>>> 0846e9cf95599438d0f756a1e23f769300c5e2c2
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/bt_dial"
+        android:layout_width="191dp"
+        android:layout_height="63dp"
+<<<<<<< HEAD
+        android:text="´ýÉóºË¸èÊÖÇëµã»÷´Ë"
+=======
+        android:text="å¾…å®¡æ ¸æ­Œæ‰‹è¯·ç‚¹å‡»æ­¤"
+>>>>>>> 0846e9cf95599438d0f756a1e23f769300c5e2c2
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/bt_dial"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
+<<<<<<< HEAD
+        android:text="µ¼Ê¦Çëµã»÷´Ë"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="151dp" />
+</android.support.constraint.ConstraintLayout>
+=======
+        android:text="å¯¼å¸ˆè¯·ç‚¹å‡»æ­¤"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="151dp" />
+</android.support.constraint.ConstraintLayout>
+>>>>>>> 0846e9cf95599438d0f756a1e23f769300c5e2c2

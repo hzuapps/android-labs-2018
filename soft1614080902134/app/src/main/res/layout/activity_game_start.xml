@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.hzuapps.androidlabs.wangzhe.GameStart"
+    android:background="@drawable/view"
+    >
+
+    <!--重命名ID-->
+    
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:shadowColor="#1c5e79"
+        android:text="第一题："
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText1" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第二题："
+        android:id="@+id/editText2"
+        android:textSize="25dp"
+        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第三题："
+        android:textSize="25dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="17dp"
+        android:id="@+id/editText3" />
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@drawable/right"
+        android:id="@+id/btn3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/btn4" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第六题："
+        android:textSize="25dp"
+        android:id="@+id/editText6"
+        android:layout_above="@+id/btn3"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_marginBottom="31dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第五题："
+        android:textSize="25dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/editText4"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="第四题："
+        android:textSize="25dp"
+        android:id="@+id/editText4"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3" />
+
+</RelativeLayout>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902210.ThirdActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+    <Button
+
+        android:id="@+id/upload"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/imagepath"
+
+        android:layout_centerHorizontal="true"
+
+        android:onClick="click2"
+
+        android:layout_marginTop="80dp"
+
+        android:text="下载" />
+
+
+
+    <EditText
+
+        android:id="@+id/imagepath"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="74dp"
+
+        android:layout_alignParentTop="true" />
+
+
+    <ImageView
+
+        android:id="@+id/imageView"
+
+        android:layout_width="0dp"
+
+        android:layout_height="0dp"
+
+        android:layout_below="@+id/upload"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+
+</android.support.design.widget.CoordinatorLayout>

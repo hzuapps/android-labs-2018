@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902309Activity3"
+    android:background="@drawable/picture"
+    >
+
+
+    <Button
+        android:id="@+id/readJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取Json"
+        android:layout_marginTop="50dp"
+        android:background="#68dfb6"
+        />
+
+    <Button
+        android:id="@+id/parseJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="#e471dc"
+        android:text="解析Json" />
+
+    <TextView
+        android:id="@+id/Json_TV_read"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/Json_TV_parse"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

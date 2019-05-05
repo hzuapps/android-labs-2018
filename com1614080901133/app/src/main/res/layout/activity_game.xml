@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hauapps.androidlabs.com1614080901133.GameActivity">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tv_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分数:"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/tv_fenshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查看排行"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_game"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/title"
+        android:background="#a3a3a3"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tv_game"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旋转"
+                android:textSize="35sp"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/tv_center"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                />
+            <Button
+                android:id="@+id/xia"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:text="下"
+                android:textSize="20sp"
+                android:layout_below="@id/tv_center"
+                android:layout_centerHorizontal="true"
+                />
+            <Button
+                android:id="@+id/shang"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv_center"
+                android:layout_centerHorizontal="true"
+                android:text="上"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:text="右"
+                android:textSize="20sp"
+                android:layout_below="@+id/tv_center"
+                android:layout_toEndOf="@+id/xia"
+                android:layout_toRightOf="@+id/xia" />
+
+            <Button
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_center"
+                android:layout_toStartOf="@+id/xia"
+                android:text="左"
+                android:textSize="20sp"
+                android:layout_toLeftOf="@+id/xia" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

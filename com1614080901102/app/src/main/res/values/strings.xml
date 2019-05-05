@@ -1,0 +1,30 @@
+<resources>
+        <string name="app_name">owl比赛资讯</string>
+        <string name="tv_come">owl比赛资讯</string>
+        <string name="tv_welcome">欢迎使用英雄小助手  v1.0</string>
+        <string name="tv_heroTitle">队伍比分</string>
+
+        <string name="tv_eyu">角斗士队VS震动队</string>
+        <string name="tv_eyuName">3:1</string>
+        <string name="tv_eyuTip">5月17日星期四</string>
+
+        <string name="tv_ruiwen">王超队VS英勇队</string>
+        <string name="tv_ruiwenName">2:3</string>
+        <string name="tv_ruiwenTip">5月17日星期四</string>
+
+        <string name="tv_yasuo">燃料队VS龙之队</string>
+        <string name="tv_yasuoName">3:1</string>
+        <string name="tv_yasuoTip">5月17日星期四</string>
+
+        <string name="tv_huangzi">崛起队VS融合队</string>
+        <string name="tv_huangziName">3:0</string>
+        <string name="tv_huangziTip">5月18日星期五</string>
+
+        <string name="tv_timo">九霄天擎VS狂欢队</string>
+        <string name="tv_timoName">4：0</string>
+        <string name="tv_timoTip">5月18日星期五</string>
+
+        <string name="tv_nuoshou">神枪手队VS喷火战斗机队</string>
+        <string name="tv_nuoshouName">4:0</string>
+        <string name="tv_nuoshouTip">5月18日星期五</string>
+    </resources>

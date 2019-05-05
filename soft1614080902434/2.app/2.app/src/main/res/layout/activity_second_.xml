@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="#EBEBEB"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/n_1"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="320dp"
+        android:text="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/n_2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_x="97dp"
+        android:layout_y="322dp"
+        android:text="2"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/n_3"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_x="187dp"
+        android:layout_y="320dp"
+        android:text="3"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/n_4"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="378dp"
+        android:text="4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/n_5"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="379dp"
+        android:text="5"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/n_6"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="381dp"
+        android:text="6"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/n_7"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="433dp"
+        android:text="7"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/n_8"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="438dp"
+        android:text="8"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/n_9"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="437dp"
+        android:text="9"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/n_0"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_x="273dp"
+        android:layout_y="384dp"
+        android:text="0"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/n_10"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_x="274dp"
+        android:layout_y="321dp"
+        android:text="Del"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/n_11"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="273dp"
+        android:layout_y="437dp"
+        android:text="符号"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Button
+        android:id="@+id/n_12"
+        android:layout_width="64dp"
+        android:layout_height="43dp"
+        android:layout_x="269dp"
+        android:layout_y="262dp"
+        android:text="发送"
+        android:clickable="true"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/n_13"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_x="0dp"
+        android:layout_y="72dp"
+        android:text="小明："
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/n_14"
+        android:layout_width="60dp"
+        android:layout_height="37dp"
+        android:layout_x="268dp"
+        android:layout_y="199dp"
+        android:text="我："
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <TextView
+        android:id="@+id/n_16"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_x="52dp"
+        android:layout_y="140dp"
+
+        android:textColor="#EEA2AD"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="260dp" />
+
+    <Button
+        android:id="@+id/Down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="199dp"
+        android:text="图片"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="13dp"
+        android:layout_y="0dp"
+        android:text="https://upload.wikimedia.org/wikipedia/commons/8/84/Tibia_insulaechorab.jpg" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="232dp"
+        android:layout_height="131dp"
+        android:layout_x="74dp"
+        android:layout_y="53dp" />
+
+
+</AbsoluteLayout>

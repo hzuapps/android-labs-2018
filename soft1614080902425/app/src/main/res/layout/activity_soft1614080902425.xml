@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context="com.example.administrator.soft1614080902425.Soft1614080902425Activity6"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/parent"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/imageView"
+            android:layout_width="340dp"
+            android:layout_height="79dp"
+            app:srcCompat="@drawable/tiaokuang" />
+
+
+        <TextView
+            android:layout_toLeftOf="@id/username"
+            android:layout_centerVertical="true"
+            android:id="@+id/icon1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/password" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/userkey"
+            android:layout_centerInParent="true"
+            android:layout_width="198dp"
+            android:layout_height="58dp"
+
+            >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/userkeyline"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:background="@null"
+                 />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+
+            android:id="@+id/imageView2"
+
+            android:layout_above="@id/imageView"
+            android:layout_alignLeft="@id/imageView"
+            android:layout_width="340dp"
+            android:layout_height="79dp"
+            app:srcCompat="@drawable/tiaokuang" />
+
+        <TextView
+
+            android:id="@+id/icon4"
+
+            android:layout_width="34dp"
+            android:layout_height="35dp"
+
+
+            android:layout_alignBottom="@+id/username"
+            android:layout_marginBottom="26dp"
+            android:layout_toLeftOf="@+id/username"
+            android:layout_toStartOf="@+id/username"
+            android:background="@drawable/id" />
+            <AutoCompleteTextView
+                android:id="@+id/username"
+                android:layout_width="198dp"
+                android:layout_height="81dp"
+                android:layout_alignTop="@id/imageView2"
+                android:layout_centerInParent="true"
+                android:hint="请输入帐号"
+                android:completionHint="请输入帐号"
+                android:completionThreshold="1"
+                android:background="@null"
+                android:dropDownHorizontalOffset="5dp">
+
+            </AutoCompleteTextView>
+
+        <!--android.support.design.widget.TextInputLayout
+            android:layout_alignBottom="@id/imageView2"
+            android:layout_centerInParent="true"
+            android:id="@+id/username"
+            android:layout_width="198dp"
+            android:layout_height="60dp"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null" />
+        </android.support.design.widget.TextInputLayout-->
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_below="@id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+
+                    android:background="@drawable/sign_up"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button"
+                android:background="@drawable/sign_in"
+
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+
+                 />
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/top"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/icon3"
+                android:layout_width="33dp"
+                android:layout_height="32dp"
+                android:text="注册"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+               android:id="@+id/icon2"
+               android:layout_width="38dp"
+               android:layout_height="28dp"
+               android:text="登录"
+               android:textSize="15dp"
+               />
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

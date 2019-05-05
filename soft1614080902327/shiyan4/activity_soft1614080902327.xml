@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902327Activity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="382dp"
+        android:layout_height="68dp"
+        android:layout_x="0dp"
+        android:layout_y="532dp"
+        android:text="查看全部餐品信息"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="382dp"
+        android:layout_height="68dp"
+        android:layout_x="0dp"
+        android:layout_y="382dp"
+        android:text="确定食品"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="382dp"
+        android:layout_height="68dp"
+        android:layout_x="0dp"
+        android:layout_y="455dp"
+        android:text="交订单"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+
+
+
+</AbsoluteLayout  >

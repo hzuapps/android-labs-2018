@@ -1,0 +1,23 @@
+# 第六次实验
+## 1.实验目标
+（1）掌握Android网络访问方法； <br>
+（2）理解XML和JSON表示数据的方法。 <br>
+## 2.实验内容
+（1）在个人目录中创建一个表示数据的XML或JSON文件； <br>
+（2）数据文件代码提交之后从GitHub获取文件URL； <br>
+（3）在应用中通过网络编程访问GitHub的数据文件； <br>
+（4）在应用中解析并显示文件所包含的数据； <br>
+（5）将应用运行结果截图。 <br>
+## 3.实验步骤
+1.添加一个MainActivity3的下载页面并写入相关的代码。 <br>
+2.在github里面新建一个name.jason存放想要的数据。 <br>
+3.在MainActivity2里面添加一个按钮可以下载并切换到MainActivity3。 <br>
+4.在MainActivity3中添加textview用来显示jason的内容。 <br>
+## 4.实验结果
+![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/shiyan6-1.jpg) <br>
+按查看分享按钮出现下图 <br>
+![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/shiyan6-2.jpg) <br>
+按下载推荐音乐按钮出现下图 <br>
+![image](https://github.com/ChaseChennn/android-labs-2018/blob/master/soft1614080902205/shiyan6-3.jpg) <br>
+## 5.实验体会
+这个实验让我对安卓的网络编程有了一定的理解，虽然一开始有点困难，因为老师给的代码有些没看懂，但是通过询问同学和百度，也一步步解决了问题。

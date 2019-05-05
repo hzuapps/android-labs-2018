@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center">
+
+        <EditText
+            android:id="@+id/imagepath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="输入图片地址"
+            android:textColor="#3366cc" />
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:text="下载图片"
+            android:textColor="#00cc00" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>

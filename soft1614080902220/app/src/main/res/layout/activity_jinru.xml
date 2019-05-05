@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jinru">
+    <ProgressBar android:id="@+id/loading_process_dialog_progressBar"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:indeterminate="false"
+        android:indeterminateDrawable="@drawable/ic_launcher_background" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入你所想要抢红包页面的网址或用默认的网址"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="0dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/imagepath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="http://pic93.huitu.com/res/20170120/14036_20170120182840152010_1.jpg"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="加载抢红包页面"
+            />
+        <Button
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回页面1"
+        />
+        <Button
+            android:id="@+id/button_close1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回页面2"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="120dp"
+        />
+
+</android.support.constraint.ConstraintLayout>

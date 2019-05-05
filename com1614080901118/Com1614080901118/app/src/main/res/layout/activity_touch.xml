@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.hzuapps.androidlabs.com1614080901118.TouchActivity">
+
+
+    <TextView
+        android:id="@+id/tv_paihanbanTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="排行榜"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_paihanbanTittle"
+        android:id="@+id/tv_tittle"
+        android:text="     英雄              热度"
+        android:textColor="@android:color/black"
+        />
+
+
+    <ListView
+
+        android:id="@+id/lv_paihang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_tittle"
+        >
+
+
+    </ListView>
+
+</RelativeLayout>

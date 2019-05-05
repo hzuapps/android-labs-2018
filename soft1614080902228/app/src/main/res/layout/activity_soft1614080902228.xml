@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902228Activity" >
+
+      <Button
+          android:id="@+id/upload"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/imagepath"
+          android:layout_centerHorizontal="true"
+          android:onClick="click"
+          android:layout_marginTop="24dp"
+          android:text="下载" />
+
+      <EditText
+          android:id="@+id/imagepath"
+          android:layout_width="match_parent"
+          android:layout_height="74dp"
+          android:layout_alignParentTop="true" />
+      
+       <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload"/>
+
+</RelativeLayout>

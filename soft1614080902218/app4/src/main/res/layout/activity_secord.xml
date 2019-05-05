@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecordActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_secord" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:id="@+id/maomao1"
+        android:layout_width="385dp"
+        android:layout_height="650dp"
+        android:drawableTop="@drawable/maomao1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/wendu"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:text=""
+            android:textSize="60sp" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

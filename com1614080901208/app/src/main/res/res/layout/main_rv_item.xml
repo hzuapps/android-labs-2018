@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--这个是数据模型-->
+    <data>
+        <variable
+            name="vm"
+            type="edu.hzuapps.androidlabs.Com1614080901208.MainRVViewMode"/>
+        <!--这个可以用来做点击事件，这里没有写-->
+        <variable
+            name="adapter"
+            type="edu.hzuapps.androidlabs.Com1614080901208.MainRVAdapter"/>
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/mainrvitemtext"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="@{vm.text}"/>
+    <ImageView
+        android:id="@+id/mainrvitemimage"
+        app:uri="@{vm.uri}"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>
+</layout>

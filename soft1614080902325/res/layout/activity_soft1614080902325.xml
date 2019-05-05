@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Soft1614080902325Activity">
+
+
+    <Button
+        android:id="@+id/textview_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看会标"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/textview_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看作者信息"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>

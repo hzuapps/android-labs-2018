@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="368dp"
+        android:layout_height="500dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:text="用户名："
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="130dp"
+            />
+
+        <EditText
+            android:layout_width="203dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="130dp"
+            />
+
+        <TextView
+            android:text="密    码："
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:layout_width="133dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            />
+
+        <EditText
+            android:layout_width="203dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="190dp"
+            />
+
+        <TextView
+            android:text="重复密码："
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:layout_width="174dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            />
+
+        <EditText
+            android:layout_width="163dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="250dp"
+            />
+
+        <Button
+            android:id="@+id/button_isRegister"
+            android:text="确认注册"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="350dp"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

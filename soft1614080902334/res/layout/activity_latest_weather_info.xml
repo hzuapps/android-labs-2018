@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LatestWeatherInfoActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <!--大标题-->
+    <TextView
+        android:id="@+id/weather_head"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="7天趋势预报"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Widget"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/weather_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--列表头-->
+    <LinearLayout
+        android:id="@+id/weather_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weather_head">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="日期"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="天气"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="气温"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="风力指数"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/weather_title"
+        app:layout_constraintTop_toBottomOf="@+id/weather_title">
+
+        <!--天气趋势列表-->
+        <ListView
+            android:id="@+id/weather_list"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </RelativeLayout>
+
+    <!--
+    2018.5.25更新
+    实现ConstraintLayout，LinearLayout和RelativeLayout三种布局，用ListView显示7天天气趋势
+    加载github上的json，在本地解析并且显示其包含的content
+    优化整体布局
+    -->
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+{
+  "worker": [{
+    "name": "haoxin0",
+    "Sex": "man",
+    "hobby": "food"
+    
+  }, {
+    "name": "haoxin2",
+    "Sex": "man",
+    "hobby": "game"
+    
+  }, {
+    "name": "haoxin3",
+    "Sex": "man",
+    "hobby": "movie"
+
+  }]
+}
+

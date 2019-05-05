@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="edu.hzuapps.androidlabs.soft1614080902315.rednews"
+    tools:showIn="@layout/activity_rednews"
+    android:background="#FFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="5dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            app:srcCompat="@drawable/football"
+            android:scaleType="fitXY"
+            android:contentDescription="TODO"/>
+
+        <TextView
+            android:id="@+id/评论"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="评论"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100px"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#2E2E2E"/>
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#2E2E2E"/>
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#2E2E2E"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存" />
+
+        <Button
+            android:id="@+id/dispaly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示" />
+
+        <Button
+            android:id="@+id/jumpxml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转网页" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

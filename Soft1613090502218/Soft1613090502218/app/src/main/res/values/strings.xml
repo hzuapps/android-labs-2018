@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Soft1613090502218</string>
+    <string name="test">开始游戏</string>
+    <string name="hard">hard</string>
+    <string name="normal">normal</string>
+    <string name="Return">return</string>
+    <string name="input_your_name">Input Your Name</string>
+    <string name="jump">JUMP</string>
+    <string name="usetotest">usetotest</string>
+    <string name="rankintheworld">RankInTheWorld</string>
+</resources>

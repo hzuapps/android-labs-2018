@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Soft1614080902428activityMain2Activity"
+    android:background="@drawable/a">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/btn1_editnote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF4"
+            android:text="查看备忘录"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+        <Button
+            android:id="@+id/btn2_editnote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF4"
+            android:text="添加备忘录"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

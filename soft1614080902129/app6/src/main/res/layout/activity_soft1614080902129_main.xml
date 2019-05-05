@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soft1614080902115_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.soft1614080902129.Soft1614080902129MainActivity">
+
+    <TextView
+
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:drawableTop="@drawable/timg"
+        android:text="@string/bj"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        />
+
+    <ImageButton
+        android:id="@+id/ibtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</RelativeLayout>
+

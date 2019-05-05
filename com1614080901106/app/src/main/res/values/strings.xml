@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">身高体重计算器</string>
+    <string name="hintInput">请输入身高并选择性别</string>
+</resources>

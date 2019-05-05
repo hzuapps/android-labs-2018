@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1"
+        tools:context=".信息查看"
+        >
+        <TableRow>
+
+            <TextView
+
+                android:padding="30dip"
+                android:text="" />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:padding="30dip"
+                android:text=""
+
+                />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:background="#00aa00"
+                android:padding="40dip"
+                android:text="账号" />
+
+            <TextView
+                android:gravity="center_horizontal"
+                android:padding="40dip"
+                android:text="1614080902431"
+
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="40dip"
+                android:text="昵称:" />
+
+            <TextView
+                android:background="#00aa00"
+                android:padding="40dip"
+                android:text="幻觉" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#00aa00"
+                android:padding="40dip"
+                android:text="性别:" />
+
+            <TextView
+                android:padding="40dip"
+
+                android:text="男" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="40dip"
+
+                android:text="出生年月日:" />
+
+            <TextView
+                android:background="#00aa00"
+                android:padding="40dip"
+                android:text="2000.1.1" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#00aa00"
+                android:padding="40dip"
+                android:text="所在地:" />
+
+            <TextView
+                android:padding="40dip"
+
+                android:text="广东惠州" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </TableLayout>
+</android.support.design.widget.CoordinatorLayout>
+
+

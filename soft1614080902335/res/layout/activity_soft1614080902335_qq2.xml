@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Soft1614080902335Activity2">
+    <!-- 头部-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <include layout="@layout/activity_soft1614080902335_qqhead"/>
+    </LinearLayout>
+
+    <!--搜索栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical">
+        <SearchView
+            android:id="@+id/seachtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightgray"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <!-- 中间聊天列表 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <include layout="@layout/activity_soft1614080902335_mid"/>
+    </LinearLayout>
+
+    <!-- 底部导航 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <include layout="@layout/activity_soft1614080902335_qqfoot"/>
+    </LinearLayout>
+
+</LinearLayout>

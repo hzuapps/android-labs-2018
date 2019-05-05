@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.asus.resourcemanager.pptActivity"
+    tools:showIn="@layout/activity_ppt">
+
+    <TableLayout
+        android:id="@+id/pptTableLayout01"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TableRow
+            android:id="@+id/ppttableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ppttupian_01"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pptj" />
+
+            <TextView
+                android:id="@+id/pptwenjian01"
+                android:layout_width="280dp"
+                android:layout_height="100dp"
+                android:textSize="27dp"
+                android:textColor="#110700"
+                android:text="会议使用.ppt
+                  2018年5月1日            晚上 08:47 76.20KB" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ppttableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ppttupian_02"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pptj" />
+
+            <TextView
+                android:id="@+id/pptwenjian02"
+                android:layout_width="280dp"
+                android:layout_height="100dp"
+                android:textSize="27dp"
+                android:textColor="#110700"
+                android:text="项目演示.ppt
+                  2018年4月30日            凌晨 02:47 32.22KB" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ppttableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ppttupian_03"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pptj" />
+
+            <TextView
+                android:id="@+id/pptwenjian03"
+                android:layout_width="280dp"
+                android:layout_height="100dp"
+                android:textSize="27dp"
+                android:textColor="#110700"
+                android:text="推介会.ppt
+                  2018年2月10日            下午 03:47 92.22KB" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ppttableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/ppttupian_04"
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/pptj" />
+
+            <TextView
+                android:id="@+id/pptwenjian04"
+                android:layout_width="280dp"
+                android:layout_height="100dp"
+                android:textSize="27dp"
+                android:textColor="#110700"
+                android:text="公司展示.ppt
+                  2018年2月7日            下午 01:47  553.0KB" />
+
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.soft1614080902329.password_record.soft1614080902329Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_password_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120px"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="用户名"
+            android:textSize="20dp"
+            android:inputType="textPersonName"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80px"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="密码"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:text="解锁"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130px"
+            />
+
+        <Button
+            android:id="@+id/author"
+            android:layout_width="170sp"
+            android:layout_height="wrap_content"
+            android:text="作者"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
